@@ -10,6 +10,12 @@ A supply chain & logistics **risk radar for the Germany region**, built from pub
 
 <br clear="left"/>
 
+<div align="center">
+
+### [**👉 Click here to open the live dashboard**](https://jeevan-0508.github.io/FOMO/)
+
+</div>
+
 FOMO scans public news feeds for signals across six risk categories — cargo theft, missing
 trailers / phantom carrier fraud, freight & carrier fraud, corporate insolvency, regulatory /
 compliance risk (LkSG), and operational disruption — tags each signal by severity, and renders
