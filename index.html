@@ -2,1106 +2,499 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>FOMO — Supply Chain Risk Radar (Germany)</title>
+<title>FOMO — Supply Chain Risk Radar</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="icons/jk-logo.png">
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
-  body { background: #0f172a; }
-  .glow { box-shadow: 0 0 40px rgba(56,189,248,0.08); }
+  html, body { background:#05060a; margin:0; overflow-x:hidden; }
+  * { box-sizing:border-box; }
+  .page { display:none; }
+  .page.active { display:block; }
+
+  /* ---------------- Intro ---------------- */
+  #intro {
+    position:fixed; inset:0; z-index:9999; background:#000;
+    display:flex; align-items:center; justify-content:center;
+    flex-direction:column; overflow:hidden;
+  }
+  #introCanvas { position:absolute; inset:0; }
+  #introContent { position:relative; z-index:2; text-align:center; }
+  .fomo-title {
+    font-family: 'Courier New', monospace; letter-spacing: 0.4em;
+    font-size: clamp(2.5rem, 10vw, 6rem); font-weight:900; color:#38bdf8;
+    text-shadow: 0 0 20px rgba(56,189,248,0.9), 0 0 60px rgba(56,189,248,0.5);
+    opacity:0; transform: scale(0.85);
+    animation: fomoReveal 1.4s ease-out forwards;
+  }
+  .fomo-sub {
+    margin-top:1.2rem; font-family:'Courier New',monospace; color:#94a3b8;
+    letter-spacing:0.3em; font-size:0.85rem; opacity:0;
+    animation: fadeUp 1s ease-out 1.3s forwards;
+  }
+  .fomo-typed {
+    margin-top:2rem; color:#38bdf8; font-family:'Courier New',monospace;
+    font-size:0.95rem; min-height:1.4em; opacity:0;
+    animation: fadeUp 0.6s ease-out 2.1s forwards;
+  }
+  @keyframes fomoReveal {
+    0% { opacity:0; transform:scale(0.7) skewX(8deg); filter:blur(8px); }
+    40% { opacity:1; transform:scale(1.05) skewX(-2deg); filter:blur(1px); }
+    100% { opacity:1; transform:scale(1) skewX(0); filter:blur(0); }
+  }
+  @keyframes fadeUp {
+    from { opacity:0; transform:translateY(12px); }
+    to { opacity:1; transform:translateY(0); }
+  }
+  #introSkip {
+    position:absolute; bottom:2rem; right:2rem; z-index:3;
+    color:#475569; font-size:0.75rem; border:1px solid #1e293b;
+    padding:0.4rem 0.9rem; border-radius:999px; cursor:pointer;
+    font-family:'Courier New',monospace; transition:all .2s;
+  }
+  #introSkip:hover { color:#38bdf8; border-color:#38bdf8; }
+
+  /* ---------------- Home ---------------- */
+  #home { min-height:100vh; color:#e2e8f0; position:relative; }
+  .bg-grid {
+    position:fixed; inset:0; z-index:0;
+    background-image: linear-gradient(rgba(56,189,248,0.05) 1px, transparent 1px),
+                       linear-gradient(90deg, rgba(56,189,248,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: gridDrift 30s linear infinite;
+  }
+  @keyframes gridDrift { from { background-position:0 0; } to { background-position:400px 400px; } }
+  .glow-orb {
+    position:fixed; width:600px; height:600px; border-radius:50%;
+    background: radial-gradient(circle, rgba(56,189,248,0.15), transparent 70%);
+    filter: blur(40px); z-index:0; pointer-events:none;
+    animation: orbFloat 12s ease-in-out infinite;
+  }
+  @keyframes orbFloat {
+    0%,100% { transform: translate(-10%, -10%); }
+    50% { transform: translate(10%, 15%); }
+  }
+  .hero { position:relative; z-index:1; max-width:1100px; margin:0 auto; padding:6rem 1.5rem 3rem; text-align:center; }
+  .hero h1 {
+    font-size:clamp(2.2rem, 6vw, 4rem); font-weight:900; letter-spacing:-0.02em;
+    background: linear-gradient(120deg, #38bdf8, #818cf8, #38bdf8);
+    background-size:200% auto; -webkit-background-clip:text; background-clip:text; color:transparent;
+    animation: shine 4s linear infinite;
+  }
+  @keyframes shine { to { background-position:200% center; } }
+  .hero p.tagline { color:#94a3b8; font-size:1.15rem; margin-top:1rem; max-width:640px; margin-inline:auto; }
+  .cta-btn {
+    display:inline-flex; align-items:center; gap:0.6rem; margin-top:2.5rem;
+    background:linear-gradient(120deg,#0ea5e9,#6366f1); color:white; font-weight:600;
+    padding:0.9rem 2rem; border-radius:999px; border:none; cursor:pointer; font-size:1rem;
+    box-shadow:0 0 30px rgba(56,189,248,0.4); transition:transform .2s, box-shadow .2s;
+  }
+  .cta-btn:hover { transform:translateY(-2px); box-shadow:0 0 45px rgba(56,189,248,0.6); }
+  .feature-grid { position:relative; z-index:1; max-width:1100px; margin:2rem auto 5rem; padding:0 1.5rem;
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.25rem; }
+  .feature-card {
+    background:rgba(15,23,42,0.6); border:1px solid #1e293b; border-radius:1rem; padding:1.5rem;
+    backdrop-filter: blur(6px); transition: border-color .2s, transform .2s; opacity:0; transform:translateY(20px);
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+  .feature-card:hover { border-color:#38bdf8; transform:translateY(-4px); }
+  .feature-card .emoji { font-size:1.8rem; }
+  .feature-card h3 { margin:0.6rem 0 0.4rem; font-size:1.05rem; color:#e2e8f0; }
+  .feature-card p { color:#94a3b8; font-size:0.88rem; line-height:1.5; margin:0; }
+  .stat-strip { position:relative; z-index:1; max-width:900px; margin:0 auto 4rem; padding:0 1.5rem;
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; text-align:center; }
+  .stat-strip .num { font-size:2.2rem; font-weight:800; color:#38bdf8; }
+  .stat-strip .lbl { color:#64748b; font-size:0.8rem; letter-spacing:0.05em; text-transform:uppercase; }
+
+  /* ---------------- App / dashboard ---------------- */
+  #app { color:#e2e8f0; min-height:100vh; }
+  .glowcard { box-shadow: 0 0 40px rgba(56,189,248,0.08); }
+  #backHome { cursor:pointer; }
 </style>
 </head>
-<body class="text-slate-100 font-sans">
-  <div class="max-w-7xl mx-auto px-6 py-8">
+<body>
 
-    <header class="flex items-center justify-between mb-8">
-      <div class="flex items-center gap-4">
-        <img src="icons/jk-logo.png" alt="logo" class="w-12 h-12 rounded-lg object-cover" />
-        <div>
-          <h1 class="text-3xl font-bold tracking-tight">
-            <span class="text-sky-400">FOMO</span> — Fear Of Missing Out
-          </h1>
-          <p class="text-slate-400 mt-1">Supply chain &amp; logistics risk radar — Germany region · public news only</p>
+  <!-- ============ INTRO ============ -->
+  <div id="intro">
+    <canvas id="introCanvas"></canvas>
+    <div id="introContent">
+      <div class="fomo-title">F.O.M.O</div>
+      <div class="fomo-sub">FEAR&nbsp;·&nbsp;OF&nbsp;·&nbsp;MISSING&nbsp;·&nbsp;OUT</div>
+      <div class="fomo-typed" id="typedLine"></div>
+    </div>
+    <div id="introSkip">SKIP ▶</div>
+  </div>
+
+  <!-- ============ HOME ============ -->
+  <div id="home" class="page">
+    <div class="bg-grid"></div>
+    <div class="glow-orb" style="top:0;left:0;"></div>
+    <div class="glow-orb" style="bottom:0;right:0; background:radial-gradient(circle, rgba(129,140,248,0.15), transparent 70%);"></div>
+
+    <div class="hero">
+      <img src="icons/jk-logo.png" width="64" style="border-radius:12px; margin-bottom:1.5rem;" />
+      <h1>The risk you don't see<br/>is the one that costs you.</h1>
+      <p class="tagline">
+        FOMO watches public news for supply chain &amp; logistics risk signals across the
+        Germany region — cargo theft, phantom carriers, freight fraud, insolvencies, regulatory
+        violations, and disruption — so you're never the last to know.
+      </p>
+      <button class="cta-btn" id="enterBtn">Enter the Radar →</button>
+    </div>
+
+    <div class="stat-strip">
+      <div><div class="num" id="statTotal">0</div><div class="lbl">Signals Tracked</div></div>
+      <div><div class="num" id="statCritHigh">0</div><div class="lbl">Critical + High</div></div>
+      <div><div class="num" id="statSources">0</div><div class="lbl">Sources Covered</div></div>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card" style="animation-delay:.05s">
+        <div class="emoji">🚛</div><h3>Cargo Theft</h3>
+        <p>Organised crime, hijackings, and theft-in-transit signals as they hit the press.</p>
+      </div>
+      <div class="feature-card" style="animation-delay:.1s">
+        <div class="emoji">🕵️</div><h3>Phantom Carriers</h3>
+        <p>Fake carrier identities and missing-trailer fraud patterns surfacing in freight news.</p>
+      </div>
+      <div class="feature-card" style="animation-delay:.15s">
+        <div class="emoji">📉</div><h3>Corporate Insolvency</h3>
+        <p>Carriers and logistics firms heading toward bankruptcy before it hits your lane.</p>
+      </div>
+      <div class="feature-card" style="animation-delay:.2s">
+        <div class="emoji">⚖️</div><h3>Regulatory Risk</h3>
+        <p>LkSG / supply chain due-diligence fines and violations as they're reported.</p>
+      </div>
+      <div class="feature-card" style="animation-delay:.25s">
+        <div class="emoji">🔥</div><h3>Operational Disruption</h3>
+        <p>Strikes, cyberattacks, and network shocks hitting German logistics.</p>
+      </div>
+      <div class="feature-card" style="animation-delay:.3s">
+        <div class="emoji">🗓️</div><h3>Daily Snapshots</h3>
+        <p>Every scan is a dated snapshot — scrub back through history with the calendar picker.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ APP / DASHBOARD ============ -->
+  <div id="app" class="page">
+    <div class="max-w-7xl mx-auto px-6 py-8">
+
+      <header class="flex items-center justify-between mb-8 flex-wrap gap-4">
+        <div class="flex items-center gap-4">
+          <img src="icons/jk-logo.png" alt="logo" class="w-12 h-12 rounded-lg object-cover" />
+          <div>
+            <h1 class="text-3xl font-bold tracking-tight">
+              <span id="backHome" class="text-sky-400 hover:underline" title="Back to home">FOMO</span> — Fear Of Missing Out
+            </h1>
+            <p class="text-slate-400 mt-1">Supply chain &amp; logistics risk radar — Germany region · public news only</p>
+          </div>
         </div>
-      </div>
-      <div class="text-right text-sm text-slate-500">
-        <div>Last scan: 2026-09-03T12:54:42.455900+00:00</div>
-        <div>Total scans run: 1</div>
-      </div>
-    </header>
+        <div class="text-right text-sm text-slate-500">
+          <div>Last scan: <span id="lastRunLbl">—</span></div>
+          <div>Total scans run: <span id="totalRunsLbl">—</span></div>
+        </div>
+      </header>
 
-    <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-      <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glow">
-        <div class="text-slate-400 text-sm">Total Signals</div>
-        <div class="text-3xl font-bold mt-1">59</div>
-      </div>
-      <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glow">
-        <div class="text-slate-400 text-sm">Critical + High</div>
-        <div class="text-3xl font-bold mt-1 text-orange-500">11</div>
-      </div>
-      <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glow">
-        <div class="text-slate-400 text-sm">Categories Tracked</div>
-        <div class="text-3xl font-bold mt-1">1</div>
-      </div>
-      <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glow">
-        <div class="text-slate-400 text-sm">Sources Covered</div>
-        <div class="text-3xl font-bold mt-1">38</div>
-      </div>
-    </section>
+      <section class="mb-6 flex flex-wrap items-center gap-3 bg-slate-800/60 border border-slate-700 rounded-xl p-4">
+        <label class="text-slate-400 text-sm">📅 View snapshot:</label>
+        <select id="dateSelect" class="bg-slate-900 border border-slate-600 rounded-lg px-3 py-1.5 text-sm text-slate-200"></select>
+        <span class="text-slate-500 text-xs" id="dateHint"></span>
+      </section>
 
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-      <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5">
-        <h2 class="text-lg font-semibold mb-3">Signals by Severity</h2>
-        <canvas id="severityChart" height="200"></canvas>
-      </div>
-      <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5">
-        <h2 class="text-lg font-semibold mb-3">Signals by Category</h2>
-        <canvas id="categoryChart" height="200"></canvas>
-      </div>
-    </section>
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glowcard">
+          <div class="text-slate-400 text-sm">Total Signals</div>
+          <div class="text-3xl font-bold mt-1" id="kpiTotal">0</div>
+        </div>
+        <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glowcard">
+          <div class="text-slate-400 text-sm">Critical + High</div>
+          <div class="text-3xl font-bold mt-1 text-orange-500" id="kpiCritHigh">0</div>
+        </div>
+        <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glowcard">
+          <div class="text-slate-400 text-sm">Categories Tracked</div>
+          <div class="text-3xl font-bold mt-1" id="kpiCategories">0</div>
+        </div>
+        <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5 glowcard">
+          <div class="text-slate-400 text-sm">Sources Covered</div>
+          <div class="text-3xl font-bold mt-1" id="kpiSources">0</div>
+        </div>
+      </section>
 
-    <section class="mb-4 flex flex-wrap gap-2 items-center">
-      <span class="text-slate-400 text-sm mr-2">Severity:</span>
-      <button class="sev-filter px-3 py-1.5 rounded-full text-sm border border-sky-500 text-sky-400" data-value="all">ALL</button>
-      <button class="sev-filter px-3 py-1.5 rounded-full text-sm border border-slate-600 hover:border-sky-500 transition" style="color:#ea580c" data-value="high">HIGH</button><button class="sev-filter px-3 py-1.5 rounded-full text-sm border border-slate-600 hover:border-sky-500 transition" style="color:#d97706" data-value="medium">MEDIUM</button>
-    </section>
-    <section class="mb-6 flex flex-wrap gap-2 items-center">
-      <span class="text-slate-400 text-sm mr-2">Category:</span>
-      <button class="cat-filter px-3 py-1.5 rounded-full text-sm border border-sky-500 text-sky-400" data-value="all">ALL</button>
-      <button class="cat-filter px-3 py-1.5 rounded-full text-sm border border-slate-600 text-slate-300 hover:border-sky-500 hover:text-sky-400 transition" data-value="Corporate Insolvency">Corporate Insolvency</button>
-    </section>
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5">
+          <h2 class="text-lg font-semibold mb-3">Signals by Severity</h2>
+          <canvas id="severityChart" height="200"></canvas>
+        </div>
+        <div class="bg-slate-800/60 border border-slate-700 rounded-xl p-5">
+          <h2 class="text-lg font-semibold mb-3">Signals by Category</h2>
+          <canvas id="categoryChart" height="200"></canvas>
+        </div>
+      </section>
 
-    <section class="bg-slate-800/60 border border-slate-700 rounded-xl overflow-hidden">
-      <table class="w-full text-sm">
-        <thead class="bg-slate-900/80 text-slate-400 text-left">
-          <tr>
-            <th class="px-4 py-3">Severity</th>
-            <th class="px-4 py-3">Category</th>
-            <th class="px-4 py-3">Headline</th>
-            <th class="px-4 py-3">Source</th>
-            <th class="px-4 py-3">Published</th>
-          </tr>
-        </thead>
-        <tbody id="signalsBody">
-          
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY3o3c3VlaUFEdEdfdWx4NUxfRzQyb1ZkR0hkOEs3V0NQQURfZE13OXgzOXRxTGZOOVdYdGNuR284Nk9zMjViajUxQnlIRzBhVXVUcWs0eXZiak9GS2xlcXppNkVXWGJ4cEdTUlZ1Ym5UdDlrMl82NlY4bmNpcHBnalBwcDEzcVJHWUZhWFUxeFV3eFh1RDA1dkgtRURtOUpCRXVab0pvbGptZnRNQlg3emRxMnkza2hUX0toXzNuOWltYnlnR21UcnZuZy11bFVYUGRBMkt6LUx1bzFhczAxc2FGNE1hN20tQm9aY2NMSUpWWFJDM0RyUnZuTWg?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Green Hydrogen Systems to file for bankruptcy after selling 'key technology assets' to rival Thyssenkrupp Nucera - Hydrogen Insight
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Hydrogen Insight</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 20 Jun 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNTXNxVWs2cENnRS1pQ1VpYkFaTWhCOVljSlVqODFsNHhDY3Y1Z1JLZFl3YnU3M0lFdlRBSXhYcXEzODlacktqRDVzR2cxekZ1cmdHdXBqTXR2a0FZQzlMNkdpQktLdjNMNjJMMFhfa1FHOTIxaURQM29CUUVmTjYwckQ5OXBKMzMyVVZ1UEllZV9iOWEzWDdIR2pWOWcyQXVlNlVCcVEyU3QtNHRjbkVoTkJ0QUVHdw?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German phone repair biz collapses following 2023 ransomware attack - The Register
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">The Register</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 04 Aug 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOVGNXbXUxQ0NyMnMxTndBQTZ5WGd6SUFncENOQTJRek42cTdxb3dhQWJIQW54UGltTzdTYjRlNldqUlpMYVN1N2JYZ19sM1BJRF95dFkwV0UzTWJ4aWlFem5ubkx4SWRlUVBUX3BHYVN3SHFCTlRlYXN3ckdLaDROc1VYVjc4OHJpOUpGQmYxOW5XV3VkNkJVeGw5NnEtQm1qQ1lBLWJsVjlqSGxhN2ZZZEw0aWNzbVg3dEE?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              In Germany, Wholesaler and Distributor KNV Grapples With Bankruptcy - Publishing Perspectives
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Publishing Perspectives</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 18 Feb 2019 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE05THJXWUZYYm1jMnBONGlWQ3g4QmNydnJKSkwtWGdONXFna0ZyZlQ3YjBTRWZ6X0NSZ2E0bklFWlZLUFFoeXVZZUdNaExxaTh2Mld0dmR2OFVEMmpGcUxv?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Bankruptcy after 60 years 🤖🇩🇪 Why the German robotics pioneer ek robotics stumbled 📉💸 - Xpert.Digital - Konrad Wolfenstein
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Xpert.Digital - Konrad Wolfenstein</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Sat, 04 Apr 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFQ2aUlVOUVxTW95ZEphTXdlLUk5Z3U1eFFFYkhuQmhsakxxUFZTYUlCRi1BQlFkVnNUQllmXzYxN0ZSV0RFMFRvQ0ZNMWhsWFRwT2Z5YUZpTHhXeUVCeWxGdHVkQTdDRkI0el9lcGZtcHVycHpScU5BTVl4ZENEWS1VdFdJMjZhTEk4QkEtUkFtajJwUEdwZnNwVS0?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Another bankruptcy in Germany: Vollert declares insolvency - rollingstockworld.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">rollingstockworld.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Sun, 17 Aug 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9TNnVWOERuUGlyLUxQQTY1a0hZb3oycWFlRGV1UWw1Q2M3NWJlNW1RSHpkSzNMc3Z0NV9LeG9HQlFvTTZPc3ZvbDh1M1BEY2RfbzNDellVbmVFRkZwOVR3YTVQX1RqVnFvZ2c?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Textile company ZEGO, which was affected by a cyberattack that halted production for six weeks, has filed for bankruptcy. - GIGAZINE
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">GIGAZINE</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 14 Jul 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQUENzWHJ2ZnJUM3RfZkJvUTNpdnM5Qm9vR1kxZ0piQkFDU2cxbll3dmRIeFBrSElGQTVfOTlPNHFvUVRscElzeDlqeXR0X3N6eHNfY0VpZ0VVLW1IaW0xYlE5c2VRRXA0NE5VTVZCVlBQYUZrbmtNcnlMeUtjUWp6ZmJscE55dkowd0E?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              UK transport business in liquidation after 18 years - Oxford Mail
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Oxford Mail</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 19 May 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ2FJcHpHcEZ6NVFtaThWUGYwWlg2Y0lwNTNIaXVqRHNSeWNHcDQ5ejc1REtjWkVBczV6dHVYcUkwMll6Z2xtMlA5ZTgzUWZtREhRd0pieDRYWUxNTjhsbGx3QzZfb3lEUkdpdWxmMnc4M19VNEItS2habXpDRHhZVklZTlNOdDFtcTU2MEFn?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Facing bankruptcy, this enterprising tycoon, nicknamed the German Bill Gates, is selling his Lürssen superyacht at an unheard discount of $30 million. Longer than an Olympic-sized swimming pool, the six-decker luxury vessel has a spa, a massive master suit - Luxurylaunches
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Luxurylaunches</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 10 Apr 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE11NHRueUJWdlhHbm01WERjV1M4ZnFpTXJ0aU5SQVYteGc4eE5xUjJFMmFYaExnQlNjbFp1eXlVbGxIazZvNGU4T2Fyd0p0X0EzYWxxUkV0aktaem8?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Belgian Carrier Declares Bankruptcy for the Second Time: A Symbol of Sector-Wide Issues - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 17 Sep 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0RsVFU5b0V0Y1NjZ1NkcjJvY2hPdnZmZ0RpNEZZMGVHTEFieFpKbDFWRURQTlRQaG1FLWVvLWl6Uk9iSWxkVGlxSnRkVGNCbnBHd2tYRG85Q0h4dGhxUFRBTHBSdWxrSm8xZXJFX29jdHFjZ3hIR052SFd5dzNjR29ZN2dab0FqeWI0QXBWLW1fTGdMSFdUOXNNMnMzZzY1SmRYY3AxR1FNc3ROMzk2UnVaUW1GSy1nY0NqNk1HSks?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Luxembourg-based EV startup files for bankruptcy at its German unit - Luxembourg Times
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Luxembourg Times</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 20 Sep 2023 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="high">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#ea580c">
-              HIGH
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPU3FfdS1kMXlYNU1OWlNkWXhsZnhicGFobEk5S0FWVjg2cnNCRjhFUnBjdDhiNkFQTTdMcXAyQ2pheFBfSjUzWU9FMmtybE1tdk5PN3FHVXpHVE1JVVlicmh0ZUFMMnd6NWJlczA2M2JvcGdxWE9mZWlkNldfREZxUlhXZXJiTEZQdjJaU3cwUDdkNVRveDd5dXEwSndkN3NV?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              UK to copy Germany with new law after Thomas Cook collapse - Sky News
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Sky News</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 25 Sep 2019 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNaHhtNDFoelYtX05oTFJsLWotSy00eGl0UDRjZVdLdDZpRTRGTnY1dHVXeE1FU1RvVE9ZcHAwM1V1SGFzMDc2bXN4UHNlX2FxS1htNmU0YUlwUnQ0ckV5bmRJTlRhSFlKQk01NmEta2RVV2xDVjhEWG9WUEVhdlpNTkI4bUZtZ1J0c1oyTVBsNHlsS1QtNEQ0?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Sprick Rowery continues under Asian ownership after insolvency - bike-eu.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">bike-eu.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 05 Sep 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc3JBYnNzZDFoeTFJTF9KQnRNak5JeUJiOGF0dXdmNFFPU0pMRi1xVE11VFYySWFHZ0VuVUk2UkJsQWRISkMyV2lici11V0Z0M1RpblRlUi1HYWZ3eng1T1RtdWxuUzdfV3dfOXkzVTVLcUJ5aXRoZVJyVV9HVHhzWHNtUU5rOUhvdkd4Z0tldnl0TGM2T3ZIMUlmWXQwSklISVIxWFRaOVVXTFB1Ynd1SS16WXM0MnNuTUsxc1JMUEdIMzE5QWVaUE5XUG9MSk9YZ2dqeXE5bVl3QkU?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Gigawatt-scale green hydrogen developer files for insolvency after it loses major backer - Hydrogen Insight
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Hydrogen Insight</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 08 Nov 2024 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGQTJVX2Uxajk1OU95QjlCanZtR01rZ0k4T0k1SDdNTDBlM3B6d3RLMVpXc056eTlkOFJOYWtkMktmdzFTbnJ6X1RtYi04Ymo3SVZTZFRmcw?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Betz insolvency exposes structural weaknesses in Germany’s transport market - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 10 Apr 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9ESEZOUll1ZXRiV1NNUXJzZUtnbFB1OGxwbUg1RUFKVC1tUlRFVHB1Uk1CZ2Vzano4blJwSGlOcm9rV2NTOUdwaWhoNm5ia3BlQk9WanpFaUVlNlRnYzNaNTlzVXJOZGo2aDlQd25xbWxTMGhzdEk4NlNaTdIBe0FVX3lxTE9lZ1kwaF8tR0lyRVBKNFBLZnNNeVIwYWFvS1dBclVDSjY5RHVYbFNLdGpQcjk2N2hjQlhQRHo5czc2c3cwazViZ29lY0NTN04wQ1NLenJqMkpUNXlXcHE2Z1pwNnlqS1pJZ2hrZF82NjM2LWhYcGZLYjNKdw?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Germany sees company bankruptcies soar - DW.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">DW.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 14 Jun 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfSERzdUtQcDRLb010X0FPbGg5dkVWN0ZIWHF3U0l0cnRvUHBvNnYzQ3lWRjhULTNPanUtVFlzN2RWYkNvUnVlSVY5S0RkVHo1ODlRcUJFXzlsci0yZHc4?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Forto's sale: Digital forwarders face harsh reality - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 14 Mar 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQWmo1Yjk3VUZUWnFBbGtLaDNweXhkWU96NUktNXpsNkVEcXQxTXBWUTg3dExsZWUwSlBUaC1lM2RiQjI4dzdQWnlxTTNzeWxYV0FYajZVWW4yODBZTWJUQmJwMzNEVVRVcVdxZ1hyeTJhaWNpcFRuSlpfa2hscWxLWHNtcy1RcVdwcDhmVGFJaEVST3ZwZE9VTWhIdFdCcjdCYmJ3QnBR?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Wiking Helikopter Service plunges into administration - FlightGlobal
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">FlightGlobal</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 17 Jun 2022 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDdSWEFEa1g2MW1QTUhpMTdCYXZueGpTVGNsODltSFp0bWhyTU1yV0tEc1gzUDB5MWxxRkFHR3hiclJWRVFXXzJVc2ZVMVNKUFNFX2Fpd1lvOGxOWGIwZDA4WEtKZXFXeUdmNGh3akpYNjNYMW5FSVdrTHJScEZYay1vR0pVanZmZU1MaVFITzVCOEZFd2JSag?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              VCs Have A Bad Relationship With Trucks - Crunchbase News
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Crunchbase News</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 27 Oct 2023 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iQV9xZk4zelBQX09qbU1sVjZpbGxZUVFFR1BraUVycW4xaE9KeDBaMFktek9Ocm44MEhmUGNXNE5FeUsxNDkyaHFJRDR2MkVfbm9GV2pjSDF3VkR6QnJUeUJn?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Germany’s truck transport faces structural crisis - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 29 Aug 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQMWd5SUtZcC1BUmVvdkxPU1BPdWJDWUpNMGpua3pKMDl5ZFhJZkJSaVNacWhIUktHVjhVajdNQ3RWTGFJSFZ1Y0lfM0Z6RmxoYW9yOTBfSmZ4OV8xbVZaZ21yZ25jN1A5UUN5djBTV3d3aTJpdUVVTHRSNEJvVzBRcg?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Helrom to be liquidated: missed opportunities prove fatal - RailFreight.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">RailFreight.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 29 May 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE5mRkphWEJWaU52QmYxNWR1RHdzTDJjNkM0LVoyOG9BQnRieDAtVVJFQmx4OTZEcFRPLTI0a2tyS2tpSWY0MmN4NFZIbmRqaUNKdnZLMFU0TURnbExVdEZWSVFrVXJvc01Ob2hYUjE4cDU0MmlTTlNoYmx2ZmM?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German road to rail specialist Helrom to be liquidated - WorldCargo News
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">WorldCargo News</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 29 May 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sbkExSHZUTzh3dENkV21vRDEycUlDN2k0eUxEZTFUUF9DeW0wUnVtTzZnVlhUZ0RFblBOQmFwRjBpZ2tIbnN6dVlkZ1lqOXlGQUdKUnJPcVJTVXFaZUE?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German freight sector faces insolvency risks - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 29 Nov 2024 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNOGtFaXdnSUZHR012Yi1rcU1aa3BhWWhnbHJTUk9FMTBsMG1jMWN6OHlZUkFtZHRRcGlGZlh0Q0hLQldLWl9idXlkU3VvQkd3Yk1NeE00TkN5blI5bk5WeVRaRU4xWHZDUU5TM19QQmluM0pLak95WmJ0TThndkZMT1g4RTlRQko3NDRsTmZrNnEwV09VRGVDdUJvSGVmNHpiS2NXRWFtX3NJeXY4NkY4dTRfSVE?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Are letterbox companies the real cause of problems of the European transport industry? - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Fri, 30 Nov 2018 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNMzFiQmd0WFhORnlSSzlIRVdCdWhrYUxIWTRiR1JDbFl4a2Q1cWo0YjBfS2d6bURmV2lSblhPR05ndFBaQ1NfdlJNZjQyLXVsNFZ5VzRHU2d0M0ZnUkVnU1J3SHNoZkdGQ2U1VWtjblB1RWk5NFBsakoxZW0xZWVWc09RTl8xNFdOdXNLT0JRbkZqX19sY1hPaW0ybkwzQVZRSlNB?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Helrom officially launches Germany-Romania service - RailFreight.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">RailFreight.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 02 Feb 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEY4TW90bS0tLWVNQ3VMMDJpYU5wY2V2eHNuYXlvVmlQRDZ6a2RXejB6M01yY1FSTmk5WXBhSFpnVUU2Ui04TENTcVV1amcxQU4xSm5ON3h0SHNWald6Mjk0U3k5QVRPaHJwbjBTZi1GeFdYazBRME1UYTlxTEoxV3JFbzhhQ0F0NHc1YUh3czI2NDVsVFFpQ3F3X3FEQjY2d1R6ZVZOYU1GUQ?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              A single ransomware attack has pushed this business into insolvency - TechRadar
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">TechRadar</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 04 Aug 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVBaVHFhRmVsV3l5alR1am10Z1NjYzQtbi1GMzFjVEhXdWsxRnh4MEhGYlFFYzFhdHR1Uy0yU21wcWhUd0QzOGF4VnBPLUxHUElmWU5TakJYUnctNGlVT2JOeFJWTkdBaEdnV3dDMnFWQTkzVXQ1WlV0RlJ4eWc4MWtsamYycmFtdHdfcS1LR09Gc0JSQ3c?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              New location for PLUTA’s Nuremberg branch - PLUTA Rechtsanwalts GmbH
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">PLUTA Rechtsanwalts GmbH</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 09 Dec 2024 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkg1MHgtNkhZbTB2ZHlVanV1N0hGYlFuT1A2bXFFOXE2bmxBbktLaG1KZmNPYTBtYjdKNG1kTkdrX1ZtRVJ4ZGhCcVBrMjBZa3oxZDdtdlBkcVlzbzJla19BOUUxWmhyT0NMbGtNekdEZWxMZ0pfampYUGZadmhtYUV4TlVPMW56?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Atlas cranes and excavators goes into administration - Crane &amp; Transport Briefing
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Crane &amp; Transport Briefing</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 09 Feb 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGRaX2lteUlVM1VCZEw5Y0tYenIxdzR4WnZfOVQ3emdvajlMUWxfWkdpRFNlakZkQkFrNDVRYnctZTdrYkRMd2pvVkJqOVlLMHRxdGJkYjVSZXhsVVdRWDlOeGMxMThNU0JMaUEyLW1YTEJyaEQ2ZDBtbTZuclRpVzkzVzZjR0Z6WVBYbWxjS3pHdlJhZDk3WA?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German EV manufacturer e.Go slips into insolvency – again - electrive.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">electrive.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 11 Mar 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGFXTHpQX2VhWnZDQkp0b0t0NHp1Q3kyblB0YU04WW9lNXNGUksybnBneG5jNEV3cF8wbUNWN2lhMEVIQVJ6Z0MxbG1ueUFaZUpVZnNCcXZpMTh4LXQyZWFLSTh4ajhqVTJEZnZsRWZScHF6V2szcTlBQ0xLYVRaMXZDZXFLb29DZkhZdHBLWThOVG43cW9BMVVSNUJWVlE0QnpXR2RXbDI?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Onomotion slips into insolvency as sales slump creates financial bottleneck - bike-eu.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">bike-eu.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 14 Oct 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaldUUTcxQzBOVjZoN0JHQ2ZOc0ZkM2hKVlNCZnpzWWZ1bGwtQTBndW13U0NhNndOUE9CQ3ZLMEFRMHB4N1RlOS1Makp1cldpTHBjY2ZoN0hKaFVNSzByYW02RVhBTHc5V2Z6NXN1N3BIUUN0b1kxVzBTOXEtcENZdmZNaFNzQm12XzkwRmJUZ1ZpMGVKLVNLOW9YUG91M3dlWFotVk1tWWV4eU1DWmNxb0pscHRWTkRfcDhXMGNDaHU?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Austrian ATM Supplier Frequentis Acquires Germany's Comsoft - Aviation International News
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Aviation International News</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 18 Jan 2016 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjlVSUtfM09KNlA3RmFxNW92a0RJSXVEUzlabFJsMVRHMFFIN2xuYVVlOXhnMGFHU0VQNEl3N25IOWRPeUVNTlFhRUVQQWZpRTBONkRRcmFfS3pTR2hLZFA1b3RySWdTRzRib2YwcnhoN2UtaXRXaVF2RHJORXJuRTJIRUthcDJQTm9tQnhNWFZ2RWNVSi1XZkRQSGNub3c?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              British Airways owner among bidders for Air Berlin - sources - Times of Malta
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Times of Malta</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 18 Sep 2017 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1CNy0xNVF5Y1hmQVhaVEZXQWtPdV9Tb1VjYy10b3hLdzlrZjRveUswdkw1VF9KcERCQUp2ckdOcExMclNvaXd1WEdhcU5pWjhTV0stV3Uycml3akJweDVrMHVnZ29keFZPYmJMM1ljcVJ6d2hBRFZv?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Germany’s housing sector slumps into crisis - The Guardian Nigeria News
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">The Guardian Nigeria News</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Mon, 25 Sep 2023 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Hbi1RV2FtQTlrejVibkl0YVREdWpRclJxLVdoOUFIeW84Y0owVzdLa1JVQnVSLU9TS0s1alNrVHV1WWNvYjk0Q3Y1QlQzQlVxOUNCTC0tdXpZVkhTTlNMQtIBaEFVX3lxTFBfTHBQM0p3QU1HWkhPeV92QXJWZ1hlSmN6dThZeUF3Y0h4WWVuYTRwUDJrcVlRbG5hd2VfTms1QUl0TkNWdXNZb1ZkVXNDczRzRXV1dWVGU3Jubk5ENzUyUmttZ3U2Mi0t?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Trotz Erfolg insolvent? KMU Strukturkrise oder Comeback? Deutschland am Scheideweg der Wirtschaft - Xpert.Digital - Konrad Wolfenstein
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Xpert.Digital - Konrad Wolfenstein</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Sat, 26 Jul 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YakxmWXlNUW9HNEwxdDZDNGt2WmNfRENsalFJcnNvQWVTT2dsUFZIeGRLTmdvWTVZTjVtUi1sNVh0M0FDMFcxYWdsNGxoVEZyUVdFdExsS25DbmZIblJQQ21B0gFqQVVfeXFMTUpWWHROQng3cGNWZXpZWHpkQUcyWFk1NDdWUnlZSkxNNHZobWVWRGZRd2JhaU94LVNvQUt6ZGZ4VjJtZV9LaU1tajhMSXM0dFRRUngtT2EyM21UZF9JUVAzbVNXOEZDd2Ixdw?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Das deutsche Gründer-Paradox: Wenn täglich 66 Unternehmen scheitern und gleichzeitig 1.754 neue entstehen - Xpert.Digital - Konrad Wolfenstein
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Xpert.Digital - Konrad Wolfenstein</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Sat, 28 Mar 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0JXek94Yy1Wa2lFcm5GMUxNamItUjRfcG50YUV5VXZVdGZ1Y1FjNEsxNnNTV0MwVkhkV0otZkdOQldzaXNnZ1hBVmhSYWZ3U2JSVDNjRXZhdkx6MVRpQ3d5T1ozZ1NmN0VCRDgwcWhMNVREN0ozVXp5VzNUamE5SmpiamNPNHdUdzNQVVFkd3AzaFp6eGoxSmNaLU1XTlo5?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Lilium Secures New Investor Agreement to Support Business Restart - Future Transport-News
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Future Transport-News</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 02 Jan 2025 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNVWhJZ0NoTTcxZjFQQzNIN0V2QzFXVU9UaGlTZUY0NzQ5NS1VR01DeU43bGx0MWZWdUxlOS1IbHlqWUFvQWs1Nm9neW8zUFNDRmgxTmVqV1EtbDEwTjVaWnhzelZUbHYxWVQzY3U2Zk56YVh0ZU5QeGxIVk5fMEg5eVB2OXdNRTBmZEtQMHhDN0p6dw?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Tram manufacturer HeiterBlick has emerged from insolvency - Railway PRO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Railway PRO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 03 Sep 2026 10:48:50 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFhZVFRJeUxnWWo2d0otMl9LWGdib0x2dkwwUDZrb1NySXRLTTd1SHlLVzg3YlJjVzBYV0hMZjdHZ19BN3R0RGVyYk4xRGNwV1NhQ3lHOFdEcDRreUJTM2tkLXJ0b2VwaUdfUmR2Q0ZWUzhDbkp0N0ZMaDYtT2JCbmJDeUh3ektOX2F1RHZDWHRzM2hDRUNpRU1yZ0tyNjNUNTNhNVA0Qlg?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Closed Files for Insolvency, Begins Search for Investors - WWD
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">WWD</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 07 Aug 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQekdpd0dTQ1AtNmthX2k2azRfaUJ4X1NFMy1nWWxKUHVsczZIbHBWTWVIWmpKWlg4Q3BPZDgydUlpNmYxOEZ0NlNvZ2UzRjdfS3VnMDFaX2o1TXNuY1MwUFBqMlhBZ0hhZ3FiWDE4YTZrZ2FZUU5vVGYxUmJSX2Z1Y0NYcXk?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              CleverSolutions launches AV spinoff in Germany - Zag Daily
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Zag Daily</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 09 Jul 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGUwRzlHVHFoNi1FaGVaTUlVWEJOMGRsclhSbFVhT2FNb1hiWFoyZW1md0llLXdnWlNpTFJtaUM3YU1GYmZncjUzb1lPVWo3Qy1GTVlOOW9aZmRvUnJlOENHNW5fTzBhMmRubUhEOHhqcU8zMGNtNVhfdWlMVE05YzZpcERFekRmeGRWMWhEZ2tuV1JmNGYwVUxTLXN0aldBRzJJX1p0ckFtaFE?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Closed Saved: Marc O’Polo Owners Acquire German Brand After Insolvency - WWD
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">WWD</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 09 Oct 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBON2lFQmpNTVByY19mWlNsNGJNWHByY3plTFhqYlhna0JZa29nWjlyVkRoNWpubEVEN3NadE95SDBaUm9DbWVvZXpCWDZxeTFDblU2YWpsN1lNNzg?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Major insolvencies hit record in Germany - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 12 Feb 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rb0lyWGVLUENBNWdqaFRTNVRQZU54VUc1dHQ3ZkRjdzBteVBFVUhuTDVIVDNyOGtSUEpmVUpFY1FQRW9SV0hVOUhmTHNQV19zUl9oa0hUMEtPamJtLVNNXzJzMU4?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Tyrol transport companies are going under one after another - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 12 Mar 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNMDRwMkszM09UaWt5UFNOQTBNbXVkdW5LM2lKNWlLcHAwSGNqZnExM1VnN3BqejBRVldMVmFleXBNd1pFbFRJblRRaHBaakVkbVZpZlBnLXY0RXVmNklIQU1GR2YtcmwweVBPSkJWQ3BuSEdrSXN0cDhVeDdQZ3lhY0cxaHRhQlQ4NmxXWjYwRDFiY1ZaMHZQTFQ5ZTF3ODFDVVBFbkRES2UwU1d5Rnp4ekx5VG5RancxQkFta2dPc05IS2Zi0gHEAUFVX3lxTE0wNHAySzMzT1Rpa3lQU05BME1tdWR1bkszaUo1aUtwcDBIY2pmcTEzVWc3cGp6MFFWV0xWYWV5cE13WkVsVEluVFFocFpqRWRtVmlmUGctdjRFdWY2SUhBTUZHZi1ybDB5UE9KQlZDcG5IR2tJc3RwOFV4N1BneWFjRzFodGFCVDg2bFdaNjBEMWJjVlowdlBMVDllMXc4MUNVUEVuRERLZTBTV3lGenh6THlUblFqdzFCQW1rZ09zTkhLZmI?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              China Could Fly Flying Taxis “Much Faster” As Chinese Firm To Buy Bankrupt German Firm ‘Volocopter’ - EurAsian Times
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">EurAsian Times</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 13 Mar 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNjd3ZFBCeXRNQ2ZHODhveDlqUm1pQ1AwYktpNlN1Y1pycVFmaWVGb3h6ZVo3NjhNNGprR3FzaDNQd29GY2xjWVpHaHJnUFFURDM3VEVRSDJkZzZ1My0tZGRRQXk1SS1SaHNsb090VWEtay1pcGJaRlN1UnRXZm05YW5WT0JfakRUWV9IYThCa3ltRVJESVpGSTdJWjdaVF9DLTk5ZWZtUmE?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Schöma goes bankrupt, German rail industry faces financial problems - rollingstockworld.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">rollingstockworld.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Thu, 17 Oct 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHVhZzhBR1RfcFFfM2RmMVl1a1dScjFwcElZY19BWDFpWVd1MWE2RTNheXFoVS1vUTBZTU5LTFNWdURFcmRFMndQY3B5M2xyemZsZm5NNXdrTVVlaWdXM05lZkZpanZqTF8zeGtTS3F5SEw4ZjUtZ0RBd2Q0VW1TVXZNelp4dlRwTV84LUxxLTc3YzVQRk1ZNnBoSGFHM3R6WkE?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Hydrogen bus startup Arthur Bus files for insolvency in Poland - electrive.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">electrive.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 03 Feb 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTRkd3FfUHVlUjdqaTlCdm9RWlNIS0hscFdLSERKanc1eU9yVm9qQ3FMXzBLVFBIcklXZ2V1MUVZV3F0S1Z1blRuM1pjNnJVVE1NTEhhencyTThXeXo0NDBxekdacXJGeGZHN0tPbjhOdDJYV3puUTFPelVkQldmOFcteWhWYWNlMWNuTkd5cFdNWGpVcEozNlMyclRzZ1U?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German airline goes bankrupt and announces closure of operations - Aeroflap
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Aeroflap</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 05 Feb 2019 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNUkprUzY1Q1BKMGJYMVV1aUd3dWpReks2SzBQdjNWLVRhRGhVbUhVVVJfTEo2NDFla1ZLZ1ZST2U4VThkX19BQ1NUaUQwQWlJSWpmc3ZYRXVOUTlhSUMzRnV1SnFYcEJ3a05jMkliQ0RGSkFBaFM4aHJjLVJseUhSeThyOHRJUFh4dktLZjc4Tk1SSjlDRExCdkdtVVRQUDM0VGNHcVlaZ19lMmx0a3ZN?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Hamburg flower wholesaler with 129 years of history goes bankrupt - FloralDaily
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">FloralDaily</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 20 Jan 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVVWNTlEZ3h6cHhKal9Hb3phcjBjT0l1S0xuM254R3VkZ1NBX1JRZGVwaFRmaFpRTzdZSWd4RnlNLVZYM1dxNURaY1JVTXRWT0NXaXZYbkxGN19MNzZUWWJ0RGh3WFAxaUFRVHhpMnJiVVhBcDFtTHIyaUIzVEVSYjR1ZUtYZFFpMGl1ZHZqQjlYaXNtWHh6bGd6M2JUVlk?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Germany's once-vibrant auto heartland falls on hard times - Reuters
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Reuters</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 24 Feb 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVZXMEdKejV3d3d4dXphQ2tmbVRQQ3FsSUFra284X2VWV1M3SmhyWV9CN3RlUlBUQnc4TFJwQU1XVlVjZ3NFX2VIVXlLaXBsQVZWdzFHZWNwZjVOOGdGaDZIRmhkVHFMWGF2X1pWdHA2Tnk5NTlxazlhREo1MU85QnR6Z1dFalVSdWRleEtSY1I5VW8?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Insolvent Möve Bikes acquired by German food industry group - bike-eu.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">bike-eu.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 25 May 2021 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQU3pOYUZVOGw4WnA4OTJHQ2hJMHJGSGIxbXhtYkZRT1FKVDNYcUZHdTNWNVFjUXM1cjd2NVZBeU9IWTdiaXFLX2ZibjNhd3BZOWQtVFFTUnhHcDIwOGN0bmlHb2xKb2hlMmhjazluTEVxbmgwaG5JM0VMZ1NzbkxFeTRsRmNTWnhiQVNscGFpdUlDVU5YMGZDMldvQQ?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Piggyback wagon developer Helrom completes restructuring - rollingstockworld.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">rollingstockworld.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 27 Jan 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Vm5aOEdiVWN2YnRXeUtDc0t1VUQzRmFaeHNjVGh4YWQ5UWZSV0pVejFkZkhxeU1mM3FScGZYOW9TbHVIYV9GcklVLWZBX2IwTy1rZ3lWUzdwVkdNTjQ0?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Germany’s auto industry cuts deeper as production shifts east - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 28 Apr 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxQai1aYVV1b1lvcUxSajBxd25Jbzg3aVV3S2hWNkgwRGtPUnR6aVRuWTZLS0lwOUR4R2tGTkRnek0zdnBTQWFIQnpNV0lwNGF2WVdfRk5SS1JGNWdFSml2UlVUdS1MNFEtZXhwZDhKRjBjN0FGTy1CbkpES1lfY1I2Z282WGVvLUVZYy1lc1M4dDdaUQ?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Due to CleverShuttle's insolvency, Via takes over 10 on-demand public transport services in Germany - Sustainable Bus
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Sustainable Bus</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Tue, 31 Oct 2023 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmhJMktuRnFEOUVmV1RYVk9MZWJTejdmQ1I0dFdVQml2WjNnYnZUUC1PMGpQSlFYVWV4OVl0bkxaSG1EekpzY0JvU2d1V1hHcFpVNVdOdHh2RG92S0FQWmdPX3RUbmZ6OGlsc2xreFpvbjFfbzdHUmw0VFNRRko0Y1hqYjFxeWNEZDJrNVI4WXlnOWZCS3dTVUNWUUlpTk5mMVhBYzZRYWRrNlhJSG1fbG1yUXBfakVFNndTRzRyeGRNdw?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German urban air mobility company files for insolvency - Euronews.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Euronews.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 01 Jan 2025 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXlUUHFfaV91S0w2cFFrSXBJaTlkUjhaV2htVWNic255ZVJ0U05xNFV3X1VYZEhzOV9WNGV5MWNfNUtGMEpxclJROG9mRkdYSTdyeV9Da0ltWFVOMzI0YkVCVk1kQkx0SERzT1BnelE3cnlEOXVuczJsQ2p2QUE3SFZtek15XzTSAYwBQVVfeXFMTXU1TjJrXy1Mc2ZjUGVjWWJsWXFUTWtjdlU0bWVGTDBnNDZ1U2hVRHNkdHRyWWpJb2JmYkJyMGtUdnpHQ01yWVJUQkxqdHhFWDgxc3hyR2RIRFFsNkliaXFYeFlrTm1uTTlFT1p1RTN2dEhiOE0yaEk0bnVORDd4aS12TzNXNGtFZzZXck0?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              BBS wheels to restart production as new owner takes over - team-bhp.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">team-bhp.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 02 Apr 2025 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQVkM3aUtYaEtPZ3VOdENiSHZxSE1rUjVNRmRNS2M1RS1COElTM0t4V3FqRGJBeVRqRlNCVDVJVDF4TG5jQ05KbGY2aEN3OUZqaGllZHpLRDB1UE14eko3RkFSNXQ3ZFRRM1VBb0xpbThrQk9hSmk3MkVHRk1Mb0NRajN1VGx0SF9yZndYUg?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              CargoLogic Germany faces imminent insolvency - ch-aviation
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">ch-aviation</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 03 Aug 2022 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9ucmtIWkN2NVkweTBOQ0J4amU3M1RhV3Q3NmYxaGlSRHBYeEJDWTFpRGItVmtOZ3lMRVRkTm1Ea2hFWGRKUGx2eGxZQ3RpamowbHhpOXJxTmpoM1pTZFhuTWpLQVZPZTMyTkV4TFdnVWw2a21oSFZJ?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Arthur Bus files for insolvency – no hydrogen buses delivered within Lublin’s 20-units order - Sustainable Bus
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Sustainable Bus</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 04 Feb 2026 08:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVnR3N0dkbzFLWkxYV0ZsNU9EbEtMN01vTHVGT3djczVrWHFXSTBuMGVRWUtjZGJncEoweHhGV0sxTFR6cEpTTW9GZ2RQeFBvdFN1cTNabVhWVEt4VDFKQldlOWhnbmY1MGlIY2ZtcXlIWXVVWm55NWRTVHJ3TWstdmNYeEhsNWM4eklORXJWVXpfT09IeTJpUFFBeDVFTmVnczAxTHVZZGlJQ29Rd1ZCX3dtUHZIYUNzeHBhYS1zWjJnVnZLN0JrODVpRHM1NGh2SHRGeUFfVUpjaFl5Unlud2E2VU0yMGdJZDNiRA?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              German Textile Firm Soex Files for Administration - WWD
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">WWD</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 09 Oct 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoRXk5Slp1MTRVbGpaTGRNejBHNmFlNFA5cEZqN05Bb1lVSkljRzJ2QlkyT1d0WlA3R0xsRld6SUZVNHQ3V0cyX3dwTTB2bG1hTVNOVFA2UDVRbVE5aGlhVXJxOA?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Duvenbeck hit by its biggest crisis yet: automotive logistics turmoil puts company up for sale - Trans.INFO
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Trans.INFO</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 15 Apr 2026 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWFQXzdRTDI0WHFZeGVnaEs1VE5YQWxPWlY4bEYyZ2hXT2Y1TnNlczkwdlNVUmRBek1qcmRJazJsQUlQakZwSV9yeU1KbVVPWWRWSURsdTBHZzI4MU95VV9OUC0xZGpoSWZnTTBuVHhhYjJpYXZiY1V4dXJwZXZzN21DSThLdS12SVA1N1NjN1lkVDg5R0RIaHVhbnhoZHVMdE95QXhFeENNdUJaODJxWnJiWmNrb1ROMWdoLVB3?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              WFW advises Nederlandse Spoorwegen on sale of German Abellio rail services operations to BeNEX - wfw.com
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">wfw.com</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 24 Apr 2024 07:00:00 GMT</td>
-        </tr>
-        <tr class="signal-row border-b border-slate-700 hover:bg-slate-800/60"
-            data-category="Corporate Insolvency" data-severity="medium">
-          <td class="px-4 py-3">
-            <span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:#d97706">
-              MEDIUM
-            </span>
-          </td>
-          <td class="px-4 py-3 text-slate-300 whitespace-nowrap">Corporate Insolvency</td>
-          <td class="px-4 py-3">
-            <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFByT1AzcGt1X2tJZ09QVVFOcUtIQXJlRGFOWjhjRHRNbzhYMllpYk90aUNxbnU3UzBBMmVzeE84VTZ6OWcwRGg1ZjhpX2FJYXRCdlNLTW1MVk1COE5BOTctRmNQN1VhSlJzdS1BN05fWVIxRzlG?oc=5" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">
-              Advanced Bikes GmbH registers insolvent - Cycling Electric
-            </a>
-          </td>
-          <td class="px-4 py-3 text-slate-400 whitespace-nowrap">Cycling Electric</td>
-          <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">Wed, 27 Nov 2024 08:00:00 GMT</td>
-        </tr>
-        </tbody>
-      </table>
-    </section>
+      <section class="mb-4 flex flex-wrap gap-2 items-center" id="sevFilters">
+        <span class="text-slate-400 text-sm mr-2">Severity:</span>
+      </section>
+      <section class="mb-6 flex flex-wrap gap-2 items-center" id="catFilters">
+        <span class="text-slate-400 text-sm mr-2">Category:</span>
+      </section>
 
-    <footer class="text-center text-slate-600 text-xs mt-8">
-      FOMO scans public news only. No Amazon-internal data is used or referenced.
-    </footer>
+      <section class="bg-slate-800/60 border border-slate-700 rounded-xl overflow-hidden">
+        <table class="w-full text-sm">
+          <thead class="bg-slate-900/80 text-slate-400 text-left">
+            <tr>
+              <th class="px-4 py-3">Severity</th>
+              <th class="px-4 py-3">Category</th>
+              <th class="px-4 py-3">Headline</th>
+              <th class="px-4 py-3">Source</th>
+              <th class="px-4 py-3">Published</th>
+            </tr>
+          </thead>
+          <tbody id="signalsBody"></tbody>
+        </table>
+      </section>
+
+      <footer class="text-center text-slate-600 text-xs mt-8">
+        FOMO scans public news only. No Amazon-internal data is used or referenced.
+      </footer>
+    </div>
   </div>
 
 <script>
-  const severityData = {"high": 11, "medium": 48};
-  const categoryData = {"Corporate Insolvency": 59};
-  const severityColors = {"critical": "#dc2626", "high": "#ea580c", "medium": "#d97706", "low": "#65a30d"};
+const DATA = {"signals": [{"category": "Corporate Insolvency", "title": "Betz insolvency exposes structural weaknesses in Germany’s transport market - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGQTJVX2Uxajk1OU95QjlCanZtR01rZ0k4T0k1SDdNTDBlM3B6d3RLMVpXc056eTlkOFJOYWtkMktmdzFTbnJ6X1RtYi04Ymo3SVZTZFRmcw?oc=5", "source": "Trans.INFO", "pub_date": "Fri, 10 Apr 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "CleverSolutions launches AV spinoff in Germany - Zag Daily", "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQekdpd0dTQ1AtNmthX2k2azRfaUJ4X1NFMy1nWWxKUHVsczZIbHBWTWVIWmpKWlg4Q3BPZDgydUlpNmYxOEZ0NlNvZ2UzRjdfS3VnMDFaX2o1TXNuY1MwUFBqMlhBZ0hhZ3FiWDE4YTZrZ2FZUU5vVGYxUmJSX2Z1Y0NYcXk?oc=5", "source": "Zag Daily", "pub_date": "Thu, 09 Jul 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Helrom to be liquidated: missed opportunities prove fatal - RailFreight.com", "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMWd5SUtZcC1BUmVvdkxPU1BPdWJDWUpNMGpua3pKMDl5ZFhJZkJSaVNacWhIUktHVjhVajdNQ3RWTGFJSFZ1Y0lfM0Z6RmxoYW9yOTBfSmZ4OV8xbVZaZ21yZ25jN1A5UUN5djBTV3d3aTJpdUVVTHRSNEJvVzBRcg?oc=5", "source": "RailFreight.com", "pub_date": "Fri, 29 May 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Textile company ZEGO, which was affected by a cyberattack that halted production for six weeks, has filed for bankruptcy. - GIGAZINE", "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TNnVWOERuUGlyLUxQQTY1a0hZb3oycWFlRGV1UWw1Q2M3NWJlNW1RSHpkSzNMc3Z0NV9LeG9HQlFvTTZPc3ZvbDh1M1BEY2RfbzNDellVbmVFRkZwOVR3YTVQX1RqVnFvZ2c?oc=5", "source": "GIGAZINE", "pub_date": "Tue, 14 Jul 2026 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Bankruptcy after 60 years 🤖🇩🇪 Why the German robotics pioneer ek robotics stumbled 📉💸 - Xpert.Digital - Konrad Wolfenstein", "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05THJXWUZYYm1jMnBONGlWQ3g4QmNydnJKSkwtWGdONXFna0ZyZlQ3YjBTRWZ6X0NSZ2E0bklFWlZLUFFoeXVZZUdNaExxaTh2Mld0dmR2OFVEMmpGcUxv?oc=5", "source": "Xpert.Digital - Konrad Wolfenstein", "pub_date": "Sat, 04 Apr 2026 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Duvenbeck hit by its biggest crisis yet: automotive logistics turmoil puts company up for sale - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoRXk5Slp1MTRVbGpaTGRNejBHNmFlNFA5cEZqN05Bb1lVSkljRzJ2QlkyT1d0WlA3R0xsRld6SUZVNHQ3V0cyX3dwTTB2bG1hTVNOVFA2UDVRbVE5aGlhVXJxOA?oc=5", "source": "Trans.INFO", "pub_date": "Wed, 15 Apr 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Tyrol transport companies are going under one after another - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rb0lyWGVLUENBNWdqaFRTNVRQZU54VUc1dHQ3ZkRjdzBteVBFVUhuTDVIVDNyOGtSUEpmVUpFY1FQRW9SV0hVOUhmTHNQV19zUl9oa0hUMEtPamJtLVNNXzJzMU4?oc=5", "source": "Trans.INFO", "pub_date": "Thu, 12 Mar 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Piggyback wagon developer Helrom completes restructuring - rollingstockworld.com", "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU3pOYUZVOGw4WnA4OTJHQ2hJMHJGSGIxbXhtYkZRT1FKVDNYcUZHdTNWNVFjUXM1cjd2NVZBeU9IWTdiaXFLX2ZibjNhd3BZOWQtVFFTUnhHcDIwOGN0bmlHb2xKb2hlMmhjazluTEVxbmgwaG5JM0VMZ1NzbkxFeTRsRmNTWnhiQVNscGFpdUlDVU5YMGZDMldvQQ?oc=5", "source": "rollingstockworld.com", "pub_date": "Tue, 27 Jan 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Atlas cranes and excavators goes into administration - Crane & Transport Briefing", "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkg1MHgtNkhZbTB2ZHlVanV1N0hGYlFuT1A2bXFFOXE2bmxBbktLaG1KZmNPYTBtYjdKNG1kTkdrX1ZtRVJ4ZGhCcVBrMjBZa3oxZDdtdlBkcVlzbzJla19BOUUxWmhyT0NMbGtNekdEZWxMZ0pfampYUGZadmhtYUV4TlVPMW56?oc=5", "source": "Crane & Transport Briefing", "pub_date": "Mon, 09 Feb 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Due to CleverShuttle's insolvency, Via takes over 10 on-demand public transport services in Germany - Sustainable Bus", "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQai1aYVV1b1lvcUxSajBxd25Jbzg3aVV3S2hWNkgwRGtPUnR6aVRuWTZLS0lwOUR4R2tGTkRnek0zdnBTQWFIQnpNV0lwNGF2WVdfRk5SS1JGNWdFSml2UlVUdS1MNFEtZXhwZDhKRjBjN0FGTy1CbkpES1lfY1I2Z282WGVvLUVZYy1lc1M4dDdaUQ?oc=5", "source": "Sustainable Bus", "pub_date": "Tue, 31 Oct 2023 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Germany sees company bankruptcies soar - DW.com", "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ESEZOUll1ZXRiV1NNUXJzZUtnbFB1OGxwbUg1RUFKVC1tUlRFVHB1Uk1CZ2Vzano4blJwSGlOcm9rV2NTOUdwaWhoNm5ia3BlQk9WanpFaUVlNlRnYzNaNTlzVXJOZGo2aDlQd25xbWxTMGhzdEk4NlNaTdIBe0FVX3lxTE9lZ1kwaF8tR0lyRVBKNFBLZnNNeVIwYWFvS1dBclVDSjY5RHVYbFNLdGpQcjk2N2hjQlhQRHo5czc2c3cwazViZ29lY0NTN04wQ1NLenJqMkpUNXlXcHE2Z1pwNnlqS1pJZ2hrZF82NjM2LWhYcGZLYjNKdw?oc=5", "source": "DW.com", "pub_date": "Fri, 14 Jun 2024 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "VCs Have A Bad Relationship With Trucks - Crunchbase News", "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDdSWEFEa1g2MW1QTUhpMTdCYXZueGpTVGNsODltSFp0bWhyTU1yV0tEc1gzUDB5MWxxRkFHR3hiclJWRVFXXzJVc2ZVMVNKUFNFX2Fpd1lvOGxOWGIwZDA4WEtKZXFXeUdmNGh3akpYNjNYMW5FSVdrTHJScEZYay1vR0pVanZmZU1MaVFITzVCOEZFd2JSag?oc=5", "source": "Crunchbase News", "pub_date": "Fri, 27 Oct 2023 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German urban air mobility company files for insolvency - Euronews.com", "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbmhJMktuRnFEOUVmV1RYVk9MZWJTejdmQ1I0dFdVQml2WjNnYnZUUC1PMGpQSlFYVWV4OVl0bkxaSG1EekpzY0JvU2d1V1hHcFpVNVdOdHh2RG92S0FQWmdPX3RUbmZ6OGlsc2xreFpvbjFfbzdHUmw0VFNRRko0Y1hqYjFxeWNEZDJrNVI4WXlnOWZCS3dTVUNWUUlpTk5mMVhBYzZRYWRrNlhJSG1fbG1yUXBfakVFNndTRzRyeGRNdw?oc=5", "source": "Euronews.com", "pub_date": "Wed, 01 Jan 2025 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Closed Files for Insolvency, Begins Search for Investors - WWD", "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFhZVFRJeUxnWWo2d0otMl9LWGdib0x2dkwwUDZrb1NySXRLTTd1SHlLVzg3YlJjVzBYV0hMZjdHZ19BN3R0RGVyYk4xRGNwV1NhQ3lHOFdEcDRreUJTM2tkLXJ0b2VwaUdfUmR2Q0ZWUzhDbkp0N0ZMaDYtT2JCbmJDeUh3ektOX2F1RHZDWHRzM2hDRUNpRU1yZ0tyNjNUNTNhNVA0Qlg?oc=5", "source": "WWD", "pub_date": "Thu, 07 Aug 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Arthur Bus files for insolvency – no hydrogen buses delivered within Lublin’s 20-units order - Sustainable Bus", "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ucmtIWkN2NVkweTBOQ0J4amU3M1RhV3Q3NmYxaGlSRHBYeEJDWTFpRGItVmtOZ3lMRVRkTm1Ea2hFWGRKUGx2eGxZQ3RpamowbHhpOXJxTmpoM1pTZFhuTWpLQVZPZTMyTkV4TFdnVWw2a21oSFZJ?oc=5", "source": "Sustainable Bus", "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Another bankruptcy in Germany: Vollert declares insolvency - rollingstockworld.com", "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFQ2aUlVOUVxTW95ZEphTXdlLUk5Z3U1eFFFYkhuQmhsakxxUFZTYUlCRi1BQlFkVnNUQllmXzYxN0ZSV0RFMFRvQ0ZNMWhsWFRwT2Z5YUZpTHhXeUVCeWxGdHVkQTdDRkI0el9lcGZtcHVycHpScU5BTVl4ZENEWS1VdFdJMjZhTEk4QkEtUkFtajJwUEdwZnNwVS0?oc=5", "source": "rollingstockworld.com", "pub_date": "Sun, 17 Aug 2025 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Major insolvencies hit record in Germany - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBON2lFQmpNTVByY19mWlNsNGJNWHByY3plTFhqYlhna0JZa29nWjlyVkRoNWpubEVEN3NadE95SDBaUm9DbWVvZXpCWDZxeTFDblU2YWpsN1lNNzg?oc=5", "source": "Trans.INFO", "pub_date": "Thu, 12 Feb 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Belgian Carrier Declares Bankruptcy for the Second Time: A Symbol of Sector-Wide Issues - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11NHRueUJWdlhHbm01WERjV1M4ZnFpTXJ0aU5SQVYteGc4eE5xUjJFMmFYaExnQlNjbFp1eXlVbGxIazZvNGU4T2Fyd0p0X0EzYWxxUkV0aktaem8?oc=5", "source": "Trans.INFO", "pub_date": "Wed, 17 Sep 2025 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Germany’s truck transport faces structural crisis - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iQV9xZk4zelBQX09qbU1sVjZpbGxZUVFFR1BraUVycW4xaE9KeDBaMFktek9Ocm44MEhmUGNXNE5FeUsxNDkyaHFJRDR2MkVfbm9GV2pjSDF3VkR6QnJUeUJn?oc=5", "source": "Trans.INFO", "pub_date": "Fri, 29 Aug 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German freight sector faces insolvency risks - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sbkExSHZUTzh3dENkV21vRDEycUlDN2k0eUxEZTFUUF9DeW0wUnVtTzZnVlhUZ0RFblBOQmFwRjBpZ2tIbnN6dVlkZ1lqOXlGQUdKUnJPcVJTVXFaZUE?oc=5", "source": "Trans.INFO", "pub_date": "Fri, 29 Nov 2024 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Closed Saved: Marc O’Polo Owners Acquire German Brand After Insolvency - WWD", "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGUwRzlHVHFoNi1FaGVaTUlVWEJOMGRsclhSbFVhT2FNb1hiWFoyZW1md0llLXdnWlNpTFJtaUM3YU1GYmZncjUzb1lPVWo3Qy1GTVlOOW9aZmRvUnJlOENHNW5fTzBhMmRubUhEOHhqcU8zMGNtNVhfdWlMVE05YzZpcERFekRmeGRWMWhEZ2tuV1JmNGYwVUxTLXN0aldBRzJJX1p0ckFtaFE?oc=5", "source": "WWD", "pub_date": "Thu, 09 Oct 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Germany's once-vibrant auto heartland falls on hard times - Reuters", "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVVWNTlEZ3h6cHhKal9Hb3phcjBjT0l1S0xuM254R3VkZ1NBX1JRZGVwaFRmaFpRTzdZSWd4RnlNLVZYM1dxNURaY1JVTXRWT0NXaXZYbkxGN19MNzZUWWJ0RGh3WFAxaUFRVHhpMnJiVVhBcDFtTHIyaUIzVEVSYjR1ZUtYZFFpMGl1ZHZqQjlYaXNtWHh6bGd6M2JUVlk?oc=5", "source": "Reuters", "pub_date": "Tue, 24 Feb 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "A single ransomware attack has pushed this business into insolvency - TechRadar", "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEY4TW90bS0tLWVNQ3VMMDJpYU5wY2V2eHNuYXlvVmlQRDZ6a2RXejB6M01yY1FSTmk5WXBhSFpnVUU2Ui04TENTcVV1amcxQU4xSm5ON3h0SHNWald6Mjk0U3k5QVRPaHJwbjBTZi1GeFdYazBRME1UYTlxTEoxV3JFbzhhQ0F0NHc1YUh3czI2NDVsVFFpQ3F3X3FEQjY2d1R6ZVZOYU1GUQ?oc=5", "source": "TechRadar", "pub_date": "Mon, 04 Aug 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German phone repair biz collapses following 2023 ransomware attack - The Register", "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTXNxVWs2cENnRS1pQ1VpYkFaTWhCOVljSlVqODFsNHhDY3Y1Z1JLZFl3YnU3M0lFdlRBSXhYcXEzODlacktqRDVzR2cxekZ1cmdHdXBqTXR2a0FZQzlMNkdpQktLdjNMNjJMMFhfa1FHOTIxaURQM29CUUVmTjYwckQ5OXBKMzMyVVZ1UEllZV9iOWEzWDdIR2pWOWcyQXVlNlVCcVEyU3QtNHRjbkVoTkJ0QUVHdw?oc=5", "source": "The Register", "pub_date": "Mon, 04 Aug 2025 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German EV manufacturer e.Go slips into insolvency – again - electrive.com", "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGRaX2lteUlVM1VCZEw5Y0tYenIxdzR4WnZfOVQ3emdvajlMUWxfWkdpRFNlakZkQkFrNDVRYnctZTdrYkRMd2pvVkJqOVlLMHRxdGJkYjVSZXhsVVdRWDlOeGMxMThNU0JMaUEyLW1YTEJyaEQ2ZDBtbTZuclRpVzkzVzZjR0Z6WVBYbWxjS3pHdlJhZDk3WA?oc=5", "source": "electrive.com", "pub_date": "Mon, 11 Mar 2024 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German Textile Firm Soex Files for Administration - WWD", "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVnR3N0dkbzFLWkxYV0ZsNU9EbEtMN01vTHVGT3djczVrWHFXSTBuMGVRWUtjZGJncEoweHhGV0sxTFR6cEpTTW9GZ2RQeFBvdFN1cTNabVhWVEt4VDFKQldlOWhnbmY1MGlIY2ZtcXlIWXVVWm55NWRTVHJ3TWstdmNYeEhsNWM4eklORXJWVXpfT09IeTJpUFFBeDVFTmVnczAxTHVZZGlJQ29Rd1ZCX3dtUHZIYUNzeHBhYS1zWjJnVnZLN0JrODVpRHM1NGh2SHRGeUFfVUpjaFl5Unlud2E2VU0yMGdJZDNiRA?oc=5", "source": "WWD", "pub_date": "Wed, 09 Oct 2024 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Lilium Secures New Investor Agreement to Support Business Restart - Future Transport-News", "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0JXek94Yy1Wa2lFcm5GMUxNamItUjRfcG50YUV5VXZVdGZ1Y1FjNEsxNnNTV0MwVkhkV0otZkdOQldzaXNnZ1hBVmhSYWZ3U2JSVDNjRXZhdkx6MVRpQ3d5T1ozZ1NmN0VCRDgwcWhMNVREN0ozVXp5VzNUamE5SmpiamNPNHdUdzNQVVFkd3AzaFp6eGoxSmNaLU1XTlo5?oc=5", "source": "Future Transport-News", "pub_date": "Thu, 02 Jan 2025 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Helrom officially launches Germany-Romania service - RailFreight.com", "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMzFiQmd0WFhORnlSSzlIRVdCdWhrYUxIWTRiR1JDbFl4a2Q1cWo0YjBfS2d6bURmV2lSblhPR05ndFBaQ1NfdlJNZjQyLXVsNFZ5VzRHU2d0M0ZnUkVnU1J3SHNoZkdGQ2U1VWtjblB1RWk5NFBsakoxZW0xZWVWc09RTl8xNFdOdXNLT0JRbkZqX19sY1hPaW0ybkwzQVZRSlNB?oc=5", "source": "RailFreight.com", "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Tram manufacturer HeiterBlick has emerged from insolvency - Railway PRO", "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVWhJZ0NoTTcxZjFQQzNIN0V2QzFXVU9UaGlTZUY0NzQ5NS1VR01DeU43bGx0MWZWdUxlOS1IbHlqWUFvQWs1Nm9neW8zUFNDRmgxTmVqV1EtbDEwTjVaWnhzelZUbHYxWVQzY3U2Zk56YVh0ZU5QeGxIVk5fMEg5eVB2OXdNRTBmZEtQMHhDN0p6dw?oc=5", "source": "Railway PRO", "pub_date": "Thu, 03 Sep 2026 10:48:50 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Hydrogen bus startup Arthur Bus files for insolvency in Poland - electrive.com", "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHVhZzhBR1RfcFFfM2RmMVl1a1dScjFwcElZY19BWDFpWVd1MWE2RTNheXFoVS1vUTBZTU5LTFNWdURFcmRFMndQY3B5M2xyemZsZm5NNXdrTVVlaWdXM05lZkZpanZqTF8zeGtTS3F5SEw4ZjUtZ0RBd2Q0VW1TVXZNelp4dlRwTV84LUxxLTc3YzVQRk1ZNnBoSGFHM3R6WkE?oc=5", "source": "electrive.com", "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German road to rail specialist Helrom to be liquidated - WorldCargo News", "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mRkphWEJWaU52QmYxNWR1RHdzTDJjNkM0LVoyOG9BQnRieDAtVVJFQmx4OTZEcFRPLTI0a2tyS2tpSWY0MmN4NFZIbmRqaUNKdnZLMFU0TURnbExVdEZWSVFrVXJvc01Ob2hYUjE4cDU0MmlTTlNoYmx2ZmM?oc=5", "source": "WorldCargo News", "pub_date": "Fri, 29 May 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "WFW advises Nederlandse Spoorwegen on sale of German Abellio rail services operations to BeNEX - wfw.com", "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWFQXzdRTDI0WHFZeGVnaEs1VE5YQWxPWlY4bEYyZ2hXT2Y1TnNlczkwdlNVUmRBek1qcmRJazJsQUlQakZwSV9yeU1KbVVPWWRWSURsdTBHZzI4MU95VV9OUC0xZGpoSWZnTTBuVHhhYjJpYXZiY1V4dXJwZXZzN21DSThLdS12SVA1N1NjN1lkVDg5R0RIaHVhbnhoZHVMdE95QXhFeENNdUJaODJxWnJiWmNrb1ROMWdoLVB3?oc=5", "source": "wfw.com", "pub_date": "Wed, 24 Apr 2024 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Onomotion slips into insolvency as sales slump creates financial bottleneck - bike-eu.com", "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGFXTHpQX2VhWnZDQkp0b0t0NHp1Q3kyblB0YU04WW9lNXNGUksybnBneG5jNEV3cF8wbUNWN2lhMEVIQVJ6Z0MxbG1ueUFaZUpVZnNCcXZpMTh4LXQyZWFLSTh4ajhqVTJEZnZsRWZScHF6V2szcTlBQ0xLYVRaMXZDZXFLb29DZkhZdHBLWThOVG43cW9BMVVSNUJWVlE0QnpXR2RXbDI?oc=5", "source": "bike-eu.com", "pub_date": "Mon, 14 Oct 2024 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Hamburg flower wholesaler with 129 years of history goes bankrupt - FloralDaily", "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUkprUzY1Q1BKMGJYMVV1aUd3dWpReks2SzBQdjNWLVRhRGhVbUhVVVJfTEo2NDFla1ZLZ1ZST2U4VThkX19BQ1NUaUQwQWlJSWpmc3ZYRXVOUTlhSUMzRnV1SnFYcEJ3a05jMkliQ0RGSkFBaFM4aHJjLVJseUhSeThyOHRJUFh4dktLZjc4Tk1SSjlDRExCdkdtVVRQUDM0VGNHcVlaZ19lMmx0a3ZN?oc=5", "source": "FloralDaily", "pub_date": "Tue, 20 Jan 2026 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Advanced Bikes GmbH registers insolvent - Cycling Electric", "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFByT1AzcGt1X2tJZ09QVVFOcUtIQXJlRGFOWjhjRHRNbzhYMllpYk90aUNxbnU3UzBBMmVzeE84VTZ6OWcwRGg1ZjhpX2FJYXRCdlNLTW1MVk1COE5BOTctRmNQN1VhSlJzdS1BN05fWVIxRzlG?oc=5", "source": "Cycling Electric", "pub_date": "Wed, 27 Nov 2024 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "In Germany, Wholesaler and Distributor KNV Grapples With Bankruptcy - Publishing Perspectives", "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVGNXbXUxQ0NyMnMxTndBQTZ5WGd6SUFncENOQTJRek42cTdxb3dhQWJIQW54UGltTzdTYjRlNldqUlpMYVN1N2JYZ19sM1BJRF95dFkwV0UzTWJ4aWlFem5ubkx4SWRlUVBUX3BHYVN3SHFCTlRlYXN3ckdLaDROc1VYVjc4OHJpOUpGQmYxOW5XV3VkNkJVeGw5NnEtQm1qQ1lBLWJsVjlqSGxhN2ZZZEw0aWNzbVg3dEE?oc=5", "source": "Publishing Perspectives", "pub_date": "Mon, 18 Feb 2019 08:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Trotz Erfolg insolvent? KMU Strukturkrise oder Comeback? Deutschland am Scheideweg der Wirtschaft - Xpert.Digital - Konrad Wolfenstein", "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Hbi1RV2FtQTlrejVibkl0YVREdWpRclJxLVdoOUFIeW84Y0owVzdLa1JVQnVSLU9TS0s1alNrVHV1WWNvYjk0Q3Y1QlQzQlVxOUNCTC0tdXpZVkhTTlNMQtIBaEFVX3lxTFBfTHBQM0p3QU1HWkhPeV92QXJWZ1hlSmN6dThZeUF3Y0h4WWVuYTRwUDJrcVlRbG5hd2VfTms1QUl0TkNWdXNZb1ZkVXNDczRzRXV1dWVGU3Jubk5ENzUyUmttZ3U2Mi0t?oc=5", "source": "Xpert.Digital - Konrad Wolfenstein", "pub_date": "Sat, 26 Jul 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "CargoLogic Germany faces imminent insolvency - ch-aviation", "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVkM3aUtYaEtPZ3VOdENiSHZxSE1rUjVNRmRNS2M1RS1COElTM0t4V3FqRGJBeVRqRlNCVDVJVDF4TG5jQ05KbGY2aEN3OUZqaGllZHpLRDB1UE14eko3RkFSNXQ3ZFRRM1VBb0xpbThrQk9hSmk3MkVHRk1Mb0NRajN1VGx0SF9yZndYUg?oc=5", "source": "ch-aviation", "pub_date": "Wed, 03 Aug 2022 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Green Hydrogen Systems to file for bankruptcy after selling 'key technology assets' to rival Thyssenkrupp Nucera - Hydrogen Insight", "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY3o3c3VlaUFEdEdfdWx4NUxfRzQyb1ZkR0hkOEs3V0NQQURfZE13OXgzOXRxTGZOOVdYdGNuR284Nk9zMjViajUxQnlIRzBhVXVUcWs0eXZiak9GS2xlcXppNkVXWGJ4cEdTUlZ1Ym5UdDlrMl82NlY4bmNpcHBnalBwcDEzcVJHWUZhWFUxeFV3eFh1RDA1dkgtRURtOUpCRXVab0pvbGptZnRNQlg3emRxMnkza2hUX0toXzNuOWltYnlnR21UcnZuZy11bFVYUGRBMkt6LUx1bzFhczAxc2FGNE1hN20tQm9aY2NMSUpWWFJDM0RyUnZuTWg?oc=5", "source": "Hydrogen Insight", "pub_date": "Fri, 20 Jun 2025 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Sprick Rowery continues under Asian ownership after insolvency - bike-eu.com", "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaHhtNDFoelYtX05oTFJsLWotSy00eGl0UDRjZVdLdDZpRTRGTnY1dHVXeE1FU1RvVE9ZcHAwM1V1SGFzMDc2bXN4UHNlX2FxS1htNmU0YUlwUnQ0ckV5bmRJTlRhSFlKQk01NmEta2RVV2xDVjhEWG9WUEVhdlpNTkI4bUZtZ1J0c1oyTVBsNHlsS1QtNEQ0?oc=5", "source": "bike-eu.com", "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Forto's sale: Digital forwarders face harsh reality - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfSERzdUtQcDRLb010X0FPbGg5dkVWN0ZIWHF3U0l0cnRvUHBvNnYzQ3lWRjhULTNPanUtVFlzN2RWYkNvUnVlSVY5S0RkVHo1ODlRcUJFXzlsci0yZHc4?oc=5", "source": "Trans.INFO", "pub_date": "Fri, 14 Mar 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Germany’s auto industry cuts deeper as production shifts east - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Vm5aOEdiVWN2YnRXeUtDc0t1VUQzRmFaeHNjVGh4YWQ5UWZSV0pVejFkZkhxeU1mM3FScGZYOW9TbHVIYV9GcklVLWZBX2IwTy1rZ3lWUzdwVkdNTjQ0?oc=5", "source": "Trans.INFO", "pub_date": "Tue, 28 Apr 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Luxembourg-based EV startup files for bankruptcy at its German unit - Luxembourg Times", "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0RsVFU5b0V0Y1NjZ1NkcjJvY2hPdnZmZ0RpNEZZMGVHTEFieFpKbDFWRURQTlRQaG1FLWVvLWl6Uk9iSWxkVGlxSnRkVGNCbnBHd2tYRG85Q0h4dGhxUFRBTHBSdWxrSm8xZXJFX29jdHFjZ3hIR052SFd5dzNjR29ZN2dab0FqeWI0QXBWLW1fTGdMSFdUOXNNMnMzZzY1SmRYY3AxR1FNc3ROMzk2UnVaUW1GSy1nY0NqNk1HSks?oc=5", "source": "Luxembourg Times", "pub_date": "Wed, 20 Sep 2023 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Schöma goes bankrupt, German rail industry faces financial problems - rollingstockworld.com", "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNjd3ZFBCeXRNQ2ZHODhveDlqUm1pQ1AwYktpNlN1Y1pycVFmaWVGb3h6ZVo3NjhNNGprR3FzaDNQd29GY2xjWVpHaHJnUFFURDM3VEVRSDJkZzZ1My0tZGRRQXk1SS1SaHNsb090VWEtay1pcGJaRlN1UnRXZm05YW5WT0JfakRUWV9IYThCa3ltRVJESVpGSTdJWjdaVF9DLTk5ZWZtUmE?oc=5", "source": "rollingstockworld.com", "pub_date": "Thu, 17 Oct 2024 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Wiking Helikopter Service plunges into administration - FlightGlobal", "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWmo1Yjk3VUZUWnFBbGtLaDNweXhkWU96NUktNXpsNkVEcXQxTXBWUTg3dExsZWUwSlBUaC1lM2RiQjI4dzdQWnlxTTNzeWxYV0FYajZVWW4yODBZTWJUQmJwMzNEVVRVcVdxZ1hyeTJhaWNpcFRuSlpfa2hscWxLWHNtcy1RcVdwcDhmVGFJaEVST3ZwZE9VTWhIdFdCcjdCYmJ3QnBR?oc=5", "source": "FlightGlobal", "pub_date": "Fri, 17 Jun 2022 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Gigawatt-scale green hydrogen developer files for insolvency after it loses major backer - Hydrogen Insight", "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc3JBYnNzZDFoeTFJTF9KQnRNak5JeUJiOGF0dXdmNFFPU0pMRi1xVE11VFYySWFHZ0VuVUk2UkJsQWRISkMyV2lici11V0Z0M1RpblRlUi1HYWZ3eng1T1RtdWxuUzdfV3dfOXkzVTVLcUJ5aXRoZVJyVV9HVHhzWHNtUU5rOUhvdkd4Z0tldnl0TGM2T3ZIMUlmWXQwSklISVIxWFRaOVVXTFB1Ynd1SS16WXM0MnNuTUsxc1JMUEdIMzE5QWVaUE5XUG9MSk9YZ2dqeXE5bVl3QkU?oc=5", "source": "Hydrogen Insight", "pub_date": "Fri, 08 Nov 2024 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Facing bankruptcy, this enterprising tycoon, nicknamed the German Bill Gates, is selling his Lürssen superyacht at an unheard discount of $30 million. Longer than an Olympic-sized swimming pool, the six-decker luxury vessel has a spa, a massive master suit - Luxurylaunches", "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ2FJcHpHcEZ6NVFtaThWUGYwWlg2Y0lwNTNIaXVqRHNSeWNHcDQ5ejc1REtjWkVBczV6dHVYcUkwMll6Z2xtMlA5ZTgzUWZtREhRd0pieDRYWUxNTjhsbGx3QzZfb3lEUkdpdWxmMnc4M19VNEItS2habXpDRHhZVklZTlNOdDFtcTU2MEFn?oc=5", "source": "Luxurylaunches", "pub_date": "Wed, 10 Apr 2024 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Das deutsche Gründer-Paradox: Wenn täglich 66 Unternehmen scheitern und gleichzeitig 1.754 neue entstehen - Xpert.Digital - Konrad Wolfenstein", "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YakxmWXlNUW9HNEwxdDZDNGt2WmNfRENsalFJcnNvQWVTT2dsUFZIeGRLTmdvWTVZTjVtUi1sNVh0M0FDMFcxYWdsNGxoVEZyUVdFdExsS25DbmZIblJQQ21B0gFqQVVfeXFMTUpWWHROQng3cGNWZXpZWHpkQUcyWFk1NDdWUnlZSkxNNHZobWVWRGZRd2JhaU94LVNvQUt6ZGZ4VjJtZV9LaU1tajhMSXM0dFRRUngtT2EyM21UZF9JUVAzbVNXOEZDd2Ixdw?oc=5", "source": "Xpert.Digital - Konrad Wolfenstein", "pub_date": "Sat, 28 Mar 2026 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "BBS wheels to restart production as new owner takes over - team-bhp.com", "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRXlUUHFfaV91S0w2cFFrSXBJaTlkUjhaV2htVWNic255ZVJ0U05xNFV3X1VYZEhzOV9WNGV5MWNfNUtGMEpxclJROG9mRkdYSTdyeV9Da0ltWFVOMzI0YkVCVk1kQkx0SERzT1BnelE3cnlEOXVuczJsQ2p2QUE3SFZtek15XzTSAYwBQVVfeXFMTXU1TjJrXy1Mc2ZjUGVjWWJsWXFUTWtjdlU0bWVGTDBnNDZ1U2hVRHNkdHRyWWpJb2JmYkJyMGtUdnpHQ01yWVJUQkxqdHhFWDgxc3hyR2RIRFFsNkliaXFYeFlrTm1uTTlFT1p1RTN2dEhiOE0yaEk0bnVORDd4aS12TzNXNGtFZzZXck0?oc=5", "source": "team-bhp.com", "pub_date": "Wed, 02 Apr 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Insolvent Möve Bikes acquired by German food industry group - bike-eu.com", "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVZXMEdKejV3d3d4dXphQ2tmbVRQQ3FsSUFra284X2VWV1M3SmhyWV9CN3RlUlBUQnc4TFJwQU1XVlVjZ3NFX2VIVXlLaXBsQVZWdzFHZWNwZjVOOGdGaDZIRmhkVHFMWGF2X1pWdHA2Tnk5NTlxazlhREo1MU85QnR6Z1dFalVSdWRleEtSY1I5VW8?oc=5", "source": "bike-eu.com", "pub_date": "Tue, 25 May 2021 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Are letterbox companies the real cause of problems of the European transport industry? - Trans.INFO", "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOGtFaXdnSUZHR012Yi1rcU1aa3BhWWhnbHJTUk9FMTBsMG1jMWN6OHlZUkFtZHRRcGlGZlh0Q0hLQldLWl9idXlkU3VvQkd3Yk1NeE00TkN5blI5bk5WeVRaRU4xWHZDUU5TM19QQmluM0pLak95WmJ0TThndkZMT1g4RTlRQko3NDRsTmZrNnEwV09VRGVDdUJvSGVmNHpiS2NXRWFtX3NJeXY4NkY4dTRfSVE?oc=5", "source": "Trans.INFO", "pub_date": "Fri, 30 Nov 2018 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Austrian ATM Supplier Frequentis Acquires Germany's Comsoft - Aviation International News", "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaldUUTcxQzBOVjZoN0JHQ2ZOc0ZkM2hKVlNCZnpzWWZ1bGwtQTBndW13U0NhNndOUE9CQ3ZLMEFRMHB4N1RlOS1Makp1cldpTHBjY2ZoN0hKaFVNSzByYW02RVhBTHc5V2Z6NXN1N3BIUUN0b1kxVzBTOXEtcENZdmZNaFNzQm12XzkwRmJUZ1ZpMGVKLVNLOW9YUG91M3dlWFotVk1tWWV4eU1DWmNxb0pscHRWTkRfcDhXMGNDaHU?oc=5", "source": "Aviation International News", "pub_date": "Mon, 18 Jan 2016 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "New location for PLUTA’s Nuremberg branch - PLUTA Rechtsanwalts GmbH", "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVBaVHFhRmVsV3l5alR1am10Z1NjYzQtbi1GMzFjVEhXdWsxRnh4MEhGYlFFYzFhdHR1Uy0yU21wcWhUd0QzOGF4VnBPLUxHUElmWU5TakJYUnctNGlVT2JOeFJWTkdBaEdnV3dDMnFWQTkzVXQ1WlV0RlJ4eWc4MWtsamYycmFtdHdfcS1LR09Gc0JSQ3c?oc=5", "source": "PLUTA Rechtsanwalts GmbH", "pub_date": "Mon, 09 Dec 2024 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "German airline goes bankrupt and announces closure of operations - Aeroflap", "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTRkd3FfUHVlUjdqaTlCdm9RWlNIS0hscFdLSERKanc1eU9yVm9qQ3FMXzBLVFBIcklXZ2V1MUVZV3F0S1Z1blRuM1pjNnJVVE1NTEhhencyTThXeXo0NDBxekdacXJGeGZHN0tPbjhOdDJYV3puUTFPelVkQldmOFcteWhWYWNlMWNuTkd5cFdNWGpVcEozNlMyclRzZ1U?oc=5", "source": "Aeroflap", "pub_date": "Tue, 05 Feb 2019 08:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "Germany’s housing sector slumps into crisis - The Guardian Nigeria News", "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CNy0xNVF5Y1hmQVhaVEZXQWtPdV9Tb1VjYy10b3hLdzlrZjRveUswdkw1VF9KcERCQUp2ckdOcExMclNvaXd1WEdhcU5pWjhTV0stV3Uycml3akJweDVrMHVnZ29keFZPYmJMM1ljcVJ6d2hBRFZv?oc=5", "source": "The Guardian Nigeria News", "pub_date": "Mon, 25 Sep 2023 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "UK transport business in liquidation after 18 years - Oxford Mail", "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUENzWHJ2ZnJUM3RfZkJvUTNpdnM5Qm9vR1kxZ0piQkFDU2cxbll3dmRIeFBrSElGQTVfOTlPNHFvUVRscElzeDlqeXR0X3N6eHNfY0VpZ0VVLW1IaW0xYlE5c2VRRXA0NE5VTVZCVlBQYUZrbmtNcnlMeUtjUWp6ZmJscE55dkowd0E?oc=5", "source": "Oxford Mail", "pub_date": "Tue, 19 May 2026 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "UK to copy Germany with new law after Thomas Cook collapse - Sky News", "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU3FfdS1kMXlYNU1OWlNkWXhsZnhicGFobEk5S0FWVjg2cnNCRjhFUnBjdDhiNkFQTTdMcXAyQ2pheFBfSjUzWU9FMmtybE1tdk5PN3FHVXpHVE1JVVlicmh0ZUFMMnd6NWJlczA2M2JvcGdxWE9mZWlkNldfREZxUlhXZXJiTEZQdjJaU3cwUDdkNVRveDd5dXEwSndkN3NV?oc=5", "source": "Sky News", "pub_date": "Wed, 25 Sep 2019 07:00:00 GMT", "severity": "high", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "British Airways owner among bidders for Air Berlin - sources - Times of Malta", "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjlVSUtfM09KNlA3RmFxNW92a0RJSXVEUzlabFJsMVRHMFFIN2xuYVVlOXhnMGFHU0VQNEl3N25IOWRPeUVNTlFhRUVQQWZpRTBONkRRcmFfS3pTR2hLZFA1b3RySWdTRzRib2YwcnhoN2UtaXRXaVF2RHJORXJuRTJIRUthcDJQTm9tQnhNWFZ2RWNVSi1XZkRQSGNub3c?oc=5", "source": "Times of Malta", "pub_date": "Mon, 18 Sep 2017 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}, {"category": "Corporate Insolvency", "title": "China Could Fly Flying Taxis “Much Faster” As Chinese Firm To Buy Bankrupt German Firm ‘Volocopter’ - EurAsian Times", "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMDRwMkszM09UaWt5UFNOQTBNbXVkdW5LM2lKNWlLcHAwSGNqZnExM1VnN3BqejBRVldMVmFleXBNd1pFbFRJblRRaHBaakVkbVZpZlBnLXY0RXVmNklIQU1GR2YtcmwweVBPSkJWQ3BuSEdrSXN0cDhVeDdQZ3lhY0cxaHRhQlQ4NmxXWjYwRDFiY1ZaMHZQTFQ5ZTF3ODFDVVBFbkRES2UwU1d5Rnp4ekx5VG5RancxQkFta2dPc05IS2Zi0gHEAUFVX3lxTE0wNHAySzMzT1Rpa3lQU05BME1tdWR1bkszaUo1aUtwcDBIY2pmcTEzVWc3cGp6MFFWV0xWYWV5cE13WkVsVEluVFFocFpqRWRtVmlmUGctdjRFdWY2SUhBTUZHZi1ybDB5UE9KQlZDcG5IR2tJc3RwOFV4N1BneWFjRzFodGFCVDg2bFdaNjBEMWJjVlowdlBMVDllMXc4MUNVUEVuRERLZTBTV3lGenh6THlUblFqdzFCQW1rZ09zTkhLZmI?oc=5", "source": "EurAsian Times", "pub_date": "Thu, 13 Mar 2025 07:00:00 GMT", "severity": "medium", "found_at": "2026-09-03T12:54:42.455900+00:00"}], "severityColor": {"critical": "#dc2626", "high": "#ea580c", "medium": "#d97706", "low": "#65a30d"}, "lastRun": "2026-09-03T12:54:42.455900+00:00", "totalRuns": 1};
 
-  new Chart(document.getElementById('severityChart'), {
+/* ---------------- Intro animation ---------------- */
+(function() {
+  const canvas = document.getElementById('introCanvas');
+  const ctx = canvas.getContext('2d');
+  function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
+  resize(); addEventListener('resize', resize);
+
+  let t = 0;
+  function drawRadar() {
+    t += 1;
+    ctx.fillStyle = 'rgba(0,0,0,0.15)';
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+    const cx = canvas.width/2, cy = canvas.height/2;
+    const maxR = Math.max(canvas.width, canvas.height) * 0.7;
+    for (let i=1;i<=4;i++) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, (maxR/4)*i, 0, Math.PI*2);
+      ctx.strokeStyle = 'rgba(56,189,248,0.08)';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    }
+    const angle = (t * 0.03) % (Math.PI*2);
+    const grad = ctx.createConicGradient ? ctx.createConicGradient(angle, cx, cy) : null;
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(angle);
+    const sweep = ctx.createLinearGradient(0,0,maxR,0);
+    sweep.addColorStop(0, 'rgba(56,189,248,0.35)');
+    sweep.addColorStop(1, 'rgba(56,189,248,0)');
+    ctx.fillStyle = sweep;
+    ctx.beginPath();
+    ctx.moveTo(0,0);
+    ctx.arc(0,0,maxR, -0.25, 0.05);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+    requestAnimationFrame(drawRadar);
+  }
+  drawRadar();
+
+  const lines = [
+    'INITIALIZING RISK RADAR...',
+    'SCANNING GERMANY LOGISTICS NETWORK...',
+    'CROSS-REFERENCING PUBLIC NEWS FEEDS...',
+    'THREAT SIGNALS DETECTED.'
+  ];
+  const typedEl = document.getElementById('typedLine');
+  let li = 0, ci = 0;
+  function typeNext() {
+    if (li >= lines.length) return;
+    const line = lines[li];
+    if (ci <= line.length) {
+      typedEl.textContent = line.slice(0, ci);
+      ci++;
+      setTimeout(typeNext, 22);
+    } else {
+      li++; ci = 0;
+      setTimeout(typeNext, 500);
+    }
+  }
+  setTimeout(typeNext, 2100);
+
+  function finishIntro() {
+    const intro = document.getElementById('intro');
+    intro.style.transition = 'opacity 0.6s ease';
+    intro.style.opacity = '0';
+    setTimeout(() => {
+      intro.style.display = 'none';
+      showPage('home');
+      animateStats();
+    }, 600);
+  }
+  document.getElementById('introSkip').addEventListener('click', finishIntro);
+  setTimeout(finishIntro, 5200);
+})();
+
+/* ---------------- Page routing ---------------- */
+function showPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById(name).classList.add('active');
+  if (name === 'app') renderApp();
+}
+document.getElementById('enterBtn').addEventListener('click', () => showPage('app'));
+document.getElementById('backHome').addEventListener('click', () => showPage('home'));
+
+/* ---------------- Home stat counters ---------------- */
+function animateStats() {
+  const total = DATA.signals.length;
+  const critHigh = DATA.signals.filter(s => s.severity === 'critical' || s.severity === 'high').length;
+  const sources = new Set(DATA.signals.map(s => s.source)).size;
+  animateCount('statTotal', total);
+  animateCount('statCritHigh', critHigh);
+  animateCount('statSources', sources);
+}
+function animateCount(id, target) {
+  const el = document.getElementById(id);
+  let cur = 0;
+  const step = Math.max(1, Math.ceil(target/40));
+  const iv = setInterval(() => {
+    cur = Math.min(target, cur + step);
+    el.textContent = cur;
+    if (cur >= target) clearInterval(iv);
+  }, 25);
+}
+
+/* ---------------- Dashboard rendering (date + filter aware) ---------------- */
+let activeSeverity = 'all';
+let activeCategory = 'all';
+let activeDate = 'all';
+let chartSev = null, chartCat = null;
+let appInitialized = false;
+
+function dateOf(s) { return (s.found_at || '').slice(0,10); }
+
+function populateDateSelect() {
+  const dates = [...new Set(DATA.signals.map(dateOf))].sort().reverse();
+  const sel = document.getElementById('dateSelect');
+  sel.innerHTML = '<option value="all">All time (' + DATA.signals.length + ' signals)</option>' +
+    dates.map(d => {
+      const count = DATA.signals.filter(s => dateOf(s) === d).length;
+      return `<option value="${d}">${d} (${count} new)</option>`;
+    }).join('');
+  sel.addEventListener('change', () => { activeDate = sel.value; renderTableAndCharts(); });
+}
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function getFiltered() {
+  return DATA.signals.filter(s =>
+    (activeDate === 'all' || dateOf(s) === activeDate) &&
+    (activeSeverity === 'all' || s.severity === activeSeverity) &&
+    (activeCategory === 'all' || s.category === activeCategory)
+  );
+}
+
+function renderApp() {
+  document.getElementById('lastRunLbl').textContent = DATA.lastRun;
+  document.getElementById('totalRunsLbl').textContent = DATA.totalRuns;
+  if (!appInitialized) {
+    populateDateSelect();
+    buildFilterButtons();
+    appInitialized = true;
+  }
+  renderTableAndCharts();
+}
+
+function buildFilterButtons() {
+  const severities = ['critical','high','medium','low'].filter(s => DATA.signals.some(sig => sig.severity === s));
+  const categories = [...new Set(DATA.signals.map(s => s.category))];
+
+  const sevWrap = document.getElementById('sevFilters');
+  sevWrap.innerHTML = '<span class="text-slate-400 text-sm mr-2">Severity:</span>' +
+    '<button class="sev-filter px-3 py-1.5 rounded-full text-sm border border-sky-500 text-sky-400" data-value="all">ALL</button>' +
+    severities.map(s => `<button class="sev-filter px-3 py-1.5 rounded-full text-sm border border-slate-600" style="color:${DATA.severityColor[s]}" data-value="${s}">${s.toUpperCase()}</button>`).join('');
+
+  const catWrap = document.getElementById('catFilters');
+  catWrap.innerHTML = '<span class="text-slate-400 text-sm mr-2">Category:</span>' +
+    '<button class="cat-filter px-3 py-1.5 rounded-full text-sm border border-sky-500 text-sky-400" data-value="all">ALL</button>' +
+    categories.map(c => `<button class="cat-filter px-3 py-1.5 rounded-full text-sm border border-slate-600 text-slate-300" data-value="${esc(c)}">${esc(c)}</button>`).join('');
+
+  sevWrap.querySelectorAll('.sev-filter').forEach(btn => btn.addEventListener('click', () => {
+    activeSeverity = btn.dataset.value;
+    sevWrap.querySelectorAll('.sev-filter').forEach(b => b.classList.remove('border-sky-500'));
+    btn.classList.add('border-sky-500');
+    renderTableAndCharts();
+  }));
+  catWrap.querySelectorAll('.cat-filter').forEach(btn => btn.addEventListener('click', () => {
+    activeCategory = btn.dataset.value;
+    catWrap.querySelectorAll('.cat-filter').forEach(b => b.classList.remove('border-sky-500'));
+    btn.classList.add('border-sky-500');
+    renderTableAndCharts();
+  }));
+}
+
+function renderTableAndCharts() {
+  const filtered = getFiltered();
+  const sevOrder = {critical:0, high:1, medium:2, low:3};
+  filtered.sort((a,b) => (sevOrder[a.severity]??9) - (sevOrder[b.severity]??9));
+
+  document.getElementById('kpiTotal').textContent = filtered.length;
+  document.getElementById('kpiCritHigh').textContent = filtered.filter(s => s.severity==='critical'||s.severity==='high').length;
+  document.getElementById('kpiCategories').textContent = new Set(filtered.map(s=>s.category)).size;
+  document.getElementById('kpiSources').textContent = new Set(filtered.map(s=>s.source)).size;
+
+  document.getElementById('dateHint').textContent = activeDate === 'all'
+    ? '' : `Showing signals first found on ${activeDate}`;
+
+  const tbody = document.getElementById('signalsBody');
+  tbody.innerHTML = filtered.map(s => `
+    <tr class="border-b border-slate-700 hover:bg-slate-800/60">
+      <td class="px-4 py-3"><span class="inline-block px-2 py-1 rounded text-xs font-semibold text-white" style="background-color:${DATA.severityColor[s.severity]||'#6b7280'}">${s.severity.toUpperCase()}</span></td>
+      <td class="px-4 py-3 text-slate-300 whitespace-nowrap">${esc(s.category)}</td>
+      <td class="px-4 py-3"><a href="${esc(s.link)}" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 hover:underline">${esc(s.title)}</a></td>
+      <td class="px-4 py-3 text-slate-400 whitespace-nowrap">${esc(s.source)}</td>
+      <td class="px-4 py-3 text-slate-500 whitespace-nowrap text-sm">${esc(s.pub_date||'')}</td>
+    </tr>`).join('');
+
+  const sevCounts = {};
+  filtered.forEach(s => sevCounts[s.severity] = (sevCounts[s.severity]||0)+1);
+  const catCounts = {};
+  filtered.forEach(s => catCounts[s.category] = (catCounts[s.category]||0)+1);
+
+  if (chartSev) chartSev.destroy();
+  if (chartCat) chartCat.destroy();
+
+  chartSev = new Chart(document.getElementById('severityChart'), {
     type: 'doughnut',
     data: {
-      labels: Object.keys(severityData).map(s => s.toUpperCase()),
-      datasets: [{
-        data: Object.values(severityData),
-        backgroundColor: Object.keys(severityData).map(s => severityColors[s] || '#6b7280'),
-        borderWidth: 0,
-      }]
+      labels: Object.keys(sevCounts).map(s=>s.toUpperCase()),
+      datasets: [{ data: Object.values(sevCounts), backgroundColor: Object.keys(sevCounts).map(s=>DATA.severityColor[s]||'#6b7280'), borderWidth:0 }]
     },
-    options: { plugins: { legend: { labels: { color: '#cbd5e1' } } } }
+    options: { plugins: { legend: { labels: { color:'#cbd5e1' } } } }
   });
 
-  new Chart(document.getElementById('categoryChart'), {
+  chartCat = new Chart(document.getElementById('categoryChart'), {
     type: 'bar',
-    data: {
-      labels: Object.keys(categoryData),
-      datasets: [{
-        data: Object.values(categoryData),
-        backgroundColor: '#0ea5e9',
-        borderRadius: 6,
-      }]
-    },
+    data: { labels: Object.keys(catCounts), datasets: [{ data: Object.values(catCounts), backgroundColor:'#0ea5e9', borderRadius:6 }] },
     options: {
       indexAxis: 'y',
-      plugins: { legend: { display: false } },
+      plugins: { legend: { display:false } },
       scales: {
-        x: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } },
-        y: { ticks: { color: '#cbd5e1' }, grid: { display: false } }
+        x: { ticks: { color:'#94a3b8' }, grid: { color:'#1e293b' } },
+        y: { ticks: { color:'#cbd5e1' }, grid: { display:false } }
       }
     }
   });
-
-  let activeSeverity = 'all';
-  let activeCategory = 'all';
-
-  function applyFilters() {
-    document.querySelectorAll('.signal-row').forEach(row => {
-      const sevOk = activeSeverity === 'all' || row.dataset.severity === activeSeverity;
-      const catOk = activeCategory === 'all' || row.dataset.category === activeCategory;
-      row.style.display = (sevOk && catOk) ? '' : 'none';
-    });
-  }
-
-  document.querySelectorAll('.sev-filter').forEach(btn => {
-    btn.addEventListener('click', () => {
-      activeSeverity = btn.dataset.value;
-      document.querySelectorAll('.sev-filter').forEach(b => b.classList.remove('border-sky-500'));
-      btn.classList.add('border-sky-500');
-      applyFilters();
-    });
-  });
-  document.querySelectorAll('.cat-filter').forEach(btn => {
-    btn.addEventListener('click', () => {
-      activeCategory = btn.dataset.value;
-      document.querySelectorAll('.cat-filter').forEach(b => b.classList.remove('border-sky-500'));
-      btn.classList.add('border-sky-500');
-      applyFilters();
-    });
-  });
+}
 </script>
 </body>
 </html>
