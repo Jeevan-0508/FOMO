@@ -1,6 +1,14 @@
 # FOMO — Fear Of Missing Out
 
+![status](https://img.shields.io/badge/status-active-brightgreen)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+![license](https://img.shields.io/badge/license-all%20rights%20reserved-lightgrey)
+
+<img src="icons/jk-logo.png" width="72" align="left" />
+
 A supply chain & logistics **risk radar for the Germany region**, built from public news only.
+
+<br clear="left"/>
 
 FOMO scans public news feeds for signals across six risk categories — cargo theft, missing
 trailers / phantom carrier fraud, freight & carrier fraud, corporate insolvency, regulatory /
@@ -10,6 +18,13 @@ everything into a single filterable HTML dashboard.
 No Amazon-internal data, tools, or systems are used anywhere in this project. Every signal comes
 from a public news source (Google News RSS), with the original headline and link preserved so you
 can verify it yourself.
+
+## Screenshot
+
+> Run `Run FOMO.bat`, then open `dashboard.html`, take a screenshot, and drop it in
+> `screenshots/dashboard.png` — it'll render here automatically.
+
+![dashboard](screenshots/dashboard.png)
 
 ## Why "FOMO"
 
@@ -42,6 +57,12 @@ Then open `dashboard.html` in a browser.
 
 On Windows, double-click `Run FOMO.bat` to do both steps and open the dashboard in one click.
 
+## Current status
+
+The repo ships with a live-pulled starter dataset (`data/signals.json`) so the dashboard isn't
+empty on first clone. Run the scanner again from your own machine to pick up fresh signals across
+all six categories — results accumulate over time rather than resetting.
+
 ## Notes on reliability
 
 Google News RSS silently returns an empty feed (HTTP 200, no `<item>`s) when it throttles a
@@ -54,10 +75,12 @@ category — that's Google's rate limiting, not a bug, and it clears on its own 
 
 ```
 FOMO/
-├── scanner.py           # fetches + scores + dedupes news signals
-├── build_dashboard.py   # renders dashboard.html from data/signals.json
-├── data/signals.json    # accumulated signal history (created on first run)
+├── scanner.py            # fetches + scores + dedupes news signals
+├── build_dashboard.py    # renders dashboard.html from data/signals.json
+├── data/signals.json     # accumulated signal history
 ├── dashboard.html        # generated dashboard (open this)
+├── icons/jk-logo.png     # project logo
+├── screenshots/          # drop a dashboard.png here for the README preview
 └── Run FOMO.bat          # one-click Windows launcher
 ```
 
