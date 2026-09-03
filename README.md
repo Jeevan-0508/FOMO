@@ -19,7 +19,15 @@ A supply chain & logistics **risk radar for the Germany region**, built from pub
 FOMO scans public news feeds for signals across six risk categories — cargo theft, missing
 trailers / phantom carrier fraud, freight & carrier fraud, corporate insolvency, regulatory /
 compliance risk (LkSG), and operational disruption — tags each signal by severity, and renders
-everything into a single filterable HTML dashboard.
+everything into a single-page experience: a cinematic intro, an animated landing page explaining
+what FOMO does, and a full dashboard with a date picker for scrubbing back through daily
+snapshots.
+
+Data refreshes on its own — a scheduled GitHub Action re-runs the scanner every 6 hours and
+auto-publishes the update, so the live page reflects "as of the last scan" rather than needing
+anyone to run it manually. (A true fetch-on-page-load isn't possible on GitHub Pages: it's a
+static host with no server, and the browser can't call Google News directly due to CORS. The
+scheduled Action is the closest real equivalent.)
 
 No Amazon-internal data, tools, or systems are used anywhere in this project. Every signal comes
 from a public news source (Google News RSS), with the original headline and link preserved so you
