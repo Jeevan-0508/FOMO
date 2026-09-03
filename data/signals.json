@@ -530,6 +530,573 @@
       "pub_date": "Thu, 13 Mar 2025 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-03T12:54:42.455900+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "Major organizations warn of rise in cargo theft and fraud - safety4sea",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR0RlaW0zcEg1X05zT2U1ZTVOLTVQV2RCbXMyWEpNTjU0bWRJWlljTDhkNTRueHFwXy1KUHFzZGpkMnVua0FFR3d0X09JMXZCeUMyVmNVenVjTHBhRW1fZ1FPX0NBeVBhWVNfR3BhRlZJR1dSTnp0LV94OXhHVGlnZG5KZWFxc3l3?oc=5",
+      "source": "safety4sea",
+      "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Trustd Brings Know Your Carrier to Market as Freight Fraud Costs European Supply Chains Over €1bn - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSUMxbjNBbnVWaHlPcDAwZ2FIdkdFb0ZDZV9YNmJQdy1sWDUzNGFPa3dJNmFINjMxU3RDcG1PSHotbmtJX3NSWEppOVpwNnQ2SVUyOTdOd1BBOHpwcWRmQ0Ywbk5Vald2RE5neVo2UzV2UUluSTdZbWZ6bWhNR0xGSkRQRUp6ckw3SUxoRU5naU81cjBPb0ZWNjJRVU5uZTJleFZUUXdqZGhzT1FkQ1c0MzVZSnpWamc2UkdkZzJuQmVoVDVKNUcxNHJCa2FwWjJKXzhaTExtcHlaeDc3NjluUjZpYWFJQTFRRUtxRTY4RkFzaXly?oc=5",
+      "source": "Business Wire",
+      "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Strategic Cargo Theft Now Accounts for Nearly a Third of All US Incidents, Report Finds - Risk & Insurance",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa0tXbDFKY2Y4TGpmWTBoUDlhLWJ0bFFaNUs1WUJNSmNpN0NDZG1Nb0hPRHotZjhsck8ya2drY0Q0MkxXcjNLQkFKcVdPVTBXMGYtYlFBY192cTVDNGNNUE01bm9ZblU3SE9RV01CMnRwT1NhSjg4cmhxOGRMandNRTdnNFJNU1d1VWYtY1R0NXc3M1N4RTBsOTdqQmpWeVZXSWF4ck5iZ1dHV1M4MktpMVk4a08yX1k?oc=5",
+      "source": "Risk & Insurance",
+      "pub_date": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Cargo Theft Tactics and Trend Report 2026 - munichre.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmpCQVdfWmZOLXVIUlJxdGdTZXltVEJXWVlKcDRaYS11NVRZanh4bTlicHBqeE85bVRjODJOWkRJd19JUFdTSXBnSVhpSHl2R0NuWTBCcWMzX25fRHNPandZR0trR1FnSl9GOHRRY09WMEt3TWlyaHRkVW1xVjdTRzNTX0lnY2taOFdmbEJNYXJ1UkoyczFj?oc=5",
+      "source": "munichre.com",
+      "pub_date": "Mon, 22 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "GPS trap exposes fraudulent carrier scam - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BS0JZbGJWYV9yTmNsUmZfVkppV0NTeVJMZV9FYV9zdmhmNWE4WV9CRi1veldSY1M1ckNxT2dFQXdmOHpmVkVaSVNiOHZ4UFRUOVhUam1NbFJiSnROSzRRd0FB?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Forefront's Freight Brokerage Nearly Eliminates Manual Check Calls With AI - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORmVtUFlGd05oZk5Vem1UM2l2dGp4SkpHT2tGWDFiSTdielF4M1FnejlVRGwycEZ0M0FjbTRSaG1nZVROeU96bE9FZWt5Z3IxV0RyUDMzbzRCM0FVUmdPYkV6YkxEWmdsb2ZYUG1uU0F2WGdFM2xKWmduNHJMMmdNMTVuT19xSnF1eFg2UkdmcEt1TVptMFJ2MDZ6REpWbWtSUHBHRnkwTGdJanU2MmdES0lqQmZJbzFqRWFnU1BVaw?oc=5",
+      "source": "Stock Titan",
+      "pub_date": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Your Supply Chain Breach Is Someone Else's Payday - Recorded Future",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcVlzNUJHN1JJRGlTODV5TmRVbmZOVHh6WFhYbVVKSjJ5MUlCai01eDhNWGZndjRVay03RDFZalNBN2tJSFI1LTFmc25meG9Zc28zT3lXc2FfWjJvTXh1Um4tMzhpaVkxZ3ZIc1F0VUxxTUhLSDA4YU1CbmZaT0F2ckd0WUFvUGRtYXFV?oc=5",
+      "source": "Recorded Future",
+      "pub_date": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Investigation Black Forest: EPPO carries out searches on suspicion of customs fraud involving the imports of aluminium from China - The independent public prosecution office of the EU",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTUlOR0E0ZFpZWjNSY1dLYV80VEV0aTh0VDBpMUFtTURodGU4U1otWGdCcE5nblpiNERrTXB1QWJpNUx6WlNiMV9YU2FTWEVIWHpReE9SY2dNTzFBZ1Y3YkZ3Mi05TzVhdkNFaUFYVGstUEl2eDlrMnZ1YXpfdjBVbDBqd0RERHIxTHJLX0VIb1Zid2NvZFpiaHdBdVN5LXRSUTRyNzV0dFJaUkhidjFNaU45N0NpOEd0c3l3Wnh5a092ZGlsZ2RxNGpTdm43QWJkVVJISkxReXVUdHNJcy1V?oc=5",
+      "source": "The independent public prosecution office of the EU",
+      "pub_date": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Cargo theft: losses top €860m; criminals go digital - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82bEVhSHZIcE4wdWlyMGQ3SDJrTW1mcHlnelU0QXNfclVPaDA1TDloWV8xVUN5dXhaRFRMVGM0YXJ3ZEJvSEhVcS1sZWxkWUVLLTNIQmJpUmQ3U2ZvT1Mw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Major retail fraud: ghost cooperatives, fake contracts and 166 million false invoices - Il Sole 24 ORE",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcEdNZUdoZE9BZ1dkWDQ3TjBsdGxXckZiTkVWdlgzcTFiVkJCOEFZMFhEaVBKVTRVODUzYjNRM2s0WkdoeFRJaFhQZGFKZDNoSFVXOTI0NUU1ckVicnhIWjVadlZqM3FkTHBwRnNVTFRKR05rX1RMYkJFak9paWk1ak1PNVRPNEs1OW4zMXBSbVc0ZlpXTGxGZnBMcXVWZGpOU3ZWNmEzWndJbVZqYXE2NVRLeGNsVVlYa28zUkZabXM3MVVlNmJZYXdhYVlLRkV5SVE?oc=5",
+      "source": "Il Sole 24 ORE",
+      "pub_date": "Mon, 27 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Founder of German developer Centrum arrested in fraud investigation - Green Street News",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjFTNVhiU0dPUm9hdFl4VHNrdC1HbFl0NkR5aXkxYmItSjBoSmxlbV9CemhYSlFiZjB6cmh4YzRNLTNjZFgzWElDakxLNVlycVVvbmNfOXByXzc5dTgwXzA0U1FWMGd5eUd0SXltb0g4UEJaUTljRGJzOXpOQzdQdG9rSjN3VkV0eHZzc1p6Yl8?oc=5",
+      "source": "Green Street News",
+      "pub_date": "Fri, 27 Mar 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Trans.eu and TAPA target fake carrier fraud - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzZ0lxVS1wR3JVZ09WTGdqZnNFcFl1NmN5ZTZDbVJOQzFwaFRpWnhGVkxGRXlTWVNzbmhOSmxTRHoyVGxIWFo3MXVpOE4xcGYyZjNscA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Combating Freight Fraud in an Evolving Industry - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVHBja1gtNVRudVZEcURuUW5SbmtJdW14T09zVUpLUWlITlBYT3VreEZ0RlB4aE1pVkxxcU94TVhHNjhsZWVvQWYzM29UajVrYjNVRDNqaHhzc0FWaHJwU3F4Mzc3VTJObHBHRjZNbldUU3Juc1I4ODdONWY5bWpPSzJmWWw0VHRv?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Court issues warrants in export proceeds fraud - The Financial Express",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS1N5bGZXbjdHRWVUSmlEZi1JQkYyRDAyOC1jNWlndXhRNEQyTUNkSnBnRnFCR2RuVTFicVBKUl9hOEtMLVpmUGRjeU52RkNtN0Q2MTBTOEJxTEJleHJ1ckZrVEFKLVZJZTNJVHRIblRJWGhqMktYWDRJRjZYcGJCTDI1X2FQQ0hvdVdGNElkNjQ?oc=5",
+      "source": "The Financial Express",
+      "pub_date": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "IUMI And TAPA EMEA Warn Of Rising Cargo Theft And Freight Fraud Worldwide - Marine Insight",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOU9zRnBIZTRlbGdUenYyZ1lDTURsX2lHNXRXS3ZpS1lWcTBZMzhkdjM3Vk5PMVprdGNHWnFSM3hYTmJYdmxXTThYUlhJY0dnMHU1Zl9RakhycGNIUEM5S1FIMTVfV3Q2YTdOWnRPeGdfeWcxaGNKNVJ1dDI0dDl2RzV4a1RIOTR4dElnd1E2VlhCWU8xdld5c3c2MHF0TjE0TVNKVkRBRQ?oc=5",
+      "source": "Marine Insight",
+      "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "From Tequila to Electronics, Cargo Thieves Are Exploiting Weak Links in the Supply Chain - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWHhpZF9mNl9mMjdIWUdyR1FKNFl3SU1QMTlTblZQUXY1MnRpV0Qza2RWZDZlbWZhLU5hLTVKSXFjSTI4VEdDOU1sLVZtZmxiWmljQ08yTmxGNWdJSE82Z0x1ZGJmU1dXZG4tQS13UTFlRURkWVB0dFVreHRVcGRZNFoxMEV6N1hPV08zalBOby1GdzBvTE8zUVdBWGpSR19a?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "‘Phantom carrier’ freight scams are growing threat to project shippers - Heavy Lift & Project Forwarding International",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS21tekUzQzVDdy1ibXBXdnI3Mm5xSnFPWWJVeWRqSll1UE8yOVdaSS0wNzdzTW9xZC1QVDFuOE1vNXNyTF9uQ01uaHlHR2xRcTNlUjFPcTNHZHdVYm03UmVYRC1BSHFIZjBrUU5sdl9jZWhHVUlaWGV2U19LQTNBNnlsbGNoT2ZPYzVUVnpWNldsUWx6ODdzNW5XSjBkVE9zYUNVdG5LV2tFVFpIdnp1UUpueTJsbnRxajVqSUJFejVWa3JNNHc?oc=5",
+      "source": "Heavy Lift & Project Forwarding International",
+      "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Remote access, real cargo: cybercriminals targeting trucking and logistics - Proofpoint",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONDRRN0NEYVpNZkQ5ME4wX09KM2NlNGxLaWdMbnZlQTBMejUxczFBQ0lNWFBiNjhjRXF2aFo2Mlk4ZGlVZzJCQTBVdUcySGg2Yl8zYTRrMTRBWXkyWUY1WTRjWmdsbVZDbmtmMm1NTEZseXU4V18yQUktRzV1VlIxT2dSSERCTFR1ZmpZcmgxWlRXQlJydjJmQWdyUmhzZXhPbGJXVjlzT1lDdXFlYVIwS3hiV0pETVoyamI3Q2N1bw?oc=5",
+      "source": "Proofpoint",
+      "pub_date": "Mon, 03 Nov 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "German police intensify night patrols after cargo thefts - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUXo3MnBKQU5HS0l3T3Z3TU1KdlB1cnhxX2ViQkpuZ1JqbkJSeUpJYkFLTHp4UTVBczBTNHhKY1BraTN5UXRvcWc2WFV2WUNfYXR0OFhtVEhDQUtwdUNFd1NFS0w4MTZZY0NEVmUybW1KUC1RbEg1b3FWUUQyaWJIb2tFWlA0TWxTcEFEekxn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Fake freight forwarders convicted in cargo theft scam - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCTDFSSWY5RG9nU3BVMmpkWHNINzJwOW1pemxQNWJwY1dpSnlWckt1b3JfZzNIcms5RDBZVUJZdG10aklxQjdkRUhNb255UkNmeEhuQkpmOWxhRHdOYUYw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 20 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "How New FMCSA Rules Are Helping Motor Carriers Stand Out Amid Rising Cargo Fraud - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWtKNUVZSTVHdXBqb1pkcHItcTkxNmFJNnJYdmlaeGRQYWVlVEh4bHRHMVRLRHY4aVJXNERNZVRZcjFSb040U2R0OGpfUnZOZVh3TTY2V1NvUVVBbExnT2RrLUZYUW9seWx3WVJUd29SbW1QcXBTNVVDVVM0NEs4RWlhc1hyNHo0cDMxMXZmWXN1cjUxcXp0dDhSZzlZekRNdFlzM244aHIxNEZCUkNsVUV3?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Tue, 02 Dec 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Freight, Fraud, and Theft - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uSDVQQzBjZ1p4YlA5YmdxZmdjcnhNZmtjYUhaak5COXZwOUo4QzJwRjBTLXV4TEItS0hJX3U4NDhET0tuWEVnNUdLTjlLZlB1NkRlY2FKMjlOcTBkS2V3NWlpMHF1cUhWRWZfS0Jn?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Truckstop.com celebrates thirty years of innovation in logistics - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGY1TGlJTk80czYyYjN0Z3dvSGdRdkFRRFM2RFp6SWhyUmwyX3N5dkJLUDFWdVJ2NHo4Zl9CREl6WjIyZ0J4RXNTU20tOWF6cm9SZlhRd3ZlMk44ZE1GaTlRTm9oaG1fb3h3MVZVMmhnS3F6c0YzZW9GZi1vRlZzTkRWR29zTTkySTdaSFQ2UXpfaVR4MVlVR09RSjF1LVE?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 28 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "MODE Global Partners with Highway to Elevate Carrier Sourcing and Fraud Prevention Capabilities - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWFdRYnU3YURvVXJzdUZnTHB0X05KeTZ6RXRBckFNQnNRdHh3NjlwZ2lnWFh2X2xTTk5hWUhuTW5Wdm1maUt4YVc4ZXlwMml1MkFQaEFHWGJPSGxtekRzLXk0ZXc5N2hPZS1kdEdfV3hzbGd4NkIxN1NDeEV0RWpGeG5mWEUxbDFEMjQwZ2R2cEpwcHRzX0ZjSk1nWGF1ZjZZVkJ4M3RsOGQ2VU9uNjVTelNURXFwTXdhN0d1R1ZpWnJ2WXhPdERYWGJtQ1c5MWFucDhSX0I1RkZjeGlkZF95SkQyZmd5UQ?oc=5",
+      "source": "PR Newswire",
+      "pub_date": "Tue, 04 Feb 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Hauliers targeted in new freight exchange email scam - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KXzFSbWFCZDAyM1V6UzFHN3p3MkFCZjJOSWJMclIyRnhwT2ppOEtJRDZEbllFMHhadDJfMU9Nam9GYkJYZ3MtYklGcTU3MEp2bElFRVphOA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "OLAF plays a central role in uncovering a major VAT and customs fraud involving imports of undeclared goods - European Anti-Fraud Office",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLURNVzhxU0tFd1otQzZSVXBYbHVsTDlyZ2l6X1NOUHNscy1UOXVqX0FoNzJ1TjgtS0dsdWtPeU5JdWtSRmJQZF9CdzY1SHZJT0NYV0ZqcU00LXI2LVYtLWk4V19OTHMxSGd4TWlRNVExZXNhVHpSeS1TcHFlU2dldDVQVV9Dd1pzWW1tWHAzd3kwRlI2bnFabXAyTWFZcVVodHFGNE9GRVVudjEtZXBHeHBkQmw0dEh5c1dSaFRmR2laaXpPaFEzaXJTeGMzVnNQZmhaaXZWeldLUjZOOUkxa0tiNmtHclZFV24tLVdXUVNPUFE?oc=5",
+      "source": "European Anti-Fraud Office",
+      "pub_date": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "DAT Launches AI-powered Identity-Verification Solution - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcE12R1VJVFk0dG1yTXM2OHNZSnpscHpmUWJKWGZLTUVmVzlFUnoyX2FMY0VuTWM5eDFnTHA4YU9nOGhNT0wxR0kwMnpHT2JXZXBKUnltSmoxTWYxRnBjTVBnLXotLWVULTNEYkRLN1FXSUNYcnhkU1lld1RqbGhsZWlkTzgyQnk1ZE13bDVJaWpOWkJCc1g0cnh4TTI4dHpROHdhVFpUSQ?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Tue, 03 Feb 2026 20:38:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Cargo Theft Incidents Fall in Q1, but Organized Crime and Impersonation Drive New Risks - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGVOZ0hLajJJYmpxVkZwY2ZOMk1xNDNEOGZGUEljdHFHRmhUdl85WGgtTHlFaEpKVHprV3NQWGpkS3FaZHJHVTBEMS1vQ1U0OERCSDd0SzVDSDdUZC1kVk8xd29wcWVEMHFTRHFkOTRnSGd4SWtCSHdOV09yWmFaNUtCWXlQRlVINzBvTjRUU29OUURnTHRjLWctMEp3WmhGcklXc2ZHWFVndmJTMFFGWDFxSHY5YVFVNDJLRg?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "From Diesel Prices to Cyberattacks: How the Iran War Is Affecting Trucking - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMzRWZ1RKX1hVa3VIeFNkWVhUT01pSWREeVlsX1drNUtBQUZ5UmZCNzRkVnY2WkdadDcyWVYybVN2RllDR3k3OU4zNURCdklYSk5hc0tfaWZkMU1DeVRWQnBVYnkybjUxa1lyM3dwbFNLU0E3enZSaHJZU0E3enBNNzhhYUFhR2R5SDlhOHMwR0FNVzYtMFVud3BtZlQyYV9Id1R1X21OdndQZzhDczNVMA?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Fri, 20 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Logistics companies seek integrated location tracking solutions - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYXQwYm5uT0E5TlRVTVROMFh4SW1xOHBabW11U2hPUnhJX1RDTFNuSFplODBWS3g1Q2RMM2VfSWtSLTFUZF9nN2p0NHpXOFBJRFhjNERVRHJnR09uZjdhYzc5TF84d1JnaWsxWjhYSDFmMl9qUGRSNFhBekxiUXRpSnlEeGd2eE1kOFBkNFo5UXMtVDVqeHA4RFFKeXFDQQ?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 10 Jun 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Navigating Risk in Transportation and Logistics: Gearing Up for Big Transitions - aon.com",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWVo2aDZHUTZRWUt0NlFsamtHQzFZRGZFRV9iQlpuZnczb3RZWHhOd1QtTkNwR2tWMnJMaHBKSzNsU2l2OG5xMEE1NHQzUDdwdDdabzR2aHlkdmtRQVRUWElxMEczSGdNWE1mRmVaeUtsRGw3RlAtaWlhbXA1S1B5SHNYQXpyM0lKcndpWWgwSW0tVE5RX1JIX2M0Rld3X2pTaVNCVkk0LTZscXMwUmtLTGRiWnRid2ktMHI4aVZNMEw3Wkc5T1Rxam4ybWFKZTBqaGNzNERORzBkZTdPUURsMA?oc=5",
+      "source": "aon.com",
+      "pub_date": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Italy caught in China-led 700 million EU customs fraud - Decode39",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQd2kzRXZHc3N1V25vQV9QVjhfTFZneWRXTnloOWZ2TWk2ajE5S043TVp5UnNaOHBCUXJRX2ZOZHFUUk9ERjJDZE02YlVjejUyOXg4RlBaN3lIX0tuWnlQaEhfLVBiX1RPWXNrLW1uc1ZRNUU1el90aHAzaWFGSHZrZFh6MjNUY1FDX0E?oc=5",
+      "source": "Decode39",
+      "pub_date": "Mon, 30 Jun 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "End of the road for Romanian criminals targeting cargo transports - Europol",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa09SM1QwMTNfXzg0M3BWdkduUVA0TS15TWxfWG92c1pTYmFUZmxfdzNkSTlqc082TXZlbFhTVVVEOXFENnR3Ty1FRnFldFBmYXhEbUIxNXNIcmJEOHVWeFFvVkRUcmx4Rld3T1dTb1FOOWJ4MGY2RF9Sd2s1VEVkZDFrTUR0OHF2UFFyQnBOMHBXbV9HdFFZaHNGdjRuQjRLd0dwSVlPSF90SjFVRDdUN2I1TmhIZXU1?oc=5",
+      "source": "Europol",
+      "pub_date": "Thu, 25 Nov 2021 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Bison Transport Acquires Intermodal Assets of Celadon Group - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd2MyaXJsZ2Z0X01hUG56R1Jqb09MU182ak9fOXVkZmxBbVJxWVYzSWhsRU1YelUtSThsUy16NlpyVVN5X0pjM0JKOGpFSk1NX0xlMk9XcWltWkYzUExjY0NiRzRoTE1feVN2V2ZWTkFYMW5yYWlJSUFLQldMcHd5V1N0SW94ZEhsUHlhT0xRQTA0QjJoME1RMm45VQ?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Tue, 03 Feb 2026 22:03:47 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "News Jail time looms as more defendants in Polar Air Cargo fraud case admit guilt - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZGZaRVo0b1lYN0FaMHo1NUpaSnFmRENtSmdtS1NjaFFjQVNjZHpGOHVGbVVJODFacDVGOFBxZF9wdmYtTlNsYzl5bHhaR1dDelRwdmRmM0ZwSWxkVHZhSVEwTE54UGl6d1BLVGltZnNFSy1Vc2hvR0JWS1gyLWtfUVo0TDJ3ZWYzemRkMHRIdFV0NlJMeV9YcXBCT3c?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Mon, 22 Jan 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Spotlight on Commodities Disputes – Civil Fraud - nortonrosefulbright.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcEpOeXpMVjJUUE5WUGJWMTF6SFV4Ty1HazBoN3lQX2JKaDh0WGFjQnZ5SlVZb1draV9NZnkyZTJxb2thbk1RMmJ1V1E4WGFVcjFKQnlleGZ3dkg2YTBrVmNiUmFoSHlBdWlxS3BnN1RDc3Z1OVdSalowbmlHZ0pQNGdJUEZMWGVuenUxcXlyZGlfSlc3b0dmTjRnVUZHbU92eXRhQ3oyT2xGajZWVjczNU5R?oc=5",
+      "source": "nortonrosefulbright.com",
+      "pub_date": "Tue, 07 Nov 2023 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Protect Yourself Against Scams, Phishing, and Smishing - DHL",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZUpSZE8yRWV1UHM3M0g2TS1RNGJPNzROdllfb2VpM1pSYXFkRUgtb2twT2E1aHoxUmh3NmVKbkVUZXRueUVIdmwxNkRDdXh4QnNDYlo5c29CSmw1TC1DOFRzcHlzSE5pNDJEY2taLU5vc3ZBQ2R3T21KZ0dGS2t1ZHFnQllfX20tM3NDSnlVQXI1Ui00dEJ6OWJrM1lad2hl?oc=5",
+      "source": "DHL",
+      "pub_date": "Sun, 08 Dec 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Sector report: Transport & Logistics - Allianz Trade",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1pjWVpyVVllV0tCam1vT055SmJiS0NXSThlU2M1Y25xMzRDV0V3VGs4bC16N0dRTGwxemZ1SUxPaE9LSGJEeG5vWk9qalg2Ri14UTNGLV9iZGs1SEt1bmxjUzFucEt1NHNheUJ5NEJUNzV3RmJuSW9IekVuZFkyYjZPSDNscDl0?oc=5",
+      "source": "Allianz Trade",
+      "pub_date": "Tue, 24 Oct 2023 14:14:34 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "DHL cuts ties with cargo airlines as efficiency initiative ramps up - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOclN0LVV5VEs0UU94ZDFjeUYtZUh5eXNZUEJONTdSY19zTDRkV1dJTUxTSTMwcWpxcE1oTllpVFdyY3RBSUFSUjJZbDJaYmZkRi1Pd1hBYTh3cFU5STJVa0d6ZWIzcjNoSlhfb01taWd4TWxvNEUwWmlkSDltclZMTERhdnY4NFU1eEp2eDE5T19rMXBIRE9wRHVIOFI5OGt0d1BR?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Fri, 02 May 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Gebrüder Weiss Reports 10% Revenue Growth Amid Strategic North American Expansion - Breakbulk.News",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOREo3Nm80Sjc2TmlhRjVVenRNM3Y5ZTFzYzhUbnlwanhGaE5XU2dENUQ4ZkQtRFZDWW1IMDNsTmExM2pXX2x1b2xScWVDb3hiRlVtN1NOcjFnNkU4SmZ4SFBKZmNvd3dUM0NZZ0szXy1feHlaV09mZThuYlUtOWRMekxEbC1wNE9ibldLd2dva3dTUlFXREZuZU9CN3BBWGRYekJ2RXo1cw?oc=5",
+      "source": "Breakbulk.News",
+      "pub_date": "Tue, 11 Mar 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Linde GmbH settles US allegations of import fraud for $22 million - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVVVEUFFJZVZWT3pJZGV2anFJZGdEZ1NwSWl3MTN1NS10VXRESlZFY2tMNGJGWkZ5ZVFReDJhMGluTUhFNEdGS0hRNnhiWkRRQXpYT1FtZHVDdUtMOEZjb2FqV0YzbGtJZWlubkRXOUwxNlZkZE9JQnAxd1c2S2dZdC03SVBMdWtsSVJESVZBZTQ3UDFuOFFIbU01Z3pPblk?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 28 Sep 2020 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "News Shock for 4,000 staff as battle to save Celadon ends in bankruptcy - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWNhYnBkcFRFcmxXak5FXzNsS3Frd2FoNnI1cXpsaV9IWWFveEprenFkY3FqcnBvblRlcHFxVU9obHJmQWZkaUtPb3lMN3A3Z3l0OExxdFVCb2wwRlA3TDV4azVObDZCNVZZSHRVV2RfUXVkM2ZEZ0ZGTGJqQTJ6aDdQd1dBOU04WDVNMnhseFJwVkxz?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Mon, 09 Dec 2019 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Rhenus Logistics Italy Faces €43 Million Asset Seizure in Milan Tax Probe - Breakbulk.News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSUxuZjVkY2MzaWF6em9PQVljZE40Vl9mM1QwZnpwVHBDdkI2R1M2NlJycFNoZ0c1b0tZV2lYcVlpQkFZZTZqZFZoNWNwdTkwWHNkZUJVclhrVklOMGZMekEzak1zQ2hVXzctbG5sbHlqSnNWTG1wdzJ1elBZYnhMYTlZRkdXODJxUmdWWGNEYm14Nk5IYnRlNEVXZ202dw?oc=5",
+      "source": "Breakbulk.News",
+      "pub_date": "Mon, 14 Jul 2025 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Industry Insider: My bill of lading does what? - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb2tMZFhhZzB0MTFVNUJfcTQtUVU0cTlERU9MVm1GVDRlWHplbC0teTM4VU1BX2U1azY0UFhTVkU3VU9zTUNYdnZmVk5oZWgxN0tQQWVrRkUyem82Wjl0eDZ0TXlteEFoX1VOTXMzYjJjbUZ0UFo2Y1A0VExhRDl1WlotbjI?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Tue, 29 May 2018 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "The forwarder is responsible for fraudsters (case study) - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQU1NSUNDNFp5VHI4dE1WX2dFOXlEMUNGNjB1cFlHLWpjNzQyV3RXN2tvZjZGSWFSa1gzNHhiWElDMzU3eGEtSEwwQzY2enQyMEp2SXM0dG84b0lCTzNNd0FKekpKZ2FzTmo2OEo0Rnk3bG5yT0dhc0NCM0VLUFJreDlPWkZPUU5fTXFR?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 30 Aug 2019 07:30:50 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Number of theft, fraud, and robbery cases in China 2014-2024 - statista.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdmpzYXI4Z2RTU3EzV3R3ekNzZ3o5YTJsMzN6ckd6NklCV2hfc3Zic0hBYjJVLXJBMFB0SGJNN3dibzRWQm96ZUZXQ080M1pKbnF6SDluVHUwNGFLbVZkUzQ4QXZMZWszQzROMWNJeFVwdVJuNnJGcklTSlNDdlAya2FVNE9PN0ppY0ZReUZPdGxOcC1j?oc=5",
+      "source": "statista.com",
+      "pub_date": "Fri, 09 Jan 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Investors debate claims in P&R fraud case - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1hZcjBQUFkwblBzVy1PcWVpZ3h5VW5tWTRwaElEU1hlV05uekVMRlk3X3ZiSGVkcTBBWkJaYnRUZ0hrR0NjTl9odndnOUZvWm5jYjVfc08xQ0pZU1lwRlVELWRuUFFKSGFGam9wMWlFSlZkaVZaY2w0LWlWUElFR3ZyYm9QN2xUT2l4ZTNDcmZVUGJzSDF5OEJpZGFjLUR3WWfSAaIBQVVfeXFMTUZONE5EWjJ3OEY4aERHN2dGQkRNQ2d4N09ibTNveDZ0NjRPdnhPZEUzd05rWDhicmVQMVhwdWd5T0NUbTMxNmdMLUdCbWw5cUdMNk1SR3MxLTJjUUZ5VkFIcmtmY3lhMWlIcmNoaDd1T3U5ZzdnTjE4SU1lMXhpeU1GSEZ4QXA0cm9SRUJQYVJYaHFwX0N4djN5MVpUY1RPdkN3?oc=5",
+      "source": "DW.com",
+      "pub_date": "Wed, 17 Oct 2018 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "World Bank Releases Logistics Performance Index 2023 - globaltrademag.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN05PZW5nTFBBNXJsN1ZaSXJSVHRLQ2g5R0YwN3lwV1FLT014VlpURFcybDFtZHJvRldmdTg3S2VCUmUtNjgxMFdlNVlEamVmXzNoM3ZHNHFhbHpiTEpTam5CRjJieDBIS0R4NHlsbmFZWXdGbGxvOHNqZVVOQmozdFFZMVdETTZxUkZ1MQ?oc=5",
+      "source": "globaltrademag.com",
+      "pub_date": "Sun, 23 Apr 2023 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Port Report: Thanks to Belt and Road, Ceva Logistics bullish on Eurasia’s rail service - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPazNxZ29HQ0d4b2FmempJbVpPWG9vSUc3Q2hhWlptQVB2MjZoSXNHa3Vsa2RIYTFfUC0zWGhKVXMxVkNGM3pQX2FRaE8zWXhUT3EwM2ViU0FnaVp2Zm85N0YzU2VveHNmMXpJT19PWTFraWpIZC0xdDRMbVhfM0FtWlpDM1g2TWxuVUFtYmVYUQ?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Thu, 25 Apr 2019 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Italy: police order seizure of €20 million from DHL Supply Chain over alleged tax fraud - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaDFSaVVKZ2Y2ejBLSk1WZnRFVHJqRjNVOFhMSE5Xb25ncGFtWGNQdHdjQ01Db1JDYzRfUklxWkJhcWVGTkFybUxOY1drd3ZTRkRRZWJfbXFlNGhqYWdwb1RUTE5LRVBqSjVUQUdlSzU4M3hzanBNR2p2V3I4Nl9zRjk0dzFIblRPY3lXQlV0a0tCUUc3bzZhakdUM3k5M0lOd012amlKWkgzQjAtLXNyZmVXVm9KZw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 07 Jun 2021 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Forwarders put on alert over new Chinese freight scam - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc1JxcWcxT3QxTThPYzVyQ3ktLUJVaXFhNnlyM3oxV09KeTQ4MjBFUkozR2tmQnhWekw5dVlocE84elNmUDhzWkFkLWwwRUF3dVYzWkc0RGpOUTNBanB1dTlqZGFibk51M1llN0RXM3pMb2JsOU92YTU0TTc2c1AzSDFidkQ?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Tue, 29 Oct 2013 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Safety matters as cargo thefts are on the rise - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEJPZlVTcmpMbXVybTU3angyVm4yS3draGxXd1VkbXBUSFRKT1lfVmwyY21YUmZ3S3JETHc2ek1kTjg5bHdqUnRNTndLeFJxcWZ6YXM3SHQySUxuekhaNnB5YWxTbk4zZjRKWnVQblpHT0tNWTJtbHVUaktVNkt0aQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 09 Sep 2020 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Container xChange opens free access to global container logistics network - Press Trust of India",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNFN3amdJNk9OakVibDR1a3FQOHhYeUNEeVNPT1BwS2IxYnd1NGVQUkRMOFE5d20tQ3hObnVvY08yTlZsbjBPTHJNVm9wWWoycUJPTzF6NThXb1hhTF9sRkRGVzRidFBtTGhoZ1ZCYjg1NHlWUVBEeFFrdDJoYWRmbXBWNVM1WmJpX3hSZlRBYkJMdS1DQmRFemxYVnlhSkNsUVI5SlhTa2tlbnpNWXlPaWxzU0h6ckZ5TTVz?oc=5",
+      "source": "Press Trust of India",
+      "pub_date": "Thu, 30 Jan 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Yusen Logistics makes major investments at Duisburg-Rheinhausen - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZGZFLTFMVE14MXl0Y0MxWW42Q3QxVlVhZVhWa21mWjJsTkZLUXdEdzc2NWlRWHZrZlJBelBHeTNPRVZtVkREZW1ibGhHcHhkbl9mb1BWZkFFRmg4QThrQ29QV1F4YVYzc2VoeWVGTWlwU1VIbk80WE9wWG14YkxoTTBiVC1GQ0RST0VpNzc1QVdwcFFKUDR4aQ?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Tue, 14 Jun 2016 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Transport and logistics leaders chose the most promising startup for 2019. Check out who the winner is! - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZldmaGljbGpRYXNVcDVDYjE5X1g5NE1OcTA2YXFLTXhNdUVKNURONGliQTBEXzZDWEFPeXhMU3p6VEJJZkVoZy1UQWhuZFhWS2ktYzRsbmdtN0g4YW5leC1rNTR4V0V0WmRKdzhoaldpQnRBMjZYeTF0REtpVV9qbldYZ1daZUVjdE92VnBhU3Y5c0hENzd4a01GbTdtclQ4blJHZGdTcmZtV1FGX0JWVmRlSm96N1laTFA4b24wSWJjUUFiNmZYbXhB?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 25 Oct 2019 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "The end of Steinhoff: From a small town in Germany to SA's biggest corporate fraud - news24.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMlFyQWYybVVLaGlJTU1ETFMzY2piQV9GTkdpWFN6NEN5UmN4aVVuVWdNVGhJZkRaWmdsQnhMdVZsczF3T19mNlMxZHFyZWdzM2xpUk5JNldCOTdmY0d2T2t4MTlxVUszS3JOSUs3REZzYWlwYlFFNTRROFJxdWRHV29iTXhkcEU0aEZNaG1yVnh1eXdwNFRVeWhnZmQ2VnpnNThDUUJjTUlWRDJQV2pNMXVQMXNlelo2TXVaZTBxempacGxUZDg2VFJnWQ?oc=5",
+      "source": "news24.com",
+      "pub_date": "Sat, 24 Jun 2023 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Top 10 Reverse Logistics Technology Trends & Innovations in 2025 - StartUs Insights",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkFYQnl2MmkwM1hraUVHRFc5a0N4LTJnZjRFLWJYWmJTaWRGcjlFOFR6OWRRdlBtWktLSzZCdkE2a2dBOVVQZ21TYkFKOWhaWXdPQmN6dHdiYnhUSG9nbGxraFp1emxEckZldVNGQnNCX3R5RnQ3R2o1QTBkV2c4V3Zwajk4Z2U1LTROVUt4SQ?oc=5",
+      "source": "StartUs Insights",
+      "pub_date": "Wed, 30 Apr 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Haulier alerts police to alleged freight exchange scam - Motor Transport",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS01MTEMyQTNVSjNHV09xYzlGN2lmeEQ5WG13eUtoa2tYZ0ZGLWhEX0VUeDFhdDFpbHFlOEdPc0p5VlY0RVY2YTBabU0xcWczN1VoZ1h6N2R4NjB4UkhFQnpOSk14Ny1ibE1wdUlfSHpxWFFUbldiRlJ0RVU0Q01UdTUxT0VEajJqNUlLaG5DeF9lNmV1NUMzdGd2VXc?oc=5",
+      "source": "Motor Transport",
+      "pub_date": "Thu, 13 Aug 2020 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Investor loses Shs5b in Uganda’s gold smuggling underworld - Daily Monitor",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWlFWRTFseDFiQTNaOC1VRHA1N3A0LVpWQkpZeGVNOWxaek9Ldk1fNFdmV2lKNlZ4UVJONk9URmM2aWlZOVRodC14bjdmVGdqd2dIYWtRNmFNNk5Yb2xVVkI5OFJlVmFORWQzZlBuVGVWQ3RxblgxWklWWEk1d2FOcV9HMVQ4MnRTa0xsQmJ1MHVGbldqSzRYclBUekZGbHQ1Q19tYkVYRHhoVDloRGpyNEdmVQ?oc=5",
+      "source": "Daily Monitor",
+      "pub_date": "Wed, 02 Oct 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "CargoGuard Launches Next-Generation Freight Fraud Prevention Platform to Combat $30B Industry Crisis - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeUc2VEEzci0tVXJiTDJ3M3lvckdxd0tSSVBXUW5mMlQ3Z255MG1lTkNCTzNzbVpPb2FGT3hnQi1EZ0lEbzAtM2FWanRuNkRLOEVKSmM2VGlqNUt4VTk5bFFoU3RPc3NlblJFb0hBcWNfak9hcjdSSEduRk5lTnROczcyVGxYVFlPUG95S01PQUlwMFYteHhmQUlHb3I?oc=5",
+      "source": "openPR.com",
+      "pub_date": "Wed, 26 Aug 2026 20:50:03 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "FBI Warns of Surge in Cargo Theft as Hackers Reroute Deliveries - NTD News",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGVJY2tRWFhvRUJJLThmRHhwcE5nekpuMEJrQ1NIaUNlOE9ybUZNRDZXaXNfa1NaTTFoX0FpTHFnbnZfOHZlaWtzb254WGFmbDQwRmRfZFBWTHI2aEx5c2xxcHgwTVhpdHRDMGg5dGU5bHdVcFZfUDQ5TDlHaDRtN1BKZGdhdWRweGYzdXREMWZlSkhRWXJyWnZld00?oc=5",
+      "source": "NTD News",
+      "pub_date": "Sat, 02 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "EU Merger control and airlines: the evolving approach to market definition - Watson Farley & Williams",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTjhvUTQ0TFU2d3FzQTl4eV9LbzNKWFkzOGZGOFREOE9MRVNMS1NNUnk5VzFOS0wwZHZRanpoVnBEdU0tNl92RDJubmpCSGUxNDlKcU5hekpURmFnWGJzdFViU2R6c3FmOU12OWFhYmVYZ09iZEx4NXMta1BGRlRFR3RieEl3Q2ZabnU3WmpvLU9Ca0szS0tlMkIwbk9xLU9XNnNsUTVR?oc=5",
+      "source": "Watson Farley & Williams",
+      "pub_date": "Wed, 08 Jan 2020 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Small Planet Airlines goes into insolvency - Travel Weekly - Home",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNakx5eWJTMmZMRWg5c0R2a1E4R3U2OWdHNk50UFRQQVlxaHAzVURPV2I3ZzlNamZLdS1SbmNxbVNsZkF4QUl4VW1lek9qdTRyaWU2UHY0S3pvbzZfQW1HVjI3RzJTcWFyaUxWc2dpbUpyQWdzSWJnSFI3c3dPdTBjVWpFZU0?oc=5",
+      "source": "Travel Weekly - Home",
+      "pub_date": "Fri, 26 Oct 2018 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-03T13:40:55.046124+00:00"
     }
   ],
   "runs": [
@@ -537,6 +1104,11 @@
       "timestamp": "2026-09-03T12:54:42.455900+00:00",
       "new_signals": 59,
       "total_signals": 59
+    },
+    {
+      "timestamp": "2026-09-03T13:40:55.046124+00:00",
+      "new_signals": 63,
+      "total_signals": 122
     }
   ]
 }

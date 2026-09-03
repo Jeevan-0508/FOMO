@@ -26,37 +26,76 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 SIGNALS_PATH = os.path.join(DATA_DIR, "signals.json")
 DASHBOARD_PATH = os.path.join(BASE_DIR, "dashboard.html")
 
-# category -> (search query, severity keywords for escalation, base severity)
+# category -> list of (query, language) pairs to scan, plus severity config.
+# Each category now scans both English and German-language coverage, since
+# German regional press (local papers, DVZ, Verkehrsrundschau, police
+# releases) reports plenty of incidents that never show up in English feeds.
 CATEGORIES = {
     "Cargo Theft": {
-        "query": "cargo theft Germany logistics OR trucking OR freight",
+        "queries": [
+            {"q": "cargo theft Germany logistics OR trucking OR freight", "lang": "en"},
+            {"q": "Ladungsdiebstahl OR \"LKW Diebstahl\" Fracht", "lang": "de"},
+        ],
         "severity": "high",
-        "escalate_if": ["organised", "organized crime", "armed", "violence", "hijack"],
+        "escalate_if": [
+            "organised", "organized crime", "armed", "violence", "hijack",
+            "organisierte kriminalität", "bewaffnet", "gewalt",
+        ],
     },
     "Missing Trailer / Phantom Carrier": {
-        "query": "phantom carrier fraud OR missing trailer freight Germany",
+        "queries": [
+            {"q": "phantom carrier fraud OR missing trailer freight Germany", "lang": "en"},
+            {"q": "Frachtbetrug OR Frachtführerbetrug OR \"gestohlene Ladung\"", "lang": "de"},
+        ],
         "severity": "high",
-        "escalate_if": ["fake identity", "identity theft", "disappeared", "never arrived"],
+        "escalate_if": [
+            "fake identity", "identity theft", "disappeared", "never arrived",
+            "gefälschte identität", "verschwunden", "spurlos",
+        ],
     },
     "Carrier / Freight Fraud": {
-        "query": "freight fraud OR carrier fraud Germany logistics",
+        "queries": [
+            {"q": "freight fraud OR carrier fraud Germany logistics", "lang": "en"},
+            {"q": "Frachtbetrug Spedition OR \"Frachtführer Betrug\"", "lang": "de"},
+        ],
         "severity": "medium",
-        "escalate_if": ["million", "€", "criminal", "arrested", "indicted"],
+        "escalate_if": [
+            "million", "€", "criminal", "arrested", "indicted",
+            "verhaftet", "angeklagt", "betrug",
+        ],
     },
     "Corporate Insolvency": {
-        "query": "logistics OR trucking OR transport company insolvency Germany",
+        "queries": [
+            {"q": "logistics OR trucking OR transport company insolvency Germany", "lang": "en"},
+            {"q": "Spedition Insolvenz OR \"Logistikunternehmen Insolvenz\"", "lang": "de"},
+        ],
         "severity": "medium",
-        "escalate_if": ["insolvenz", "bankruptcy", "collapse", "shut down", "liquidation"],
+        "escalate_if": [
+            "insolvenz", "bankruptcy", "collapse", "shut down", "liquidation",
+            "insolvenzverfahren", "bankrott", "pleite",
+        ],
     },
     "Regulatory / Compliance Risk": {
-        "query": "Lieferkettengesetz OR supply chain due diligence Germany fine OR violation",
+        "queries": [
+            {"q": "Lieferkettengesetz OR supply chain due diligence Germany fine OR violation", "lang": "en"},
+            {"q": "Lieferkettensorgfaltspflichtengesetz OR \"Lieferkettengesetz Bußgeld\"", "lang": "de"},
+        ],
         "severity": "low",
-        "escalate_if": ["fine", "penalty", "violation", "lawsuit"],
+        "escalate_if": [
+            "fine", "penalty", "violation", "lawsuit",
+            "bußgeld", "verstoss", "verstoß", "klage",
+        ],
     },
     "Operational Disruption": {
-        "query": "Germany logistics OR supply chain strike OR disruption OR cyberattack",
+        "queries": [
+            {"q": "Germany logistics OR supply chain strike OR disruption OR cyberattack", "lang": "en"},
+            {"q": "Streik Logistik Deutschland OR \"Cyberangriff Spedition\"", "lang": "de"},
+        ],
         "severity": "medium",
-        "escalate_if": ["cyberattack", "ransomware", "strike", "halt", "shutdown"],
+        "escalate_if": [
+            "cyberattack", "ransomware", "strike", "halt", "shutdown",
+            "cyberangriff", "streik", "stillstand",
+        ],
     },
 }
 
@@ -134,25 +173,29 @@ def run_scan() -> dict:
 
     category_items = list(CATEGORIES.items())
     for idx, (category, cfg) in enumerate(category_items):
-        print(f"Scanning: {category} ...")
         if idx > 0:
             time.sleep(2)
-        for item in fetch_rss(cfg["query"]):
-            if item["link"] in known_links:
-                continue
-            severity = score_severity(item["title"], cfg["severity"], cfg["escalate_if"])
-            signal = {
-                "category": category,
-                "title": item["title"],
-                "link": item["link"],
-                "source": item["source"],
-                "pub_date": item["pub_date"],
-                "severity": severity,
-                "found_at": now,
-            }
-            state["signals"].append(signal)
-            known_links.add(item["link"])
-            new_count += 1
+        queries = cfg.get("queries") or [{"q": cfg.get("query", ""), "lang": "en"}]
+        for q_idx, q_cfg in enumerate(queries):
+            print(f"Scanning: {category} ({q_cfg['lang']}) ...")
+            if q_idx > 0:
+                time.sleep(2)
+            for item in fetch_rss(q_cfg["q"], lang=q_cfg["lang"]):
+                if item["link"] in known_links:
+                    continue
+                severity = score_severity(item["title"], cfg["severity"], cfg["escalate_if"])
+                signal = {
+                    "category": category,
+                    "title": item["title"],
+                    "link": item["link"],
+                    "source": item["source"],
+                    "pub_date": item["pub_date"],
+                    "severity": severity,
+                    "found_at": now,
+                }
+                state["signals"].append(signal)
+                known_links.add(item["link"])
+                new_count += 1
 
     state["runs"].append({
         "timestamp": now,
