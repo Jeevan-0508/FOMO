@@ -33,12 +33,11 @@ No Amazon-internal data, tools, or systems are used anywhere in this project. Ev
 from a public news source (Google News RSS), with the original headline and link preserved so you
 can verify it yourself.
 
-## Screenshot
+## Screenshots
 
-> Run `Run FOMO.bat`, then open `dashboard.html`, take a screenshot, and drop it in
-> `screenshots/dashboard.png` — it'll render here automatically.
-
-![dashboard](screenshots/dashboard.png)
+| Intro | Home | Dashboard |
+|---|---|---|
+| ![intro](screenshots/intro.png) | ![home](screenshots/home.png) | ![dashboard](screenshots/dashboard.png) |
 
 ## Why "FOMO"
 
