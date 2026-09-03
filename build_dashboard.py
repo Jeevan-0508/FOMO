@@ -9,6 +9,7 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SIGNALS_PATH = os.path.join(BASE_DIR, "data", "signals.json")
 OUT_PATH = os.path.join(BASE_DIR, "dashboard.html")
+INDEX_PATH = os.path.join(BASE_DIR, "index.html")  # GitHub Pages serves this
 
 SEVERITY_COLOR = {
     "critical": "#dc2626",
@@ -236,7 +237,9 @@ def build():
 """
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"Dashboard written to {OUT_PATH}")
+    with open(INDEX_PATH, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"Dashboard written to {OUT_PATH} and {INDEX_PATH}")
 
 
 if __name__ == "__main__":
