@@ -6461,6 +6461,816 @@
       "pub_date": "Tue, 11 Oct 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-04T03:57:45.111811+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo theft surge exposes global supply chain risk - Port Technology",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSzBlajRqMUphNEdGdWJTWUFjcjVzZWtXdk1peWxzV1VtVVJtM0N1SjBCbWZ4b3djUzNPbXBUUjNiMm11Ui1XdmFHQWE5M1dLcGFwMFZQWmFxUjdlanNYZWVrMm13b21reXJ5SHNWUklYdzcwRk5ZZXlrU2d3d3lLU3FQdTYzckJpS2R6VGpTNlpkbE9Pd004T2FVTElJbm5kTWNod0FuUWEyVkk?oc=5",
+      "source": "Port Technology",
+      "pub_date": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Red flags raised over growing cargo theft and freight fraud - Splash247",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTVZSZ1I2OUtIcFJTY3BSa2FtWVVjMEJRTjFYeDAwNnJXbGZEdXk4WWY5RTAzcEhHQ3pDNEY4Zl80TFE3djdzQlFZWHA3cXZGb293ckRuQmtDMXAwbC1LRENUN2ctUkRfYkxXaEFudkJ4NWJYVEc3aU9WY1B6U2p0aXZRZ3d3T3VxZ2c?oc=5",
+      "source": "Splash247",
+      "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "The transport industry facing the biggest workforce crisis - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OSEM1aWdqTlY1eFN1Y0lQTWszem1Tenp4dU4tTVY4cF9XaUZISVpVT1B3QU5IRnlGWlhrYVNqcnVLR0JSb3VaaTNqS3lJUURLTm9wOU5LZTcwRGlneGRnby1UU0VUZw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 17 Mar 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Strategic cargo theft leaves drivers, brokers liable for massive losses - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWkRwdXdOclJqZnROTUVjTmhpaVRpZXZzRFo1TEtfaEc4MnNLZXdzY1c5aE9Kb1lDYU5HZkpSTlVFZDVrSmtYOE1BQ3lhR1RjTTB2SW9tZ2g4akIzOTBhYnNVa0NZWFRRMm8xNHVxRXhtT3hhVXk2MzVFSVBZS1NlVm11MVU0blRVbEVwcW8zbEJ2eEZGd0VPeWp3ck5aT1BfamQ1VUREQQ?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Fri, 20 Dec 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "6 jaw-dropping food heists that came before the massive 12-ton KitKat theft - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdF9Ec29JR1pMcTBoZzhQWG8wU3hvUm1IM1hhdGVxVTN3bUE2dGNkTDc5cHY4MVV6MkJDWVhGc1AtMDYzN09GbXZCaUpJX3lwcmxFcHpFSDFJdmt1UHJvbkEwMnpSckdJU1RqQ2xKOURLaGZXZnQ0NGtiYnF6REtVYl9YY2dpTE5VbGVCcEkzRVrSAZYBQVVfeXFMTlllTE1YejBmcW01akVaQTJQbE9wQUdUZWxqRlVHc3p0THpCcEZrb25GS2M1T2gzZko4WVdPMExUbFlLZDZla2FRNlkzMTY0XzdfbFdSRjJDRUNwRkpyVHRZelpEVnpuOGFYbWYyRmc4Wmdkc2ZUS2lESW14bW9jNDdFUkdNMzJPVk1IS29Bemk0OC1oV1NB?oc=5",
+      "source": "Fox News",
+      "pub_date": "Sat, 04 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "A Brazen Yogurt Heist Shows How Cyber Gangs Are Hijacking U.S. Goods - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS1VRbnJVZEN2aTBXckZiUGhzMmUzSVBQQ1dvQXVlOHYyTzZleGRWUjIxTkIyV1RlakkxaWp3OC1jT1lvbnRkeFBfb3lqNENVQ29KbDFKZUozTW1iYnE5Tk1zN0pyOFRRejFVMVdvWWdDY3M5VExHTzZNOTdvc003ZXZQZjRSU1hwLTZyUy0wVllXRDlMSVdOWmtBWFdPSEdMcW5lUHFHWXlHdHZ0azZFMnk2cEJOZw?oc=5",
+      "source": "WSJ",
+      "pub_date": "Sun, 24 Mar 2024 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Smart Container Market | Global Market Analysis Report - 2036 - Fact.MR",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93MHphTHF5WVQ2R1FYeUVMMzJ0SHM4TnBHTTFjMjgzbG9XV1ZCTUpuVU9taFhUQ1RVc09ubGF6eHhfc0MxRTE4VDFuQWRwcTY0cWZiM3ZFWVN6endVZlhRUWNB?oc=5",
+      "source": "Fact.MR",
+      "pub_date": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "The £205,000 Guinness heist: control who drive off a trailer - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZcTN6S1pFLTNvYzRIR3ZyX1JvOXRGd1liT0I4MWtaR0RpUnpJRlJvaW91M3l6ZEVOdnp1R3hzMGh4NlZnVG9zd0JrTy0wd3V4?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 04 Sep 2026 08:52:30 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "UK freight crime reports hit nine a day in 2025 - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpRmV1NWJMQkE5UmJERTI4ZElxWGNzS2ozcmhIeWJnbWZ4MDlYQzlwNjhzY2tkeHpMd1Fic1k4S1QzVjM0RGFLWTNBX04yZjJXaVVlcU9UM1NiTDFx?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "FWI: Freight theft on the rise throughout Europe - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkxQeVpFcHdQU09rRzJvRnR5NXgwUEFaalFrYXJZb21PelJmNTFxQlRXVFpUa0IxdDFaYmdUVGtkODNlWGNLYUFRcmJVVDUzN1VTemZXd2Vwdzg5YjNrNGFtcDlEejVlaHBBSnJlaHNXTmR3Mm1WZXZWS01pR3YtMXNWaHNTQk4y?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Wed, 28 Oct 2015 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "How private initiatives fill Europe’s driver facility gap - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ES2dDQVB0eHJDUTYxQk85eEJfQU9lUmFvTVQzTXVjb1dzZUlmWFRzbU9CcnNQWTlMZzJxdUFCYWc1TjBkX19TdENzX1l1S0VXS3N6RWIxMmRUekdTTlE?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Diesel theft in Europe is rising as fuel prices surge - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Nb3JqRHVHMkpVZ1lLTXE2SlFuUTF5LUxIRWt5U1c1VU9WaDZ4WThlczFITlBtRFRwY2RLbkl4MTZnSG5KT2RCTlM2NXR2bWVjT0FSQXNUTEtiNDA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 14 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo Insurance Explained - DHL",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSTlMSlhmMFRHVjRGeURrbjhENjJiMk5Mc2ZXcEY3b0hmbkphVjBHU0dpekctd0pTRVN1UHJhNGp2RkJ3amxHRHp5RmE2ZktFZlRGVk5yUnlWNHpzQk1WWU0yMkVTVTR3NG0zdXJPdTNkWVJQTEtpT0JDWTFTeU0xQkQxdWpGNEpTR3RLQlUxTTBtbndQbGkwMHRDQkZkYjUxU0h0dHdZUjVVb3ljbkw5NEc5cmt4dw?oc=5",
+      "source": "DHL",
+      "pub_date": "Wed, 28 Jun 2023 20:26:10 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ranking of the best manufacturing locations in the world. Guess which European countries are in the top 10. - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVtUjZBZUUyRl96S2dOLWZDNlJlaDBsZC15bmRRT0lXeWdPTGx0ZXdaWUtGOGNqS1Y0UlZLY3p5NE1ZclpyaHAySXh2N2FGVUo0NHNlbjZFVjRacTdzaUJUeUVjOHh3ejlQeXUxMXRHaTVfVW5qbUhWWExmaldCTTNyU3QwUUt3RUk2V3Q4RmRxWjNlTWxUbTFoMU1PX1djckhEb0R2YkdFc0FCcEs3OHU3Mk9qRm1lY21aQlUzcTBUaWVZdmpUU2dFbmo4MTQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 07 Jan 2020 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Drivers should expect significant delays in Germany and the United Kingdom this weekend - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeDlreGhsalVRckZuSVZNT2ZqdDVCTzhiMWlXNHRyQVNVcEFDN2FWRzI3RWpNUTJDS2ZEajRXaWxNdS1JWHhLWFJQUDdnaW1pV29zTGx5UDJHOVF3RHNOYldlcmpWZTMyajlha3dsWTEzTk0yWmVnbzFOQ0lJNjNrX2VzQnlXN2RXTDN1TklzLVdNLVVOVTdMYzNoc0c5Y3lHMS1VRXh4SDB3WnUtUjJlWTNfYU9wczA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 23 Aug 2018 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl: Millionen-Beute aus Sattelauflieger in Herzberg verschwunden - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNHhrZHBzUHlYd0R0TUtIeC0wSjJ6UTM4MmtvT2tFVXpVOW5qMWszejFXMldFNHNoSG1iS2R0UUg3SW5GVHNvbTNYdkxNZGZFTFM0Y1VwX00xN045MlFETHNkb21pYzlKUGgxbW1pWHU2X0tLZ3BIVjlwWDBISy1tSWdnQzBDSkVrcWs4bmI2V3lQRnhzeVB3Q2xmMjh1ZlNlQXBWM0pucjBTMXZCNUFpR1hyTQ?oc=5",
+      "source": "AD HOC NEWS",
+      "pub_date": "Thu, 03 Sep 2026 03:12:29 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Deutsche Autobahnen betroffen: Neue Betrugswelle überrollt Deutschland - T-Online",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbHB5eEtCbTBjNG5ueFk5Yy1UU0NPNi11TmJRNG40cHdXNU1wMGU4d2YzNDRlUEVJSDRlY2Z1UFp1T21lTHo3dXJpV0J4VlZ3cU9mX0JQc1RQWW0tMHJxRGRlQlczVFhFS1lhSFRwckJNTXFQdWRlbmxyN1I0cmN1T2Nrc3RCVGlEa0RkcmxUQU5FdzlLWG9WNFRzOGZVZGJ4SVQ3c21wMkJtbmF1UEE2R1p6UkFtc1RNVUFGa3hiWFA5VTYxMmNzT1ppNjdDbzBnRGc?oc=5",
+      "source": "T-Online",
+      "pub_date": "Sat, 15 Aug 2026 09:53:48 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Frachtkriminalität 2025: Rückgang, aber Millionenverluste - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wUGJLWEEyclVDS1NUa29WY1FXcWZwWXMzazZQblp0UjJSeVhxalItSFZHRF9fM3BSUDUzSk80Q09jdTlYd3JzeFVHd1FfU0c4bEJycC12bmRTR1BMbVdB?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 16 Jul 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Returnless Refund Fraud Detection Market - Future Market Insights",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdXpSYm5XazJGYm5zTjlLZ3JXR0dCT2lJcHBLVEc4NC1LdzhoTXV6bURBMTJZQmpDMDNMQUJhOUsyTjVlNGNEazNaT1pibkdYZlBGX1h2UnFsYWZzMW4zRXR0UGtBd01DaHo0WjhLU2tiSlJrdEc4bG5LdnBvaFFOQ3h2Y3V4T0hlckhVMVdB?oc=5",
+      "source": "Future Market Insights",
+      "pub_date": "Mon, 06 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "eFTI Regulation explained: what EU digital transport data means - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MUGJGUWUwY1RZempmRV9abFg2VFdfZ2VaVG90THFNRHg2aDJrVVBsUEphZFJta0gyS1M2QTBZd3FJcTV4eWVFLTNyb3h4c3lobzFUYklsSm1KMXM?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Daimler Truck Unit Says Bankrupt Kal Freight Owes It Millions After Alleged Fraud - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaElNNlI0eDRwMzdtallqOHVDbmo1T0JaaFkzMjhVSjF6d0Q2NUVEeXkwZ3BnVzg5TDVhQ0JTLWtuUHYtdE5FYXZ4REdKa1R2SlllWlZ4U3lKZmFJN1hKakZJeVlNd0cybzRuMk9yYVk0VEJGVFpLQzZVR0FnS1pqcFg0UDJGTDVwYjY1MUZOZzBWbnRmOTFoNkNZVm5TMkp0TVpPeHVvbjM2OEI5alBwekNRa0xOcGdNSW00?oc=5",
+      "source": "WSJ",
+      "pub_date": "Thu, 12 Dec 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Freight Intelligence Provider GenLogs Announces $60 Million in Series B Funding to Accelerate Commerce, Fight Fraud, and Make U.S. Highways Safer - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNMVNkYzJFSExuXzVNWGx1NVZfcEtIQ3ZUTUIwN1RjMzY3WEtvYUN6STVzZFVCa1dHY2RtalQzUEJKeUp1OHNYNkp1cThOQjJJOWtmMXVfQVVQdFJUdnhaNTQtcGx3cm9xMGRPMGpoaFUxdy1IUV9DTzBTVEJJSlJuWGdjWGEwVFR5VEhCaHpFTEJ2aUVzSUxVajh1U0t2YUY0UzZwSVVQbDFoUHJvUzZyVkNYSC1JaGcyUmYyYktxdWVZMWFMTzk0N1NUUndBMmRXQVBuaDRISkFSMi1udUVGTXlqYkhUZWh5Y19FVE9YV3p4R1NhLXQtczdCekZVVGhuaFZNajZBOWV0aEhWRnN6SmgzcnJ2aXVKbnRmcXRGWU9zZw?oc=5",
+      "source": "PR Newswire",
+      "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Italy seizes $49 million from DHL unit in labour supply probe - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWxmWXlKZWtMSXRKTXdtX010MGdkRGxVNFJSYmVDUTRrb2xzSDdYNEloU1ZUVEhtODFlWVNBVEZrTUM1MEJGdHBiNjRTVF9KU212QTJiOENrXzJtOWU0YzJNR3Z2ZE90ZFdPTGY3WkZiT2hIekMyRTlUN0RFd2NZeWFVUHVieUpST3RVY2xWbWRPRFJMTFh1akxxclpNLVFIOXVV?oc=5",
+      "source": "Reuters",
+      "pub_date": "Wed, 26 Feb 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Relay Payments Now Accepted at Pilot, Flying J, and One9 - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcDZQekRDLVFHaGZHN1dKOGNKcHhIdnBzRWk0ZmhjY3gxbVNVWnE5THpSeUlfd2F1ZXBFMklHLVpheUpXVjNxcGRvSUZXWkZ1bm9SSWlaanlNYllfeHBVMWEzYVQxOFRPNUd6UGg1NEVxNUEzVUVQSUtqY0pUTXE1UW9mU21DRmRKR29Fel9GdkM1UQ?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Wed, 04 Feb 2026 04:40:04 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Carousel Fraud: EUR 42.8 million in VAT evasion uncovered in Italy - Eunews",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTmlzN3hWR2k3X2JpRm94S18wbm0zQlhOR19Cb3d1ODd4aTNvUE0wWWJmbXFCN2FtR1N3Y283NlJPajc0dGx1dEdaSThfQ3lvNndqS2ZEa0dTQXN1RE90NHFxYUZmRmdDZHphRzZaZElhMmxHMVJlc05CNHVvSzBQV2NLbzFuUWhMZGs5ZGIyTTIwNHZ6ekVXQzFYVVVaTzBiZDVhbA?oc=5",
+      "source": "Eunews",
+      "pub_date": "Mon, 06 Oct 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "DSV clears final closing conditions for Schenker acquisition - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcXYyRkJoeXBDeTFPNHdweVFNUkxOaUVtaTNHOGRkbXVjdUNUTklXd0xtT3RoanBLa1NkS3ZHWGZOQ3FYN01aSTRiYmUyT3RVeTRwb3RLamkwUkdMZ2UtQVpSb3ZGWkhhdnYxWVZpQnJhSmQ0MmJ0c1RSWDhMTEFzNWZHdjd0eVpTYVJ3cmliX3lTTTFzY3R0aGdB?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Tue, 15 Apr 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Italy Seizes $48.4M from FedEx Unit Over Tax Fraud - Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbDJiTHVtMFE3ZzZLLVJQaDZ5UndQbTA4YjlPMTk0Y3NiWHFhaXEzWXBRUWNTdFRTYjRPTjEtZU14ams5VVVJMmZLRUFVdktEWjl1TWpSZlcyTmtBWDBkSk9nU2Nmazk1UXNxTXZuWlVJV0hWcG15QWdHSDZvVTBOWXA3SmNoQUp0a0tRZlRoU1hRMm5YTm00UF9RSQ?oc=5",
+      "source": "Global Banking & Finance Review",
+      "pub_date": "Wed, 29 Jan 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "OCR updates ID document authentication toolkit, targets online age verification - Biometric Update",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGh2YXlBNE9BVktHb3h1OWlWbzFEcGREMFRpa1hJdDNpdzRfd1hfajNiQlhrUVdIR2FSNnVlVTRJS3l3bXlWMmNDcFRHVFA2bDgySUN4OVc2STVEaEkxNV9OMjFPVUMwUDkzdW0wM2pDaTJONkNVZnZ5bXFLNzRfQVRfZ240ZFZYQkc3aE9LdVd6WXRucl95R0NjZVRkaFdYQjdXY2JyQ3l5MDJJZ1o3OUJoWjdILU9x?oc=5",
+      "source": "Biometric Update",
+      "pub_date": "Thu, 19 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "UCO (Unknown Cooking Oil): High hopes on limited and suspicious materials - transportenvironment.org",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNmtWTGtUdHB4Ynh0X0JOVXhPbzhiazV5WHgwZkprQVFDWGtULXBEeUVITU9meHJIRnM4bjVRU1dueEtMZHRtLTNkSXhSYVRTbVZLR21FX2kyS0ZBZ1d2X1huLWNlY0hfSkFVRFgzYlZJWXVuNFN6d2VlTkp1ZXBfakI2VmZIelYtb2hrb1hManNaNWlOSkJMQW0wLUxOTG56RlpEbkFHWVBZQkktUEFhbEJLT0lRdmc?oc=5",
+      "source": "transportenvironment.org",
+      "pub_date": "Tue, 18 Jun 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Waberer’s Group reveals its name is being used to commit parcel fraud in Germany - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90UFpSZndVWExhSldjWmowVTVQWTRSWXp5bzlSU2VxTGdPOUZmVHlYSmR0X3AtMC1ILXBrR2NueUpRZWY0ak15U21tT01ZXy14WEtGXzk5UWJQSUtLNlg3THJ2a2Y?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 24 Jul 2023 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "DHL's Italian subsidiary investigated for tax fraud - ca.finance.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSkJYemZfeW5yZUUwV1ZBTmlFVzZtOXJJeWppcm96UmU0cENZN05ITzB3aXRBOXB6TTBnN2VueUdhN2FiM3BDeG5SNkVjZGdEUDhUaW9Jd3FRcmNPcElIaVhqZTNvUU9JbzNpMmc5aWhGMDM3Q1ZIS0dDN1hBMjhVWnc1V0FoamY4QUNYTFN2R1lUa2M?oc=5",
+      "source": "ca.finance.yahoo.com",
+      "pub_date": "Mon, 07 Jun 2021 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "January cold wave reveals structural risks in European transport - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDWUthTFdYTjdDbFdsdTlmLUZZNzktZHlVUno3cDJBcXJZYkJwYS1UclBzdUtsQUg4U0RMZm1GdTEtT3VMSFBJY3RhSmxFUHVDbkpRbEl4b1JIR0wx?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 05 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Logistics software company Descartes Systems Group buying Tai for US$100 million - CTV News",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNWFURWotWXM0QXNBUTVTcl9rODFSTEdxMEpqdnk1UmhRbllzalpHalNsRDB0NGd2ODloSm0wdFA5MXAxWjdkTi1DN2VjODI0c0JWUDV3WHR2SHZJTFlIRGdHa09TN1d1TnFJaE04ODg5VkUwUlVieENWSlJJdlRFVWprVDdZenlmQk9FQmtyeW1aOW5iblRZSDhpQjBNNWdqRVdfMkdDbXBFX2NwMW56bTFwUWN2M29ZRTJlUUttMjZOSGdGZXVubjVTUGg?oc=5",
+      "source": "CTV News",
+      "pub_date": "Mon, 24 Aug 2026 12:05:51 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Peugeot to be prosecuted in France over 'dieselgate' - businesstimes.com.sg",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZTdXQ1JuWkRubHhqQ1hkclFuRWtzTFh1ZV9VeVZsNERYUDh1ai1mQk53TGtUaFVCbGhmbC1zY25nRkNFNkhvek5ra0M1YW5yVW1hcjk3eDdTZV9nLTRDbHFyMlRCcnV6VXpQTHlRWkJNLVJGQ3FWcU91NDNneS00cmt5SDVvSi1TQnp1UGdSMDZJanZneDgtTWZPQ3o2U0s0LWI4WE45SkJmb01COFRaRW1lOTB4aXRXalRpcFJB?oc=5",
+      "source": "businesstimes.com.sg",
+      "pub_date": "Wed, 09 Jun 2021 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Second insolvency filing, Helrom enters liquidation - RAILMARKET.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWVhjNjZ2M2U5R3ZSLTIyVloyajk1N0pvQ0JsUzRPc1E4OG1OR3JsY1BlWklFZ1ZEQ05XQ3RvLXg2MzBxRDZ6bG85elVoSzhnSUJ2eWp2R0ZvZ3FzTlhEQ2JFeHc4YTM2d3J6a2hLT3I3cXRBNUdNMGpRTWtpZlBSMGMwUVRFN01PWmVaN0dqZXJCTXpOSUtjZw?oc=5",
+      "source": "RAILMARKET.com",
+      "pub_date": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler Belgium collapses after 118 years; rivals move in - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81NkI2ckE2QkVEQnQzMDd4ZUFfaGo1TXloSll4TjlkM2MtRWJDWGZyR0pPYkluT3JoXzZUNFhxdjgyQXdhX08tV2YzamxnOGxHRklHaHRpMVRlRjQ1cmc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Piggyback producer Helrom files for bankruptcy amid funding crisis - rollingstockworld.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVTJoMTBsR2gybVM1ZFFYcDF4dDdIZVBTYzJkQVVOSlJkT0s2VGprUG00NFdaYUZDUzd2ZG1KMG4yejBsbFRlR3labUJ6T2ZjS3c2MHBlM2ljLVJ3T3M5ZWlMd0tQQTh2RHRvSWE5OVFqaGg0ZXBFUm1kVzNnS3M2cWFsc1R1Vkd5UWJCUUF1NmNJOHhONXhNSV9CU2FrczNhVnlGU00wQUFGZEYwR1Z3?oc=5",
+      "source": "rollingstockworld.com",
+      "pub_date": "Wed, 23 Jul 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Volta Trucks announces another insolvency - electrive.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZW5yRG1CdFhxU0huUmVhNk0tckFDem16cGlxRjl1SnZkRlhjWXBfdXVyRml5QWhZQjhuY0xNbVFUY3JPZzVaUUFKZHNCSWdmY1VBdGRtM3lERTZwT1k0T3Zzd1Fmc2xMbDZlaDY4VWVpZjdXeXZpNGJIVVpsT2JfeGFrMDRKUQ?oc=5",
+      "source": "electrive.com",
+      "pub_date": "Tue, 06 May 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Shareholders in insolvent hydrogen truckmaker Hyzon finally approve company’s dissolution - Hydrogen Insight",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQURuNklyaE1Eb3RWSGhpYWRIbnRRTjBmMi1NeWJVVXJwOEpQTm1mWXBWTFBCLVk1MnR6ZFV2NzF0YVlSWFRLVVF3ZGw4ekZDcGRNTEtEN1JDWHdlYk1adjloQllaVTBQY2I5SVBFaDlTWmFlT1hoNTRPdy03YTBFU0lZMlo3endhdVJYMWo5Q2VXbUtEMnVtNktIdGVDSndGeUlocVVDMUhaVnBzaU13b3pSVXBYQU1BNG9mdW5SZnFnbUFFNW9KNEJSRnB3ZjBuRHpMQ0NydFFEelk?oc=5",
+      "source": "Hydrogen Insight",
+      "pub_date": "Wed, 26 Mar 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Vos Logistics boosts profit as takeover nears completion - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51cURjalEwcVZKb3kzT01WOThTRE54bTNSM2FTaW1WTW5WeVNDUHQ0MzFTaXlWOTluMTNJWTFtTkh0S0hLamhBOFliYjNhN3F3QnVTN0x6LUlmakZBRFE?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 17 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Why Cities Can’t Go Bankrupt in Canada or Germany - Governing",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SSUhPZk1BYmtXeVFCN2NQVzNWRlVvbF9WQjZGRExFak4zOWZTNUhVQ3A1WUFaQWpZa21JUVYwLV9yVjMzWFBvZHNKSm5uVFZJMV9YT2UtbW9hejIydXVWUGQtbnNScUpiSk9GWnFhcGJ5SmlFZ0RF?oc=5",
+      "source": "Governing",
+      "pub_date": "Mon, 21 Apr 2014 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Scandlines Cancels Newbuild Pair at P+S Werften - gCaptain",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNnU4MkRfc1RtU0hQdzQ1ZkU2OXEyWWpYM29IN0dKVUpXUVNaYzJYYnQ0WDFFNlhUakVlSTAxS2ppMnJIa2RsdjhDdE5DRGpOOXp3aHpucEtHa01xdTRlUWdQM0JtemRacmxJLVVJSWN5WHZ1aDZ2eUR0VEU5bVVwampncw?oc=5",
+      "source": "gCaptain",
+      "pub_date": "Tue, 27 Nov 2012 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Roth Logistics stellt Insolvenzantrag, 38 Beschäftigte betroffen - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVTlzQTRoZDB3RmhTUzZza0NmTEZaaE5vWGFDbjFwd29samkzaWt2LUVONk82dmxpX2JnV0o3MTVUeXhNSDFJQWxMeFJKcEtzaEl3bHFUZkFuYzhfQVFYVGtaTzY1UVZITU1Ca0lRVDNpTzZ6OHVIXzBETDZ5STBIdUc5MkpDWkxsSC1kNw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Betz International meldet Insolvenz an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd3lPMHBZTk9LQ0NpM0RvZTZCMVU5LVQxLUZaNEQ4U09xN3o4TzFOYjk3R1lOTnpjbVREeUlsM0ptVUJTQXYwUFdlUEdCbGZjbVZieDJQbjRYeWpyd1BieFBmMjdtSGFYR0p0aGFCNkN2LWpITDIxSktyNXI3OElpbHVOMkU5Qjk1SV83QzJGNjE3UXF5d010bGZZM0gxNlNldUlZZDk3NC1jUGRsMWtN?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ungewisse Zukunft: Mainzer Spedition unter vorläufiger Insolvenzverwaltung - Allgemeine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaEVaeG5WYVZiTURnRUlQSTdQemRsdTZoOHR6NmdtTmpoMlZ1QktSU1N0Q2VrUHFES05LTS1pSTluTjYzbm5ibjNKcHgxVERpTF9QUVRLWlJzLUg4NWMwWVhUSlA2Mi1rODNZUFpTVFpRVnBkeldveWlNNWw2YlBJOTVfOFpkdERHei1EWXhHMzY0dmttZDQ2YlZTc0JYT2VwNllWanF3akFmX01LemNJd2JjY2s?oc=5",
+      "source": "Allgemeine Zeitung",
+      "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Leipziger Logistik: Aus eins mach zwei – so gelingt Neuaufstellung nach Insolvenz - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUJZN1hBSmpONjJyRDdvbHNvcG9JRXhFV2JZeEM1SFRFTElIcUNsNXB0dV95YlhmMFVGS2l0X1FobDBpVXRPMzBLWHg1cGk5SmtTcjg2WHZTQ0M5VnZIZ01hQVE3Z2RBRnRlT25DMDNuRk1JVUpEZFRRRlB4TkJ5a3A4VjFFMDJBVE9MTzZIWG5uSnN4cWg4bHdSQ2hhTjEtMk1qbXlUa0kyNVY1eVE5SGNnVUpjY3VvLVFIbWdkLWg?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Mon, 11 May 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Spedition im Sanierungsprozess: Betz International kämpft nach Insolvenz um Fortbestand - Logistra.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTFJZVVNNUItOVc0VHQ3M3gxOURmQmE4M0t5RDFtVDVRbldjNDBNUi0yRXVrM0w2NkxmZGpxX1QtUWQxX2txOFdBUlNkQ01oZ2ZidjdvS0pncWp2Vy05dnpxTEFHMFhSOGtZdTRDelNyM3JxRkpmRHN4eERlMURtTm1TWVhfWENPSXNZN050dUl2VUdPZzhmQk9uWXBWSnNON212Yll0Z3NwVUlMVUtnYW9VZmVnZUlIekdTTE9kbXNLZw?oc=5",
+      "source": "Logistra.de",
+      "pub_date": "Thu, 28 May 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Die Notegger Transport Logistik GmbH meldet Insolvenz an: 36 Millionen Euro Schulden und 400 Arbeitsplätze gestrichen - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOVWR4M1pnUHEyM2thMWVKOENySFphSVJ3ckZMb1VwTjhBN0pzSzVnQTM1Vi1fWjRvcjl5TTExdy1nMTc4SkxzWmc1dGR1X3ByQVItdjBHZk1tVUZCYXNUOFprUjA2MjZVcUFzZ0RodkRBX3gxc1RZWThiSld1M1VmWTB3SDJ3TDhYTlZFVkZxSG9kS09hNUZ1QUh1ZmNLVENEX3lTLUFZZ3hRRFJCLTk3ZE5iblRUQ0g1WVFERWFOVU9rYzJQcm11dUkxajRhaEw0d1BFVUM4djVaNWJjcG5IVllzNnotLTJUYThtMEpLQ2lBM0RKcXNwNkdfMlA3RE96REgxbHFvTUg1WFJzb1M2NTdLakxKSDJBM2c?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Warum immer mehr Speditionen 2025 in die Insolvenz rutschen - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa0xrZ25qa05vMFZTV19NbDhCMFlYYTRGeWRBZzlyYmNWSW1oWlh1OUhUY1RkYTBOZG1sblFhQ19USUZBWmxlR2NNUVdqNUVkdXQ0bVRVQTNhczd1T1pJdHFuX1VHdjlzRDhuUGJzZksyVXpWcnRIYUJjUUM0b0lvNDNtcHlFOTZYTFdFVzI0cHJCa09T?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Wed, 28 Jan 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nach Insolvenz: Großer Spediteur gerettet – das liegt an einem wichtigen Punkt - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOUdsMWdRVWNraUlNRm5KN0pLWXJQX3hhTlFuejJVYWhnajNWY2JJOTNha3R5V0tyVGZXeUlaZ2NOX3FXYnJFZlBUVkloUUJ0R1RfRW5fWmpZRDFDQk9hNjZMX1ZyS2FRSG55WlBJN1NBWm56ek5sbFZ2dHA0MllHV20zdUdXRWFFWm9rZUkxX1A1V0lHTkZEVDVHNDltT005eWlz?oc=5",
+      "source": "Merkur",
+      "pub_date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Traditionsunternehmen in Schieflage: Betz International rutscht in Insolvenzverfahren - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUhIdVVaTlBmM3pVNldBUFNIalFjTXltTlg5ZWZrNW1rSzVHR1d2QWFSckV0Zjh1MzJST3MxTmtCVnVPZUZzNWVUdDZNY0N0UGNiOFNWNVdUakNlWEItVjlxNGktdkttVlBrZHFWeEVmZzhMYVJzb1FGdWpudldQdkYwMmVDdE1QNWFXcXB1SFNjcTNPYmFtMElkZ0RON1dTcnpyQjhCaWY5cmlnczFXQVNLQWxSdnd2QUdwdFRBNE96U1B5Q3c?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzverfahren: Die Spedition Konz ist gerettet - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc3Q1RzJ6ajhfNlAxZTE4OVNyRWRDTGViWHhFNEg0VlFuYTlObzZVMjFEdGtFdUVqX05mYTZ2XzlDRG5Ick1IN29uaXVfUHZDSGFBNXQ1QWVnbkl0TUFiYVBna0xidENwY2xWR1FJc1c1cTQtRUFhNWVRenl5aGpFX2lHZE1CYXpUS0M5R3IxY1VPNGJqb3BVY3BTdUpobXVvbi1hZm93?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Mon, 08 Dec 2025 08:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Euba Logistic unter Gerichtskontrolle: Kostendruck wächst weiter - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE50RHd6MEI4Wkg1ZkdMWDdGWkYtTXUxeWZ4QnA1MVZkZnplS1RGa2lDTzN6dTczcVZEWkk4Rk8tQW45S3dUTVd0ZkFnbWJjREpWU3FoT1FkQ3FaZUt4Ry1KTnVIN1RPeWp3VzNjdWhqOHU5UQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 08 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Euba Logistic in Angermünde: Eine der modernsten Speditionen ist insolvent - MOZ.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeUg2N19qSVg5OFFPSmVDYi1YVnlQSnBNWW5WRGRFalA5VUlfQU83VkZrZ2hGcDcwbkdYOXpERmR6RktsVVlwd0p6M2VjaGZ2Zy1NcUR0Rk5QY1UzMFhfVVZqRlRpakszYVZ6ZU9waVN2eUdOVWFXTGpMM1Z0SVBfYnI0UWFidFAwQ25JX0Q1RURQcmxwekJNTFJScnVjcGZmaE5ldEZGVWRTZlNScjlCbk44Y2U2MHJvOEVmT0ttYnk?oc=5",
+      "source": "MOZ.de",
+      "pub_date": "Fri, 08 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Fusion: Spedition Leupold in Oberkotzau ist gerettet - Frankenpost",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMHBTblp1a1ZFdlI3T2N3OEozYmZWdXdULVZhVER3dXBpZEVlTl9TMzVBbnVzU3JWd2dpbGJyN2tlQjVzQjl1dS1iS3VfOF8wa05IbDMzdVJmSzRuQm53WXZQazlXQVhwQ19PV2JtdlI0QXVNZ285YTJwdW1ZekZDcUtuZXFfSS1vYTBlVlpWaWRzdmtZS0IxMHFoVEdsRFpmUC1Cc0FmVkU3OVZzQ3lvWGRuaHRpQzR3SlBhdzc4WGZHZ2treVNvRWxldTc?oc=5",
+      "source": "Frankenpost",
+      "pub_date": "Fri, 19 Dec 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Millioneninsolvenz in Klagenfurt: Konkursverfahren über Transportunternehmen eröffnet - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2V6dkhRX0ZGR0tQYlRQV3ZuQ2hxclNKb1Q5LW03RWZBa0Y5cS03enpUdWpCV21pckFjNWh6Rkp1ajcxZjhvNy03U2NuS01QREZwMThWcWh6aDRPUWFBWjNDQUM3RERDNUczS1JvTEpPWXRZQXBpeVE0VFd6ZzNYb0ZVM1l1aWNBQ1lsSE9wOUtnOGdZOHcwMTZncF80Y2dtWlVwVUZGYy01aTNscVE?oc=5",
+      "source": "MeinBezirk.at",
+      "pub_date": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Wirtschaft: Manz will Insolvenz beantragen - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUlJlUGxnX241S1VVVzBUMEgweTBKX0dZUHA0WVZacFBuQkZpR1VoN1hhX0g1V1EtQjg0VGJUcTlNRENxY183U2VWU3Job3ZpdF9oVzBDTFpNZk5GcXNiLVhhcDVhLXlJMzRUSlJ6M0xXRnlad19MXzJRM19nU2ZzV3ZVYTRoaklkcHI0UjJZb281U3JhVHFsTjlEX01UNWlHYW8yWmZHOGhXTlJfWTVNQnZyTQ?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Wed, 18 Dec 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "144.000 Euro Schulden: Klagenfurter Transportunternehmen insolvent - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRXVSSy01eGx2QU8ybm9NVXN4QjBfVDVRajNPdkRyeDIwSVlzY05ydmMydEdkRTJOMzUwSDZJaFF2bW44S2dyeHRieEQyYVVPNklJN1otaEx2R1ZIendMVi1DSjBFRXJfTTVzYTFTMzVrbW1KRHpzRkJGckNIUUYzSFZMSUR6bTVoMHA3TmVzaTBlaExINnRMenpvUkV6SENKeDlScA?oc=5",
+      "source": "MeinBezirk.at",
+      "pub_date": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nach über 100 Jahren: Traditionsunternehmen meldet Insolvenz an – Geschäft soll weiterlaufen - HNA",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRGxyQWRJVmNEajJDMXA1alhzQ2VERVp2R1lOVHgxRWp3ME5qaFBxdVVfWWNJNjY3dmtsWU12S2tHbUtJeG1SU2FtVU1IcGZ2ejlReEkweW9MR2o0RlZkVDFPV2czZnpYTE9TeC1zckpqdU5Ob3VHbkdIMDlYcnFQbFVLamZybjNmUEdwNzhYUHJ0OE9EYzFjemV5UVFJUkJIQ3A5Q0JGX2ZnSEdUUmVWQ1kyUV8wZzZtQnQxVHJqQ283TWFON0lzSDdhYU9FbUJ1?oc=5",
+      "source": "HNA",
+      "pub_date": "Mon, 07 Jul 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "A Gap between Social and Ecological Rights: A Commentary after One Year of the German Supply Chain Due Diligence Act - PRIF Blog",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUlJBWW9tMzh2alpQY3FiZjNIUVJQRzRsdFNQcXNnTUVRYW5KM0dDY0pkT1ZUQXdfUmpaMVE1NTJuT3g2VEVMNWtpWE0wdWQ2bzNkX1lXLVFqcG92cElwa1U2WnNZMV9LMTU3MWpIVTh1TzV1OUhnMVQ4NGNKbGd2a2tkbldPZG5ZU1F0UmpaM1hCT2VTY2lsTGJ0QXlObVY3UnNWNkJMY29wb2xGU0dyR2J3SkJ0d1pLQ1Y4NDZ2Z3NYZXpDUm0tamxNYXVOdy1sYk1CRWNTTmgxcWJQYjY0R1ZlSQ?oc=5",
+      "source": "PRIF Blog",
+      "pub_date": "Thu, 04 Apr 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Corporate Sustainability Due Diligence Directive: What Companies in Germany Need To Know - Skadden, Arps, Slate, Meagher & Flom LLP",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdVJzZU1wbUU1M1owZnJXQ2M4QkRJMGpxVEE4czExdHV1akRJUG03b3M1a0UxMmtNb3R1UDVkU0t1SG1iMmRiYkc1VkswYlAwamRNbXk4ejE2bFF2ODR1elBiTWR0SmlYQVRzUVROM0dMelFqWll1emp5Mm44Y3FFQjh6N1VRZXVWWmtCeF9lNk5SNnZvUFZTU21BVTRBUTk3dlFEaw?oc=5",
+      "source": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "pub_date": "Thu, 25 Jul 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany passes law requiring corporate due diligence human rights, environment - Jurist.org",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOGxoZHFjUl9NVEFGbnYtdko0V1UxZVNPUmwwUHR5bndQaGZRSkhXbGFLbDZadUxIQ0UwdTFPRF90M3A3WjZMTUJTZHVQaFJvR0U3LWhad1VURUoxelJnTU9fLWYxNDY5Y3ZCcldVOXVxWWd3bER0STBSVDJDczFDR2VTRnlsVFBCcHNEbklWSnZYRk5CREFWaWNNTExqU0I4RXZIOEpnZE1WNEIzS2FfWGJ0WVc?oc=5",
+      "source": "Jurist.org",
+      "pub_date": "Sun, 13 Jun 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "South Korean Bill Takes Aim At Businesses And Human Rights - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORjNkWHQxb0xCT29namx1T0JoSUp5bjdPYXVDMlhPaUdyNXdZUWdETkhBcTJhb3k4dUx2R0lDZEoxcm9MTjM0T1RnVlhmc29wODFlRjNsc0ZzZmxLYWFZT2V1c29yWXFSTnRfcVBuVjRFbHg4eEtIUVVVMDN1Q0p5M1ZSZ1pxbFF0N09pcE40S1hKNHhNUVJrNy1KSnVxc204Y3o1ektzUndhNDRiOVJr?oc=5",
+      "source": "Forbes",
+      "pub_date": "Thu, 17 Jul 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Supply Chain Due Diligence Act | Dr. Oetker Press-Release - Dr. Oetker",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UVV9XTDFwY2VxRXlHeWJWQ1ljc3AyR0RDUTRSSWNMazJBcERHNzVuRmN3UEhaZ3dUWjRteXRnQWhfS3FfNFdjcnh2cldRMG12c2Jnd0E0M0Z3aURYM1VkNEZMZWxCS2hFdXpv?oc=5",
+      "source": "Dr. Oetker",
+      "pub_date": "Tue, 20 Dec 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany - Corporate Governance Laws and Regulations 2026 - ICLG",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdEh5azlqay1mMzRhd0d6Q29DbzRRcHpVTWFfeFBwU2duZmdzOUNDeGNOR3NFNm1fWjI3WGl1X2lycFdzbXdmdUZIT0hXMzFfSVJiem5LMXdiSUloeTh5dmdLZnZvVldqcUh6RGNFcXB0YkwzUmk5dlpJbnRrVkFwSW56S1NzZVdQVXc?oc=5",
+      "source": "ICLG",
+      "pub_date": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany, White-Collar Defense and Global Investigations - A&O Shearman",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQ2tQRDJfTUp3dG0zazlTX29YUDJXWkZldGtrNlZNMWlSSUYyQmtEZVlKSTNWNmdKUURudC1nRmlidUxRMW1qMllhLVBHSW9YWkhhNkFwVUpleXVxU2N1S1hLSDRyQVpqTEZtXzBiXzFHMTZ0eC1wbXBFZzA1S2ptVUpjVTBaUGpOd2RERVcyN1NLcDdpYlNsRWxuNlRWVTRpZ0hqVHdNZWl5MkI3ZzFHWHVUVW9la0huVExiYldMTlZMMmY2UkVqR0pkMXlCZFZYSldwMGJtT2N5T3JaQ3NnRFl3Q2czdmRyTm0zUGJFaHFFMXlkNExHYXJENG9SeWt4MGk3NFJMMjR5M2EzNXZpUmxSQzQ?oc=5",
+      "source": "A&O Shearman",
+      "pub_date": "Tue, 28 Jan 2025 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Swiss usher in corporate reporting and due diligence mandates - Pinsent Masons",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa3pzVU9LU18yWVhvMzlGaEc1bXlWVC1YbERnaUwtMkZqaG5WRF9kZ1NLZ0pLaUdQV19aaWotRV9wSXp5cVdoWFBtMmRVUGs2aGZCYWpOTnRYeTZRZlp1b2pzVU1SRTY4cUU0cWlxU1BNYmVURnIyN1k3WTY2S2dId2RWS2JDcUVMRDM5SjN4c2pFWTQ3UzJBbjM0ZlNndEY3ZjdrNFg5MA?oc=5",
+      "source": "Pinsent Masons",
+      "pub_date": "Fri, 04 Feb 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "EUDR nearing completion: Commission adopts final legal acts on product scope and information system - CMS.law",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaEYzXzJrS3A1c3lDb1JIY0hBd0lJdzY2RkxLNEdjSVhHbHFXcFJBV0NPVXFQeHVoSzdybVRXMmxLdl92cWdmS1NUZDNNT09vVjdYVHp0THFOeU5Kb0hZV0NUWWRNNF9Kbk04bFZJN2hXUkt4SzdTRmlQam9Qc0JWbHVaRTVUbjh6T29rNDNjWUZnS1ZUclpSa1o3M2J3NWNXNHUyVUFldzg3NXVSN29MTkNiV19Wblc4dTdFLTdXdXYzNm0zYlF2ZWhDR3RlQ2sx?oc=5",
+      "source": "CMS.law",
+      "pub_date": "Wed, 13 May 2026 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "The application of antitrust principles in competition for employees - Deloitte",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc1NYd3RjWWZCUjVTWWRtbkFONVlDMWVoRnNZN0tIUHRtVVlEb0NkQkQwYmNEdzFEdXBmZGEtQUE4VnBmTHp4N194RzNuOGg5TXZHUFVpc2hsWWJzdjhNUy00LW1US21rR19QOGpxa3BRVUcxVU85LUZXWkxXRHhVN2FKV1h0Z3dCbmYxcm9nYUV5M2ZVZElqZ3NzaElYT25fRjBpNEtLWENubjd2dFhfM3U0OXlJV2lraHlkZWhfQWR0bHVfRHNnWjdn?oc=5",
+      "source": "Deloitte",
+      "pub_date": "Mon, 30 Jun 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "“Textiles Embody the Essence of Capitalism” - Rosa-Luxemburg-Stiftung",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNHQydDl6eG5zcTZvaWg4QzFKdXZuaWFTYXQtVHdCenVhVkVob2xpRmJkYUYwQVh1dmd5Y2VKOEVhdGlrT3ktVjcycHYwX2lFUy1manpxdHJyZlB4V3ZTcWlJMnpHdDdFeGhBT1dEdlAxaFVWdnRzSGlrM1BDVzQ4RXFiZkRXRm9J?oc=5",
+      "source": "Rosa-Luxemburg-Stiftung",
+      "pub_date": "Mon, 03 Apr 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "EU due diligence key to sustainable RMG business - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcjZhNDhGVVJLWVVLaGhwTThGa09rbGpvT0xPTWdRTmhueWplZmZEZ2FwNGZRS0JCYlVtdW1qMjFvSS1qTW1xUk9Sc0ZBbzg4OTdkcjh3ZFdRcndob2FpU28xNzlYdndqdUR5di1WMVVkUEJLR3gzak84cG9hSFFGMXd1TnFTUFotWEd2dFM0bXZqalFSRXlnMmowUDY?oc=5",
+      "source": "The Daily Star",
+      "pub_date": "Wed, 13 Nov 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "ESG Lieferkettensorgfaltspflichtengesetz - Gleiss Lutz",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFgwcHY4TDRKSjVkU193bWktY1JzbFhrY2NZWmZLLWxvdE05UHFHOC1PWWtLcHBKNmRBODNnR3VtU24zNW5wS3Q2NTRwd1pVeTRlSHF4TzdvMkNoOEZFb0VISlZzN0JMRE1SY3JhY00wN3BSek5tWEdKRjNTYU5FWHRna0lOeU9kMkZsZjNWdzhPTXZIdnJCSUZiSUJFQVdlUkoybjZTWWNidw?oc=5",
+      "source": "Gleiss Lutz",
+      "pub_date": "Thu, 15 Jan 2026 00:56:15 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz: Bundesregierung kippt Berichtspflichten - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdGVIa0xheEZ0VW1yZXJiUzdxWUxFSTNnMVZGZTRBdFRUdHRGcW5xZFFRVjRWREdnMm50dTdVNEFFSm8wUmFPYmJuRTNYaHg5MzB5amtkZ3hTYjFGWEhpN091MFdJZ3JqZlJpUGtkemg3T0lSVDF2N05mWWpJSTFOME1ZSjllTTVZMGZLTzdvMnJOcFM1RHBaZzVSZjRWdGtvNEpN?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz in Deutschland: Das müssen Unternehmen jetzt wissen - EQS Group",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1ZUhjVXFDckU2M2VfTHBhTUNUYXMwMmxBNGNSRldDblItdV9zQXpPUGRYYkJXVnFqb0x0VHNIa0h6N3dteE1Bdkh5aU9xcktHckxyR2FTYTduVXY5d2VUZGd5REtBMkxZN09qaUdyN0NvR2c?oc=5",
+      "source": "EQS Group",
+      "pub_date": "Tue, 18 Mar 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz: So setzen Sie die Sorgfaltspflichten um - mittelstand-heute.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPamU4NjliREdWdlRPV0Rfa24waE9YX3FvcXkxcHRXV0IzUlZXcTYxX0ZNWDROdnlfVlNUaEdHck9QNl9PYThiem11Mm1BYmRVRi1QNWtGeFc1b0lYblpPWDA0WFNrX1dRMENqQzFDXzFQLTRlcFZTX3NqZlhYb1J1Y3hXRzZGVkxwelhkVkVjZ1dvTE9ST2xfYWlGSHpDcW9FbUJsOHYtZko0R0ZSbHRqYWpR0gHCAUFVX3lxTFBTUUViT3BxX0tuZkZ6RGNZdUlrNWxYOENKaUxIZnRCbFB2NXRxMzJVclEtRWJycnNST3hzdlkwaWlnWXN0SXZDdS1ndWRLSG5yNzlFMTJ2LWx2SG0xTlI2bVdmQzFRRnZZaUFEX0g3eXREOWdPdGFxalVNTkxnRFFFYWI3eF8yN05Ta1NSQTlPZFZvS2pPODJVS2RfeVpsemZQZWYxZjJEdlR3S291NHlvNFdFNVRGczFGMGJleXBneXhR?oc=5",
+      "source": "mittelstand-heute.com",
+      "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettensorgfalts­pflichtengesetz in der Getränkebranche - Brauwelt",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQjJ0ZDExVTJzOGU5VVh1eE45UXgteXZnaURneFlsNktfRDVxNmlZeER4V3JaM1RVX3VFZXR3UWlOTmJpTkFtU0dxMi1MYUcyN0FiRlgxN3VQTWxJREpyVE4wQW9hQUVTaWNJVzMwZ3plaTFXUWN3T1BMb2VuTGNvaGhSSGtPQmxzWGJXaHQ5aGZpUGRmV0NrcHM5dkIxVExITGZHR01SX1ZkdWlPZ0hxVm1KUkNWNzJ1aGc?oc=5",
+      "source": "Brauwelt",
+      "pub_date": "Mon, 06 Nov 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Controlled Interdependence Is Not Enough, Supply-Chain Security Defines the Ceiling - 天下雜誌",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XZDdfTTVVaVRHY2tneEJJczJYR3ZDS2JsREZQaFlaNHpGT0lMMXVpUVJ5WTFFQXRpcUJidHM0MFBJWFYwZk5xTGF3TG9KblVmQTNRNUlGYm9KaG5nTlpHeVJjWXNodEk?oc=5",
+      "source": "天下雜誌",
+      "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German automakers gloomy on Middle East disruption, survey shows - Automotive News",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmJjdElwTU16ajdBSk9fM2dPaXNKbm8xWVU4SGlhQ0JoTGFkTlMxbWlYRnBOMGJxa21tTHU3N1hNb01TN1FnWFdhcWQ2M0g0eTVNNWtlbXdVSGtMUEU0b212NTh2NnBTM1psXy1zWEtMQmU0YmdXVXhCaGIxdF9pY1lGQmt1aU44cGVjUlpJQ2JnLVQzbGFYX2NoUVVRRlk5aS14elpNMXU1UHREWWFKMg?oc=5",
+      "source": "Automotive News",
+      "pub_date": "Mon, 04 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Fire at German BP refinery; INEOS declares force majeure on phenol and acetone and implements sales allocation mechanism - ChemNet News",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BN0UzR1BHbE5uNGNpa1RaV3JMM2xkbktMNF9ZaHl0Mk5VdFpQMjZiWkNzcjlDVG93YUZ3WlROUTVkT2VFSUJRQ2paODZOTDJk?oc=5",
+      "source": "ChemNet News",
+      "pub_date": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Gas rationing would 'cripple German economy' - DW.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbHNDRnBmM1JGY2k3R19ISXhpdTk3OVRaY21EUkZ3RGlfeS0zWWw5ZklqelhHNGNjWFMzRFdDNG5JWkU0NDN1Ym0zWktDdDQxcXhoeUliQ0t4RUxBa2Zpb042VDZ2MXI2aGNHb1dnS3hoOUVjT0d2TjFTZGttNGp0OVhTb0M5QmxlS1NSRmZYcW02VmfSAZMBQVVfeXFMTjVtQ3UtYjdvVlZyeFJqM08wT0w2d2hCdDJYUVE5UzlheHhRWWktUUdwTVlWNGNHNVItdUw3aW5CSVFtUDgwdXItYUZ3bXZOZWNuaWIxWE5xVWdPZnFmOF9TUVpSN0pvZV9ScEx3STI3TVFaMEJhd196RzJEeUU5SFJVdklXTHkyYWNhVVp4dC1TLUhz?oc=5",
+      "source": "DW.com",
+      "pub_date": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Inside the iPhone: How Apple Sources From 43 Countries Nearly Seamlessly - Thomasnet",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CWmVlZHAzRWYtSTZUVjI3bVc1d2djUVBuVnhQRGhjcEZZZmtENE9oOGlYSUZMNENYOTF4WjdmTGxSRmJrRGVOR0l1X052N1R0YVpOUmtLLUxsLWxfUTNlZW42eHhhUQ?oc=5",
+      "source": "Thomasnet",
+      "pub_date": "Tue, 21 Jul 2020 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik bei Amazon: Ver.di spricht von Einschüchterungen vor Ort - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQzlDVU9sVEtQWml2REU5QnVfVlJUdWtTc0hiRUdaS2dJSzFhNExRSXZfNmFmZ2V0UTZRT0lwTXltdHV5dklwYmRNbFJmLWdjeFVyQTVFeGVlS0NnQVprRTduLVZLVThXOC00c2tJdnJXR1FYN1ZTVHY3ZEwwN2YzMUJ1Y05nNzhGd2ZOTnRUai1EWExIdUYxV2h5ZDY0LTdBQXRiRHl0MzFNTk9jaGF3MmxGRWhPenBLV2hLcU1SSkV5WC1yM0ZRSDhLXzVtb1lVcG9zbkZwWmplQ0xlX1lfMWV1dUN5ZHI3WEgxMw?oc=5",
+      "source": "NDR.de",
+      "pub_date": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streikwelle Juni 2026: Erste Arbeitskämpfe im Duisburger Hafen seit Jahrzehnten - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR3B1QVJ2ZVNSbU1GNXlwRXhQTEgxa1Q3Yi1EX1dKZ1pYQnYycFpMOWRnZURsSmwtZDB5M0dLYTRjNzF0MkVmWmw3bFpUd19VSm9JNy1jSlZEX3JiZzB5OVNqNzhvS0RKZDRld1JRVGVLbmFvdFpyQW1XNDhfOC0yZ1BlVEJUcFQ4NHlCeDVUSkxQVlFOY1NwbGdtckR1OTVLNGI3VDhnR1RrNURtSnhpZDhSU3Y?oc=5",
+      "source": "AD HOC NEWS",
+      "pub_date": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Spedition holt sich Lkw – und lässt Fahrer in Wildeshausen zurück - buten un binnen",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUVRCRzgxUlRUOWRwUnRYRWF0Yzh4YXB2U2NXaFBTdWJQeW9qdmh5bjZxY0lVdV9yWGR4aVJWZlJvYVRZemNmT1MtQXdFLThhTWxPS1FJdnNlSm5ZZkVQUmYySWJ0U1gyLW5zS1JHMkJ0ZVY5b2stYW5aR2U0NjJqWDBSSFhNNWhEaVRtWG5sQmoxeDA?oc=5",
+      "source": "buten un binnen",
+      "pub_date": "Fri, 07 Feb 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Flughäfen: Piloten und Flugbegleiter streiken - Hunderte Flüge abgesagt - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSVo5eDRGTElXTU1HdTNXVjJlVUwxTXg4YUV3MEd2aUlYMXFNSVJtc2Q2cHBnUjRXVEd6QUtQTVI0S0JJOU5lRXhnNTUxeXVGdm5ZZ05xcEpETVNyUXkyeE5hNTBKRjV0UzdrVTBjOENOWGlmZEYzRDJrQUxkMWZLTURoU1dOaTVOQ0gwamswS1ZqSUNjLXJoeEJKcnZMOWtHWl9wT1YwbjVHN2IycDNmclJwdw?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Kein Auftrag für Amazon: Streikende LKW-Fahrer setzen Logistikunternehmen unter Druck - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWHQ0TUhfZ1VNQlE4aEV2T0xGZ2ZxRXMzazdDNGVJTlZfd09WRlMtbjZ5UTJMdzVvU2lJeHNWQTVYRDRIbmxYekxCRWhHQl8zMHRnNEwxcUVGTmZPWDhiNkxHektLRWtpZFJhblNtSUJILWNTUkl1cngtQzNzNjBFWVY2ZEt3a015Y0VHdWdnVXhIeDJqS1RnOEc3RUJ1WEtV?oc=5",
+      "source": "Frankfurter Rundschau",
+      "pub_date": "Wed, 26 Feb 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik am Standort Rheinberg bedroht Düsseldorfer Amazon-Lieferungen - duesseldorf.t-online.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSkhVU1VoUEU2ZkZ3MXJMRzBVUTZjSlBtZXdwZlk3Z0t2UWxpWWxIYU1TMjE3MTVmenUwUE1TR1Q4TDA4eXpxZ013cnh3dU42ME1FdzdEc3h2azN0QzJfUVp5Tkh0d0J4aGNOVzczZVRaVWVQSlZudmhic2t6cWxZRERUX0JIVnM3VUItWTNhVDRYTWszTF9IaW14dXpNSTdtbzdDYU93SElWMUZqdUZlSWU3TDJMMDZQbmlHeHFJQmt1dldHSGgxdWxhYi1rTTYzdnlMQlRoOGZjVFR3R2c?oc=5",
+      "source": "duesseldorf.t-online.de",
+      "pub_date": "Tue, 08 Jul 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "LKW-Fahrer seit sechs Wochen im Streik - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DYTMxSnJpVkxsQWhlT1N3NGVXaVdqMy12OURnOE5QbTlDbEtsaHdGbU03LXFZRXI0TVdCZm1oRU9XMkZsTGs5WDZHdHlUek5GbjJZWkFUT0JfYkp6TjRoNWFnNkxqbU5I?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Tue, 25 Apr 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bauernproteste ab Montag und drohender Bahnstreik: Wird 2024 ein Streikjahr in Deutschland? - Volksfreund",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV0JqSkRaLUtRSXRjcnhaNHZ6WFRXamtTY3l6U0tkdldiLWpoWVBQMV9qUzRlUGRmSlVIQ3kwMmIyV05lRERLQi0ta0Q0M1dVU3I5OHRXQ2NEeWZHSGNHdEROanRyNllnS2EzQmdBMmREUDlBOEExZUZxMHlTUVJsV0lTWXNtYnotWnhPNXFROGV3ZDZMTDVDcFdMZ1ktbzNYRXhBS1B3?oc=5",
+      "source": "Volksfreund",
+      "pub_date": "Fri, 05 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Mörderische Ausbeutung: Arbeiter stirbt während Schicht bei Amazon Leipzig - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBUm1hdW45aWlBbUV3SlJDZ2J5RUU3RGxxN2pMcFVwS25GQmFtVzVUMUlVbWZMU1dxcXJGUmhFLWxVSnFhX3o1LUZRaUl5MUc1UmFYbzR3OTdzUkFTZTBiaUNjSnlzdDE4?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Wed, 30 Nov 2022 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-04T10:59:27.231418+00:00"
     }
   ],
   "runs": [
@@ -6483,6 +7293,11 @@
       "timestamp": "2026-09-04T03:57:45.111811+00:00",
       "new_signals": 154,
       "total_signals": 718
+    },
+    {
+      "timestamp": "2026-09-04T10:59:27.231418+00:00",
+      "new_signals": 90,
+      "total_signals": 808
     }
   ]
 }
