@@ -9143,6 +9143,60 @@
       "pub_date": "Tue, 07 Sep 2021 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-06T04:00:11.486309+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo thieves using branded clothing to deceive truckers, says crime prevention unit - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lOFNFYnh1TS1zTllFbUVaajJFWVBRSHNkeFVpWHlkRVdRMndTMnBnUXhLVTF0cE5POU9hWWJYbDJVRGRQSDV2UlMzWmp4cFJiRURkYW1PN0ZnZjJBNkVB?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 17 Jul 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-06T10:40:22.646916+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "They paid €60,000 in compensation for cargo stolen by subcontractor drivers. Could they have avoided it? - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNXhqTGtDVjVnWkFUSnBCMnNidFBMbUtuSENfcUlmcU9PWDJ2cm94RVY5T0RjZURlTEFCWXFOMWt3Vll3Y3ZpVks4c2MyQUdodF9tRGRYSVR2Tlo5R3NEMmpJWVkxTndSQVdYTml5T0xXdVgxa2ZfcDNpdkQwSG9yMVlPbS1wTXBlUlZmZFNSQmh2MGp4VmU5emRBS2JnaFd0bTF1Z3EyYXotWGk5WFB3NjZWUU5MTFNqaHZ0NzlvZHNZcTZhUWFUMXNBUQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 08 Jul 2020 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-06T10:40:22.646916+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Cargo Thieves Shift Tactics as High-Value Shipments Drive Record Losses - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmNyRTdYLW9UVk1RVy1teFBULUZuUm45XzhaVnZtZzhvY0twOU0wZTRxbnZCWUl6YVR6TlRNeExFTGFPc21jT0p3dU5yLW81Um5TT0dCYXhNS3hTX050VFJYYnJBY2M4aURDYVcxdzhqb1htU3VsLWVDSXRrYndtSmxZZFdhTWNtR1RVR1FWcWw3VW9DbjZUclBEV2pxLUhBX1Rnc0p5a18?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Mon, 10 Nov 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-06T10:40:22.646916+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Ab 2023 gilt das Lieferkettensorgfaltspflichtengesetz - Der Betrieb",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbHgwUVJ6YVhQM3dXLUtmMXBLa3FYUjlNaU1xSUtnNDNxWHpTVXBBN2hRZDVMRVpkOVQ2aWZZRUZnaks1WV81MUJJTGZRUW1wREQ5MTVfMFFBVFlVcUxUR3puWmhKRG83bzc5ODlWMVQ2anNkbzZFYzhaYjgyNVRudEtvS1F3ZjJvbUVJektad2g?oc=5",
+      "source": "Der Betrieb",
+      "pub_date": "Fri, 30 Dec 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-06T10:40:22.646916+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Here’s why Europe’s hot summers are becoming an expensive challenge - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPckVRcjVTUWxHdmRTTFdZVTNRLW9tTU8yVUxXbnRIQm5iSFdWTVdtQTVHTzNvWWx3dW80UXVERmo1dmk5RWNmOUktVTBIYkJoUjNMLTkwVDdsOUFFcnlsTG14eXU3SWlYbUdENWFZS3RlTTlFZ21aRHFfcE5zTVRlVGpyS3XSAYoBQVVfeXFMT09YV1FZUkdlNGFqNm9ic0NYcUJpZm9acWRaZkdsUm1RUE1wcGl5NDdBLU40Wm5kcDhyU1NWMXdtZU9HTEFya3BQVVVrcjY2dzdqR2lSZ2x2Yi1zTVJXYndqU3dsU0RJS2M1aGVTVkRGYzhHVUJQdVpfdHNva05SN0dKUXVUUHppWGF3?oc=5",
+      "source": "CNBC",
+      "pub_date": "Thu, 30 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-06T10:40:22.646916+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik bei Amazon am Black Friday – Keine Auswirkungen für Kunden - retail-news.de",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uNjQwb2E0OEplc1lWM1UtQ2prRTItdEJxZmg0bGtweU9aLVBBdGNMeW1ZQlIyRmJzakZZT0VGR3R6LU9ReUlkNFY5Wm9SeVNzY05lSUtlVXZfY0pkbDhTVlRmekFacGNqazFaN2g4YVNjbVpVU0E?oc=5",
+      "source": "retail-news.de",
+      "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-06T10:40:22.646916+00:00"
     }
   ],
   "runs": [
@@ -9205,6 +9259,11 @@
       "timestamp": "2026-09-06T04:00:11.486309+00:00",
       "new_signals": 20,
       "total_signals": 1016
+    },
+    {
+      "timestamp": "2026-09-06T10:40:22.646916+00:00",
+      "new_signals": 6,
+      "total_signals": 1022
     }
   ]
 }
