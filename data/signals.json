@@ -9827,6 +9827,69 @@
       "pub_date": "Sat, 26 Aug 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-08T16:24:44.525525+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Kent truckstop freight traffic plan hindered as Ashford scales down its role - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiUkN4NVp3Y1lTZDh5VUZNM3ZiaE1JSGpDVW9lcFMtZDlmalZONHZ3OEhkcG9JaThTRkh2eVh4SVh4d2F5WUtNNE8tRnNSakNiT19TVEFFampsUmNxTUE?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 26 May 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "‘Unauthorized and Fraudulent Transactions’ at Center of Trucking Bankruptcy - WWD",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPLWN3Y2FqR2pDWUpsUG5ZbFdmcXd5blFnbHZJanVUX0ZWbF9wM1FuUEg3aG9JUnY4Q3dvMDlSRTlZS3JfXzJFX2gzdDEwU1lnM3pDZ0VOOWRYRzVNTW5FOVlieFNMcUhPeVl4V0RiTWVoTXFrNm1GYWVNdjg0aFoxY0p2YS1WWUUzdENNd1l3S3FfWi02a1BMT0FwS0RJZm1UOGRLZlhJTG9xMi1Fa3NULWN3S2dORHFsWHZES2VCQ1FNZ0xSMGd6ZWNrN0pPTm1hSUdCZjQ2V3V1LUp0V2tmQUJIMi02SnpLN2JIWXBqQU84ZzVxUXlUVS02bw?oc=5",
+      "source": "WWD",
+      "pub_date": "Thu, 19 Dec 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Zweiter Millionenkonkurs von Kärntner Transportunternehmen - Kleine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZk4tbnE5XzNEUGRkeFlZbWxkRHg5Wklxc3g5SmNyZVFhaFJUcy1KZUdGb3lKWFdWVHRfYW00TnBwV3A3NjlMSWZoUXdobFlvQnJWZkZ2Q1M1alZCdEwyTE91YTJ2SFlIaHktNE92QnhHUk0tbDJjQVhTbGlkVGY0dVlsUmZieE5lbDcxMkItcGtMdGx3a0JRMkRWdlY3c2t6NFZMSmM4TTQ?oc=5",
+      "source": "Kleine Zeitung",
+      "pub_date": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Überblick - BAFA - Startseite",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZZUxZaG5FcWd2b3M0TlFTbE1KN1VLbXVScUFna292THpzbjR3UGZ0ZTAzYmJoc3lRc1RBRmtqVzUyeTFpSkhWZWM4NV9MR2tjNkZUcktVSGJDcUctSXJpRjctRVBLeDhfY2F4LUdOZw?oc=5",
+      "source": "BAFA - Startseite",
+      "pub_date": "Mon, 07 Mar 2022 12:46:59 GMT",
+      "severity": "low",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Carmakers in Germany halt production amid supply disruption - EUROMETAL",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObzZQdVdsd2R6TXdlYk5USHJHRmxIYXg4YkJYX283bjVCX2ZRMG1MRzhkdWFWR0Rfa0NrdHBuODRKWndEbGRaRzUzWTdVUTlVVFNNTFZBRHZhNk9IWEhBSnRWdFdvU09OakpXSUdZS0xSUDVrdTdWRUdqWFRWM2lHeE10RXAzWXVZWEE?oc=5",
+      "source": "EUROMETAL",
+      "pub_date": "Mon, 07 Mar 2022 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Amazon im Tarifstreit mit Ver.di: Mitarbeiter treten in Streik - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN3h2LU9qM0hla2RacHlsNGVpRkNYR2d5ZngtRWJKSE1xcWwxMmdfeTk4TlhsNC1lWTRXaUQ2cUUwVjNYNGNSZ1ZaQ2RXNG1JMmJrWTFCOXBNNzE0Y2EzR0JBMWR5RXY4OTNYYjh6QlNQZWpld2F1bUlQUUlkXzNDVFlfXzNTaDBRSjMtNTZDNHNRaUp1VlV1eXNJQ1RtUjI2UldpczVJT0ZmZEdvYkZqalh6UnZxQkdneXc0cDdhR0loTG9TTXp2SXpCcWxzaVFCNUszZnZ3YlJYemxubGRCUQ?oc=5",
+      "source": "Spiegel",
+      "pub_date": "Mon, 21 Dec 2020 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Amazon schließt Logistikzentrum Brieselang nahe Berlin - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaTNOU2pEbEd5bjN1MXlKbEVCZTUxeEFLZ20yU3pDbzBhWnNWelBTZkZ2TzJPYmdUWVBZUUtFNXFsVlh3U21mclBUSEs2LU1ER2pnQWRtUEpubTRjWXNoOThfWHZ6Q2FkZFRUaElUWlBtR2dVS1NkY2FkMGkxN0Q2aWkzZHd4SUY5OUhaVldFU3R0X1dhQlBqMDhrRlhCUTVPQy12a2t1dEppNHp2dGk1S2RVeG43eU1G?oc=5",
+      "source": "RND.de",
+      "pub_date": "Tue, 28 Feb 2023 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T20:59:03.090286+00:00"
     }
   ],
   "runs": [
@@ -9934,6 +9997,11 @@
       "timestamp": "2026-09-08T16:24:44.525525+00:00",
       "new_signals": 6,
       "total_signals": 1092
+    },
+    {
+      "timestamp": "2026-09-08T20:59:03.090286+00:00",
+      "new_signals": 7,
+      "total_signals": 1099
     }
   ]
 }
