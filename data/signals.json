@@ -9665,6 +9665,78 @@
       "pub_date": "Mon, 02 May 2022 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-07T21:22:27.211889+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Europe’s €8.2bn freight theft crisis deepens - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtOUgzTTk3dzYtVUp4TGJqMGZaQkcxVUtDX2RWVlFNMmdvOHlQU3BqYWFuakNRYXkxVlFfRUxocnNKN2U4a1NjYmF3WGhPQlA0VXFjZl93aUFxdw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Report: The impact of cargo theft on global supply chains - safety4sea",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMm10SzZFUV9FSHpiVWZpVU93WHNLLWRaVmxNNVNLLURMb3h3aUtUemJyUW8wRC1kUm53bmpXYkhkNmxDbXJxOHU1UDI2Nzg0eVdIMTY2NGEwUzFXVjR2V054M3dNRV9qWXVWZDRRYzZkT21mR2pQaWl2ai1FSHU0QldhVXlPeFE?oc=5",
+      "source": "safety4sea",
+      "pub_date": "Tue, 04 Dec 2018 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "11,000 bottles of bourbon, worth 'half a million,' stolen from warehouse in alleged heist - WCIV",
+      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOeDBKOVpRakE3QkFTZGxJSm01emtkbzRxalVSZk9tOFZYb0dBRkpUZXViRGxkcDlxb3pFTGd6RFdFNmZwbE83N3l5S0R4QlRCSzJKSDlBYmhaWDFzUml2NWU2dE9Pd01wWE1XTW5tcldtQVNQcEJSRmF1YVF0OHJSMHpjWWVyNGVDcW1CcUp1QmxoNjM2NnVUdno4emxtSXc1ZVV5U2cwdUZKT0pBZXh3c2tqRVhRRGNLSDFfYUFSQ2VQZjUxS1loOGFGdnRjVzJZSHdEUHppbG45RzdwR3p4aGZMVUszODBNMnpDLTJZcFk0Y2xJaUNuZ0xkR2FYb2hXNWtnbnVxN2Qyb3dab1IwblBtTU5uV1FKamZEMmJMVVc1LXN0RlJLaFFodGxIMjBxNFQ4SFU5OE5ZdDR5ZFZwc093YTNXUVI5VkRFOFF4NA?oc=5",
+      "source": "WCIV",
+      "pub_date": "Tue, 09 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Haulier bankruptcies on the rise in Germany as freight forwarder sounds the alarm - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeDNIRXB5Ykd4VDQzUnkzbWxld1BJdGNMS09GRy0wanMzWFZWNnJxMWsxVUhLMjVFMVkzMmwxYzNkMTVrNGRyb0xHa3N3Qzc4SGlKQnRSTkI2V2JGZTJRX0pQaDVCUElUeHF5TmlYQU4ySkpCZzdBZlZIYkZ1T1ZkYVdfYVA3TVl3MnVfdTI3VkVmdnJ3X1plS2N5Rnd3M0ViNWxTckVpTk1yb00?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 04 Jun 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lidl terminated cooperation with the Turkish company Agrobej - vreme.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWm1yQlRnQlg1SGVacEpjUDczTXp5T0Y5OWhyYWFtSVhIa2FBczdBSU9GOUNwYVpSTWdBekNGaTdaRmxtN1pEc2pEVkdzUWw3N3RRRkFXX1FKYlZxbjVUU054UmpCREE4YzB1MEZLWTZUa0dxNzFKMGdyaWg4UmtGajJod3dnM1lybVF5VA?oc=5",
+      "source": "vreme.com",
+      "pub_date": "Mon, 27 May 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Germany Climbs The Industrial Power Ranks - Global Finance Magazine",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FeVdnNDgyWkF1TXRkNU84Q3Jrb1g3RzVVSm15R3c3UzdCV0M0VlJvY2MzWmpUMXlRZjkwLXBEUldxOFA3em5aYXc1dWI0dzEzX0xyWXNPU25qUDJGQnNBd1dEb215NFJyS0VaQmNwNmhlTk9nYmp1Rw?oc=5",
+      "source": "Global Finance Magazine",
+      "pub_date": "Mon, 04 Mar 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "African raw materials for Germany. BASF as an example of supply chain responsibility - Dachverband Kritische Aktionärinnen und Aktionäre",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMDJ4RHQ5eTFUNXFRbnYtRkgyVFJJcVZldGFRdkYzSE5EZW5yQU9MVTlrTkNDTi1SSFlZV1daQm1Wb3MtU002dllvQW4xN1M0Nk1seWQ2anlTcnFkNnZlTk1tVkN2NWo3WXltNHB6R285dURYYjM3YTJfbEVYc1Q5TTU5Vmx2SGZ0LTlCdE1iVm0zanVTSm9taC0tWmFzQlBiX3pCZTdJSGNYajQ1RnJrc3NQd0tIa0o0bDVTSTQ5V05aQTlScktCd0pucldMQQ?oc=5",
+      "source": "Dachverband Kritische Aktionärinnen und Aktionäre",
+      "pub_date": "Wed, 17 Apr 2019 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Mega-Streik ab Montag: Landwirte und Spediteure legen ihre Arbeit nieder – Auch GDL kündigt Bahn-Protest an - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYllTY2dGWGVRQ2cwcnd0MG5fOGM4MDdqckR6TERlanRKT0lDZFZPMU02TG5uSWk3d0kzd2U5QUhmQlNOZzVucGp4THBBUS03UG5NZzgyRE1WWFVVOWRjN0V1ampyYlZSWkd6QkRnZjdzelIyYUs1ZFVObmhwT0ptaU4yRmI0d09Ya1hUZ3dDOGJOS3MtM3RmZy1nS1ptdThWbno1RTZkVWhTczgyeWJOeEw5T2d2SFMwZzZKdkdsSWVSS0pSLUxzNlJkaFhxaVQ3cVk5ZUZpdGpfSFVkcDFUMUp2UmpJeGZjNVVCVU5OSQ?oc=5",
+      "source": "Frankfurter Rundschau",
+      "pub_date": "Sat, 20 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T04:01:22.656036+00:00"
     }
   ],
   "runs": [
@@ -9757,6 +9829,11 @@
       "timestamp": "2026-09-07T21:22:27.211889+00:00",
       "new_signals": 14,
       "total_signals": 1074
+    },
+    {
+      "timestamp": "2026-09-08T04:01:22.656036+00:00",
+      "new_signals": 8,
+      "total_signals": 1082
     }
   ]
 }
