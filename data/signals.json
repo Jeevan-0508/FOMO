@@ -9773,6 +9773,60 @@
       "pub_date": "Fri, 11 Jul 2025 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-08T10:59:15.326354+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Dieben das Handwerk legen: Projekt Cargo gegen Planenschlitzer - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNUVqUnJOcDFzQ25wMUd4d3o5WnByZU5CMmpyWXNKbFkxYVRUTlZwRXdUMFNNRERJRFdoLVhNWUYxWGUtOTk1b0VfWG16dW42NjN2Ujl0cVVBaDJmeV9kVXFUUGNsU0NhQmJjZW4tcGNWZ2k5TmdpYzA5U3BhSUNiWG9UdW5TbEQ0MElRNE43N0F0MkRXaS14M3I4LVJkanNaXzY1bC0xX3FrNVJRaXFiWk1pejJSYV8zaW14emo4RjY?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Wed, 28 Nov 2018 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T16:24:44.525525+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl: Deutschland ist Spitzenreiter - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUtSS21waFdwbWprektQUXRkeXg2a3NlQS1UUUk0UmlLTnJQZVRxckhsYkRjV3pLY3ZvVDllSUlZVGpTYmE4bFpXaEY0MDlscEdUMGw1aTVfX1R1bHBHT0pmd3gwdkJnMnR0ZWs0OVJxYjdMcENLQjF6bXd0TTU5TU1MTEFWS3JHWFdVWEdNZHN0cXdUeG56dER4NV9ycU9wbFJTdnVEUXBXNUJL?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Fri, 20 Feb 2015 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T16:24:44.525525+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "'Imbalance in shipping container supply chain is far from over' - bike-eu.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTmRPMVE3VUFmTG9EalpTb3pCeFJ4SUUzQnZLUjRfMk1wQW5fSmFqWDVZS1dLY0g2Uy03Rjk2Mk83TU52RDNUT3YwR0F5SlR6dVoxWURkQzg2a2V4bGFMTGotWjlQblhTMzI4RFhQNnhKQ2pwNXMzYmJrRlVXdWs2c052SXRIY0tXZmczaERtUHJwVy1OMUE?oc=5",
+      "source": "bike-eu.com",
+      "pub_date": "Tue, 18 Jan 2022 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T16:24:44.525525+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streiks in der Logistik- und Lebensmittelindustrie in Griechenland für nächste Woche geplant - FreshPlaza.de",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN216dlpDS1B0aURsVHVxRTg4TjJvNWxTM2t5M21uX1Z0OUZWX3g5MlpNbThoaU90STBUdFdQZzJTM3I5SHpPa0luUV81ZWJnaVpRTy1TNzFEV3BjSzRHX2t4OG1LTjZ1S2xJdkhIcFpjRWNMNjhTbHVNR0Z0OXNXY0trUzFEQm53VjhTN2JlR1FfZnhIdjRaZ19ETjVQRlNLSC1DenJndXpON1hRWENxX0h4TnYzWWFucEZseXVDTC1tQ19GNG5FU0FoWmg1eGc?oc=5",
+      "source": "FreshPlaza.de",
+      "pub_date": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T16:24:44.525525+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Sardinien: Transportgewerbe kündigt Streik an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLWxRVmFMQjZDQ1czNE9DUmRYN1pNTXNPOXJ0S0ROU0xqV2FMYlh1SVA4a2VDMFVuVlV3VU8yRVQ2X0NoVzl5QVlTeXVoYWE4SzBRa2hOSW1TM0ljWUJlcEpubWtQQTJTR2J6YnJOZHB0V2RCcWxFak01ZFpkYlg3a01JOEV5VV8tbmM5ZTdMa1FYY3BOYjFTN3BRNlRXc0tLbUxDMTJXS1hzWEFpQThRSTNLVWZpOTdk?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Mon, 20 Jun 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T16:24:44.525525+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Neuer Lkw-Streik an der Autobahnraststätte Gräfenhausen - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rSnVlelViQlJTTnJZOHp0anlVWUVwRUJUMG5TcmdFWE12aTZCb3FXekd2ZFFWdElNZ3E0Q3FzclJ3NjlXZzNTVk5KMEpEOXl4UkR5OWkycGNPQkZPNVlkenN4SFVyLUJH?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Sat, 26 Aug 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T16:24:44.525525+00:00"
     }
   ],
   "runs": [
@@ -9875,6 +9929,11 @@
       "timestamp": "2026-09-08T10:59:15.326354+00:00",
       "new_signals": 4,
       "total_signals": 1086
+    },
+    {
+      "timestamp": "2026-09-08T16:24:44.525525+00:00",
+      "new_signals": 6,
+      "total_signals": 1092
     }
   ]
 }
