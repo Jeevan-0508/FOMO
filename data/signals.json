@@ -9737,6 +9737,42 @@
       "pub_date": "Sat, 20 Jan 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-08T04:01:22.656036+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Lkw-Diebstahl in Strullendorf: Schweiß überführt den Täter - Fränkischer Tag",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODBjTGdRMm5NOVRhd1dJZGpPMjRGV2hWUlFpS1NnTFZMUUdPWHJTQlFpeVAxUHN3UlpTUXotX3RHcHhHSUcxSUNXSGpNci1lbUNsbWV6UFA4alMzZzZ4cjQ4M0xnN0V0ejBIVFZMMVl3cGs5QzNzYUhicm13LS1IRXV1RlJhMHFqa1pjaGlITmtQMUpoaVg5NFZvaWI3aTFxTFVCYVVaYkdwSnliNjhqWVRmZkFRYXd6WHFNVDkyc0FYUQ?oc=5",
+      "source": "Fränkischer Tag",
+      "pub_date": "Tue, 08 Sep 2026 09:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-08T10:59:15.326354+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Helrom truck trains in cash difficulties - worldcargonews.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX291WDI5bDh3UUhJSXRhVUJWaUwyMkVpYWFWNXJtMWVBZjhtSGJ1SmlCYWZCbTQwc1htM2FSdldWNmNFUTJRNXB1WjdmLWludnVfYzZObU5lVGRJMXdIaW4weUxZYk5QczZFaDFNQzV1WFJiNF8zZm5xSTlyRGlPajZONG5hNnZwamVGT2g4TS0td00?oc=5",
+      "source": "worldcargonews.com",
+      "pub_date": "Tue, 22 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T10:59:15.326354+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Spontane Mobilmachung im italienischen Transportwesen - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdEh3WnhiNzdGTjJmQnJ6enRNT3Y4ODNUNkN2anQ4Wl94VzhUS3FKQVMxODVYcURMQm1sbGxJc1Q5SUpNOW9LTnB5ZVc5bHRqS0FDR1NKb1YtMWpSaDI0Y3ZjQ1Q0LVZyNU9lSWxmQUdLUkd6TVJuRmtEajFLQlVhTTlkZkRMaUM2VXRxcFZNbDEyZFI4MGJRa2M0M1gwbm5ZS1BNa1drUmpBUzBMckhGSDFsRUtheHp3WHM5QVRQLTVmRWc?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T10:59:15.326354+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Tarifrunde Seehäfen: Verdi erzielt Reallohnplus - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQamE0bHZyWXVkVFBuempZSnE4aGk5QkpqM2JQUVhOUW9OanlpXzltT3RPY3JONFh1b2tObzRKalhScy00ejltYzJyX2Rwdnd0MDYwSm5lTExBTmlQVHFwUzZ5NldpcXBLREdDdUhseGZTdEJneUdEb0xWRXZ2aE8tNXowbHV0TGxFYWJ0RXItMTh3VzlSakR6MmxZWjlaNmZqbXFwVUdFQ3pDR1BIbDFBSVFyMU5CYWdHUng0?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Fri, 11 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-08T10:59:15.326354+00:00"
     }
   ],
   "runs": [
@@ -9834,6 +9870,11 @@
       "timestamp": "2026-09-08T04:01:22.656036+00:00",
       "new_signals": 8,
       "total_signals": 1082
+    },
+    {
+      "timestamp": "2026-09-08T10:59:15.326354+00:00",
+      "new_signals": 4,
+      "total_signals": 1086
     }
   ]
 }
