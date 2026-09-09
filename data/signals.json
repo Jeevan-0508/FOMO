@@ -10007,6 +10007,69 @@
       "pub_date": "Sun, 09 Apr 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Shekar Natarajan on leading transformation and redefining the logistics sector - trans.info",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12eXlGR0drSDI5aVBRcEx4azlLdjRKYTF4OUhRYlBwUm9SeS1iZ2h2WndoN3BFYlcxdWItV2pkNTA5MDJpOUpDcUhpZw?oc=5",
+      "source": "trans.info",
+      "pub_date": "Thu, 22 Sep 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "CEO-Wechsel bei der Lufthansa Cargo AG - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QZlRUUjBIVGlOUVRmVmdSWkdieDNaZnBMa25iUm1GSjFjd2xtU2VWUmVZdWo5SUNDSDhCM2xVcU5XV1ppM3RROXlfWHNpQk5aTjllWEhLZFFwQjJST3VxV2laN2FnRzF1Zm15dHlwTjJZM3NXYWc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 19 Nov 2020 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Polizei-News Limburg, 09.09.26: Brandstiftung in Weilburg, versuchter LKW-Diebstahl, Verkehrsunfall mit vier Verletzten - news.de",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2dab2JJb0c5dm9yakZvbmpWQmxUZGVCQjgwVTZhVXA0Y1FSM2pGRnl0VWdpcGRZWXNRY0s2VnV2Yk9qMVEwN3JfY2hHRTBXQnBDSEZHSzJtZ3VWcnJrU21vS2tZNnZEckhzamVleVA1VTBFNGhub2lmaDRjb3dDV2JUOGN4eEVyLWh4di0tdE40OGVGaW5acmx0ZkMzSHZ3OGNaaWtwcW02d1FKN05RLQ?oc=5",
+      "source": "news.de",
+      "pub_date": "Wed, 09 Sep 2026 12:55:02 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Historic Scottish transport firm set to enter liquidation after 70 years - The National Scot",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORVo1Wng4RmZEUmFlM0FTc2lhSWZrQnd4TFhSVkY5eDB2STVwUXVSZGZvRm1iSTU4Rm5OVk81NV9Md1oyLTRaTUpCRTN0OUc2RnJZWmVGODlHZlE1bmFOT0hDVTZJQVZkYlpPNUFCa1pneEVsNTJ0cDFUUEFEaWNnekxncXRxeDRXbm84NXk4T0dodmNvRDdwQXFYR2JFNjNma19KUmZR?oc=5",
+      "source": "The National Scot",
+      "pub_date": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "European carmakers face Nexperia chip supply shock - dw.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSzFHSklaaDB0OGc4cXk5b0FibTV1SUd2clpON0E1YWFDdi1kdXFNdzhyQ1VrUDV3UXBsQVJsbEctRFJNWUlOMHJJYnlEVWJnZTVhNFJzYWZQLUc3cmp1a0RSb2MycEttTlUyT0IzOWtrX05BQ1BpT0hyaEpfT0U0eDhPNzY1bmtBWU95d3MzZEhmRl9sNm5UZk5sNzVYekVrNlNHcERIME9pejA?oc=5",
+      "source": "dw.com",
+      "pub_date": "Thu, 23 Oct 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Germany’s signature auto industry hits another roadblock - AFR",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNnZQOENfeE03UDg3RjdrTjlfendHTjBKc2tWMGFncnNyR0RvS0w5RmZHWmxSN0JtejRDUV9LbFR5Y1RzaXB5UThQdzBoMWhUZE43N2g0NkM2clVTUGROY2tUTnlNeUZnRlZEc2tlSC1Uck9JSkZGU0tfUG5wQ3Z4VGNSMTQ5OVNpZUQ0MHludWpiMVFJdWFzZmRlMWxjRDhCdE5LeUJwcDM?oc=5",
+      "source": "AFR",
+      "pub_date": "Tue, 21 Dec 2021 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Schienengüterverkehr: GDL kündigt nächsten Streik an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONXg4Z3ppTGo1cl9EZGFrWFVZSl9qUnZxaHU1X0lfZVlnYmszNUM5czRPNFE1ZUQ5cDVCNmNwWTA3RDdMRkxvSGR1SDRjZDlfZjlpUk5qWXUyUjVYX1VBMFpYSVVhRmo4Y2lTMGYwNk9TNXVId3lqWjctQjJzYmhWUDBpam0tOVg0dkt2aVpyMWpNaE53Mm9oWUJYTVVEOGY3TjR5al9PM3ZHMk5LMFYxUV83Ym9YdFZ5N1Q5LXZQaEFvU1NB?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Mon, 11 Mar 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T16:20:12.483289+00:00"
     }
   ],
   "runs": [
@@ -10129,6 +10192,11 @@
       "timestamp": "2026-09-09T11:04:05.112342+00:00",
       "new_signals": 9,
       "total_signals": 1112
+    },
+    {
+      "timestamp": "2026-09-09T16:20:12.483289+00:00",
+      "new_signals": 7,
+      "total_signals": 1119
     }
   ]
 }
