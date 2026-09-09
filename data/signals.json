@@ -9926,6 +9926,87 @@
       "pub_date": "Tue, 05 Dec 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-09T04:08:39.271692+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Police arrest fake hauliers and prevent cargo theft in Europe - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBub3JxZ3JROHRPaDJhYWhuSXplcXMtU0Eya1E0YW1wemJzWDc2QXhIVmhHdzV3NEhpT2dXMi1wbkE5bTFMSnB4YzdxVF9sU1JSRkJ6WEh5THhxUU92Nmc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 13 Dec 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "German police shocked by wrecked trailer that was crammed with dangerous goods - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFh3WUl4YnV5R3UtYno1Z3pxSkJ4eVdXY3A5ZmIzbkFpTHVyQkFjSU1QOC1URGswTGg2c200bExHZklDNWplQ1VwN0ZZSHdmN243ekl4MkpDeVJWcDVST2QxLXVJRXotYVdlZnFUTXo3bElOdE9CcVJoOWZWbWsyYTVsNEg4eXlraGpTUDFETVdYOHFUNlpNaklXWHk2V2xlTWVmUXl2ZHhDWGs?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 26 Mar 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Aufgeschnittener Lastwagen, 1320 gestohlene Laptops: Heimsheimer Fall bleibt für Ermittler ein Rätsel - pz-news.de",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcm1kTll5YURDSEx6N2prUUQ5UVBuVHNLZXpkTWJqUm5BNGMydm13d2NlazdKdEVkNXNOcE45MjJIMWE2V0o2RC1LV0R2SnBxZ2ZVejk5ZTFxZEJQZjNuSmlYT2dwcXRaX0dGaG1jLUpyRnU0czAtcmFiNmppNUs5cnk2a25rYWtqdlZzQ0ZNZnJMSzMzOEVxVUxobTdiWFJXTVQ2VmtaUmR4VC1MZmdqVWtXcXRNLURpWTE4THpaU2dEaGpEalFCNTZEREszSTRmYU8xcVlZbUZGMUlyLUxXUjlkZlBKZGR5LWdvbEVPRQ?oc=5",
+      "source": "pz-news.de",
+      "pub_date": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "History setzt «Oak Island» fort - Quotenmeter",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MX1plRHNBZzMxcUtJX0ZxMnNPZExrd05SelEyU0R5d09PYVFlck0wdFlrVWFoQzZfdFk1aHVMV1VCUVNEVUhRRFFKSjMyZzZfanV6N3lfSUlKWUVleVJr?oc=5",
+      "source": "Quotenmeter",
+      "pub_date": "Fri, 01 Nov 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Five people and a company, sent to trial in the Czech Republic for a VAT fraud of 17.4 million euros involving goods from China. - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY0JZM1JJdEZWN3hTMk5Ddkhwa0ZwakdqaHY4MGdwNVFqWFA0THR5MWlwYVFvdzZ6QlJwT0pPT2llNDNRekV0ZW9hZmZzVi1tdVBjSjR3OExyLVMtdFpyY3hfV1MwV2luSXhNNmlDTHk5clZaUW5jOWVORUE5SFFtcFpTaUpRSGRPcG9xYmpvNllXanphZGt1S2ZxSVVKMllTdWpXd0dBci1od29iN2U3eG1oRHJtQzdHSFRkWUItZTVLaU0wQkx2TDhpMGJyQXdRUnp2TnI0S29OU0d5ZG9wcjVQZlAxT3BUSGlON0V5WQ?oc=5",
+      "source": "Informat.ro",
+      "pub_date": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nahostkrise: Lieferkettenstress wird zum Insolvenzrisiko - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdEVmaThuNDhFV0g4TVpRSGRVLVBwTTJzT21ENG55MmVnS1NyS0lsbC1xMGZNU2JQdzEyb3gxd25kSUtUeHdZR0pCbzNnZE1SbDhPcm81dE15QXpyOU55UUg1Skdpc01ObTJ3Z19PUjhYbUdybzE4LXFTbDYtUllhclNVUFNWaEtWVFNqdEtVOVdKRUU5dlYxd2hn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 06 May 2026 03:08:24 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "German Supply Chain Law requires companies to adopt due diligence procedures - mattosfilho.com.br",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1mSU5BY0JNRkdwRXJWaGhQeFZFUmJNUGgwM0VkVFM5Rkd5MWNTaUtPRTROYWU5U1d0MHFYR3lmREZ0N1pPUlNkRUxiSDFLS1pfVmRQZVJJVExhcWViMnl1Z2tVODEwSmxfZ0JTcUNxcDUxS0hWRGV0ZFdR?oc=5",
+      "source": "mattosfilho.com.br",
+      "pub_date": "Wed, 29 Jun 2022 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Warnstreik in Seehäfen: Containerbrücken hoch, Schiffe meiden Hafen, Demo in Hamburg - NDR.de",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV05RczRJSWZuc0xHTC1oQk1hdWs0R0JIRkdiTVc4SEJGX180YkhtdzNUOXctUmpwUFRSVG44Y2tUcFFsWUNmZi1IVDJ1LW8tVWFoRXh6R2NESk5JamNVV1J1NjY3TUlaNHpMZ05VSXp1UGZLQmZlWTV3VGxLMVZLVTdFaEVjejV6SVhqaHNhRGhmdjhuTTY2eXNMV3FpekRIZE5N?oc=5",
+      "source": "NDR.de",
+      "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Südhessen: LKW-Fahrer seit drei Wochen im Streik - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Sa2gyVUpmZXA0MHZNY3NUNEJWckRnaHBzV3RTQUNTVmVTZjc5M0pmMk10YXdXRGc0cmRJdXN6bkx5Si1DVXFvUXlsdkt6bnRkXzRZclotRWgtMzhJWnBMWXNtU2dRLTRL?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Sun, 09 Apr 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T11:04:05.112342+00:00"
     }
   ],
   "runs": [
@@ -10043,6 +10124,11 @@
       "timestamp": "2026-09-09T04:08:39.271692+00:00",
       "new_signals": 4,
       "total_signals": 1103
+    },
+    {
+      "timestamp": "2026-09-09T11:04:05.112342+00:00",
+      "new_signals": 9,
+      "total_signals": 1112
     }
   ]
 }
