@@ -9890,6 +9890,42 @@
       "pub_date": "Tue, 28 Feb 2023 08:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-08T20:59:03.090286+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "The corporate battlefield: Global insolvencies in times of war economics - Allianz.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZWczLWk3c3N2a2FIMzV3Z2JyRUhrdEtsTnpKcjlWWll2QlhHOWpSVFJReThsU2xqRU13bXpsaVhEM0FzMlI0NzgwWV85ZWxrM3ZhUWdIMjFTdGpJekhnSmdqZTVnUWVJazM1WWpTVjBlZzJpcE9RcG0wQkxWQW1MVVozQ0JXRW9RNG5UeE5uM0JzVXBpTFZhekFSc1RfZXV0RzBRaUtkR21kQklpS09aQQ?oc=5",
+      "source": "Allianz.com",
+      "pub_date": "Tue, 18 Mar 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-09T04:08:39.271692+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ende nach fast 30 Jahren: Insolvente Spedition J. Wolting Transporte aus Petershagen abgewickelt - mt.de",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMzQxUVBETS1YUnF6NmRycHNkU3BrbmQ2ZDhGZDFHVUpJbW9uVUFuS3VTTGtOSkk0T0FBWmd2ZTZtZzlyQnpXRzR0Wmo5alJBQ1Y3YnN2eElLZ2NKMzNsVGc0S2R6WHVhcHZfa2N5ODBfQXN1QTFYTHp1b1R4MllteGZGa29nNEt3MXFFWFlfeDF1VnJ4M2UwQ2tqcjJkdDI1SU1aRjhnbmNSS1dpOXY5MFdyMG85Q2syM05NbHh0OE5nQmNrTlg1enNVdEJvZDdWeDRqdzBfSmNndDV6cHgySg?oc=5",
+      "source": "mt.de",
+      "pub_date": "Tue, 08 Sep 2026 10:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-09T04:08:39.271692+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "EU Council Turning Supply Chain Law into Window Dressing - Human Rights Watch",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONXQ0dndFeU9mU1BQdU9TaVVOYkhSSnl4bFo5YVIwWkdoY3NqT0YzTVRfZkhkY0FWU0F1OWlOMnpyOWtiQm1iWWJ2ZWdKMzFROXI2OWhoMUZETTh0WTlFS2tkSjdaeDZzNjRhNnFWems1R2oyUlg1N2pFVUx6MU9nSDEyY29zZ1A0eDZiVDBYWG93Wmg5YlBV?oc=5",
+      "source": "Human Rights Watch",
+      "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-09T04:08:39.271692+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz in der Autobranche | Studie - QZ-online",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lekluM2w0OEM1aTBfOTVtbUxiU0FYRFMtXzlEZ3BQdTQwWjFKMXJpSC00akdCSVJQeElKb1RrSlFkVnQ3YnRSWUlFXzlKSHAyOGpSVi1Xb0ZzYW41WTJKM1VBcnRlb0VKcTUycEtsVWc1VXpZdTlZVzNJbzY?oc=5",
+      "source": "QZ-online",
+      "pub_date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-09T04:08:39.271692+00:00"
     }
   ],
   "runs": [
@@ -10002,6 +10038,11 @@
       "timestamp": "2026-09-08T20:59:03.090286+00:00",
       "new_signals": 7,
       "total_signals": 1099
+    },
+    {
+      "timestamp": "2026-09-09T04:08:39.271692+00:00",
+      "new_signals": 4,
+      "total_signals": 1103
     }
   ]
 }
