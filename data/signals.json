@@ -10070,6 +10070,51 @@
       "pub_date": "Mon, 11 Mar 2024 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-09T16:20:12.483289+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Ex-Volkswagen CEO faces trial over ‘dieselgate’ - The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSjRGcUYwN1BPaVd1TU5RdnpreU9NWXYySWc4d3FWamNyOFgyTTdhQlNaQ0dwN3I1LXU3bi1la2kyNW5jRXJlc1plWmlRVGlUTWQyU2xybzd1bjFfY2xzTm9SbGtUREpFUnRvQXFETG50blk3OFlQQkdsMERXcUR4aGZLQ0dkazRyU1ZqZnFnUDB1bVFrajhDOEhidXp6d0Z6aDRGV21VTmtYbGJ6VEVLRTlYbXhEaUU?oc=5",
+      "source": "The Business Times",
+      "pub_date": "Tue, 03 Sep 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-09T20:46:46.974910+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Übernahme der insolventen Euba Logistic: DGL sichert 120 Jobs und 70 Lkw - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnRxbUx4a0lDTWVKOGFneG5xWlJ3eUg4RG9mYkw5dXotNndyckJrSndZUHZka3V6T0xBWTAtd1J1ZVRreDVWczdaQTNIUEhWeDRfQVpyc0dNR25RbWIzZGF4cGZSVVUtY1V4VDhRR3pHOXVITVZWM1dkOXdjLXlydXRGc1NiQWRVZEd5b0xqMy1NRWk5TFRGS0NoZXE1UVBMYzZiQXJaMFBiZ0JwY0Izdzdn?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-09T20:46:46.974910+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "140 Beschäftigte betroffen: Spedition Betz International meldet Insolvenz an - n-tv.de",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSVZiWGd4RXhJSy05bTYzZEFVemFmMnpLRkRPMWJHb3VPYW8tQjZ2aFQ4MlNYdzFNamdkMEV4cmg1M3ZKZ09MdEhrWmd6R3Q2R2FDb1dYY2dBajYzQ0s4NGItYU5SbTdOOV9qbUdWQ0M1YW90VHc2UVNaeFVPLVRtSTd6WEYzaHhDR3BpWG9raUcxWE1pZ2c?oc=5",
+      "source": "n-tv.de",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-09T20:46:46.974910+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzverfahren vom 20. Juli 2026 betreffen Unternehmen aus Industrie, Bau, Pflege, Transport und Dienstleistungen - Das Verbraucherschutzforum",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT0dFcjFIOXozYUZ5VHU2ZkJBejkwZ0VmOTM4blRxOHZWUWtCaHZFZkJNVWZnZFB5UzFraDZPeHpSX3lBTEE3eDgtVnhBbWhIbktTcFBzOGJXRERBLVkxR3BoN0pfN2pOS1pWRElWUmtRajdlSU5yaEt5YlhxZjFDempzOXc0Z3NkcWJuYkdFRGVyaUJsWFVleVB6Rzg0M3U1VzdwajdRYU1rSjZhMm1pLTQtM2xLeUc3VEJIdzVzQ2NkYWlzRDRSNFY3YXZXUUlmeDBqdHA5N0c4RW9ZaXRMNS01NzZ3TzM2LWR6U3hqZ0N5OUROWEdSSFhZdTBJWWM?oc=5",
+      "source": "Das Verbraucherschutzforum",
+      "pub_date": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-09T20:46:46.974910+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany's struggle to clean up its supply chains has lessons for Europe - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX3FpNFdoUGo3bnM4Z0VsNW9EaUJpVEhyZzJGYVhQVnZFU0s0ZHNRWEhIRWgtMXo1SGN2TDExTkZjMEo5bmp0emhLalhRVFdfVUxoMjhQT0JXTVFJRVNhYVpzcFpJNVVaRzA2aWUtdzcwc05MU1hITlJMWDdPcUtobHMxNVRBR2Z5aWJOVFJ2RVZJeGJHNDg0VjJydGl1OVhrdENkZzBQd21uSjJwRGdVckhn?oc=5",
+      "source": "Reuters",
+      "pub_date": "Tue, 30 Apr 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-09T20:46:46.974910+00:00"
     }
   ],
   "runs": [
@@ -10197,6 +10242,11 @@
       "timestamp": "2026-09-09T16:20:12.483289+00:00",
       "new_signals": 7,
       "total_signals": 1119
+    },
+    {
+      "timestamp": "2026-09-09T20:46:46.974910+00:00",
+      "new_signals": 5,
+      "total_signals": 1124
     }
   ]
 }
