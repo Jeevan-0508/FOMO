@@ -10205,6 +10205,33 @@
       "pub_date": "Wed, 13 Jul 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-10T16:10:54.822119+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Report: cargo thieves in the UK pulling off ‘rollover’ heists to snatch PS5s - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHpvMmI3dkszVk85NXJYTTJGOEV5YUVLZ0FZZTFJTVR2WkI3enllREVzd0pIbHkxRFE0WWt1M2dEamVWQ3UzY2JPVnRmVTJtMVFRcGh2NWdTLURRSE1oeG9yNHBBZ3lvcnZFU3FncktBekhmNkFDRC1oVjQtNl9LWko4LVE3YUNkTFlPNnE3RzNjNjNZbHpsbl9YRVlKSms5T0JhRQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 08 Dec 2020 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T20:41:50.529721+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Aventra takes over insolvent haulier Betz International - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mN3BNUTd2cU1JTTRCQkVvUktUYWV0cGtZeV9keWFkY2tfY2c1RnZBd0ZCQnItME9fTmQteXdGQ0xOT3hjYl84MDc1dXFESVBqbkRVaFZlODdPMV9WX3FUQl9aSEZadw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-10T20:41:50.529721+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Temperature-controlled transport company opens new facility in Austria - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsbkhkU2wyM3hXdi1Ma0RKTXVEcXJfTk9jQjJ0ek5haFJwM3hMUjJyMmZhalFVeGUzdzVVZjFTZmdXdWxJZVAtUjNvMzF4TUJYRWhwNklnZ2h1NTBUbjZGWWdTSU1Bcjd2VzVn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 06 Mar 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-10T20:41:50.529721+00:00"
     }
   ],
   "runs": [
@@ -10352,6 +10379,11 @@
       "timestamp": "2026-09-10T16:10:54.822119+00:00",
       "new_signals": 3,
       "total_signals": 1134
+    },
+    {
+      "timestamp": "2026-09-10T20:41:50.529721+00:00",
+      "new_signals": 3,
+      "total_signals": 1137
     }
   ]
 }
