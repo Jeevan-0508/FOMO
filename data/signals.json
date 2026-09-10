@@ -10178,6 +10178,33 @@
       "pub_date": "Fri, 23 Feb 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-10T11:00:10.567675+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Studie: Ladungsdiebstahl verhindern - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNG82cXdVZmhta3UyR3BMalNMZThLejlNbXdEd190b3E2SDA1dW5QT0RXYWFNREc5Yld2cG15VmU5SjRGU1hBZUtYdzBGZ0xsZ2NDQTRoY3ota0ROYUFITTljZmdNazRvR3pXU1JlNUdGa3p4bjdEVnBwNEZEWWdNamxB?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Thu, 25 Jun 2015 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T16:10:54.822119+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Uncertainty looms for automotive supply chains in Europe - Automotive Logistics",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZy0zRi1lNW1IUVY1bHI2OVpRWll6Y1dKUGROOUFfVzFySTZqQ3hkNjBqTjk4dkxGZGtDcGk2b2NDOWVJUDFUTlVtQ3dVRThrX3ZuZVhHTlJsbm5LYjRqYXc0X3d5TktGdWhQMER5LW1DMEJPbHZxN296VDZtcXZETjM3aEpaZWJkM01OZ3hSUjAzRGk4U3ROem9pUjU3RkxZUFBzdV9GVHcxbU53Z1NRVXRqQ1N6UQ?oc=5",
+      "source": "Automotive Logistics",
+      "pub_date": "Mon, 23 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-10T16:10:54.822119+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Germany's North Sea Ports Face Longest Strike Action in Decades - The Maritime Executive",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZjlTcjhLR1p6V3gydENaU2dZMDNKWVVoOTB4UW96THBFc0Q1Nm9GMnNBTmlQTGlMWDNzRkxJWW5JZUtHSHBuQkpudWMwZVJTUWdwWHJYTzRzamVjNzE5UFg4YldFV0VKT2NTc3g2QzZYeWFpeXBSV2JfbWhGcEhfaXFsN0xwQW83dWdYQjdxVXd4cmRDSDk2OU40TzE3TURycEdweA?oc=5",
+      "source": "The Maritime Executive",
+      "pub_date": "Wed, 13 Jul 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T16:10:54.822119+00:00"
     }
   ],
   "runs": [
@@ -10320,6 +10347,11 @@
       "timestamp": "2026-09-10T11:00:10.567675+00:00",
       "new_signals": 5,
       "total_signals": 1131
+    },
+    {
+      "timestamp": "2026-09-10T16:10:54.822119+00:00",
+      "new_signals": 3,
+      "total_signals": 1134
     }
   ]
 }
