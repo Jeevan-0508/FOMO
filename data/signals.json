@@ -10133,6 +10133,51 @@
       "pub_date": "Wed, 08 Jul 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-10T04:05:57.680409+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "TAPA June cargo theft report: incidents up, losses down - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WSnlQak1fX2FKX2lzNnVkb0Ixd0tKX2UxbFdTWFdPSmZaYVExalViUW9zZ3Fhbmp5V1dYcld1QXBNOGNDNWx3blc4VVVFSTVYUTVIQTVRaUs?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T11:00:10.567675+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo theft in Germany reaches new highs - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YdlN6TlhERHE2VWxBVk0zUlVqNnY4N3hWZVJvd2toTjMzN2w2U3JNZTBzY295Q1JtNVNaZ0s3WFlPTHZwM1RJVFJnQkFkaGs1RkZ5eHZlR1J6cWhQOHh2d0xWR1hPY0NjZ1ZCMXdqSi1sRjNjUTNHRw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 10 Aug 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T11:00:10.567675+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "Frachtbetrug: Spediteur aus Kufstein erleidet hohen Schaden - 5min.at",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNODhVWGpmbUlhcG1STGlqelVpYWlGX2hrVmJUU3RXR0V0T1h0MWVreGRlVHZLdVpibm8yTm5xNFZFc1VudDV5LW5peHIzMnRyeEQ1Nk1oeEUwbU9sYjY3QVpHZTJDYWNPR3Zod3RRdEF6MFQ3cTFBdlJtbDY5RUFkc2g1T2Y5NXVnMGdCdFd1NkxZRktERUw2Rw?oc=5",
+      "source": "5min.at",
+      "pub_date": "Sat, 15 Feb 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T11:00:10.567675+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Maersk Africa Region Managing Director joins German logistics provider Leschaco - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb3k1M0k0VWl3UXBNRzdMYUtRNllGMWRtcXFRWXR4NUhNTGtoOTRTYzFYZWZxNVBKdTU5QUY5bEcySHpGRFJXUGN2d0ptTUt4cUVPcDg5UWxKYWtOV3hsbDlFaFAtY3RTa0hxMDhIMW9NZGoweFRDSk50UnV5ZEdkcV9ZTHF6Q3VLWE5tMkVYbC1SUTJDTjNsM2t0c0dSd3ZJQ3NTbGNkQ05XelVG?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 09 Jan 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-10T11:00:10.567675+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Polen: Bauern planen Blockade der A12 nahe der Grenze zu Deutschland - Streiks | News - transport-online.de",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa1Frekl6U01uN2J2WUVKeXo5UC1HU2s3OGlzbEZNeXpTdDdXdWR5NDRpRm9NMllRTk5GNHBsNUpMbE5OVDl1c0ZfczJnQlNOajlHc2hMa0Q3OUk1eHJpUnJoUXBaYkRqS0tvUm5pRmZTN0lsRHRkUlVfM250TVU0QjY1MmFhcEhIWUtwZW5CSTUzUkJtdEJkX0thc09jcUNYRncwQ3ZoenlVOF9CdFlVa0V3?oc=5",
+      "source": "transport-online.de",
+      "pub_date": "Fri, 23 Feb 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T11:00:10.567675+00:00"
     }
   ],
   "runs": [
@@ -10270,6 +10315,11 @@
       "timestamp": "2026-09-10T04:05:57.680409+00:00",
       "new_signals": 2,
       "total_signals": 1126
+    },
+    {
+      "timestamp": "2026-09-10T11:00:10.567675+00:00",
+      "new_signals": 5,
+      "total_signals": 1131
     }
   ]
 }
