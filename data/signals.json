@@ -10115,6 +10115,24 @@
       "pub_date": "Tue, 30 Apr 2024 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-09T20:46:46.974910+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Bernhard Osburg soll neue Führung bei DB Cargo übernehmen - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xckI3djhmOFFkRC1TQjZfbkJxYTJqM0htUWpyRFlFSTYxTERDT3I1YWpscl95UHF5ZnJMUDJHbnc3SGpvU3RWeEFhZkhYMkNKZkJYU092N2JDYTl2aVE?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 27 Oct 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-10T04:05:57.680409+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Immer weniger insolvente Unternehmen werden gerettet - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaDN5czE2ODFPSmswd1ZDYWQtd2JJQWhja0RWekU0VVJjc3FHSFUyNUdWMUdjQ0FJU2F0SGVhV3NIaHRWVy1CancyN1RGZ1RfNWZvTWVoNXoyaUI1WmtHNlJQQ04zSFZ5YW1WOW5CRnZzbGpuNTFqYVppS0JIZXFueFRWNUgyNnZqZ3cwM3FqTmkwOXROYTFIS1I4TjFRQVYzTkZhcjlLb3YxSXFzRnVVaHNhQWIxUUk?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-10T04:05:57.680409+00:00"
     }
   ],
   "runs": [
@@ -10247,6 +10265,11 @@
       "timestamp": "2026-09-09T20:46:46.974910+00:00",
       "new_signals": 5,
       "total_signals": 1124
+    },
+    {
+      "timestamp": "2026-09-10T04:05:57.680409+00:00",
+      "new_signals": 2,
+      "total_signals": 1126
     }
   ]
 }
