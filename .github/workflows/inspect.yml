@@ -1,0 +1,56 @@
+name: inspect
+
+# Tests the deployed page like a picky visitor and reports what it finds in one
+# issue. It changes nothing: every finding is a decision for a human.
+on:
+  schedule:
+    - cron: '56 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: inspect
+  cancel-in-progress: true
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Inspect the deployed site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python inspect_site.py
+
+      - name: Raise or update the single inspection issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          title="Site inspection"
+          gh label create inspection --color 1d76db \
+            --description "Automated findings from the deployed site" 2>/dev/null || true
+          existing=$(gh issue list --label inspection --state open \
+            --json number --jq '.[0].number // empty')
+
+          if grep -q '^No findings' findings.md; then
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --body "Clean run — no findings. Closing."
+              gh issue close "$existing"
+            fi
+            exit 0
+          fi
+
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --title "$title" --body-file findings.md
+          else
+            gh issue create --title "$title" --label inspection --body-file findings.md
+          fi
