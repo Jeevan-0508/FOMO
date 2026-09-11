@@ -63,8 +63,15 @@ def main():
     for img in re.findall(r'<img [^>]*>', html):
         if 'alt=' not in img:
             note('major', 'image alt text', 'no alt attribute: %s' % img[:70])
+    # Checked against visible markup only: a <script> tag routinely embeds
+    # JSON/JS with words like TODO or "coming soon" as real data, not a
+    # leftover placeholder, and an <input placeholder="..."> attribute is a
+    # normal form field, not unfinished prose.
+    visible = re.sub(r'<script\b[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
+    visible = re.sub(r'<style\b[^>]*>.*?</style>', '', visible, flags=re.DOTALL | re.IGNORECASE)
+    visible = re.sub(r'''placeholder\s*=\s*("[^"]*"|'[^']*')''', '', visible, flags=re.IGNORECASE)
     for word in ('TODO', 'lorem ipsum', 'coming soon', 'placeholder'):
-        if word.lower() in html.lower():
+        if word.lower() in visible.lower():
             note('major', 'no placeholder text', 'the page contains %r' % word)
 
     # --- weight ---
@@ -90,6 +97,8 @@ def main():
             continue                            # syndicated redirectors, expected to churn
         if 'linkedin.com' in url:
             continue                            # LinkedIn answers bots with 999, never 200
+        if 'eur-lex.europa.eu' in url:
+            continue                            # EUR-Lex answers bots with 202, never 200
         code = status_of(url)
         if code != 200:
             note('major', 'link resolves', '%s -> %s' % (url, code))
