@@ -10286,6 +10286,60 @@
       "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-11T04:04:01.760823+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Truck drivers spend over an hour searching for parking - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3U241NzhobmgteGptNjg1dzB5bGptOXF4anF5LUVjMURnMjBXM3RrenJKNUg4VTBaVnhZZTk3MXEwaGp5ekVXVDV6M3dZbU9QcFBRU1lQSWI?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 11 Sep 2026 10:07:23 GMT",
+      "severity": "high",
+      "found_at": "2026-09-11T10:58:43.882417+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "A single ransomware attack has pushed this business into insolvency - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQjBwRlQ1MkdlQ051Z05KSEJYSXNnbmxEenZpRlRaV2xvcWY1MDVZRjFWc0lKSzZBUU9HU3puYVdPaVpIZDRSYVY1X3VwcHp4eHVlcTl1QjR4TW1ob0JDcmFDb3dMb3NjM2RjUVhERXc4OEZoX0gwSmxZc0duNnpBbVJFY05aOUZZa0VvMUk2Yw?oc=5",
+      "source": "Yahoo Finance",
+      "pub_date": "Mon, 04 Aug 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-11T10:58:43.882417+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "#123 Lieferkettensorgfaltspflichtengesetz: Nix mehr freiwillig - DATEV",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdTNsWTVjWllSV1ZCQ2w2MF9SRktuaWVPMkZwdWwwV0t6SmJDMHdMOHNLX0VCbGhNN0JiSE1XXzdZWWtDc1FqZkRuRVRjSnRuLU8yZndsWWUwdE1ET2RVMGxhel9KZXUyV2xsU2JRZEVhTUdUNTVDcWFwNVFQUEJBTG9WcXF5N05VaGcxNE5ORG9oWHNvWkl4WUdUQmVBNjZmX1BqbXdLcw?oc=5",
+      "source": "DATEV",
+      "pub_date": "Tue, 17 Jan 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-11T10:58:43.882417+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Nachhaltigkeit: ESG-Infos auf Knopfdruck - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjJWQ09vYWtKckNxVnZITXBtaTc2NFhYdGstdkU5eVRROU55eUpKLUF3c1pjM1QzLV9xdTBBZ3Q4aDZtcmI5X2JvVGxLZVl1V1FDMmM2ZExTU2xXbUtEclo2ckxEQ3NfTXFfQ1E4RnVHV1ZPWUZTWFIzRE53dzVNOU1fVnNaREItZXFUUjZWM2FNVS1JOEF6QUI2WVg1cFo4ek1Qc09KT19RRTllSnk3MjFSNjNncVE2?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Wed, 30 Jul 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-11T10:58:43.882417+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "ILA contract negotiations: US supply chains brace for disruption - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM1FpRjBXU29WZWpiUUp1NWY0OXU0QTJOQzlUY2t6ckswc1hkNDlLWmkzLWw1QkZpTkVNZVRNNHpQUkRsMXZUdlZ0LWowU1JaUlc5WElxejZfUUtWdU9jcU5Qd3BPY25qQmZuSjg0Z1JBMGUtMTBpc3V1TTJqMzByOWxudE93MC1NUW5OaWVVTDVUWElYYzYxQ1VoMDYyZw?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 23 Sep 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-11T10:58:43.882417+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Legendary German mustard producer says it's turned to local sourcing to keep its supply chain intact - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcDdXaFVwX3hQTk5iMGc0Q0xxUFBJcmdSSHpXM0hWeno3Y2RESzJ0S2tmVWFneUsxVmJhR1lsUmcyb3Z0bXNOdlUxVVVMdXk2VW9fdDI4ZEtRUDhfakNfUTVHQnBjNmVDRXBkQ3FDc2JQUmFMTGpSWUFaUjRWdWpZelVYX2U2d0NKOW5nYkpPZjhZeC1RLWVjTnNDdnEyNlhzajZXWEtTMk4zRm9tVVlPZmpSRTdjTzBlSHc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 31 Oct 2023 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-11T10:58:43.882417+00:00"
     }
   ],
   "runs": [
@@ -10443,6 +10497,11 @@
       "timestamp": "2026-09-11T04:04:01.760823+00:00",
       "new_signals": 6,
       "total_signals": 1143
+    },
+    {
+      "timestamp": "2026-09-11T10:58:43.882417+00:00",
+      "new_signals": 6,
+      "total_signals": 1149
     }
   ]
 }
