@@ -7865,6 +7865,33 @@
       "pub_date": "Mon, 23 Sep 2024 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-11T10:58:43.882417+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Sicherheitsanweisungen des Versenders gegen das Risiko von Ladungsdiebstahl – qualifiziertes Verschulden, AGB-Festigkeit und Mitverschulden - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQREIwdG4zOU5JYjdQcXNPMWY3dk5HUFhUTDRZejBmUGpXQUdqVEZsOEs3RDF4dVN2M2huR1k1d0k1WWVuV1ZTRFBVLVJUWGRlNDFqdFFpa0pRemVLcENiRVJOUDZGWURnTGpyWFZhYzZ2OVRhanY0LW9NOWxhc0tyaW13ajNHLW1XLURhM1l5YUoydzE5VGFtbWR0RFFieVZEa2pBekgwUUZMLWlkVm9TUXZ1eGo5MmpUYW1RdEEtRWM2WHBFMjJjdGlPT3lJZFItNnYwQUlBTmRsNmYwS1E?oc=5",
+      "source": "Taylor Wessing",
+      "pub_date": "Wed, 13 Jul 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-11T16:14:30.829463+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German Corporate Insolvencies Rise 15.8% in June 2026 as Consumer Filings Also Climb - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOME9TN3N0ZlNja0d0QWxwdFlRZ3NISTNPMjZJNjlSMlJDc3l6UkdrYWFXOW9ZMXgxWkxxUjhaYkVLcXc0aE4za0liR294YXkxR2xFR19wSnEwa0FWanh5VWxRTDVkWE82VWUya0wzcFN0WmFZYkJpaDM4SnRFRUZSNGxpRzlqUE1TNWFUVjBQcXBoSEtseFdVQm93NFFndFdyRllnWm1TaWQ3SE4wemw1UWJ3?oc=5",
+      "source": "IndexBox",
+      "pub_date": "Fri, 11 Sep 2026 10:10:22 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-11T16:14:30.829463+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Unexpected Allies: Could International Investment Law Transform Human Rights in Supply Chains? - Wolters Kluwer",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMHpJMXNBUWY1VVFoZkU4Zm41MmhoSE1tWU9VOGdvTWpLS0lpQU9UNlcyRGtvX05nQkJrNmFTd3ctd2pJWlB5N3V2Y21faHBNS3pZUm1kTXhHTUtmVG9FR29jeFlKNGpwODlLRzA0Skd6dG52ZHBzWjIxSjVmU1JwTWV5dDJQaFBHdllFTC1VczFwXzVUb2FKdkExYUFGOXZHQWNDcTQ4ZXBpTjFEenE0cG1CVDllaE81aGt6MW0waVlyRDB3WkZNNkhKWUhQUUdVMzFpdDVYbHJhSzFNb09mQw?oc=5",
+      "source": "Wolters Kluwer",
+      "pub_date": "Sat, 20 Apr 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-11T16:14:30.829463+00:00"
     }
   ],
   "runs": [
@@ -8027,6 +8054,11 @@
       "timestamp": "2026-09-11T10:58:43.882417+00:00",
       "new_signals": 6,
       "total_signals": 1149
+    },
+    {
+      "timestamp": "2026-09-11T16:14:30.829463+00:00",
+      "new_signals": 3,
+      "total_signals": 877
     }
   ]
 }
