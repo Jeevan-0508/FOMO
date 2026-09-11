@@ -1,0 +1,1426 @@
+{
+  "total_before": 1149,
+  "total_after": 874,
+  "kept_unchanged": 811,
+  "reassigned_count": 63,
+  "dropped_count": 275,
+  "reassigned": [
+    {
+      "title": "Major organizations warn of rise in cargo theft and fraud - safety4sea",
+      "from": "Missing Trailer / Phantom Carrier",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Strategic Cargo Theft Now Accounts for Nearly a Third of All US Incidents, Report Finds - Risk & Insurance",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Theft Tactics and Trend Report 2026 - munichre.com",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Your Supply Chain Breach Is Someone Else's Payday - Recorded Future",
+      "from": "Carrier / Freight Fraud",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "Cargo theft: losses top €860m; criminals go digital - Trans.INFO",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "From Tequila to Electronics, Cargo Thieves Are Exploiting Weak Links in the Supply Chain - Heavy Duty Trucking",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Remote access, real cargo: cybercriminals targeting trucking and logistics - Proofpoint",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "German police intensify night patrols after cargo thefts - Trans.INFO",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Theft Incidents Fall in Q1, but Organized Crime and Impersonation Drive New Risks - Heavy Duty Trucking",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "From Diesel Prices to Cyberattacks: How the Iran War Is Affecting Trucking - Heavy Duty Trucking",
+      "from": "Carrier / Freight Fraud",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "End of the road for Romanian criminals targeting cargo transports - Europol",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "News Shock for 4,000 staff as battle to save Celadon ends in bankruptcy - The Loadstar",
+      "from": "Carrier / Freight Fraud",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "Safety matters as cargo thefts are on the rise - Trans.INFO",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Investor loses Shs5b in Uganda’s gold smuggling underworld - Daily Monitor",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "FBI Warns of Surge in Cargo Theft as Hackers Reroute Deliveries - NTD News",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Cargo crime threat rises across UK and Europe - fleetpoint.org",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "DB Cargo to cut 6,200 jobs in Germany as EU deadline looms - Trans.info",
+      "from": "Cargo Theft",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "Hackers Target Freight Firms, Adding Costs and Disruptions - Bloomberg.com",
+      "from": "Cargo Theft",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "IUMI & TAPA EMEA joint warning on fake carrier fraud and cargo crime risk - International Union of Marine Insurance",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Germany struggles to curb illegal cabotage - Trans.info",
+      "from": "Cargo Theft",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Millionenraub in Herzberg am Harz: Unbekannte stehlen Servertechnik aus Sattelauflieger - GT/ET Göttinger Tageblatt - Eichsfelder Tageblatt",
+      "from": "Missing Trailer / Phantom Carrier",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Metall-Diebe scheitern beim Abtransport der Beute - verkehrsrundschau.de",
+      "from": "Missing Trailer / Phantom Carrier",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "How Should Your Supply Chain Respond to the Crisis in Ukraine? - Bain & Company",
+      "from": "Operational Disruption",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "BMW, Michelin hit by supply-chain turmoil, Publicis cedes control in Russia - Reuters",
+      "from": "Operational Disruption",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "Zalando Erfurt: Verhindert die Schließung – Verteidigt jeden Arbeitsplatz - wsws.org",
+      "from": "Operational Disruption",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "Freight Fraud Has Gone Corporate - FreightWaves",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "GPS-Tracker entlarvt Fake-Frachtführer in Köln - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Cargo Crime: „Das Risiko wird immer größer“ - DVZ - Deutsche Verkehrs-Zeitung",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Europol supports strike-down on criminal organisation smuggling tens of thousands of hazardous salvage cars from the US – 10 suspects arrested and 18 interrogated; investigators estimate a damage of at least EUR 31 million in unpaid VAT and customs duti - Europol",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "2 major logistics firms plan layoffs in US, Europe - FreightWaves",
+      "from": "Carrier / Freight Fraud",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "LAB Prices Jump 6–9% in US and Germany as Supply Crisis Deepens - ChemAnalyst",
+      "from": "Operational Disruption",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "German watchdog reports on the first year of the Supply Chain Act, Julia Grothaus, Kathrin Bauwens, Mirjam Erb - Linklaters - Sustainable Futures",
+      "from": "Operational Disruption",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "The transport industry facing the biggest workforce crisis - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "UK freight crime reports hit nine a day in 2025 - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Drivers should expect significant delays in Germany and the United Kingdom this weekend - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "Deutsche Autobahnen betroffen: Neue Betrugswelle überrollt Deutschland - T-Online",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "eFTI Regulation explained: what EU digital transport data means - Trans.INFO",
+      "from": "Carrier / Freight Fraud",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Controlled Interdependence Is Not Enough, Supply-Chain Security Defines the Ceiling - 天下雜誌",
+      "from": "Operational Disruption",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Fire at German BP refinery; INEOS declares force majeure on phenol and acetone and implements sales allocation mechanism - ChemNet News",
+      "from": "Operational Disruption",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Mörderische Ausbeutung: Arbeiter stirbt während Schicht bei Amazon Leipzig - World Socialist Web Site",
+      "from": "Operational Disruption",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Growing freight crime costs UK economy £700m a year, parliamentary report reveals - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Scheinspeditionen verursachen Millionenschäden im Transport - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Spedition Betz International: Möglichst viele Arbeitsplätze sollen erhalten bleiben - swp.de",
+      "from": "Corporate Insolvency",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "German border controls could spark freight transport collapse and heavy losses, shippers warn - Trans.INFO",
+      "from": "Operational Disruption",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "DB Cargo may cut 8,000 jobs and SWL services - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "DB Cargo setzt Sanierungskurs fort – Automobillogistik-Tochter in Spanien verkauft - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "Transport in Germany is growing despite the crisis - Trans.INFO",
+      "from": "Carrier / Freight Fraud",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "German federal authority reveals how Agmaz drivers' strike came to an end - Trans.INFO",
+      "from": "Regulatory / Compliance Risk",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "Ghost carriers hit Germany with multi-million euro losses - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Missing Trailer / Phantom Carrier"
+    },
+    {
+      "title": "Cargo crime and the rise of insider threat - Munich Re",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Russian Cyber Gang “Diesel Vortex” Targets Logistics Sector, Steals Over 1,600 Credentials - The420.in",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Transportbetrug per Mausklick: Wenn eine Domain zur Falle wird - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Fake carriers attack freight exchanges: How organized crime groups steal cargo and drive companies into bankruptcy - Eurodebt.eu",
+      "from": "Missing Trailer / Phantom Carrier",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Thieves Shift Tactics as High-Value Shipments Drive Record Losses - Heavy Duty Trucking",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Freight crime rise puts forwarders under greater credit risk - Insurance Business",
+      "from": "Cargo Theft",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Gangs buy haulage firms to steal lorryloads of goods - BBC",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "One mistake, €5,000 fines: EU crackdown begins - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Ready for any crisis, anywhere in Volkswagen Group’s supply chain - Automotive Logistics",
+      "from": "Operational Disruption",
+      "to": "Corporate Insolvency"
+    },
+    {
+      "title": "The peak of the vacation season in Germany is on. The biggest congestions in the summer are happening now. - Trans.INFO",
+      "from": "Cargo Theft",
+      "to": "Operational Disruption"
+    },
+    {
+      "title": "11,000 bottles of bourbon, worth 'half a million,' stolen from warehouse in alleged heist - WCIV",
+      "from": "Carrier / Freight Fraud",
+      "to": "Cargo Theft"
+    },
+    {
+      "title": "Frachtbetrug: Spediteur aus Kufstein erleidet hohen Schaden - 5min.at",
+      "from": "Missing Trailer / Phantom Carrier",
+      "to": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "US Maritime Commission Collects $520,000 In Penalties - Marine News Magazine",
+      "from": "Carrier / Freight Fraud",
+      "to": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "European logistics operators estimate losses incurred due to block checks in Tyrol - Trans.INFO",
+      "from": "Carrier / Freight Fraud",
+      "to": "Operational Disruption"
+    }
+  ],
+  "dropped": [
+    {
+      "title": "CleverSolutions launches AV spinoff in Germany - Zag Daily",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "VCs Have A Bad Relationship With Trucks - Crunchbase News",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Lilium Secures New Investor Agreement to Support Business Restart - Future Transport-News",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Helrom officially launches Germany-Romania service - RailFreight.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "WFW advises Nederlandse Spoorwegen on sale of German Abellio rail services operations to BeNEX - wfw.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Forto's sale: Digital forwarders face harsh reality - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Germany’s auto industry cuts deeper as production shifts east - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Das deutsche Gründer-Paradox: Wenn täglich 66 Unternehmen scheitern und gleichzeitig 1.754 neue entstehen - Xpert.Digital - Konrad Wolfenstein",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "BBS wheels to restart production as new owner takes over - team-bhp.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Are letterbox companies the real cause of problems of the European transport industry? - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Austrian ATM Supplier Frequentis Acquires Germany's Comsoft - Aviation International News",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "New location for PLUTA’s Nuremberg branch - PLUTA Rechtsanwalts GmbH",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "British Airways owner among bidders for Air Berlin - sources - Times of Malta",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Forefront's Freight Brokerage Nearly Eliminates Manual Check Calls With AI - Stock Titan",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Truckstop.com celebrates thirty years of innovation in logistics - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "DAT Launches AI-powered Identity-Verification Solution - Heavy Duty Trucking",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Logistics companies seek integrated location tracking solutions - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Navigating Risk in Transportation and Logistics: Gearing Up for Big Transitions - aon.com",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Bison Transport Acquires Intermodal Assets of Celadon Group - Heavy Duty Trucking",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Sector report: Transport & Logistics - Allianz Trade",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "DHL cuts ties with cargo airlines as efficiency initiative ramps up - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Gebrüder Weiss Reports 10% Revenue Growth Amid Strategic North American Expansion - Breakbulk.News",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Industry Insider: My bill of lading does what? - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "World Bank Releases Logistics Performance Index 2023 - globaltrademag.com",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Port Report: Thanks to Belt and Road, Ceva Logistics bullish on Eurasia’s rail service - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Container xChange opens free access to global container logistics network - Press Trust of India",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Yusen Logistics makes major investments at Duisburg-Rheinhausen - The Loadstar",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Transport and logistics leaders chose the most promising startup for 2019. Check out who the winner is! - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Top 10 Reverse Logistics Technology Trends & Innovations in 2025 - StartUs Insights",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "EU Merger control and airlines: the evolving approach to market definition - Watson Farley & Williams",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Germany’s Ifo index keeps falling - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "TAPA EMEA and Trans.eu launch the first freight exchange built on TAPA’s supply chain security certifications - Cargo Airports & Airline Services",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Safety of goods - IFEMA Madrid",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "ÖBB Rail Cargo Group establishes new TransFER Salzburg–Augsburg - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "TAPA partners with Bosch Secure Truck Parking, boosting secure parking places by over 42% in 12 months - American Journal of Transportation",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Lufthansa Cargo invests €600 million in Frankfurt airport modernisation - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "New national research confirms that “Freight Belongs on Rail”, says DB Cargo UK - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "France opens new secure truck park on the A26 near Calais - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Insurance Explained - DHL",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Direct cargo route from UK to Hong Kong - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Global Logistics Insurance Market Size & Share Report, 2030 - Grand View Research",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "New France-UK border rule starts in days: no ELO, no crossing - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Port of Rostock opens upgraded tracks: ‘reduces need for train splitting’ - railfreight.com",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Seat belts on the radar of the Spanish traffic police. Helicopters involved in the control action - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "DB Cargo takes the highway with legalised cannabis in Germany - railfreight.com",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Beamer baut Angebot in Frankreich aus - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "DB Cargo verkauft 6.000 Wagen an GATX, Rückmietung folgt - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Airbus gründet eigene Fluggesellschaft für übergroße Fracht - Trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Electric trucks find a sweet spot with inbound logistics - freightwaves.com",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "German Logistics Companies Dominate the Air Cargo Sector - Statista",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Italy's mafia turns to white-collar crime as murder, extortion fall out of favor - Reuters",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "VW engineer sentenced to 40 months for emissions role - The Business Times",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Helrom operates with a new shareholder structure - RAILMARKET.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Ziegler break-up continues as Dutch, German and Swiss units move to UK-based owner - Trans.info",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Startups Seek Customers, Funds to Advance Class 8 Ambitions - ttnews.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "German forecast 2026–2029: road freight stabilises below 2019 - Trans.info",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Reason for concern or premature obituary? Analysts divided on German economy - euractiv.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Nine hundred tourists who booked with FTI are in Cyprus, Minister says - CBN.com.cy",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "International tätige Spedition Betz wird verkauft – Käufer bleibt im Dunkeln - Merkur",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Willi Betz International findet neuen Investor: Aventra übernimmt – erste Spur zum Eigentümer - Eurotransport",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Entscheidung unter Zeitdruck: Tönnes wagt den Schritt ins Speditionsgeschäft - RP Online",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Iran-Krieg: Wie die Logistikbranche unter hohen Spritpreisen leidet - Berliner Kurier",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Spedition Leupold: Übernahme durch DHL Freight - Radio Euroherz",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Nothegger will Unternehmen fortführen - tirol.ORF.at",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "„Wir sind zuversichtlich – es wird weitergehen“ - RP Online",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Lastwagen-Friedhof wird zum Youtube-Hit - Schwäbische.de",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Logistik ohne Zukunft - Westfalen-Blatt",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Legal - U.S. Department of Labor (.gov)",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Are Companies Ready for EUDR Enforcement? Dry Run Insights - Mayer Brown",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "UAW Files Charges Against Mercedes-Benz in Germany - Autobody News",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Sustainable and Resilient Supply Chains - Deloitte",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "WWCDA Annual Meeting 2024: Key enforcement trends from around the world - Ropes & Gray LLP",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "At Adidas Annual Meeting, Activists Demand Answers - WWD",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Global shoe brands tied to toxic tannery conditions in India - Dialogue Earth",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Bridging the Legal/Ethical Gap - ASIS International",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Why we need to audit algorithms and AI from end to end - AlgorithmWatch",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Europe’s push for self-sufficient lithium battery production - Automotive Logistics",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Why the Energy Charter Treaty Modernization Doesn't Deliver for Climate - International Institute for Sustainable Development",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Operations - Oceanco settles teak court case - SuperyachtNews.com",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Party foundations abroad - a look at Kenya, Brazil and Turkey - Konrad-Adenauer-Stiftung",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Wirtschaftswunder? Wachstumswunder statt Rezession: Warum Polen am kriselnden Europa und Deutschland vorbeizieht - Xpert.Digital - Konrad Wolfenstein",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Germany’s Green Rules Create Tax Loophole Worth Millions - discoveryalert.com.au",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Blooms of abuse: Why Kenya's flower exports risk EU ban - standardmedia.co.ke",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Wie steht es um die Sorgfaltspflichten in der Lieferkette? - Haufe. Intelligenz, die bewegt.",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Lieferkettenregulierung - Arbeitgeberverband Gesamtmetall",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Umweltpflichten klar definieren - Verband der Chemischen Industrie e.V. | VCI",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Streitet auch Schwarz-Rot über die EU-Lieferkettenrichtlinie? - tagesschau.de",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Stärkerer Schutz von Menschenrechten und Umwelt in globalen Lieferketten - Bundesministerium für Wirtschaft und Energie",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Rechts- und Umsetzungsfragen - Verband der Chemischen Industrie e.V. | VCI",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Die Lieferkette geht auch den Betriebsrat an - boeckler.de",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Verantwortung & Sorgfaltspflichten im eigenen Geschäftsbereich sowie in der globalen Lieferkette - thyssenkrupp Steel",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Der Weih­nachts­mann zwi­schen Lichter- und Lie­fer­kette - Legal Tribune Online",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "The economic toll of Europe’s record-breaking heatwave - ING THINK economic and financial analysis | ING THINK",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "DP World: Revealing Regions with Biggest Supply Chain Threat - Supply Chain Digital",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Climate risks to insurance and reinsurance of global supply chains – a new report from SEI shows - Stockholm Environment Institute",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Global Supply Chain Survey - In search of post-Covid-19 resilience - Allianz Trade",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "The U.S. supply chain is now facing two trade hurdles - CNBC",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Global Supply-Chain Problems Escalate, Threatening Economic Recovery - WSJ",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "What’s next for supply chain management in automotive? - strategyand.pwc.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Global supply chains amplify economic costs of future extreme heat risk - Nature",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Ukraine conflict adds to European supply chain snags - Reuters",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German chemicals grow in Q2, but stagnant full year still expected - ICIS",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Impact of Trump's tariff threats on automotive logistics and supply chains - Automotive Logistics",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Germany’s Drone Revolution Partnership with Ukraine - SLDinfo.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "DP World: What is the Scale of Supply Chain Climate Risks? - Sustainability Magazine",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "There's a major shift underway in manufacturing for U.S. companies - CNBC",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "5 AI Lessons for Building Resilient Healthcare Supply Chains - Healthcare Digital",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Accenture to Acquire Camelot Management Consultants to Expand SAP and Supply Chain Capabilities - Accenture",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "How Prepared are Leaders for Supply Chain Risk in 2026? - Supply Chain Digital",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Volkswagen focuses on regions to reduce supply chain vulnerability - Reuters",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Inverto doubles down in home base Germany with two new offices - Consultancy.eu",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "When Will The Supply Chain Return To Normal? - gCaptain",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "From Ukraine to NATO: How Germany's Drone Partnership Could Transform Alliance Defense - Defense.info",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Record-low Rhine levels are another warning that supply chains must adapt - ING THINK economic and financial analysis | ING THINK",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Coca-Cola reports border bottlenecks, touts localized supply chain to keep products flowing - Supply Chain Dive",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Germany August final manufacturing PMI 54.3 vs 54.1 prelim - investingLive",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "‘It is one minute before midnight’: the view from Germany’s industrial heartland - The Guardian",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Tesla Inc: Report on policies and practices to reduce climate-related water risk - As You Sow",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "SRH University: Build your career in global management - Study International",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Coronavirus compounds problems for German carmakers - DW.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "CEVA Logistics wins Airbus production supply contract in Germany - ti-insight.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Germany PMI climbs to 54.3 in August as factory output accelerates - Fibre2Fashion",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Why is plastic becoming scarce? - DW.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German industry seeks ladder out of supply chain woes - Macau Business",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Germany March final services PMI 50.9 vs 51.2 prelim - investingLive",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Germany’s Strategic Rare Earth Bunker Secures European Supply Chains - discoveryalert.com.au",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "China-Europe railway becomes key part of multimodal logistics, Duisport CEO says - The Macau Post Daily",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Australia, Germany move closer on guided weapons production - Asia Pacific Defence Reporter",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "91% of German businesses keen to expand investment in Vietnam - Báo VietNamNet",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Rare Earth Supply Chain Vulnerabilities in Taiwan Conflict - discoveryalert.com.au",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German Manufacturing Hits 11-Year Low, Sending the Pound Euro (GBP/EUR) Exchange Rate Higher - TorFX News",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German MNCs Remain Confident In Malaysia Despite Global Headwinds, MGCC Survey - businesstoday.com.my",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Konflikt um Löhne und Kontrolle: ver.di wirft Amazon massiven Druck vor - Osthessen|News",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Höchste Eskalationsstufe bei Avnet in Poing - SZ.de",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Getränkelogistik: Coca-Cola macht fünf deutsche Standorte dicht - Logistik Heute",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Deutsche Bahn will 2022 wieder Gewinn machen - dw.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "“Curtain slashers” cost Germany’s hauliers €9m in a year - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "The Trucking Industry’s Threat Intelligence Gap - truckinginfo.com",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "DHL cargo plane crashes near Vilnius airport, killing one person - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Insurance Explained - DHL",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Will Brussels solve the eternal problem of truck drivers? The European Commission already has a concrete action plan and money. - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Lufthansa Cargo investiert in Frankfurt - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Folge 2 - Mocro Maffia: Tonnano - Staffel 1 - RTL+",
+      "was_category": "Missing Trailer / Phantom Carrier"
+    },
+    {
+      "title": "USA Truck goes back on the market - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Rhine logistics - BASF – United States",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Threats to the 2026 FIFA World Cup - Recorded Future",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Lidl’s owner expands further into logistics by acquiring carrier - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Clipper Logistics acquires German company - Growth Business",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "DGL acquires 70 Euba trucks, saves 120 jobs - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Pesa acquires German tram manufacturer - Railway PRO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Euba-Logistic in Angermünde: Radeberger und Veltins investieren in Spedition - MOZ.de",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Nach Fehler der Treuhand: Warum ein 88-Jähriger seit 30 Jahren um sein Recht kämpft - noz.de",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "United Automobile, Aerospace and Agricultural Implement Workers of America - UAW",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Global garment industry profits from denial of right to unionize in major sourcing countries - Amnesty International",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "US Court Blocks EPA Bid to Weaken Soot Pollution Limits - Impakter",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Update Commercial 2026: General contract drafting, including international contracts - Noerr",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Germany Turns to Madagascar Graphite for Critical EV Supply - Discovery Alert",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Rolls-Royce defends pricing after airlines bash engine industry - Reuters",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Uncovering Supply-Chain Risks in the Iran War - MSCI",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Disarray at semiconductor manufacturer Nexperia prompts supply chain concerns - Automotive Logistics",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Major supply chain shock to leave global businesses exposed - Logistics Business",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Gefahr für die Lieferketten: Iran schließt Straße von Hormus – 170 Containerschiffe stecken im Persischen Golf fest - Xpert.Digital - Konrad Wolfenstein",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Nexperia’s China factory cuts output as Dutch takeover deepens global chip supply tensions - scmp.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "How to keep pace with the rapidly changing supply chain environment - Zurich Insurance Group",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Supply Chain Vulnerability Index shows wide gulf between US and China - Investment Monitor",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "A decade on, China-Europe Railway Express spurs new momentum in Eurasian cities - State Council Information Office",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Germany's Merz floats possibility of EU-India trade deal by end of January - Reuters",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "How U.S. restrictions drove Deutsche Telekom and Huawei closer together - Politico",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Chinese, German officials vow to boost cooperation - Global Times",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Transparency in supply chains - Computer&Automation",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "DHL: News und aktuelle Meldungen zum Logistik- und Transportunternehmen - TRANSPORT - die Zeitung für den Güterverkehr",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Smart Container Market | Global Market Analysis Report - 2036 - Fact.MR",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "How private initiatives fill Europe’s driver facility gap - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Cargo Insurance Explained - DHL",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Ranking of the best manufacturing locations in the world. Guess which European countries are in the top 10. - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Relay Payments Now Accepted at Pilot, Flying J, and One9 - Heavy Duty Trucking",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "DSV clears final closing conditions for Schenker acquisition - FreightWaves",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "OCR updates ID document authentication toolkit, targets online age verification - Biometric Update",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "UCO (Unknown Cooking Oil): High hopes on limited and suspicious materials - transportenvironment.org",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "January cold wave reveals structural risks in European transport - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Logistics software company Descartes Systems Group buying Tai for US$100 million - CTV News",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Peugeot to be prosecuted in France over 'dieselgate' - businesstimes.com.sg",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Vos Logistics boosts profit as takeover nears completion - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Scandlines Cancels Newbuild Pair at P+S Werften - gCaptain",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "EUDR nearing completion: Commission adopts final legal acts on product scope and information system - CMS.law",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "The application of antitrust principles in competition for employees - Deloitte",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "“Textiles Embody the Essence of Capitalism” - Rosa-Luxemburg-Stiftung",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Gas rationing would 'cripple German economy' - DW.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Inside the iPhone: How Apple Sources From 43 Countries Nearly Seamlessly - Thomasnet",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Spedition holt sich Lkw – und lässt Fahrer in Wildeshausen zurück - buten un binnen",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "EU to tighten freight checks in safety reform - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Spanish traffic police will intensify controls during the upcoming week - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Uber Freight Deliver 2022: \"A World We No Longer Live In\" - Talking Logistics with Adrian Gonzalez",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Legal Insights on the Import of PPE and Other Medical Supplies Vital to Fighting COVID-19 - Holland & Knight",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "6 best practices for third-party logistics companies to differentiate from competitors - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "36 Millionen Euro Forderungen bei Tiroler Spedition Nothegger - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Will Bangladeshi garment exporters be able to meet EU's upcoming standards? - The Business Standard",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Fairtrade und Co: „Viele Siegel sind nur Beruhigungspillen für die Öffentlichkeit“ - Berliner Zeitung",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Nato's tabletop wargame projects moving forces, supplies and casualties across Europe - Forces News",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Australia, Germany to Unite on Guided Weapons Parts - Mirage News",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Lufthansa Cargo launcht neue Verbindung - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Reedereien im Bahnmarkt: Boluda übernimmt Transfesa-Geschäft von DB Cargo - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Karussellgeschäfte vs. Cum-Ex: Der viel größere Steuerskandal in der EU, den niemand kennt? – Warum Politik und Medien schweigen - Xpert.Digital - Konrad Wolfenstein",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Operating a transport company in Germany. 5 things that are not as bad as they seem to be. - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Obike abandons bikes throughout Europe - DW.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Minister weicht Frage nach vereinfachtem Verpackungsgesetz aus - packaging journal",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Rocking the boat: Setting up scalable, profitable truck parking in months - iru.org",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "How Technology is Making Logistics More Efficient - Heavy Duty Trucking",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "First ever ‘robotaxi’ trials with passengers begin in Germany - electrive.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Supply chain liability of directors and officers - Freshfields",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Bangladeshi Fashion Workers and a German law - Countercurrents",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Heat Wave Lowers Rhine Levels, Straining Fuel Supply Chains - Supply Chain Brain",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Global and European vehicle production and the impacts on logistics - Automotive Logistics",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "IEA to release record amount of emergency oil reserves as Middle East war rattles markets - France 24",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "DSV outlook: weak recovery, higher transport costs - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Spedition Betz International geht an Aventra - verkehrsrundschau.de",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "German Whistleblower Protection Act – 12 Frequently Asked Questions - Gleiss Lutz",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Supply problems fuel German inflation - dw.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Neue körperliche Auseinandersetzung zwischen Spediteur und Lkw-Fahrer - verkehrsrundschau.de",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German logistics firm Zeitfracht says looking at Niki's books - Reuters",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "A Practical Guide to Supply Chain Transparency - Filion Wakely Thorup Angeletti LLP",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Fuel prices surge as Middle East war hits European road transport - Trans.INFO",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Lufthansa Cargo stellt Vorstand neu auf und erweitert Streckennetz - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Private Spot – die Frachtenbörse für das eigene Frachtführer-Netzwerk - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "DOT Escalates Trucking Crackdown With New CDL Enforcement Push - WWD",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Overview - bafa.de",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Stadler improves margin despite headwinds | Latest Railway News - RAILMARKET.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Supply chains: Germany eases reporting but risks persist - Munich Re",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Volkswagen Says Loss of Chip Supply Could Hit Production - The New York Times",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Climate adaptation: preparing for uncertain futures | Risk Management Partners - Munich Re",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Auto industry sounds the alarm as China's rare earth curbs start to bite - CNBC",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "DHL Supply Chain opens new warehouse for IKEA with automated packaging machinery - Trans.INFO",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Australia Launches Domestic Missile Warhead Production with Germany to Secure Supply Chains - Army Recognition",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Italy domestic VAT reverse charge transport & logistics - vatcalc.com",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Bucharest will become European hub for transport, logistics and freight forwarding,between May 18-20 - Agerpres",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Supply Chain Instability Threatens Security of Supplies - Stiftung Wissenschaft und Politik (SWP)",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "China-Europe railway becomes key part of multimodal logistics, Duisport CEO says - State Council Information Office",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German industrial production increases as supply chain issues ease - BreakingNews.ie",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Here’s why Europe’s hot summers are becoming an expensive challenge - CNBC",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Change of management in one of the largest logistics companies in Germany - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Logistics software company Descartes Systems Group buying Tai for US$100 million - CTV News",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "History of transport – part 39. How car transport has become a political issue - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "GLS takes over a Spanish transport company - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Dentons advises buyer on takeover of bakery chain Unser Heimatbäcker (“Lila Bäcker”) - Dentons",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Exxon seeks U.S. political help in call to quash EU climate law - BNN Bloomberg",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Record turnover in the German courier industry - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Breakingviews - COMMENTARY: Supply chain scrutiny may upend EU solar ambitions - Reuters",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Lidl and Aldi face supply chain challenges over Evergiven Suez accident - Trans.INFO",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "EU approves €1.9 billion state aid for DB Cargo - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "FourKites announces acquisition of NIC-place - Trans.INFO",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German used-car prices hit record on tight supply chains - Luxembourg Times",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Lidl terminated cooperation with the Turkish company Agrobej - vreme.com",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Germany Climbs The Industrial Power Ranks - Global Finance Magazine",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "African raw materials for Germany. BASF as an example of supply chain responsibility - Dachverband Kritische Aktionärinnen und Aktionäre",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Helrom truck trains in cash difficulties - worldcargonews.com",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Spontane Mobilmachung im italienischen Transportwesen - verkehrsrundschau.de",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Tarifrunde Seehäfen: Verdi erzielt Reallohnplus - verkehrsrundschau.de",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "'Imbalance in shipping container supply chain is far from over' - bike-eu.com",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Kent truckstop freight traffic plan hindered as Ashford scales down its role - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Überblick - BAFA - Startseite",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Amazon schließt Logistikzentrum Brieselang nahe Berlin - RND.de",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "German police shocked by wrecked trailer that was crammed with dangerous goods - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "History setzt «Oak Island» fort - Quotenmeter",
+      "was_category": "Missing Trailer / Phantom Carrier"
+    },
+    {
+      "title": "Shekar Natarajan on leading transformation and redefining the logistics sector - trans.info",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "CEO-Wechsel bei der Lufthansa Cargo AG - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Germany’s signature auto industry hits another roadblock - AFR",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Ex-Volkswagen CEO faces trial over ‘dieselgate’ - The Business Times",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Germany's struggle to clean up its supply chains has lessons for Europe - Reuters",
+      "was_category": "Regulatory / Compliance Risk"
+    },
+    {
+      "title": "Bernhard Osburg soll neue Führung bei DB Cargo übernehmen - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Maersk Africa Region Managing Director joins German logistics provider Leschaco - Trans.INFO",
+      "was_category": "Carrier / Freight Fraud"
+    },
+    {
+      "title": "Uncertainty looms for automotive supply chains in Europe - Automotive Logistics",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Temperature-controlled transport company opens new facility in Austria - Trans.INFO",
+      "was_category": "Corporate Insolvency"
+    },
+    {
+      "title": "Aerospace supply chain resilience report finds a lack of preparedness for production ramp-ups - Trans.INFO",
+      "was_category": "Operational Disruption"
+    },
+    {
+      "title": "Truck drivers spend over an hour searching for parking - Trans.INFO",
+      "was_category": "Cargo Theft"
+    },
+    {
+      "title": "Legendary German mustard producer says it's turned to local sourcing to keep its supply chain intact - Trans.INFO",
+      "was_category": "Operational Disruption"
+    }
+  ]
+}

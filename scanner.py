@@ -41,6 +41,12 @@ CATEGORIES = {
             "organised", "organized crime", "armed", "violence", "hijack",
             "organisierte kriminalität", "bewaffnet", "gewalt",
         ],
+        "must_match": [
+            "theft", "thieves", "stolen", "stole", "steal", "robbery", "robbed", "robbers",
+            "hijack", "burglary", "burgled", "looted", "loot", "raid", "raided", "heist",
+            "gang", "crimin", "smuggl",
+            "diebstahl", "dieb", "gestohlen", "stehlen", "stiehlt", "raub", "beraubt", "geraubt",
+        ],
     },
     "Missing Trailer / Phantom Carrier": {
         "queries": [
@@ -51,6 +57,13 @@ CATEGORIES = {
         "escalate_if": [
             "fake identity", "identity theft", "disappeared", "never arrived",
             "gefälschte identität", "verschwunden", "spurlos",
+        ],
+        "must_match": [
+            "phantom carrier", "missing trailer", "fake identity", "identity theft",
+            "disappeared", "never arrived", "vanished", "ghost carrier", "impersonat",
+            "double brokering", "cybercrim", "hacker",
+            "frachtführerbetrug", "gestohlene ladung", "gefälschte identität",
+            "verschwunden", "spurlos", "phantom",
         ],
     },
     "Carrier / Freight Fraud": {
@@ -63,6 +76,12 @@ CATEGORIES = {
             "million", "€", "criminal", "arrested", "indicted",
             "verhaftet", "angeklagt", "betrug",
         ],
+        "must_match": [
+            "fraud", "fraudster", "scam", "scammed", "swindle", "con artist",
+            "double brokering", "double-brokering", "cargo crime", "seizure", "probe",
+            "frachtbetrug", "betrug", "betrüger", "schwindel", "abzocke", "entlarvt",
+            "scheinspedition", "freight crime",
+        ],
     },
     "Corporate Insolvency": {
         "queries": [
@@ -73,6 +92,19 @@ CATEGORIES = {
         "escalate_if": [
             "insolvenz", "bankruptcy", "collapse", "shut down", "liquidation",
             "insolvenzverfahren", "bankrott", "pleite",
+        ],
+        "must_match": [
+            "insolven", "bankrupt", "liquidat", "administration", "receivership",
+            "winding up", "wound up", "collapse", "folds", "folded", "ceases operation",
+            "ceases trading", "files for", "going under", "restructuring", "restructure",
+            "up for sale", "hard times", "struggling", "crisis", "turmoil",
+            "job cuts", "cut jobs", "cutting jobs", "layoffs", "lay off", "jobs at risk",
+            "insolvenz", "pleite", "bankrott", "abwicklung", "konkurs", "entlassen",
+            "abgewickelt", "vor dem aus", "ermittelt", "ermittlung", "bangen um",
+            "schließung", "macht dicht", "court supervision", "court protection",
+            "schutzschirmverfahren", "rettet", "retten", "gerettet", "seeks investor",
+            "gerichtskontrolle", "sanier", "aufgelöst", "auflösung", "zusammenbruch",
+            "kämpft ums überleben",
         ],
     },
     "Regulatory / Compliance Risk": {
@@ -85,6 +117,20 @@ CATEGORIES = {
             "fine", "penalty", "violation", "lawsuit",
             "bußgeld", "verstoss", "verstoß", "klage",
         ],
+        "must_match": [
+            "fine", "fined", "penalt", "violat", "lawsuit", "sued", "sanction",
+            "due diligence", "regulator", "regulation", "watchdog", "investigat",
+            "probe", "seizure", "cabotage", "illegal cabotage", "tax probe",
+            "lieferkettengesetz", "bußgeld", "verstoss", "verstoß", "klage",
+            "sanktion", "compliance", "aufsicht",
+            "forced labour", "forced labor", "human rights", "modern slavery",
+            "child labour", "child labor", "complaint filed", "complaint",
+            "ngo", "lksg", "lieferkettensorgfaltspflichtengesetz",
+            "esg", "csddd", "csrd", "exploitation", "labour rights", "labor rights",
+            "supply chain law", "supply chain act", "ausbeutung", "xinjiang",
+            "sustainability law", "sustainability directive", "sustainability requirement",
+            "duty of care", "supply chain abuse", "lieferkettensorgfalt",
+        ],
     },
     "Operational Disruption": {
         "queries": [
@@ -96,8 +142,62 @@ CATEGORIES = {
             "cyberattack", "ransomware", "strike", "halt", "shutdown",
             "cyberangriff", "streik", "stillstand",
         ],
+        "must_match": [
+            "strike", "walkout", "work stoppage", "cyberattack", "cyber attack",
+            "ransomware", "hacked", "hacker", "breach", "outage", "halt", "pause output", "shutdown",
+            "disrupt", "congestion", "block check", "border check", "traffic ban",
+            "blockade", "blocking", "blockad", "protest", "shipping crisis",
+            "shipping lane", "canal", "strait of", "chokepoint", "export ban",
+            "chip shortage", "supply shock", "delay",
+            "streik", "arbeitsniederlegung", "legten die arbeit nieder",
+            "legten arbeit nieder", "lahmgelegt", "lahm", "urabstimmung",
+            "blockieren", "blockade", "cyberangriff", "stillstand", "störung",
+            "verzögerung", "blockabfertigung",
+            "tarifverhandlung", "tarifstreit", "tarifkonflikt", "tarifeinigung",
+        ],
     },
 }
+
+
+# Some risk phrasings vary too much in word order/number for a literal
+# substring match (e.g. "DB Cargo to cut 6,200 jobs" vs. "job cuts"), so a
+# few high-value patterns are matched with regex instead.
+CATEGORY_REGEX = {
+    "Corporate Insolvency": [
+        r"cut[s]?\s+[\d.,]+\s*(jobs|stellen|arbeitsplätze)",
+        r"(jobs|stellen|arbeitsplätze)\s+(werden\s+)?(abgebaut|gestrichen)",
+    ],
+}
+
+
+def best_category_for(title: str, own_category: str) -> str | None:
+    """Decide which category (if any) a headline actually belongs in.
+
+    A category's search query is a broad net for Google News, which matches
+    loosely on individual words rather than the query's intent - it will
+    return a story about carrier tariffs for a "carrier fraud" query with no
+    fraud in it anywhere. This checks the title against each category's own
+    identifying keywords rather than trusting the query that fetched it.
+
+    Returns the best-fit category, which may differ from own_category if the
+    content clearly belongs elsewhere, or None if no category's keywords are
+    present at all (the story is noise from an overly broad query).
+    """
+    lowered = title.lower().replace("\xad", "")
+    own_cfg = CATEGORIES.get(own_category)
+    if own_cfg and any(kw.lower() in lowered for kw in own_cfg.get("must_match", [])):
+        return own_category
+    own_patterns = CATEGORY_REGEX.get(own_category, [])
+    if any(re.search(p, lowered) for p in own_patterns):
+        return own_category
+
+    best_cat, best_hits = None, 0
+    for cat, cfg in CATEGORIES.items():
+        hits = sum(1 for kw in cfg.get("must_match", []) if kw.lower() in lowered)
+        hits += sum(2 for p in CATEGORY_REGEX.get(cat, []) if re.search(p, lowered))
+        if hits > best_hits:
+            best_cat, best_hits = cat, hits
+    return best_cat
 
 SEVERITY_RANK = {"low": 1, "medium": 2, "high": 3, "critical": 4}
 USER_AGENT = "Mozilla/5.0 (compatible; FOMO-RiskRadar/1.0)"
@@ -183,9 +283,16 @@ def run_scan() -> dict:
             for item in fetch_rss(q_cfg["q"], lang=q_cfg["lang"]):
                 if item["link"] in known_links:
                     continue
-                severity = score_severity(item["title"], cfg["severity"], cfg["escalate_if"])
+                # The query is a broad net for Google News, not a content filter -
+                # confirm the headline actually matches a category before keeping it.
+                actual_category = best_category_for(item["title"], category)
+                if actual_category is None:
+                    known_links.add(item["link"])  # seen, but not a real risk signal
+                    continue
+                final_cfg = CATEGORIES[actual_category]
+                severity = score_severity(item["title"], final_cfg["severity"], final_cfg["escalate_if"])
                 signal = {
-                    "category": category,
+                    "category": actual_category,
                     "title": item["title"],
                     "link": item["link"],
                     "source": item["source"],
