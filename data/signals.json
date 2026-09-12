@@ -7955,6 +7955,15 @@
       "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-12T10:26:40.135944+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSXpQNDFYVmlwU05XRV93UXRfY1FmeG1udC1CM0lDMG5PRHV3Qi1ZRzNNM1FSbVc1RUV2UEh5S2h3SE5ua3JoU2JvdWtMZG9WWlFIaVhsWEp5VkxqeW05eUhZcndTSGhsdVNRa0l0WVpUSTBNcURhWEJJUFdqNmpucVA3dm1BOTR0N0pmQ01MemlvNDNva0FneFpSa3BJOFU?oc=5",
+      "source": "Merkur",
+      "pub_date": "Sat, 12 Sep 2026 02:47:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-12T15:21:08.934591+00:00"
     }
   ],
   "runs": [
@@ -8137,6 +8146,11 @@
       "timestamp": "2026-09-12T10:26:40.135944+00:00",
       "new_signals": 2,
       "total_signals": 884
+    },
+    {
+      "timestamp": "2026-09-12T15:21:08.934591+00:00",
+      "new_signals": 1,
+      "total_signals": 885
     }
   ]
 }
