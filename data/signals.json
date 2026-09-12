@@ -7964,6 +7964,33 @@
       "pub_date": "Sat, 12 Sep 2026 02:47:00 GMT",
       "severity": "high",
       "found_at": "2026-09-12T15:21:08.934591+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Exclusion from the award of public contracts under the German Supply Chain Act: sharp sword or empty threat? - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWHhFZWlrOTVFTnRjVzg0VnRpOGZtS1JrRTlGV01nZl9saGhEVWdQazRZaHJBWGZqZENFU2pXVlE4YXJDb3NWZm0weUdfZVZtZUdiSXRiNHBlRmZ1Q1FfeWU3c1JOTVIxLU5OQ0xsSVE4QWhLQ1EzNFYtamFydkJseFZpMEVlUFJLMW9mZHpxc2E4TWNqOEdFQ2t6UUxwa0lTZnlpUzFLWmR6RE5zRk43YnkweWNGZjRWX1c0Qmx5cm5aTmQwM1I1Z2t0b0dJUnNfV3cxeS1raEI3Um16VDdWSGE5QjhKTVN4aHFqTWJTTQ?oc=5",
+      "source": "Freshfields",
+      "pub_date": "Fri, 09 Dec 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-12T20:24:16.077406+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: Transparenz bleibt ein Hauptproblem - e-commerce magazin",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVnlQdjN0cmo2UWo1ZFhNUHNQbllvNDZhN0txZjVYQ1FlaGpJVWliaWo4d25EcmhONTlJbTNoN0lQZExFQnZoNFppaVJ6cHN2MG5sWDZyREJKNU8wSExSU2tuclUzaVhvYWVsQXc0QWdOTjRYdlh0U1Iwc0RndlVGUHNoY1NCNnB4SXZoanlGQ1o3ajFjaU9YLU5tY2JQMzVPb3ZER3Ywd0RLSXZaTDV4cUNPbmtMYzFlQlROMmNTYjB2VWRDR1JjTXN4UE9mMXdkSHE4dzNEYlg4UQ?oc=5",
+      "source": "e-commerce magazin",
+      "pub_date": "Tue, 15 Nov 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-12T20:24:16.077406+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "„Kein Mensch braucht ein Lieferkettensorgfaltspflichtengesetz“ – Unternehmer schlagen Alarm - WELT",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNRGttOWc0UE9KXzhKVjFNeHRhaGRMUFRLNlZOaElBSE9kRGxQdC05alVlWnBCLUFxRTBYdlR5b1J0Z2FEOUxUOGl6V0lZcFB1d3BHZDg0ZUhuYy1RTE9XbjRual8yOHNuTjE2SGxjam1fQW95WjYtUGtwWHctSnQwbXlTVkM2cU1KelJoeG0tZVJYTlM5V2JWZGtVN3V6a1ItaWhObXFzOFlyOFhCc1Nnb1BqVkJyNjY2TE9vOWNYVnYwZU9HN0hMX3JxOXg4QUprTDlYNldEWG41T04yZ3U0aFJoS1FZOHIxTmFMSkFjRzF2VU9CcDBxdUxoUVhCTE1XY1lqR05kbEpqNzJxdkE?oc=5",
+      "source": "WELT",
+      "pub_date": "Wed, 29 Jan 2025 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-12T20:24:16.077406+00:00"
     }
   ],
   "runs": [
@@ -8151,6 +8178,11 @@
       "timestamp": "2026-09-12T15:21:08.934591+00:00",
       "new_signals": 1,
       "total_signals": 885
+    },
+    {
+      "timestamp": "2026-09-12T20:24:16.077406+00:00",
+      "new_signals": 3,
+      "total_signals": 888
     }
   ]
 }
