@@ -7892,6 +7892,51 @@
       "pub_date": "Sat, 20 Apr 2024 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-11T16:14:30.829463+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "HELROM files for preliminary insolvency, continues operations on key corridors - RAILMARKET.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTk1ubGd2TnFaN0xIUjVvVmlQTHZMY3F1M3FUUEhxa280bmZ6ZWxYRnlRRWg0V2N6UVVsOGdHWFlvMDZZZHpuUEdLcVdtSEpFc2ZjZEFoaEp1VkJZY1RFc0RYZ3dBUU1ZSmFBZEZmYlAtWUF1VVF6alZ2bWhZMldKalpyeU9Eeng2X3hDZGd2UkFocHpHeExPNllMal9XQTFiNlZsOTJoM0VveFdnWU15Qg?oc=5",
+      "source": "RAILMARKET.com",
+      "pub_date": "Mon, 21 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-12T04:04:48.775821+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0s4SktLaW1KdzN0clpZSlFpVFFXTktNaXhDMG52aXJUeVFwQnlyc0hCS3pkM2NRbzVTRmZITHZSNlFrQ053MXc2eE5GRzlBMjluZGRDYklHUlNZZENSbHVjVUVzM2FkN1ZVdnU0c1JaTlppMGhWMXE1bktnRHZ5NTlKa2RBeXZCWGU3TmJqbTFUSTliZFBTLU0wMVZ3YXc?oc=5",
+      "source": "Merkur",
+      "pub_date": "Fri, 11 Sep 2026 12:12:13 GMT",
+      "severity": "high",
+      "found_at": "2026-09-12T04:04:48.775821+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Anwendbarkeit des LkSG – wen es betrifft | Sustainability - Haufe. Intelligenz, die bewegt.",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYmx6QXdEZlFnZ1RsS2xwNHdmODR4X1FCMU1ZbUdnSlpWYU82djhETG0tMXRLXzI0LUVkdUZwSHRHX19GcHBjYVBWdHB0UmRDUG9NSnR2clM5SVdvZE1PMlA0T0VLRHJHc3ZFQlFzTVR6MkRSMERCMFgtbTlmdDliUjA2M3pFemVlM2NIelBRZGFnNm56RXVRcGJfZkZhbW5fcFk5ZUtR?oc=5",
+      "source": "Haufe. Intelligenz, die bewegt.",
+      "pub_date": "Wed, 21 Dec 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-12T04:04:48.775821+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German port worked initiated another 24 hour strike - FreshPlaza",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFk3Vm9hOEJ1N0NLSHcxWUhIQzFwMHdoeTZ0cWxKOWNqMTYzUXA2QjdrYmluVUpTRmhDdV9ER2FkbTM4VzJ4NTYtc2pzUThYbVkwb1lHM0FSSlBIUElBb1Z0Ykc3a3NnTkVVbndSQ0hJd2RGUWdLQ2t0VlVBRWV0Q1RFb0cxSXNsdlFBX1U2b3dHVEkzNGtETnVyNGUxOVFESGtmLU1rVDRkVW9CYXc?oc=5",
+      "source": "FreshPlaza",
+      "pub_date": "Tue, 18 Jun 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-12T04:04:48.775821+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik der Lkw-Fahrer geht weiter - 1730live.de",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vVTNnSTE1R2JOSzJfTmtIemZxZzBvY1Vxbms4Y2YzS3NuWFVkVllhNHprc0VlUGhXcTNCWmRxNUh2dWI0TDUwTDc0T2N1LWhsUFJGV0hia0FIaTF2R2ZQb05MSEExa0JYQllyUS1oMXd3My1xNFN1NQ?oc=5",
+      "source": "1730live.de",
+      "pub_date": "Thu, 13 Apr 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-12T04:04:48.775821+00:00"
     }
   ],
   "runs": [
@@ -8064,6 +8109,11 @@
       "timestamp": "2026-09-11T20:47:07.851123+00:00",
       "new_signals": 0,
       "total_signals": 877
+    },
+    {
+      "timestamp": "2026-09-12T04:04:48.775821+00:00",
+      "new_signals": 5,
+      "total_signals": 882
     }
   ]
 }
