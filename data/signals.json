@@ -7937,6 +7937,24 @@
       "pub_date": "Thu, 13 Apr 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-12T04:04:48.775821+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "German parliament takes decisive action on clean transport and biofuel fraud prevention - Biofuels International Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUV9jWV8yTUFLdkQtdzNKM1JaYUVMZ1d4NC12UnB1M0NoT1lwTUlCbDNWOVVrN0k3RExTWFUyeG9saHZPWjlIdkxLQ1N1X1prSVpkcG5XNVlXc1A3ZjY4bTEwLS1LYVo0NTc5Nkprd3pNSUIwbTZkeFY4OEVZN2Ryb2g2SFdxUHpvN090bGV1ZWtRelVGRE9xQXVsX2JoTmRTNFVUeFJfTDdvVnFSb19XdkowdTdhUEZZOGMw?oc=5",
+      "source": "Biofuels International Magazine",
+      "pub_date": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-12T10:26:40.135944+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Black Friday: Streik bei Amazon - faz.net",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONzBUaFFBYjc3ZFppRmt6ZHZQQXZRYlFNcVJORlpNcURZaFpXSjdoRVVzVk9iTktQNmhoNzNDUWwyRW1jUDRiVEl2Y3ZicFJQRm9IZ0dHenhNaXF5d1pXRExnSFBqeV9SLU8xT3dxYUdvUVJ0RmxzTWp1Q0IwYkRtME9RX2hwSU1QamRlMUtrcUFjZmFvLWRYdlRGRTM5cmRlUHc?oc=5",
+      "source": "faz.net",
+      "pub_date": "Fri, 28 Nov 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-12T10:26:40.135944+00:00"
     }
   ],
   "runs": [
@@ -8114,6 +8132,11 @@
       "timestamp": "2026-09-12T04:04:48.775821+00:00",
       "new_signals": 5,
       "total_signals": 882
+    },
+    {
+      "timestamp": "2026-09-12T10:26:40.135944+00:00",
+      "new_signals": 2,
+      "total_signals": 884
     }
   ]
 }
