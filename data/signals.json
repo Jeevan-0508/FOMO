@@ -7991,6 +7991,42 @@
       "pub_date": "Wed, 29 Jan 2025 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-12T20:24:16.077406+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "How a German freight lift became an unexpected social media star in the Louvre heist - ctvnews.ca",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY09sNHhvVlBsbkJNSFp6QzVucU5BMHEwZHcwYWVXYS03ZlVWTUpfeFcyaUJ5aXZpRUd0NDRRVDduS2dfZjZuMXFqYkp6NGtEaVFmRnZmT2NVVk5lV19SOTdXVlRKUkpvV1BaaC10Y3lGazRQOHBfcTJmSDBpSWlFM05teWRkLTNtQU1xb1llNEljUU9fdUpBRTlqQm9LLUNPVnBzdzczUFUwUTJTNlZ5MGdPVmM5YThBMjl1ampaOA?oc=5",
+      "source": "ctvnews.ca",
+      "pub_date": "Fri, 24 Oct 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T04:16:14.946062+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenz der Spedition Betz International: Auswirkungen und Perspektiven - it boltwise",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZWxCWmxlT3l1RkZOMUZVdFptR21ZcjJsb2JsU3FBUm0tYXBjSmFUcThJT3pBNlNEUG5qU3FzVHM1bmhkdTNsWm5fZnFWaUlhc0laVTU0MEktcmdrcTZfZmFSQ2hPN09WZDJQS28wMWFwc3FVeXBTRmdyd0R1X0NTWEh3QzB3VFc4OUNpOTJKRXBoYU15UC1oa2RSbDJZS2hZVFEwQjhnbw?oc=5",
+      "source": "it boltwise",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T04:16:14.946062+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "BAFA veröffentlicht Handreichung zum Lieferkettensorgfaltspflichtengesetz (LkSG) - GDV (Gesamtverband der Versicherer)",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbC12cDF3Z1RfdHFNY2dadDVYRUtFNkJ3ZWZLcWFIRHVVeDFhVWVRQkFjRjllQ1dfUVBkU1N5QnJ3bmtmXzJScEpPTmFyb0FZTDl5OVdpcDVyRjdsR1YtSzlmQWRSY0ZtQ2ltZ1FwVTRlNkNtTGpaREpqOERpY25EV2N2NkFoZks3OTBRbjdMSWJSQi1Jby1RZWd4WFdCWTdkd0pSNHFGWmtpcGRxS19nTEJJQUhIcS00dF9MZmgyLVp2b3d5UHFCd29MR29YeUVqMi0zbXV3?oc=5",
+      "source": "GDV (Gesamtverband der Versicherer)",
+      "pub_date": "Fri, 31 Jan 2025 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-13T04:16:14.946062+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Germany to be paralyzed by rail strike again - RAILMARKET.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQXAwM09uRk14UVoyMl9SYlZxdFZsZ3o4X2JRU1NYeDNsOHN2VmRpZ05rbDFET3BReml6dXJzX2J4bEZNakZlR011cWJSV1pPTWwzYVlVWS01elczWFdlaGNjS01Fb193dWFrZG4ydi14b1BfUDlIT2RuLU4zY0oxSVF4WjRibEV2ZUJ3XzdkQ1I3NklKeXg0bll2NUhRTUMtUHRJd05NWVJMbE1pOVhORWUxbUNDam1NazVyaVV2b1pPVnEw?oc=5",
+      "source": "RAILMARKET.com",
+      "pub_date": "Tue, 12 Mar 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T04:16:14.946062+00:00"
     }
   ],
   "runs": [
@@ -8183,6 +8219,11 @@
       "timestamp": "2026-09-12T20:24:16.077406+00:00",
       "new_signals": 3,
       "total_signals": 888
+    },
+    {
+      "timestamp": "2026-09-13T04:16:14.946062+00:00",
+      "new_signals": 4,
+      "total_signals": 892
     }
   ]
 }
