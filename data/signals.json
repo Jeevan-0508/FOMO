@@ -8027,6 +8027,33 @@
       "pub_date": "Tue, 12 Mar 2024 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-13T04:16:14.946062+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "Schäden durch Phantomfrachtführer nehmen rasant zu - dvz.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVlpDcmkzdjF6UVNoa2tydGtwRm9adUNBMTBlaDJoZXFWczNDclBfNDBGblc5blh0bXJUOU1zWmEyYm5NQnFRQi1ZWUNFRVBoYkpXMzZhWnB0VHBfeWp3MG0yTGliSmZkZXhfWWF6dmd0SThQaVVpVzRmeGt0Mzc3OW45eHVNNDNyRDNBV1QyczJxc2JFSkM3VXUydGwzd2RtVk5iUkdGcmcxdw?oc=5",
+      "source": "dvz.de",
+      "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T11:29:58.587398+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Friedrichshafen: Logistik-Firma muss Insolvenz anmelden - wochenblatt-news.de",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbF9vd1diTkdRNjkzT21zZGhZOFBMeUVyazgwOG9zSm1wZHBRakxUNTJudTlHSHlPR3VnUEI4TlE5U05uUy1MN2tKV19GdnZ0aXlLd3FhYS1GaG1MaU8yTHg3RWJFQllWSmU3YTdtSnJpd3BFc05qMEItaG9udnhfQXJmRmJleURIYl9kRGE1VUNtYUtPV0NkaFl0bDNTVkgwZG56dWdB?oc=5",
+      "source": "wochenblatt-news.de",
+      "pub_date": "Sat, 12 Sep 2026 13:34:11 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T11:29:58.587398+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz: So setzen Sie die Sorgfaltspflichten um - Mittelstand Heute",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPamU4NjliREdWdlRPV0Rfa24waE9YX3FvcXkxcHRXV0IzUlZXcTYxX0ZNWDROdnlfVlNUaEdHck9QNl9PYThiem11Mm1BYmRVRi1QNWtGeFc1b0lYblpPWDA0WFNrX1dRMENqQzFDXzFQLTRlcFZTX3NqZlhYb1J1Y3hXRzZGVkxwelhkVkVjZ1dvTE9ST2xfYWlGSHpDcW9FbUJsOHYtZko0R0ZSbHRqYWpR?oc=5",
+      "source": "Mittelstand Heute",
+      "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-13T11:29:58.587398+00:00"
     }
   ],
   "runs": [
@@ -8224,6 +8251,11 @@
       "timestamp": "2026-09-13T04:16:14.946062+00:00",
       "new_signals": 4,
       "total_signals": 892
+    },
+    {
+      "timestamp": "2026-09-13T11:29:58.587398+00:00",
+      "new_signals": 3,
+      "total_signals": 895
     }
   ]
 }
