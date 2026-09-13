@@ -8054,6 +8054,24 @@
       "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-13T11:29:58.587398+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Overnight stop ends in €1.5m loss: electronics-laden semi-trailer stolen in Germany - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94TmEwNXNxNUphMHVBcDZELVRJamc3enhtcFIzVjVJY0doTHktdmxsQ0xIOC01WjQwaFJ5c3BZQVVKTlMzNHhVbHk3UUxBNkZLQjZlek85cFU0SkFXeWc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 23 Jan 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T15:58:22.878105+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Lkw-Fahrerstreik in Gräfenhausen: \"Es gab keinerlei seriöse Verhandlungen\" - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNGFaN0xSY0Fna3hnR0JKVjVBWGtaeGdTRHktS0RNV2I1amJSOHExM2V6VEUxN3BEWEJPVXJXOWpBUW5UbVZQeTBkdlFfek1UdDExbGx3OWRGdVQxVEZpaVA4SWtyaFNwSF8xWW81Zlg5ajRQMUo3X0RGTlVrWXpZTHpEUW1wOHljQmFiQndBM2ZYSlhpaTRjRkhtcTlmOTEyUUllRFoxWXFaZ0RwQXkxazI5cXVjeDZfd3hoX1dZV3hQZE9aWUVRZnhiN0FEakc5QUo0NVo4RThZSFY3OXc?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Thu, 04 May 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-13T15:58:22.878105+00:00"
     }
   ],
   "runs": [
@@ -8256,6 +8274,11 @@
       "timestamp": "2026-09-13T11:29:58.587398+00:00",
       "new_signals": 3,
       "total_signals": 895
+    },
+    {
+      "timestamp": "2026-09-13T15:58:22.878105+00:00",
+      "new_signals": 2,
+      "total_signals": 897
     }
   ]
 }
