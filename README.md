@@ -1,6 +1,40 @@
 <p align="center"><img src="assets/jk-brand-banner.png" alt="Jeevan Siddhabhaktula — Risk. Governance. AI." width="280"></p>
 
-# FOMO — Fear Of Missing Out
+<div align="center">
+
+```
+███████╗ ██████╗ ███╗   ███╗ ██████╗ 
+██╔════╝██╔═══██╗████╗ ████║██╔═══██╗
+█████╗  ██║   ██║██╔████╔██║██║   ██║
+██╔══╝  ██║   ██║██║╚██╔╝██║██║   ██║
+██║     ╚██████╔╝██║ ╚═╝ ██║╚██████╔╝
+╚═╝      ╚═════╝ ╚═╝     ╚═╝ ╚═════╝ 
+                                     
+```
+
+### FREIGHT &amp; SUPPLY-CHAIN RISK SIGNAL MONITOR
+
+*Six risk categories, English and German sources, re-scanned every six hours*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-CDN-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-4.4-ff6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Actions](https://img.shields.io/badge/Rescan-every_6h-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Pages](https://img.shields.io/badge/GitHub%20Pages-LIVE-22c55e?style=for-the-badge&logo=github)
+![Licence](https://img.shields.io/badge/Licence-All_rights_reserved-64748b?style=for-the-badge)
+
+<table>
+<tr><td align="center">📡</td><td align="center">🖼️</td><td align="center">⚙️</td><td align="center">📏</td></tr>
+<tr>
+<td align="center"><a href="https://jeevan-0508.github.io/FOMO/"><b>LIVE FEED</b></a></td>
+<td align="center"><a href="#screenshots"><b>SCREENSHOTS</b></a></td>
+<td align="center"><a href="#what-it-does"><b>WHAT IT DOES</b></a></td>
+<td align="center"><a href="#notes-on-reliability"><b>RELIABILITY</b></a></td>
+</tr>
+<tr><td align="center">Dashboard</td><td align="center">What it looks like</td><td align="center">Scan pipeline</td><td align="center">Known limits</td></tr>
+</table>
+
+</div>
 
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
