@@ -8072,6 +8072,33 @@
       "pub_date": "Thu, 04 May 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-13T15:58:22.878105+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German logistics still leads insolvency rankings - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RX3J1RTZaQjBOWXUyb3ZXQjRJcnRIWWJrVzdGUFpqZDVYNVJraHdFSUk1V0piWFBXdXhLS2lSb05iZHNJMkhNdzFpUU1ENXRlUUtlamd3RTlXbV9X?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-14T04:23:11.180739+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany Threatens to Sink EU’s Supply Chain Due Diligence Legislation - WWD",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWdzdklSUVJDUEtlYnhWTEdnQTFNOEdhZ3ktU3VEbnNtQkE5cE01cWktd0I5QlZVVU14bTl1NlJkTlI1X3dxUDVqMHJvWXRBcjBzYXgzUnhHXzNVeDlXeUFQTGZrcTdtRndTMVNWVE1IQ19BNlk1aFYxa2FpX2JSTUtRekxScnBvNTdQWnBVcFBuQk9WajVOLUFNbEVRa3FaTklWZXRHcw?oc=5",
+      "source": "WWD",
+      "pub_date": "Wed, 07 Feb 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-14T04:23:11.180739+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "„Das neue Lieferkettensorgfaltspflichtengesetz (LkSG) und seine Auswirkungen auf sächsische Unternehmen“ - wirtschaftsrat.de",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQVTIweXh3R2ZrX29mOFNYOXRPUDhjU2phTlBwNzZHLUJUZl90dElUVlczSDI0eG16N2VXX1BNM1F6Y09zRDdLN2dDQjFqX2oxOGpoNUtEaHhscHRYOWhoS1VmNDZQM2FCS0x6My1sNEF2MEZic0RKWkt5QmFIRnRZWktwZ2FVWWhBZ3JMRnVuVHNMNDZHclFSdlFoR0VfUkxONmpFV0kyd2t4S0g1cXV2QTlOUjEwdmp5WGJWVUNIQXo2REtQR01NcnJpRGw2Y2xkb0hKZF9wS3ZyRThnU3dQRzd5QVM5MVd3VHdNRms4V2xldFpOWTh6TEYyck1QcXJLVnBiR2VwWmgtMnBjZ0FmQ2RXMmFLTHdkcVZKZV8xMEVlcjhx?oc=5",
+      "source": "wirtschaftsrat.de",
+      "pub_date": "Mon, 19 Jun 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-14T04:23:11.180739+00:00"
     }
   ],
   "runs": [
@@ -8284,6 +8311,11 @@
       "timestamp": "2026-09-13T20:35:13.489712+00:00",
       "new_signals": 0,
       "total_signals": 897
+    },
+    {
+      "timestamp": "2026-09-14T04:23:11.180739+00:00",
+      "new_signals": 3,
+      "total_signals": 900
     }
   ]
 }
