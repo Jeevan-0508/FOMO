@@ -8117,6 +8117,60 @@
       "pub_date": "Mon, 14 Sep 2026 09:07:39 GMT",
       "severity": "medium",
       "found_at": "2026-09-14T12:23:16.255698+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl: Kravag warnt vor Phantomfrachtführern - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2dJQ0tGUG9Ya3ByaUlPTnQ3WVRuUllRSFd2QjJtNGEyZUZtNG1rN0FzTlVaRzJFNlZVeUFmVHAtbm9JTm96V09QTHpIUVlpU1AwaVRINklUaHcxNkl5ckFwbEh6U2ZlRTZZc2ItUUJYak53b3JlYmMwYnIwSmMwcmFjY0ZhcXlhZTdkbTBvY29kMDdnV3paZWJLU1Bhck05X1h1WE1Db1JiVXgzdThkRHRmNnVFSzdf?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Mon, 03 Jun 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-14T21:41:37.242090+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Studie: Ladungsdiebstahl verhindern - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd2dVLWhIa0s2MjZCVWdTOFE4X3AyTURwaXdKdl9YX29RWEJkY2V5cWw5eDRGalZPWG9rZDhtZHJ4bkxudnF5TzNPMUJIVlBOLTNXQ3hXaDRXc0ZaZ3BZZnNBSTBoNXJ4czcwbFozMk5EQ2NBd19VZWlVZHRUbS1LaWdsTjJSTnRJbkxV?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Thu, 25 Jun 2015 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-14T21:41:37.242090+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German hydrogen-powered truck maker Quantron files for bankruptcy - hydrogeninsight.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMU9PczdzOURSbG1KOWJqaU1mNVJFbEJMNThtWGxqSW5tcWZJOUhnWHdFM3c3cVBYVVpjUWdiZHFTOE1KTDBrdDBiSmRfM1ZzNFR3alljb1VhNDc5MUxXTHFoZkp0RDNFLXVwSUhKUUhFTHVqZ25RNTdGU0hEb1JUTm5yMTJjbVFkMy1ubHZ2RUU0RWJxb0hRRDlNeVRLUlZzNjJ6TU9uWUtXQnViWlFiak9FVnQ0MjRycXJZ?oc=5",
+      "source": "hydrogeninsight.com",
+      "pub_date": "Wed, 30 Oct 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-14T21:41:37.242090+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz: VW berichtet über zwei Verstöße - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQazdwX0MxRGpKMWxHMU0yNFFjVERkWW02bndCeDM1d2ZJOTFDN0pHU21YalpPQ1hHNWxaM3dIMldTWkw0NjdiUUkwTExSVEV6T2MzZ1RHZElVSUtOUWJFaTBncnc2eUI2M1VnQ3dHS19SbnJGeEN4VFNIMGZYMEhWcFo0Y0xJd01Gck42MkJzV3VxQkhlbjVuWGYwR28?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Mon, 03 Jun 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-14T21:41:37.242090+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Global Supply Chain Disruptions in 2025: Causes, Effects, and Resilience Strategies - Global Banking & Finance Review",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVXBhZVhXc0tQNk5wYWFCcjhiYl9xSGo3SHRBTThUTFpGeFhiRmlrWVBpWUlhSkFnNE9sbXBabUwwT0F1enVoQlZJUDFWQWRWTGtCd1Bham5qV09HTzBDc0xDYWEwUXM4NnJSQjAyV2JWbmVuMm9FZHVZWUItdE1TeTMtYXZGd0U4WUFITXdCTVh3WEkwNUIweGszVElOSGRKZ3FodU14MVo2SGFmQ1BxeVZxWUR3T3B1clJEeU1R?oc=5",
+      "source": "Global Banking & Finance Review",
+      "pub_date": "Tue, 15 Apr 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-14T21:41:37.242090+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bahnstreik stellt auch Industrie vor Probleme - Staatszeitung",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeFRPZ0x4UllBRktJR1I1QjhVSktFcGJwT3cxRjd6SGdMQmhzNHFhWHVqallGcEpzUUhESTJkcnJRU2Fsb1FweU53ZTZrMnpGUzZRVmFLaElYZDJtM3ZWNWdQeU1nODhWLXlHbFBqSm5OSUd0Y1k2RWJnUGplLXFHelhsRVBWNTVPUVdfTVhxZWJvNFBwWEhQbWNIcHhzdF9SaVNoZFZDOGxLbVg1d2dtWEdvaFd6QVhYR0xyUkd0VFFtTUt6OFVkRXg2cERkZy1DaE41dDBoaExlSVRQR1FIWUZ3?oc=5",
+      "source": "Staatszeitung",
+      "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-14T21:41:37.242090+00:00"
     }
   ],
   "runs": [
@@ -8339,6 +8393,11 @@
       "timestamp": "2026-09-14T12:23:16.255698+00:00",
       "new_signals": 2,
       "total_signals": 902
+    },
+    {
+      "timestamp": "2026-09-14T21:41:37.242090+00:00",
+      "new_signals": 6,
+      "total_signals": 908
     }
   ]
 }
