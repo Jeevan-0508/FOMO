@@ -8099,6 +8099,24 @@
       "pub_date": "Mon, 19 Jun 2023 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-14T04:23:11.180739+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Anomalies instead of documents: How Trans.eu detects modern fraudsters - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUhtV1BJMWpaM281QXh5SFRFdUFUM19FM2hEcUc1eDNWV0FGY1d0X3pXRVBYOTVOcHdLalZWbGNsQUdyTXZOUkViZlRSRl84YXMtaGRzY3p3NG9ha09rcmY3Mi1vY2hZRlRVNHVuVmlVYUlVOWRjWWxqQlhzQk5KeVN1ZE9LQk9DT2twaElKbWxndjZhQ3hlU3djazZxMms?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 14 Sep 2026 05:07:18 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-14T12:23:16.255698+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Belgium impounds 28 trucks in labour probe - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbHVLUUc2UW9fdW9FcFNWWElTQVhUYUxsUTJxYWctSXRNcERlZE03VDhLdXZhM0tULUtHN2s2LUt2NUhFdDh6dGlXSEpYVG9qSTFYa25sU1RwQk9WVjM3dHh3?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 14 Sep 2026 09:07:39 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-14T12:23:16.255698+00:00"
     }
   ],
   "runs": [
@@ -8316,6 +8334,11 @@
       "timestamp": "2026-09-14T04:23:11.180739+00:00",
       "new_signals": 3,
       "total_signals": 900
+    },
+    {
+      "timestamp": "2026-09-14T12:23:16.255698+00:00",
+      "new_signals": 2,
+      "total_signals": 902
     }
   ]
 }
