@@ -8198,6 +8198,24 @@
       "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-15T04:23:39.220186+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "How do logistics operators protect themselves against theft and extortion? - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkptRmxzZHppUXZ0WXZaT2NjUXAwYmR4dUdmMUZHczZubnVUcHJwVHRPOVBVQ0k5UE9ZNU9lX3pBb09EZUNRcnNLMy0yNkZtLWNLMzlaaElRNzlVQzNlay01bFc4ZnQzdjFHTlVpUEpXS1hLTnRzYU9wdlNZNzhQT1FCNHNFTkpuQ3gzUGw5bFBfUUVHSUUyeUViRXdESkV2RE5Z?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 29 Jun 2018 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-15T11:28:56.476035+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "‘We Had a Deal’: Germany, Italy and France Throw CSDDD Talks Into Chaos - WWD",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPamlaR3dYRVM4YmFUTkZfUlR0dEhzQjlqWHhKMW5ySU9QYjctWWdBVGx6SWpIT2sxUEpMWUJHUC1ZTnNWRkJORS1fNDBhU2VLalJhTVN3NXBpek5od09BWGZ0Ni1OV082WEFIMmRfRXZSbkRXNlMxRmZqNThpVk5wM0ctTVFrQ0xWUE9odkh2cmZJT3hIcnlWY0lDcXZ3WGd1bzdIVFk1QzFTdVRHNUdmcnVIUWdkS1ZRNDJPbVVIN0hiLXJE?oc=5",
+      "source": "WWD",
+      "pub_date": "Thu, 29 Feb 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-15T11:28:56.476035+00:00"
     }
   ],
   "runs": [
@@ -8430,6 +8448,11 @@
       "timestamp": "2026-09-15T04:23:39.220186+00:00",
       "new_signals": 3,
       "total_signals": 911
+    },
+    {
+      "timestamp": "2026-09-15T11:28:56.476035+00:00",
+      "new_signals": 2,
+      "total_signals": 913
     }
   ]
 }
