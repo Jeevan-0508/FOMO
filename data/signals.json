@@ -8216,6 +8216,42 @@
       "pub_date": "Thu, 29 Feb 2024 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-15T11:28:56.476035+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl: Quehenberger setzt für mehr Sicherheit auf KI-Kameras - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU3J0MEM2XzZEcjBScTFRSV96dlNNc256Ml93OHl0WU50QkZhRGI5SXFSNTktdjdKZFJNblIyUENVUXZGRGJuQlR2ZHE0bEZocE55eW4zM19yTjdPMm1Pbk5zRVZ1RTVEbF9IUFVCYmVnQXpEWTQ0ZVhYSHdqR1g2SXdiai1jal9WMEh0bEhfY1ZPaERobXEyTXlxMFdvQmN3RGhuWHJxaVdyY2xXN0dJemlmWTg?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Sat, 26 Apr 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-15T21:06:10.750688+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "News Arrests and goods seized as raids across EU uncover massive import fraud - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWTN5TXpkOVhUWkJScnRSdzhSTW95cEEzS2x4dWdPUmlqTkNEUjZlSk9BcmdwWDBuQTNTdDJpUDdVQTMzN2ctNG0yMUpBY2hSM2Z4R1VQSW4xb2RGVlRiNVNlWDFJeE1ic1BCM19wRDVQSkxYVmFJdmM5cXlhTGRpa2V0Z2d4azUwQmdMNlhXWHA0elpxaTh5bFdTNjlmdw?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Thu, 26 Jun 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-15T21:06:10.750688+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Major fraud uncovered at Schenker in Belgium - Transport Intelligence",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UdTF2MTFiZnU5NWtDVU5nMUxpVUJrc1piakJSS2lLZDhDS0paT1JybDF1dlpTUFJUcldDOHBpUXFYM0hOVlUtbWQ4T0lrWVE?oc=5",
+      "source": "Transport Intelligence",
+      "pub_date": "Wed, 27 Aug 2008 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-15T21:06:10.750688+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Realitätsferne Regeln: Das Lieferkettengesetz plagt viele Firmen - Staatszeitung",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc29BaTc0QUFhX3Rva2QyeHQ1TEVVZm9nZFNuMURyNmpVNDVlazlTemZKNElpNkRmcms5emRkcEhycE5wdENlTC1leHdXTkdUVWxFODg0Tll0bzN6NW1pcVBsdHhQTW9pWF9OUjM5NkItZUhHV2pBa1pmSWZ1Q1hxVW5WWEtpNl91ZW9rYzlsVlQzYkJBQl9HUlM3U0VpZGlkOF9LM2FDUG44Q2NYREVnc3I4bXl3QlVCLV9r?oc=5",
+      "source": "Staatszeitung",
+      "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-15T21:06:10.750688+00:00"
     }
   ],
   "runs": [
@@ -8458,6 +8494,11 @@
       "timestamp": "2026-09-15T16:41:41.890106+00:00",
       "new_signals": 0,
       "total_signals": 913
+    },
+    {
+      "timestamp": "2026-09-15T21:06:10.750688+00:00",
+      "new_signals": 4,
+      "total_signals": 917
     }
   ]
 }
