@@ -8171,6 +8171,33 @@
       "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-14T21:41:37.242090+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "How Trans.eu detects modern transport fraud - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNelhkY2JmTVVFd2swdDVzQkloek9wdFo0RVdCMFBHNTdKMVNmeElFT1FOMHJFdVB2Z2xWbWdXTXUxUXJCcHJ6M3NNUEV3U2w3VkdfVVNnd1VSdFNlUGpraVdPQkNFY2VLaFRQVXpvZFlTbTF6QVUyOXFKTnhrMTlGVkQ0amNyX1VEVGExQ3hhenJieFpUZ0xubUc1TQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 14 Sep 2026 05:07:18 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-15T04:23:39.220186+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl in Deutschland: Für Diebe liegt das Geld auf der Straße - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObk5vVDR2MEZRcWk2STc4OW1FVVRmbUdrSWhneEJrRm16dVFWdXRlUVBqWFVxbmFLa183TmtQMWIxOHpvZDNyZzVwVUpTWjAwZ0g3ZEZWM1VHaUE1LWx5MXAtUm9wUjRVVHdxOXh3WnBmZXN4WlFPZDVqdUlGcW1KQ3loQy1uMkdZMFFmYVl1clZJYl95d3hkYmljTjlBaDU3WjZ5SjAzZ1E1YXdvUFJlWXFkeWpNTnV2bmpvYkZScHFzMnBv?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Fri, 16 Nov 2018 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-15T04:23:39.220186+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bahnstreik stellt auch Industrie vor Probleme - Staatszeitung",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOcmZrM1p5aXNYZjc5VmdobmZCOWlxSlhGQ19qM0E4MTFHRGtkcDhuNElzbnQxOVo4V0FWLUpaYUwteEhqNGlzTE81eHRoNXl5V0ZSeEdBU0FfblZqRGZWLWFnM0JnZ0g1REtUV243R3NlQXppeWw4TjhoUXJNckFkRG9XZVdmRGg4X1RsS1VjbHM4OXVpNnN6SU9qbEFwMU5UcHdWOHdac3JacktpUlFPVFdtZkh0bkhUQUtNTkxTYUlScjctX25DdlhCLWxDV3M4eEF6bWo3TWRWMkN6ejNQVWZoeVladXZySXl2SGViVE8xM3FvSThoRmpZYURsSmY4Y0lYTHdpX3ZFbmZLNmIzOUIyM3BFZG1hbDNVQ21EUTlkSklLMFpkbWpCNDFOOUlzNGQ5MnJvSHRUd1Bh?oc=5",
+      "source": "Staatszeitung",
+      "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-15T04:23:39.220186+00:00"
     }
   ],
   "runs": [
@@ -8398,6 +8425,11 @@
       "timestamp": "2026-09-14T21:41:37.242090+00:00",
       "new_signals": 6,
       "total_signals": 908
+    },
+    {
+      "timestamp": "2026-09-15T04:23:39.220186+00:00",
+      "new_signals": 3,
+      "total_signals": 911
     }
   ]
 }
