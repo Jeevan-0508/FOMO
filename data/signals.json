@@ -8252,6 +8252,60 @@
       "pub_date": "Thu, 02 Oct 2025 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-15T21:06:10.750688+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Bericht: Kriminelle setzen bei Frachtdiebstählen auf KI - trans.info",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sYncwX29oV1phYzFHS1o4NkEwR1NtSlB1VFZEVGhnVHZqSlR0Ukx0aXZzXzBtV0hNZHlaUjBPVzI5bGdCR0lZMlplaGVMWXJtc3A1TXRBeXhYRnhybVE?oc=5",
+      "source": "trans.info",
+      "pub_date": "Mon, 28 Apr 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-16T04:18:58.495492+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Bankruptcies in Germany rise sharply - China Daily Global Edition",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZG5INVhJSmdzOTkzaXBwNUxhVnlmckowRjIzeVhiQmdRR1J0Y1ZqVl9qMjJIb0c5d2pLYkUzQk5wbWxxX3dYSnpuVGxIZF91MEpSWnZmQk1zVzdLWVJsbmFBS0ludTR2SHU1ZmZUTnZkQS1vVlh4SzlIaEVROWlZOTlR?oc=5",
+      "source": "China Daily Global Edition",
+      "pub_date": "Mon, 17 Jun 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-16T04:18:58.495492+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Austria Q1 2026: Nothegger Transport bankruptcy and wave of bankruptcies without assets - alarm for Central European carriers - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbEUyb0ZjTkliRlREUlQxd0wxOWtNd0o2Sk5NWk43NmxtYVpJZjdtSnA1Z01VVHdHNlNMbEJGSFFSaENZckZSQ25SQk95cHRKZjVib2diT2tRMVZFQUo1S3pxWUZyTEJsRjNVWmV3Z0pMSTdadzUwNkZjWl9PbG9JcUg2dVhXZGptWlN3ZUVVN3N5YkswVFpjaXBYZWQtZ3BpZFJ4YmFLLUg3bkhJZ2xaNTlBekFYN0R3M2h2M3BLNER3V0JTQ3JlanF6cUFlMFRQZWhSaHNIM3Mtc2FFZlFCOFJnSHFkUzMzVUVPYmg1UQ?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-16T04:18:58.495492+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzen: Im Speditions- und Transportgewerbe steigt die Zahl der Anträge wegen Zahlungsunfähigkeit - logistik-heute.de",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUmpGQTZaZTMySFh6dk9ka2pyeV9za1pyWEJYQXgwSXVWTFBhWWNTdS1wMk5seEdXeW5Yb3pDSUhwS0dIWWtNU3ZibDNkWlhQQVotTzRFZThxb2QxQlVsXy02Z3JBS3FuQ3M5bWhQY2NWZVdKc3U4Z0YtdEVwQnc1TmE0dzFsVDU5VmxSX1FoY0dNRGFxem9ua1FlTWZPUDBwR2ZsRDBmZ3FTRFFtVTVNWDd0UXVlbkdZdjFseUdONmlDU2Uyb2VMdm42NDV2em9Gd01ZdXZZTzdFMXotdUE?oc=5",
+      "source": "logistik-heute.de",
+      "pub_date": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-16T04:18:58.495492+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: Das gilt bald für Unternehmen - Gründer.de",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qR0NLUDc4U1pvaWQxLTc0SFRRX3FLYzVzMXg3N1R6ZGg0dzgtVGYyNlNpelFidkhESG1KeVpBdTVwSlpLQ241ZE5sejdNc1NTdHByQ2hFSG51a1dIM21yaHctWEZ5YVhNdmtGWjNUWjJTY1RqalJkLVh3?oc=5",
+      "source": "Gründer.de",
+      "pub_date": "Tue, 03 Jan 2023 14:37:53 GMT",
+      "severity": "low",
+      "found_at": "2026-09-16T04:18:58.495492+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik in Spanien trifft Tierhalter hart - agrarheute.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdURHNG9YT0l1YWsxOVN2RzZIbUlqMDhDS1B3VHptb0NGU05Sc3NSZ3c4ZXNkUVpoLTRwbmdkNjVuWWZNbVc3R0JEbV9FdHI3bHplZ0VQWXBnRkJfd1lXQUpiNnFUZzZudWZ1NHRGUmhRMU1feUZKdFdhcm96MGZYXzFB?oc=5",
+      "source": "agrarheute.com",
+      "pub_date": "Fri, 25 Mar 2022 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-16T04:18:58.495492+00:00"
     }
   ],
   "runs": [
@@ -8499,6 +8553,11 @@
       "timestamp": "2026-09-15T21:06:10.750688+00:00",
       "new_signals": 4,
       "total_signals": 917
+    },
+    {
+      "timestamp": "2026-09-16T04:18:58.495492+00:00",
+      "new_signals": 6,
+      "total_signals": 923
     }
   ]
 }
