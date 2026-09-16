@@ -8306,6 +8306,15 @@
       "pub_date": "Fri, 25 Mar 2022 07:00:00 GMT",
       "severity": "critical",
       "found_at": "2026-09-16T04:18:58.495492+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nord Stream 2 files for bankruptcy, fires employees - euractiv.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeUt4dkZadngycEpVNXNsSXJRTHNtaVA1cHB3NG1FSU5OWkhQeFFwYnI5b1ZWM0dXSnhGdXJ6SHBQOGZCV3NCS0otSFpUaW14cTJqQXRxRzRiMzVRc3BiQXI3X3pBQVBONWh1NG9vOUxuUlFqZ2RuQk9JdHhfVlhEWWc4SzVzcmZP?oc=5",
+      "source": "euractiv.com",
+      "pub_date": "Wed, 02 Mar 2022 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-16T11:14:39.708550+00:00"
     }
   ],
   "runs": [
@@ -8558,6 +8567,11 @@
       "timestamp": "2026-09-16T04:18:58.495492+00:00",
       "new_signals": 6,
       "total_signals": 923
+    },
+    {
+      "timestamp": "2026-09-16T11:14:39.708550+00:00",
+      "new_signals": 1,
+      "total_signals": 924
     }
   ]
 }
