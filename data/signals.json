@@ -8315,6 +8315,15 @@
       "pub_date": "Wed, 02 Mar 2022 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-16T11:14:39.708550+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Environmental, Social & Governance Laws and Regulations Report 2026 Germany - iclg.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaVVvWE0wMTQ1VjFLTEpNbGtrRWZjMXRnN3VuY09Fb2xKUDljd0xCOWplX0lOUWZub2F6cWRsMTYyNXptajBYYTBUYUpWaXZKODNBejRNWnRlTWgzWHRzZGY0Nm14bVJ4aUVkU3VoTWhfbThjU1ltZGphcUViUTV4T0hENUNBVVk?oc=5",
+      "source": "iclg.com",
+      "pub_date": "Tue, 06 Jan 2026 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-16T21:07:52.370895+00:00"
     }
   ],
   "runs": [
@@ -8577,6 +8586,11 @@
       "timestamp": "2026-09-16T16:34:55.289766+00:00",
       "new_signals": 0,
       "total_signals": 924
+    },
+    {
+      "timestamp": "2026-09-16T21:07:52.370895+00:00",
+      "new_signals": 1,
+      "total_signals": 925
     }
   ]
 }
