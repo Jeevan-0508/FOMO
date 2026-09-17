@@ -8324,6 +8324,15 @@
       "pub_date": "Tue, 06 Jan 2026 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-16T21:07:52.370895+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Reuters: German battery maker Varta files insolvency applications - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZHhjTEZuZnM4MXd2ZndJRDlZeWZTcmVxQ1l2QXNlSkdfLUJfWmxaMllnUXVDN3RubFZRdkZUTlZhVWVZTGxya1NkQ3ZibEVTa2VyWnF5ekZQZ050Um5odjdxYkI5THh2c2o5dDFhWGptWmI0QUEtdTJERWN0SjhvcVJHVXRHLTh0TXJTR0ZqblF4aUE?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Sun, 26 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-17T11:23:07.114506+00:00"
     }
   ],
   "runs": [
@@ -8596,6 +8605,11 @@
       "timestamp": "2026-09-17T04:25:07.085004+00:00",
       "new_signals": 0,
       "total_signals": 925
+    },
+    {
+      "timestamp": "2026-09-17T11:23:07.114506+00:00",
+      "new_signals": 1,
+      "total_signals": 926
     }
   ]
 }
