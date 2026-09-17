@@ -8333,6 +8333,15 @@
       "pub_date": "Sun, 26 Jul 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-17T11:23:07.114506+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: Wie gut sind Unternehmen vorbereitet? - Arbeit und Arbeitsrecht",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNejQ3YWJhbmtiTUwtczJaLTZjZlNvTnlTdDBQUXlKR3kwUEEtY1hBV3JYOTJWZU1zTUw3dldkX0pKbFVIVEIteFo0aC1PMHdkNWhkZ0w5UkpNM014WGxUMlJ4LWpiUUdjd1JpNy1TM0Q3QUVlZktOS2h1c3MzWVBXbktWSlJfblBfRGE2dlh4Nk1IM1pwa1FQYnRsZW1LNVRZZ0RiN0RUZE9YR3RnZDFoNjZvb0VBT0YyT21LQklIQQ?oc=5",
+      "source": "Arbeit und Arbeitsrecht",
+      "pub_date": "Mon, 16 Jan 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-17T21:10:26.275791+00:00"
     }
   ],
   "runs": [
@@ -8615,6 +8624,11 @@
       "timestamp": "2026-09-17T16:40:32.979789+00:00",
       "new_signals": 0,
       "total_signals": 926
+    },
+    {
+      "timestamp": "2026-09-17T21:10:26.275791+00:00",
+      "new_signals": 1,
+      "total_signals": 927
     }
   ]
 }
