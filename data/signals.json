@@ -8369,6 +8369,15 @@
       "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
       "severity": "critical",
       "found_at": "2026-09-18T10:57:08.767930+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany: New Supply Chain Law a Step in the Right Direction - Human Rights Watch",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaEdObkItZ2RxZS0zbzJCbC1hdXplVVl4Z05xV25qc3I2MDZZN0djemRNcjFWdHVUSUxyNXlLamhUMklzQ1NsMTBUMU9hVEp0TG5XWk9OTDJ5NTFHcXdaWXhBb0xXS25pVXpGYmNHUXBPb0NZVDJTZjJlN0dTMmEtSlpkbUYyVU51UXB6S0F3?oc=5",
+      "source": "Human Rights Watch",
+      "pub_date": "Fri, 11 Jun 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-18T16:11:13.673931+00:00"
     }
   ],
   "runs": [
@@ -8666,6 +8675,11 @@
       "timestamp": "2026-09-18T10:57:08.767930+00:00",
       "new_signals": 1,
       "total_signals": 930
+    },
+    {
+      "timestamp": "2026-09-18T16:11:13.673931+00:00",
+      "new_signals": 1,
+      "total_signals": 931
     }
   ]
 }
