@@ -8342,6 +8342,24 @@
       "pub_date": "Mon, 16 Jan 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-17T21:10:26.275791+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler bankruptcy: Suspicious transfers of millions and 1500 job losses shake European logistics - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX295SnhraGVqLXdzM3Itd2Q4UmVrd012eVI2WmFZd2x6WGVaa1ZtSjc5bmZaaU05N3FMZkdrU1RmRjRPYzR2RVRIZjdraC1lX24yNHFpRTU2X3pESDIzQlp1S2VMQk01YjJ1by12cjVBd2VjMHBNTjROcFBsOUV3djU2VkNvWC1pMXFyQnJuR1dTOVZNc215VVJmc2FyYW5ac0xDTU9vTUFKckxFMjY4bVVRb29GRzRzWmZOaw?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-18T04:09:22.133640+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Transport - Spedition Betz hofft im Insolvenzverfahren auf Neuanfang - Wirtschaft - SZ.de - SZ.de",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUHdlV09Nczh1V3FSekQ1N0xLczhGTnNsRjFkNDZhb3hOZTQxSWFEOTA3SHNJVlRmeXVqZTg1MURlZjRwZjNHMnZXeEFxUXJDZEkzZ0xlNHpNYldaTkdYTThVTnBzMjlURlQxY3FOaUpSY3J2QWVyaWRwY20tcGlKQy1KUXhWbkdWYk1vSDdlSVB5WTVxYzdMaVVJS1dfX1QwNmMybjUwSDhCMGpVUW53Tk1IXy1CVDBCUVUtbndhV01UcEQzeldZdTNjbmprTjREZXB0elBYek9KMXQza2dLclFRb0RtLWlFY3Vn?oc=5",
+      "source": "SZ.de",
+      "pub_date": "Thu, 28 May 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-18T04:09:22.133640+00:00"
     }
   ],
   "runs": [
@@ -8629,6 +8647,11 @@
       "timestamp": "2026-09-17T21:10:26.275791+00:00",
       "new_signals": 1,
       "total_signals": 927
+    },
+    {
+      "timestamp": "2026-09-18T04:09:22.133640+00:00",
+      "new_signals": 2,
+      "total_signals": 929
     }
   ]
 }
