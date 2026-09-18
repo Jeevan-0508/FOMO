@@ -8360,6 +8360,15 @@
       "pub_date": "Thu, 28 May 2026 07:00:00 GMT",
       "severity": "critical",
       "found_at": "2026-09-18T04:09:22.133640+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzverfahren aufgehoben: Arbeitsplätze bei Spedition Konz bleiben erhalten - Saarbrücker Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOT1NkV2Rib3ZWYnhHamNXeTRER1lqNGcyWmliWi1jcXpaYU1PR2U1THlhR1hMQlVrTEVydFZ3RV8tUE9DVFJfcllIanF1M0VqOHB0SEFBSlhnbTZCTTF2QlJ2dTBkSG9hNHdXQ2VTN00zejJxeUttdWZXNTIxZThobTk0NkVUa1VfNVJhRXAzNkgtTjNmUVZvSUI0R2NxODVFbjR5bkw3bkV3bGdGeFdYU19fRjNRdmwyMWVxeEExVEVSNlFER0NhSWRBdXpQdlExTHpFMVdCRUNVcHhfSzdQbDVn?oc=5",
+      "source": "Saarbrücker Zeitung",
+      "pub_date": "Thu, 04 Dec 2025 08:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-09-18T10:57:08.767930+00:00"
     }
   ],
   "runs": [
@@ -8652,6 +8661,11 @@
       "timestamp": "2026-09-18T04:09:22.133640+00:00",
       "new_signals": 2,
       "total_signals": 929
+    },
+    {
+      "timestamp": "2026-09-18T10:57:08.767930+00:00",
+      "new_signals": 1,
+      "total_signals": 930
     }
   ]
 }
