@@ -8378,6 +8378,15 @@
       "pub_date": "Fri, 11 Jun 2021 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-18T16:11:13.673931+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "QuikSkope Launches Freight Theft and Fraud Protection Tool - truckinginfo.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUzRoemZaNDMzOHA2UnRWazFoZmVqbWVjLWlVRWlFdjZQUzlsSDdLaHIyMTdrclNwUjdxTU0yU0VGaVBibVhIcTVfbkJWTVpSYWdVdlAtRXl5a3d0dkRzY2N5ZzF4RVJ6R252elI2cmU0WndITHJWOG41S3R3Tm1Fal8xdk5pV1hfQ3luNHpYbWh1NWsxX2Vz?oc=5",
+      "source": "truckinginfo.com",
+      "pub_date": "Wed, 04 Feb 2026 02:10:19 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-19T10:40:06.248472+00:00"
     }
   ],
   "runs": [
@@ -8690,6 +8699,11 @@
       "timestamp": "2026-09-19T04:06:11.323140+00:00",
       "new_signals": 0,
       "total_signals": 931
+    },
+    {
+      "timestamp": "2026-09-19T10:40:06.248472+00:00",
+      "new_signals": 1,
+      "total_signals": 932
     }
   ]
 }
