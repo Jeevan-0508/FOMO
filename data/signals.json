@@ -8387,6 +8387,33 @@
       "pub_date": "Wed, 04 Feb 2026 02:10:19 GMT",
       "severity": "medium",
       "found_at": "2026-09-19T10:40:06.248472+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "UPS’ Happy Returns pilots AI tool to halt decoy returns fraud - Supply Chain Dive",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeFExc0hBM0RLdGFicWFCMDEwZ3JBakQxNUx0c3g3U21aTjNsc1EwMWQtMGk4S0pCM2VONUVycnRwQVRRRkw4dVZ2U0FMYTJuMVVveGhkZk1TbFViQ0lPcjY2Nmc4d2lTNEFhcnJqaC1QRWZQMmlHWWNiNE8ydFBGTlg1cWd3dWNJUVpEemd6bkdiMGFUTENQXw?oc=5",
+      "source": "Supply Chain Dive",
+      "pub_date": "Wed, 07 Jan 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-20T04:25:31.055565+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "JOST negotiates “settlement without admission of guilt” in social fraud case - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rc2VDQjI1a3Q0S0xlZzdUMjRBSjFsTFBVTzM0ZHptWk5jaUZ6V2UwN2FPMjJlVC1mOFI4M2UzZ2ZiMGIzWDNpWjRTdVphMjBlbDFTTEc2WQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 24 Jan 2022 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-20T04:25:31.055565+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Pokémon Center cancels European orders after CEVA Logistics cyberattack - Notebookcheck",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGx2a0NiS0FITEFUa0FPY19EdTFPNG1FY1laV04zaWZlSEo1S2VONkdmQ0Q2S3hMR004dFdIMTRyZ1NnWEkxWDRaTnRoX0IzMFJPLVlUV0h2ZG9TU09EemU0cWtRVi1EY2NfRWRTalF5a3M4U0hYa0tELW9BRUJ2VVE1Qk0zVFFfUmZfTWlEekVVWnNBQWNDZmxvX3hVdXhtMTVtQ2VQRmN1YllOOUFjQWtlU21XUlE?oc=5",
+      "source": "Notebookcheck",
+      "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-20T04:25:31.055565+00:00"
     }
   ],
   "runs": [
@@ -8714,6 +8741,11 @@
       "timestamp": "2026-09-19T20:22:41.992535+00:00",
       "new_signals": 0,
       "total_signals": 932
+    },
+    {
+      "timestamp": "2026-09-20T04:25:31.055565+00:00",
+      "new_signals": 3,
+      "total_signals": 935
     }
   ]
 }
