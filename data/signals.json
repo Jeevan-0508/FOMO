@@ -8414,6 +8414,24 @@
       "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-20T04:25:31.055565+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Diese Unternehmen haben im ersten Halbjahr 2026 im Landkreis Nienburg Insolvenz angemeldet - DIE HARKE",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbUQ5RXhJQnJBMUtzRTZsUndnX2V5emMxdGZMODFzXzFPUk8tZUQzbHFUMzRER2Y4b0djNUp1cHpMNHFsZHFRYXBIQ2tZY3dkVzBtMWpGNWtyRTNsejlMc1k4VFBEV09NLVVBVXQ3LTVHRWZBX2FxX2ExdXlKN0MxQnNLVnNyWEUzUDhKczY4VFh4WHAtT0FEb0Q1NFg0RWtvOXBsN1BqWlFxVWJnSWFMNWF6TGRNamMtX09XZ1BIVE9ucnFpZ3RkX3d5R2lzSXVCb1d2UFVsQncyNmdBSFZMY1BtS2QteERseFg5QnU5OA?oc=5",
+      "source": "DIE HARKE",
+      "pub_date": "Mon, 13 Jul 2026 02:45:26 GMT",
+      "severity": "high",
+      "found_at": "2026-09-20T11:03:02.695562+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Ikea and Amazon Supply Chains Lack ‘Safety Checks,’ Labor Complaint says - WWD",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSDExeWYybmk0RjEzeWpxeEtpcG1xVE1aRVJUTG01VllZR1Z3VGRKWml5OEZwN3dYOXpYNG1FUk5NVVdaSUs0UmZLdzBDTzgxeVlWRmcxQjZIdUNsSngxQlY0VEptcEFTdk1MamlhQXBCSmlnLUhUMnVNU2dYUkkzclhjd1A0WlgtNzhxZ1d6WkpPbmt3a0JhYnBPbE5WWHB4RXpRU0RSc3pSVGR4MjVzZWIxRGQxdGxycEVtT0pvOTJNUUpXRTEzZmozYTgyY1FtZ2JKeQ?oc=5",
+      "source": "WWD",
+      "pub_date": "Tue, 25 Apr 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-20T11:03:02.695562+00:00"
     }
   ],
   "runs": [
@@ -8746,6 +8764,11 @@
       "timestamp": "2026-09-20T04:25:31.055565+00:00",
       "new_signals": 3,
       "total_signals": 935
+    },
+    {
+      "timestamp": "2026-09-20T11:03:02.695562+00:00",
+      "new_signals": 2,
+      "total_signals": 937
     }
   ]
 }
