@@ -8432,6 +8432,33 @@
       "pub_date": "Tue, 25 Apr 2023 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-20T11:03:02.695562+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Samsara Study: Equipment Theft Costs Midsize Fleets Without Tracking $13.2 Million Annually - Fleet Equipment Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ySHJRYzhOenBUZGxydXN3LVhCSy01cVVxaUY4OXFXU3hxX3hLejUtTDFOYXhwWTBjalQyU0I4WXVlNC1vZ3IydU8wbTRsU0J3SDJEUTBJdENtUVI0RU1QTEZ6cWZyRFNBaEE?oc=5",
+      "source": "Fleet Equipment Magazine",
+      "pub_date": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-20T20:35:59.550484+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Corona-Jahr 2020: Vermehrt Lkw-Diebstähle in Italien - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbVplVnJxcGtGQUFRNUhtdTFfSGxuT0ZhMzVMQmd3R3hiU2lEalVRZUVDMjFmQk52VVZETUltWjV6Mjhna2l3Q0lCb0hiMUxJVzR5cUZpVXBiTzVpTWpsTExSNzJQbUVHREozZl9uek9hMW50TXhfclo3RXl6MWN3c3AtX3JEaUphek4tSmdKQ0g3TDhMOUNZRUo3UFktTENPRnNQZC1QcUhFYWVuNVozMUx1QmJOdGlVWnVPOThvZ3MtQQ?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Tue, 20 Apr 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-20T20:35:59.550484+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bahn: Streik der GDL im Güterverkehr angelaufen - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHh1c2R1Y0ZTa0pmbU9FRFdyYVYtSm96VEdCaElDaEdJcHhKS2pCVjNnTXAtTVp4SFgtU3pFLTgtUnY5dVp2TERLOHA3WHZYRHBRVms3bnJXRUgyRXE3WExtcXBTTF9FQmo0QWpIWnJUcnVXOXlobXVHZVdWa1RtbHZ5N1kxR1FkZEQwQ3JqS2hYWW9mRUZjLXExSWJmSFNkY0ZZSnNOM0Foa3I3RTlSZEpGVTVKQlNxb1hj?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Wed, 24 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-20T20:35:59.550484+00:00"
     }
   ],
   "runs": [
@@ -8774,6 +8801,11 @@
       "timestamp": "2026-09-20T15:49:16.124596+00:00",
       "new_signals": 0,
       "total_signals": 937
+    },
+    {
+      "timestamp": "2026-09-20T20:35:59.550484+00:00",
+      "new_signals": 3,
+      "total_signals": 940
     }
   ]
 }
