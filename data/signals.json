@@ -8486,6 +8486,42 @@
       "pub_date": "Fri, 24 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-21T12:30:03.389487+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "False Certificates of Origin – German Conviction Highlights Compliance Risks - ITTC Network",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUC1FaS0zeVVXMVZpN1ZzcXVwbTJpQ1pJVjhDdXY3aE5CTUR2TFNETURSRWFMbW93M3FzZmI4bkVSRVFvOUVTa0FCazVCMWJ6X0t6ekR4NUtsVXAxYXktLXQzYTljN3BhWS1zdmVnOGdKSDYxMUgwUENpY2ZjZ2ZwXy1BRHY4SU1scnVEdUJhODRwQWpoN2J2SGFEb1VCdnhzX01FMVgyYw?oc=5",
+      "source": "ITTC Network",
+      "pub_date": "Tue, 31 Mar 2026 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-21T21:52:21.348242+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "After port fraud, China's vast warehouse sector under scrutiny - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZlJoMVhsbExxX2xBQTJSSm00NGgxWEtEV0YxbGVldTFhV3c2MTFQQU9qMi1xWFFFRWtOZTFRU1hBRkxvc3gzTHNTeTdEUGZFY19obkR2QnUyMFJYczZra0g2Y3dDbDB2VllFck1ZQ1V1TDFqTDBLQjZPaG9OMkgyLUdNS04yYVdTZEdYVHF6ZGhudFdlYXJkd2NBcmZ0aTh4SF9Ib1QxMVNRSzJHblNnbFlwdXMxUm8?oc=5",
+      "source": "Reuters",
+      "pub_date": "Mon, 23 Jun 2014 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-21T21:52:21.348242+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Inside the Franco-German plot to kill Europe’s ethical supply chain law - politico.eu",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSEhCVS1KcFk5bUFua3hReEtjbXk1ZkhsbFgxV0xnQ19rYXQtSXl5ZjUwN1JCYzFsWl9XMmhjOU5wcnJHYzA2SWlEOXdOaVRHQmt5RG5aQTBwejV6czVEVlBvQWJCRkc2aGRfTXBIbHZnSFBzLVBEQjZ4Q3Y2bEpoRUN1cGdrRl96Y1ZEX3luWktIY3RnU00wTTREQ2dkRE1hVy1ZQ2Zn?oc=5",
+      "source": "politico.eu",
+      "pub_date": "Mon, 30 Jun 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-21T21:52:21.348242+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Tariff Crisis: Navigating Contractual Challenges and Remedies for Businesses operating in Germany - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV3FjSjF2TzMzRjdka3BvQkVsZlMzc3dkNFZudWxEbng2MFJFVE5jU2xZUkJuQUw5ZEtuLVhfUDNiM0g5aEV6UHlaNnNHNlQtaHFVaDN1N18wZ0RoY2NQMnZwN3pETlZkb1R6Qmg1a1VVYUdhRE05WmVOZXZjaUtBRWR0b2prdnN2b0RodVYwLVhWNVUwSzdEVXk1eUFxdG9hNktkMWdSZFVfTktGRzBtV29HSHYyZXY2bWE4QzY2aERMN3lma0R1QWFNYjhscWp6bkhwOU5oREN1Y3dMT19fQTAtb3ViQVRQNDkzTlAySQ?oc=5",
+      "source": "Freshfields",
+      "pub_date": "Fri, 25 Apr 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-21T21:52:21.348242+00:00"
     }
   ],
   "runs": [
@@ -8843,6 +8879,11 @@
       "timestamp": "2026-09-21T12:30:03.389487+00:00",
       "new_signals": 3,
       "total_signals": 943
+    },
+    {
+      "timestamp": "2026-09-21T21:52:21.348242+00:00",
+      "new_signals": 4,
+      "total_signals": 947
     }
   ]
 }
