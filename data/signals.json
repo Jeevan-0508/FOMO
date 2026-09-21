@@ -8459,6 +8459,33 @@
       "pub_date": "Wed, 24 Jan 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-20T20:35:59.550484+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "IUMI and TAPA EMEA warn of escalating cargo theft, freight fraud and violent attacks - American Journal of Transportation",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZlZBWjZMYk5NWS1maXVEak40bHN6OU1oNjJZZ0pKSEZQd1VWSzUxZHptdHBxWHhTTmdqeGcwVGhtTkluUTc0cl9pS2dEMXhQX0I4T3doVFNCNVBPN3ZOVUdjc1g4YW5GRHZLcjhQUjExTEUzdUVTM3VNczBWU0dSS2ZhVGJYMFU2U093ZVk3b2dxeDd0RmdoRURGRnc5NWhKREtiSDRxT0k5TWc0SFE?oc=5",
+      "source": "American Journal of Transportation",
+      "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-21T12:30:03.389487+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Quick Bites: Decarbonisation - Das Lieferkettensorgfaltspflichtengesetz - Osborne Clarke",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM1JMbXRuZ0dLb0dHcW1WNTZvTzJnRzZXWjEzNFcyTjljN2tTUzhWSV9CNFRONVFNbXdwcy1DT2w2NnlFS0hjb2ZnY0wyMGs4cS10UWs5dzhfSVZTYjBpVl9haE40ejBDdXNGYnVIMVNQSzVSOU40ajNUU19tY1JzSC1tSWFyUmF0NTlCQWRYUDhTUlU2QWJXbVJjRXhpTWlWN0QwZ1otTVVlOFNKX0l3?oc=5",
+      "source": "Osborne Clarke",
+      "pub_date": "Mon, 09 May 2022 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-21T12:30:03.389487+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bundesweiter Verkehrsstreik: Wissing für Aufhebung von Sonntagsfahrverbot für Lkw - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQVVdBVUtqQ1h4Q0hpLVBXUVl1Tm5WSW1LekFzLTZrSXllNzRXWXdzYnZpUXgtX1FfNmFoQ3ZaNTdPWGdUTE53dDZWYXg3RkViNWNfMWx6LW0yR0NKYk42NEpOTWhUdFdBSWFzM0xJd3c4WkJpMHlBTmRwWHFqYmxnUl9KaThqbnQ4T3paSk90cldNYUVyQnZDQWdfVWZxcktjcXRmSGtiYzRwdWNsX3JTZ2pucUxISTNjRXJBNEFLMWgxbEJ1aGxhMWJfcFNHd1BkRVItQjBCcDlUU1Q2eWlOcEcwSmsxdm1yTGM3U2w2YUxla3VjSEhBT0V4MG5KSkV0Q3c?oc=5",
+      "source": "Spiegel",
+      "pub_date": "Fri, 24 Mar 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-21T12:30:03.389487+00:00"
     }
   ],
   "runs": [
@@ -8811,6 +8838,11 @@
       "timestamp": "2026-09-21T04:23:17.750948+00:00",
       "new_signals": 0,
       "total_signals": 940
+    },
+    {
+      "timestamp": "2026-09-21T12:30:03.389487+00:00",
+      "new_signals": 3,
+      "total_signals": 943
     }
   ]
 }
