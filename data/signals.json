@@ -8558,6 +8558,15 @@
       "pub_date": "Tue, 18 Oct 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-22T11:19:01.331651+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "N62m fraud against serving Police Officer German-based Nigerian send SOS to IGP - Vanguard News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY0l4SjlQcTJjU01GSHNpNXc0NUxwUkRhUVVsb0sySFRIZkU4T0lfcGpiUEZOSHBZel9kYlRiRVJJY3dXZkdhSmltX2UyWEJlWmRsWTMtVEh1ZHJGcEFmdml3NGdmNFZ0dlB5bDNzSFVtdVB5ODhGcG55RnZ6WjdXdHNqd0ZwcXFDMTZfLUZ3TS12V3FvY1Fib3pnZ19WeVE0Y0RpcjQwRDFmTFYxLXE3SlA3MzdYZjjSAbwBQVVfeXFMT3RVaDNqRWhMUGRCUHh4ODcxZVVVZlpBa3g4WWI3VGpaTThfbldzc0tTeG9obGd3SWVIa3hGbXpBNWNzMUNWRFhsTnhORUs2UzduVTdlMjNnbGplY1k0cm1FcVhCTm9LcHdrVTNFbHI1LURkX0JicHdJaTdOb2psOVlKdWtDbzVyazItRW1uOWVTSXJ6T19KMXZOTlNQY1RlcUtTNVJCWThGUHRtN1hxUUNsdzVhYzkya2FJLTQ?oc=5",
+      "source": "Vanguard News",
+      "pub_date": "Fri, 11 Feb 2011 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-22T16:41:13.749177+00:00"
     }
   ],
   "runs": [
@@ -8930,6 +8939,11 @@
       "timestamp": "2026-09-22T11:19:01.331651+00:00",
       "new_signals": 3,
       "total_signals": 951
+    },
+    {
+      "timestamp": "2026-09-22T16:41:13.749177+00:00",
+      "new_signals": 1,
+      "total_signals": 952
     }
   ]
 }
