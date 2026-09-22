@@ -8522,6 +8522,15 @@
       "pub_date": "Fri, 25 Apr 2025 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-21T21:52:21.348242+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "News New German border controls could cost 'tens of millions' in delays, claim shippers - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVURsd0J4TUh3MGVITTZ3c2NES3BIUUxubnBUZ3VOd2JiMWo5SU5rdVo0dEtXWDFCaUtlRUZWYUhULTJPclFiMTBoSEdDVzJWSlpPWHJiVHduVFZVc1JZZGI5aHNyX1FEN0tNZHNLQXNRdXA5UDFVZ1E5anFBNWZOU1hXWkN4dTh2ZENfSWRCcFNKeGxCRmtaY3FQbjFKemFXSU9VbXRURQ?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Wed, 11 Sep 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-22T04:18:55.693750+00:00"
     }
   ],
   "runs": [
@@ -8884,6 +8893,11 @@
       "timestamp": "2026-09-21T21:52:21.348242+00:00",
       "new_signals": 4,
       "total_signals": 947
+    },
+    {
+      "timestamp": "2026-09-22T04:18:55.693750+00:00",
+      "new_signals": 1,
+      "total_signals": 948
     }
   ]
 }
