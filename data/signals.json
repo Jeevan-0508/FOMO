@@ -8531,6 +8531,33 @@
       "pub_date": "Wed, 11 Sep 2024 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-22T04:18:55.693750+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Tennor Sees German Shipyards Exiting Insolvency in Three Months - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2JnZDdCUHhTSnNZbnRUanMxRzlENlBfbGp3Sm5zbnRjZnhOdGczSENPMXptUFpUanZYTjJ1ai1xd3lwUjZ5LTRsdktBeGx3d0g4OVJIandtR05KVE5MUnp1U1Q3NE9waThkZlVSMkZ1QjE2UVBVUW1pY1pnNnltOXRDQ3hxMWFWVzE3S0c5OUV6dl9RR1F2ZVdhV3NmY0RwS2dZYUR6Q1dhNm1kTEtqdFZUeHo?oc=5",
+      "source": "Bloomberg.com",
+      "pub_date": "Thu, 12 Dec 2024 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-22T11:19:01.331651+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das neue Lieferkettensorgfaltspflichtengesetz - Die wichtigsten Punkte und was Sie jetzt schon tun können - Osborne Clarke",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRmJjUm5oanVjUVplU1JXSFFGNjVtS29ieUR2WnM2RkFkd2t3Y1FWZ3RIX09xNGFjZ09aY1g4VnV3TnR1WVJEd2ljclRwQU9xd01rQmRkZnZKd3A1QnE4MXA5Ti1YWFBfUW5VckxxYlM2VnNXTUNhaTBlb0JKZkh2NVpkU0lEallReUhYbzlkWGJxQmlwZjh6NTZ5UHNWRkpyb3dCTS1yX1lUWnMzZVRPcFBMWTk0cTUybS1wczctczFHT1JLMEU2TmtyMWw4Yk5NbkFORmtTVUs4QQ?oc=5",
+      "source": "Osborne Clarke",
+      "pub_date": "Thu, 17 Jun 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-22T11:19:01.331651+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Schulen und Transport: Französische Gewerkschaften weiten Streiks aus - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZzk1aG9nOE9McGY0R3lMYk5NS1R2T2hkNDdUUFpZbUxvUWFrTkI1YUdZbGJUZjhVNkdXQjZFbnFOSnVVMEJ5Q0RFeXR4RHFzUDRzWE5MWTZnM3NqMUttM21NbVVtYWVNZTBUMHVDZDdreFVqeVpOQmYxSjVTdndTbFNSSWhIMC1oM1pnMl9admd4ZE0tbVpQMUtmZ3ZEcDk4ZnQ3TG5yR2NOVnZLWGhVa2hKR1pIX3kxX0VWbUhTdTkwQnVOWHBQaEdFNm8xS1BINENMSXExSEs?oc=5",
+      "source": "Handelsblatt",
+      "pub_date": "Tue, 18 Oct 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-22T11:19:01.331651+00:00"
     }
   ],
   "runs": [
@@ -8898,6 +8925,11 @@
       "timestamp": "2026-09-22T04:18:55.693750+00:00",
       "new_signals": 1,
       "total_signals": 948
+    },
+    {
+      "timestamp": "2026-09-22T11:19:01.331651+00:00",
+      "new_signals": 3,
+      "total_signals": 951
     }
   ]
 }
