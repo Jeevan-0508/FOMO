@@ -8567,6 +8567,24 @@
       "pub_date": "Fri, 11 Feb 2011 08:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-22T16:41:13.749177+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "The New Face of Cargo Theft: An Expert Perspective on Fraud and Supply Chain Security - BBN Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc2pESWl6UWVyVkJqT2pOekJmWmdLRS1iVDFfUU1MUVdMZmUzdDhQYmZtVG50TXlmU1d2NjBkaDRSalB6c3NRRXU5eDVaTng0dlAybkktN3pUQTBiVUxPSjRSbHI5NWFSZmtvaUhGblhaMDdpUk5tVl8ySFNXVmdyRXlmd2N3R0NfS3RKaTdyZHpjQmdyMDZiUWstMnloSU11a1BhOTByMnMzNU16VHdDM2Qtc2JBa2hEQ2RB?oc=5",
+      "source": "BBN Times",
+      "pub_date": "Tue, 22 Sep 2026 19:09:45 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-22T21:06:54.738307+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Suspended Prasa chief engineer resigns amid fraud allegations - businesstech.co.za",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ3QySEVrbHI3NXhEMXdkeTc3aUdwWTQtRFZJNDNXRTQ5RUQyUEJaY21tYnlaeGJCbGhWdVR6N1M1dXVRcWdXRHBsanZablZKQkNOQUpWal9ITW9WSm1SVE5ld1hDeWNuN2xodi02N0kxNzNzWUZmdl85QnJKT191V0NJeGlzS0M3aVpkX1pnaG03S0RSSEotckhEVFo1SVFHRy1Od0gtUHFZaTBqZEl2QQ?oc=5",
+      "source": "businesstech.co.za",
+      "pub_date": "Mon, 27 Jul 2015 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-22T21:06:54.738307+00:00"
     }
   ],
   "runs": [
@@ -8944,6 +8962,11 @@
       "timestamp": "2026-09-22T16:41:13.749177+00:00",
       "new_signals": 1,
       "total_signals": 952
+    },
+    {
+      "timestamp": "2026-09-22T21:06:54.738307+00:00",
+      "new_signals": 2,
+      "total_signals": 954
     }
   ]
 }
