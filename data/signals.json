@@ -8603,6 +8603,15 @@
       "pub_date": "Thu, 09 Jul 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-23T16:34:42.965182+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "French logistics company Gefco fall victim to cyber attack - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE43NnlDNjZncHRwRnRQY1ZMeU41bzNCTXNXU1hXQXduQ0xDVmtySWZFZTBTMEwyV1o0aXVlUEJLRHpSb0M2T0hPUkJRQ3lvRWJ3TFlIMDhmM2N3RHVDZzF5V0E1TkNPNm5qWk95MkdmODRpdw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 30 Sep 2020 14:13:24 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-23T21:20:57.550454+00:00"
     }
   ],
   "runs": [
@@ -9000,6 +9009,11 @@
       "timestamp": "2026-09-23T16:34:42.965182+00:00",
       "new_signals": 2,
       "total_signals": 956
+    },
+    {
+      "timestamp": "2026-09-23T21:20:57.550454+00:00",
+      "new_signals": 1,
+      "total_signals": 957
     }
   ]
 }
