@@ -8585,6 +8585,24 @@
       "pub_date": "Mon, 27 Jul 2015 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-22T21:06:54.738307+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Gudow: Diebesgut bei Kontrolle in Transporter entdeckt - ln-online.de",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcDZyRi1pYXF3ZXliM2djZnp6MnBpQjBheWhfZ3VhcWdTNEtFeFhMaF9mNFVISG9UUzFnMmhDUkNKbWNkaUQyRmt0LVJfalVzemdZRFFCeUlnN0l1Zi1IY1R5M3BRb2hyVHBCV05DcV9odV8yUU81V3BBMUZZdTUzNUpacTVMa3lUa1B5MTlQZzlLNHkzNG9Rbnp3SmxZazA4UDJvX1FBbWE3SlgwaWw3Z05nUE1udDJ4SGR3S1lVeW45WWJ6Q0xIZHdtZnBZZXdqWmM1SNIB8AFBVV95cUxOclRwejVNbFVfam9LZW1zWm1jcjhWeElNcGprWVNWUG1uaGg0WkFqcEdNOEJnWjBmbmRfc2VqTkxQckVZUmNQcW9EdlR4UHRIUl9WNVVqeFNSNGVJMFotS203cG5JMC1FeWI3RTMwX3RySmZMd3FtVGtyN1hGUjhDMFk0c3Y1bVlCdnV6YVB3RGM1RTJfVTBWbGg4UFRhdFh0b1JtdW12QTNIMjlROUF2Q1BxeGJVbDQ5VS1JTzBYbmRJbElFR01WU1l6aWg1WnVXLUFzVzdZVGtSUkhPR3RteGFzX29SZ3lXdDJxV3Nqckk?oc=5",
+      "source": "ln-online.de",
+      "pub_date": "Wed, 19 Nov 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-23T16:34:42.965182+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Speditionen geraten unter Druck: Investoren retten mehr Logistiker - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSW1DLWdQc2VYQ1A2cUZENUJQQS1KR2pQVVlvWFVIVDJIWHVtWjRnS2ZvZlFUVWhOZ3FPV2xsYnpEcTQwQ3ZVdDhFMm9wX2REbGJhMGxqazFFU0Y4a2Y0RkRELVd4amxmSWdZNjNIYmRHMzVhLXlHNTBrWkEyeFlCU28zRHU4SWNxX3NFODlZQjVfamVkYWZfcDBaVDlkdVVya1RVWC1yX0pCaURMT0E0T05CT2dIZ0RwSkVCUnY5ZzJZcTN2WG9xc3Fn?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-23T16:34:42.965182+00:00"
     }
   ],
   "runs": [
@@ -8977,6 +8995,11 @@
       "timestamp": "2026-09-23T11:13:03.416793+00:00",
       "new_signals": 0,
       "total_signals": 954
+    },
+    {
+      "timestamp": "2026-09-23T16:34:42.965182+00:00",
+      "new_signals": 2,
+      "total_signals": 956
     }
   ]
 }
