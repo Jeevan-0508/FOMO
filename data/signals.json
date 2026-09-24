@@ -8630,6 +8630,24 @@
       "pub_date": "Wed, 18 Jan 2023 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-24T04:11:46.256364+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Rhenus hit with €43M seizure in Milan fraud case - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UdjFSdGl6M2FtOW5FVHRYNU8xbkxoUWcxNzJsSkZVVW9lOTIwMWN5WjhtaVh6d2hKWmlheUNpN1VWQ1ZwU2d6R29LYVQ1VXdFMWIyNy1CMzU0MTRfUmM4?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 10 Jul 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-24T11:28:18.898914+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz - Ernährungsindustrie sieht Fortschritte - Lebensmittelpraxis.de",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeURsU2Vsb05tTWJzbXE1R010VklXc1ZBSXI5S3JZVUlTbV9WOUdhQXhlN3pPQXp2T2NKZEdLbm9WN0hHaDh2SENLelNOa2JkZ3NGRlFUSVR6cnBzT280Y2I5UHpPMUJYRUFnRXE2WmRIXzlQcHlNc2hxSWFlM2JiakxDZ09McEw2UzVKaWZqM3lKT2lQTXZRa1l4SGdNaDVxNHRvem1ZMUtPeUNXS0ZucXRGUDkzV2dzNW5FcmJaWVQzTDVVellUQUlzaS0?oc=5",
+      "source": "Lebensmittelpraxis.de",
+      "pub_date": "Wed, 08 Nov 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-24T11:28:18.898914+00:00"
     }
   ],
   "runs": [
@@ -9037,6 +9055,11 @@
       "timestamp": "2026-09-24T04:11:46.256364+00:00",
       "new_signals": 2,
       "total_signals": 959
+    },
+    {
+      "timestamp": "2026-09-24T11:28:18.898914+00:00",
+      "new_signals": 2,
+      "total_signals": 961
     }
   ]
 }
