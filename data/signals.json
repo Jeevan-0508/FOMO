@@ -8648,6 +8648,33 @@
       "pub_date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-24T11:28:18.898914+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Fake police stop truck and steal entire vehicle - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13cmRUaUhTSTJXZTR6QXVEV2Z6c01xUjRBbjhUVktyMjVDSDdVX0RsSTA2VGMxc3NJTV9VY0ctaURCSTNjMDdtV20wTVcxUkJHOEhNQzhBV1pRaVNRd0Jj?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 22 Sep 2026 12:10:46 GMT",
+      "severity": "high",
+      "found_at": "2026-09-24T21:22:14.728824+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Dallas-Based Highway Raises Strategic Growth Investment to Accelerate Growth, Fight Freight Fraud - Dallas Innovates",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0hEYVhtVzc3eGFUYVJSWkNzdlhFbDRsR2FlNm9zZ2VISWI0LU1KMnVMQjJWTUg1QVFyRzlMTUNFYWJYdWk0Q3ZfLTRaT3N6TVdBQ1c3X3g1SlJlSnRpektLM2ZFTzc2UGZPVEhBbGdCNHo2NzRaUldQT3g2YmZ0YXByUWp3Zmk5SW83WlZYWlJzV2R4YUptcVBOeDE3bU96QUxpLWlLdGlLeGNkeUc3bV9Mc3plM2o0eVAtN2ZfOEg1MmM?oc=5",
+      "source": "Dallas Innovates",
+      "pub_date": "Thu, 21 Aug 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-24T21:22:14.728824+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettengesetz (LkSG) für Unternehmen - IHK",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SRE9aOE1kOWNxRVpfRDNyTDVnOGhEYkZXQkRKcC1HNDFWR3NJWGFsWFh2T05GMkk5aFdDS0l5bjI2ZDFzNjlFN2VGMFIwclhnanllWVI2d0REclM3X195VlFkUGlJM0hzYUxjY1FfZlJxX0ptcnc?oc=5",
+      "source": "IHK",
+      "pub_date": "Thu, 05 May 2022 12:28:33 GMT",
+      "severity": "low",
+      "found_at": "2026-09-24T21:22:14.728824+00:00"
     }
   ],
   "runs": [
@@ -9065,6 +9092,11 @@
       "timestamp": "2026-09-24T16:54:25.138980+00:00",
       "new_signals": 0,
       "total_signals": 961
+    },
+    {
+      "timestamp": "2026-09-24T21:22:14.728824+00:00",
+      "new_signals": 3,
+      "total_signals": 964
     }
   ]
 }
