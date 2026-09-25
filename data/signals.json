@@ -8675,6 +8675,60 @@
       "pub_date": "Thu, 05 May 2022 12:28:33 GMT",
       "severity": "low",
       "found_at": "2026-09-24T21:22:14.728824+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Van theft peaks in autumn as operators face rising risk - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6MWdORGJoSDRsNC1mdDBNYUJSVWEzNWdXd1QxS1ZyQ3NPN0NHMmdNVVFhSTZQeWtIV2lKNEszaGdMOHUyNHVnUERxdklBS0dQM3h6YnAzNA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 25 Sep 2026 11:02:40 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T11:34:03.380555+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl in Zeiten von Corona: Im Lager wird deutlich mehr gestohlen - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMUVTMF9PR3V0QUtvTmxNMThVZHQwbU5oZWROOEpNTHg0dExBU2tDUVR3NnNMNXc4MFRlVmpPMHZpRU1zaTJsN3d0QjNPaUVtYzc3VlVlaENnRm9QVDJyUGl4WlQ0RFVNUkd0NkxsSkkxVXZaNzdYaV9SQ0stVThuS3RYa215cmpBTTkwYS1LQmFmWVhocU44dW9zaElMVFRJbUFBX2c2MzNDbG5OVnl5SEtQdnpiS1dDaGZfR05QU293N0RDX25HN01SSzl0aUh6MUs4?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Thu, 25 Feb 2021 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T11:34:03.380555+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nach 18 Monaten Insolvenz: Schnellecke steigt bei Spedition Wandt ein - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWDlzTGdUNnZ4akk3VW9lNW9uQ1NhSU5DMTgtd2N5Qmw1dXNScnVqbG56bjl4ZFZ5MFlHZnQwZmlxaHY2QWJBNVQ3a0NCdmdhYV9hb3pTU0RHSE9VZUlidlBqbzJjeVJwTGFZQ2o1MWZTTURJVTRUc0M3QmdjVkVtcQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 25 Sep 2026 10:18:45 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T11:34:03.380555+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "There’s a Europe-wide HGV driver shortage. So why do UK supply chains seem more disrupted? - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2YxQUxYUll1eENDX01rdHhXZmtCSVJJSXFMUDhOSGRYZGx2VkVnLUl3dk1lMHlaYXlYdENuMXdVSWI3V1FxdzFmVnlZNHJoMnlteWNVeW50TkxrUkhBNURodWgyUXNGaXhPVkl3UVRVVWtHc1IwbzVNRnROajJhS0FhSGdHM2lPRXc4T05rWkhKa1o4TmNzWjh1dVBsZWRaM1o2dTc5OUlZSlZfU2czTlRUWXdDSUh5?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 16 Sep 2021 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-25T11:34:03.380555+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Train driver strike paralyses traffic across Germany - The Peninsula Qatar",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaUdBNF9QRzFZM25CNEdCNnVWUWNsVHNKXy1NWjlyUVlZR04tTXc5azFzWE1KbjRLMHZrWmY2Y3IwbDUwUnAzeXRFMXhyWVF5SVpCcUpYVzBLQXVTY1lqT2tFMXhXcjFUWXpKZ25CSURfQ0MwRWpmYnMwMTJlSmE3Q3ZSUFlTUkRkdExySVVZa29ud2s3Ymh3QVI5amVfYlpmaXAw?oc=5",
+      "source": "The Peninsula Qatar",
+      "pub_date": "Wed, 11 Aug 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T11:34:03.380555+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Flughäfen: Ver.di-Streik beeinträchtigt auch Luftfracht - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQVlzVXd6S09aM1JLVngwT2lYVDhmTlFNb0ZIQmRMaERQZF9uV3pCeEtiX0VLMWdma3ZiM01za0lZLWJXXzlZcE1RcmRiWTdIOFdMWjRreTFweXc5RjVTb2xoVnY5R3YwMGxKdVdaTE1uSjlzM3UzU2xVbmxJOG1ZSzcwc2tXUzhzRVkyWDJXT255dmlTN0RwcGhUUzFWSG8?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Mon, 27 Mar 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T11:34:03.380555+00:00"
     }
   ],
   "runs": [
@@ -9102,6 +9156,11 @@
       "timestamp": "2026-09-25T04:24:46.053572+00:00",
       "new_signals": 0,
       "total_signals": 964
+    },
+    {
+      "timestamp": "2026-09-25T11:34:03.380555+00:00",
+      "new_signals": 6,
+      "total_signals": 970
     }
   ]
 }
