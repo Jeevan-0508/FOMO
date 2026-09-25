@@ -8756,6 +8756,24 @@
       "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-09-25T16:57:44.431494+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenz der F. Klein Transport und Reifenhandel GmbH - BYC-News",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOekF3SUVIdXVGU1AyM0VEempRTURwa3plYzA5LUM3R0RoRnM1QTUxSF9TUW5SMzFaX0ZaVzV5OHFJRFBGR1hQUXhKSVdkTFdqTFIzdXp4cEdlQ20wR2g0bVBkRnpGT09hMHItYWpLNEkzampJM29nYk9tbkRFVEU?oc=5",
+      "source": "BYC-News",
+      "pub_date": "Thu, 11 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T21:22:12.622292+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "International tätige Spedition insolvent. 300 Beschäftigte betroffen - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmbHR3VU1XV19YSGN4MnhJbDRlekcwWGNkYkVHQXpHZ1RTSVM3OTY1ZlZFRmNtQk8wd3BZRThyUzlsVTc1MHowZ09taHJuODZzN2hVNFVFMFFwcGFjUm5MMnI0elczb2s?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-25T21:22:12.622292+00:00"
     }
   ],
   "runs": [
@@ -9193,6 +9211,11 @@
       "timestamp": "2026-09-25T16:57:44.431494+00:00",
       "new_signals": 3,
       "total_signals": 973
+    },
+    {
+      "timestamp": "2026-09-25T21:22:12.622292+00:00",
+      "new_signals": 2,
+      "total_signals": 975
     }
   ]
 }
