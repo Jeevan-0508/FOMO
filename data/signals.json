@@ -8729,6 +8729,33 @@
       "pub_date": "Mon, 27 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-25T11:34:03.380555+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Van theft peaks in autumn as operators face rising risk - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuVHdIZ0tZUDNZNXg4YXNMVlVrQXdKeWRHVWdNVWl3QXVOTjJnZWRQWEItWXJ0VkZERFdMZ0pjWF9pa0tLT2ktUjNJQ1dKNHdNc2Nr?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 25 Sep 2026 11:02:40 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T16:57:44.431494+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Helrom meldet Insolvenz an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX3huXzdDUkNfYTNraFN0UVV2U1ZRTXVEcm9JZGF0UEU1OXdYeE80bHJPVFFJMGhhdmZ4NnpHZi1KeFFHdElpQ2laVTA4SHhLc2t3RXhtQnVDUVdSOFhWQVRnZXBfaU1uN2d4azNPQnpqNEFPYkNBV3BhOU1FWk5WMVRwR1FtdjV2MzRzcUx4S0VTY29UWEJPUFlweklQRVk?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-25T16:57:44.431494+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Deregulating Due Diligence? - Völkerrechtsblog",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PY25PSVdWWFM2Y3BUZ3VXbWRqZHhLYWlCY3JWQ0NhMFc4SlJncFhLel9VSjBSNElEVGQwVzV2VHl0d2lXREVvOVQtS0g0ZDRIckxPeF83bjc0aFcxcEp0TGJrRFgzTDJJ?oc=5",
+      "source": "Völkerrechtsblog",
+      "pub_date": "Thu, 24 Jul 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-09-25T16:57:44.431494+00:00"
     }
   ],
   "runs": [
@@ -9161,6 +9188,11 @@
       "timestamp": "2026-09-25T11:34:03.380555+00:00",
       "new_signals": 6,
       "total_signals": 970
+    },
+    {
+      "timestamp": "2026-09-25T16:57:44.431494+00:00",
+      "new_signals": 3,
+      "total_signals": 973
     }
   ]
 }
