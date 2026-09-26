@@ -8828,6 +8828,24 @@
       "pub_date": "Mon, 16 Dec 2019 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-26T11:08:32.764244+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German developer Pandion files for insolvency - Green Street News",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVXhXTEtoZkJvLUpwUEFfV1FZdmF1bVlqWHYtMEZ6cHlvaUNBcjNQTnZ1SWF3ZUtGMlVIVWZSaVU0Y2FRS25YN0FOM19pU2ZDOHE5VHhkcG9YVXQ2dUhRZUd5WHNqV1pGMlptNjExWExZektKSGpNVU1SX0tUeXFIdlNpVUtnRVJzYXc?oc=5",
+      "source": "Green Street News",
+      "pub_date": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-26T16:09:57.186224+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler France in Liquidation: Rettung gescheitert - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMnhkV0dCS1puQU1vNmRkZ3dFWDZZX3QyTFZYQWtCbXNvN1NsdFJ1dFh0TlhVR3luWnNuTTRwV0Y4QXY2alJORTVfX2RraUwwSmhQMnFjUlVUUGcyTFdjWmJMX05nS2ZkLUFxaUwyM2lZT2pYSlBrbHJwTVUxU1pJV2VNQ0VQZnR4UVkyVVI3RDgtMllJZTBUeVVaalI?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-26T16:09:57.186224+00:00"
     }
   ],
   "runs": [
@@ -9280,6 +9298,11 @@
       "timestamp": "2026-09-26T11:08:32.764244+00:00",
       "new_signals": 5,
       "total_signals": 981
+    },
+    {
+      "timestamp": "2026-09-26T16:09:57.186224+00:00",
+      "new_signals": 2,
+      "total_signals": 983
     }
   ]
 }
