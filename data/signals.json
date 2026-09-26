@@ -8783,6 +8783,51 @@
       "pub_date": "Wed, 21 Feb 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-26T04:29:05.042209+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "TAPA: Mehr Ladungsdiebstähle im Juni, weniger beziffert - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTlRIc3MtdWhrNklINUwxSHdVSlp5Y1RsSERXZS05blhqNGc2M0xNZUdTQmtHclpRakVpa05jTU1PQ1JsMV9TWmMtY0RYQ0E0bUF6Q3p4RklDMXczbG4yNlVSajh4ZUNIM1JPWjJiZ3NZdENRaFd3ektVQnlfaGtWcUVqbTBIT3g0b1VZWWVaLWZPNWNZVVY1YXhB?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-26T11:08:32.764244+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Betz International gerettet: Aventra übernimmt die Spedition - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQSEZ5Tk0zVHRtWWt1ek0xLTFIZGdkNXhTWnViRl80Z0hKMG5RTHFTaFFkck8yNUh1QlJLNTM0QTZvVXhXbm1aYWV1TU84Xzd4eE95TmhPc0RiWkhJZm9Tc29HOFJiUTZFUlE3bDJ6MHlxN193?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-26T11:08:32.764244+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzen steigen weiter: Verkehr und Logistik bleiben Sorgenkind der Wirtschaft - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MaGZsVEpfTmF2VklMVzlXYTRORGtfMi1Ea0ZfUVNLNXFORmNtNXUzcVVzdFlDVUNSRlU1UE9ucTRwR0o1dmIySGN6OF9IWWtfRFVHWVMwS241S0E4NnptVTFB?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 15 Dec 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-26T11:08:32.764244+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik bei Amazon in Leipzig - radio SAW",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zcEV1MC1hZFFqZHBiTVZRa1VqX3F5NXUxQk5XcWFyMXNBMUk4c29xaFgtbjEtZWtNeGQ0LUtqQWVNMDlHS1BnWVlCX2dTbGVUTElQcHFBVEo2bjhlekE?oc=5",
+      "source": "radio SAW",
+      "pub_date": "Mon, 10 Oct 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-26T11:08:32.764244+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Deutschland | Verdi ruft Amazon-Mitarbeiter zum Streik im Weihnachtsgeschäft auf - notebookcheck.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObU1Xazc4ZEl0bnNJcG84ZnBKS1dIZWtlOHoxeVFPNWtybXpXY3h1cmJpLXJqaTNlZkZSdmZNcTRrYXZxMUh5RUpBZkk2bm5xamd3QlZlZHUzUk1wX0diTllORmhVdlljLTBEZWc1VmQ1TWhaeEFOb0JYT3JSRnRMR0Q0QzFNcGk3NzM5UVpBclJBZlJhTlJ3RzNIRlNSaXdWZmRmbGJTSUt4OFdZT1NaWg?oc=5",
+      "source": "notebookcheck.com",
+      "pub_date": "Mon, 16 Dec 2019 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-26T11:08:32.764244+00:00"
     }
   ],
   "runs": [
@@ -9230,6 +9275,11 @@
       "timestamp": "2026-09-26T04:29:05.042209+00:00",
       "new_signals": 1,
       "total_signals": 976
+    },
+    {
+      "timestamp": "2026-09-26T11:08:32.764244+00:00",
+      "new_signals": 5,
+      "total_signals": 981
     }
   ]
 }
