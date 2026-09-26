@@ -8774,6 +8774,15 @@
       "pub_date": "Tue, 10 Mar 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-25T21:22:12.622292+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi: Warnstreik im DHL-Luftfrachtzentrum in Leipzig - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ3labHdaY1FjaEptRGRuYVB5amc1T2sxY1NBMXBocE9ndkNnRndyenBJRXVwekRVdHpKWndseXF1YVl0Nzc4czVFY0FTRmpDSjFTYlpXTGxzbS1XSFBoVG1nbE10ZVZtYmY4cHh4VjN2RXQyXzZ1Ylp5N1hvNjlKSHFwQ3BjMUVzVXFXMDZadGdseEtlVWtpdXBjRlRmakpiRVdaMl9FUWRvZl9jdTVhenR1WkJqZ1UwZnpPcjBaSUtpQQ?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Wed, 21 Feb 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-26T04:29:05.042209+00:00"
     }
   ],
   "runs": [
@@ -9216,6 +9225,11 @@
       "timestamp": "2026-09-25T21:22:12.622292+00:00",
       "new_signals": 2,
       "total_signals": 975
+    },
+    {
+      "timestamp": "2026-09-26T04:29:05.042209+00:00",
+      "new_signals": 1,
+      "total_signals": 976
     }
   ]
 }
