@@ -8927,6 +8927,15 @@
       "pub_date": "Thu, 09 May 2024 19:49:38 GMT",
       "severity": "low",
       "found_at": "2026-09-27T16:45:23.561237+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Transportbranche: Insolvenzen steigen, Rettungsquote verbessert sich - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55cTFiZ21LekdWUjBmXzNmNnJlbWRpV0FETGZzVzI4MFhraEhPWl9weDBxWko3by1ud2txbjJ4NXY1ekhsNGVTcUh6Y0VNcUgzeVZXNDBKeEFDT2dRYzNXVURXZ1ZoSDlUUUVvZlVFT2twQQ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T21:10:50.067559+00:00"
     }
   ],
   "runs": [
@@ -9404,6 +9413,11 @@
       "timestamp": "2026-09-27T16:45:23.561237+00:00",
       "new_signals": 2,
       "total_signals": 992
+    },
+    {
+      "timestamp": "2026-09-27T21:10:50.067559+00:00",
+      "new_signals": 1,
+      "total_signals": 993
     }
   ]
 }
