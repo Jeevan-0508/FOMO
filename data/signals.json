@@ -8909,6 +8909,24 @@
       "pub_date": "Wed, 19 Apr 2023 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-09-27T11:47:29.043065+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler France in Liquidation: Rettung gescheitert - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGJ1bzR2SmQwd0UzT3o0RGk2eFYzdF9HT1pXd3IxYXFVOGdubmEzOWppQVVKdmNZcnNKUUpuczljX0ZsWTFyUGM2a0FabUlXc1UwLTBUVUVwbUMzaVpQT2NQZV9TZmNTdmNKNzRtMHlyY0hWd1plclVTSXpvbHFmRlN1RU4yWE5LaUk3X2lpQ2xwcEVHNUVGSm1TNGFHbmdZ?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T16:45:23.561237+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz (LKSG) - IHK",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR2JDbHNHWlNhMUF4UlVDNGRjSEstdEJwaWlFTHd1bC0yb25qUTJ6OGJfZGI4Mnd4OThtbHhSbHYxdWE4ZF9MWGkya0NEZWRDTnlsR25QSWdJY0lrcjBuazA4UWpuSFR6QVNjNVp6SFI2UUhrMmJRSUJGa1NBa25PdTBSeGtwaXhYMDFRVWNxZ0FNSDNsZ2xzWndTcHFxeWQ3YUJ6ODNB?oc=5",
+      "source": "IHK",
+      "pub_date": "Thu, 09 May 2024 19:49:38 GMT",
+      "severity": "low",
+      "found_at": "2026-09-27T16:45:23.561237+00:00"
     }
   ],
   "runs": [
@@ -9381,6 +9399,11 @@
       "timestamp": "2026-09-27T11:47:29.043065+00:00",
       "new_signals": 3,
       "total_signals": 990
+    },
+    {
+      "timestamp": "2026-09-27T16:45:23.561237+00:00",
+      "new_signals": 2,
+      "total_signals": 992
     }
   ]
 }
