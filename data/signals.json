@@ -8855,6 +8855,33 @@
       "pub_date": "Wed, 16 Oct 2024 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-26T20:53:45.534778+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "TAPA gründet eine Organisation im Kampf gegen Phantom-Frachtführer - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWDhESDlRVFJDQWx5Q0xYbUxzcEhNWGZYOEFZTlFZdEZIeUM2cUplcFZCZE4wZlh4WjhCc1NwRGJ1aUI4UlIwVy1qYloxRVg2Y2ktWHJWWmhkcEhQV21xa0IwZDM2bjU4bUQ2RGtHS0pSWVdMbl84bHNFMUxnbjltZ1VOY1pGa3pVZEE1QWdyMHhCOE82Z0UyYVUwd2ZSdw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 15 Oct 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T04:47:11.494838+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Baumann Spedition in Eigenverwaltung: Insolvenzplan soll Zukunft sichern - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOFNpRGx1MktWUEk3Nm1NMlVZWWU5eV9hVGJhR3NaNGw5QmtQRnVZcjR4aGt1Yk5YQkxKOG1xakZla0wtazdnS0kzN2stbDc1aG1MLWJxcEZPS0lJWW1DcDFPU182TVVCdmhSektLSUttMlgyaEVrYlkzNkVCZlZISjdwbi01MVlTRDZqZUoxaGlqLXhicktwaU5GSFpHZTFCWWdRdDNoVVFNVUZlcTZnZVppYklkNDUtTGpr?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T04:47:11.494838+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Belgien: Rekordzahl kleiner Frachtführer geht in Insolvenz - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSQTJ4bVFHU3IzdnN4Y29WR0V5cF91QkFiZ3VCM0RHSkhobTBnLXJ5X3k3Zmo3bXVIV3FjQVhjUGljNng2eWEyaEgtMkdTb1VncGJsaUJwQkJXNkhPRjBhMTNfQnF2R3psdFNN?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 14 Jan 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T04:47:11.494838+00:00"
     }
   ],
   "runs": [
@@ -9317,6 +9344,11 @@
       "timestamp": "2026-09-26T20:53:45.534778+00:00",
       "new_signals": 1,
       "total_signals": 984
+    },
+    {
+      "timestamp": "2026-09-27T04:47:11.494838+00:00",
+      "new_signals": 3,
+      "total_signals": 987
     }
   ]
 }
