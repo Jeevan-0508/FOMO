@@ -8882,6 +8882,33 @@
       "pub_date": "Wed, 14 Jan 2026 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-27T04:47:11.494838+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Italy seizes $69 million from Carrefour unit over alleged tax fraud - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmUzeTZnSUU3T2FYWnBCRl9rRk9MbXVIT09sUURUaE9nVlNOQVFGOE5pRTlLc09xdk5JNGxWWnY5THd0Ym5GTnVNNlY2cTB4aTdoM3NxQjJ2YVN4M0g5MjQ4ZUJpX2UtdllIUzJzbWpGM2tkT1pxY01FYXVHeExnUklOeWRKV1NReXBtNl92aTZmSjFCQkVQLXJpWmtDaktmMHowU2ZEeml0Nlg1TEd1VGFYSHkzTVZ6XzNNVWFlYw?oc=5",
+      "source": "Reuters",
+      "pub_date": "Mon, 15 Apr 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T11:47:29.043065+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Spedition Betz International hat Insolvenz angemeldet - RTF.1 Regionalfernsehen",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBCbi1saVg2VFYxTy1Gc1VCN1Z5b0YwbkZ5eldTaVo4TTBtTFFkTHBmVmRTZFUxNXF0LTBNY0JRX25sTFFncjZBOV9rMWwxdw?oc=5",
+      "source": "RTF.1 Regionalfernsehen",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-27T11:47:29.043065+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Bußgelder bis 80.000 Euro drohen: Hilfestellung beim Reporting für das LkSG - Elektronikpraxis",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUx2RDhob2czajJOck1xcE9uS09pTnNveUl0V1h3dHVvTVBlbHBaTXZoektXRzVZMG5TamYyeXRGWUFaZmVSMENBOG1fV2x1N01kMUw1aEdYLVNLOGZ4TExJMkZEVmNrNlM0bW9LZGI0NFFxVjJZem9IMnptd2IyOHFsX1NNdHJ5Q3lET0xrdjNRRDBoMVluUnlSb0tiUEpVVGZWRFh2UnFNLV9JbXd3Rzc4R1pEcUVhR0dzaExwSUR5cndvVWFYQWFWNk45Rlk2eHhhQnMtOGNya3lvYlE?oc=5",
+      "source": "Elektronikpraxis",
+      "pub_date": "Wed, 19 Apr 2023 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-27T11:47:29.043065+00:00"
     }
   ],
   "runs": [
@@ -9349,6 +9376,11 @@
       "timestamp": "2026-09-27T04:47:11.494838+00:00",
       "new_signals": 3,
       "total_signals": 987
+    },
+    {
+      "timestamp": "2026-09-27T11:47:29.043065+00:00",
+      "new_signals": 3,
+      "total_signals": 990
     }
   ]
 }
