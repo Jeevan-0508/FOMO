@@ -8936,6 +8936,24 @@
       "pub_date": "Fri, 10 Jul 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-27T21:10:50.067559+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Global cargo theft hits new highs as criminal networks evolve – TT Club - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOenlyTUpQRnV0dkRHbFJ1NVFuMFNUa0hvd1Nua2pQYTJEeHhTbWdITWdQb0ZZWUxiME9ZNEYzQVUyRjBvS29kVDZoa0RKdy1zMDRWUlBxOWVpVWFDZGpHTlZ3WXhvOFZ3RjFvZURaRDdkU3gyRmlDbGlnbmJKNDBNWVhoblpjTUFwQ3ZtNkZiRU9TSUszS0hjUXc0NUpVblNqVXVHTEVnU2kzUzIzbVpDbmVNTFdVVUJJS2M3UGpJSERwQzhLTE5LOUU1WGJTbEpVRzdPYTVyM2o?oc=5",
+      "source": "Insurance Business",
+      "pub_date": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-28T13:28:36.822290+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Warnstreik in Seehäfen: Warum 1.000 Arbeiter demonstrieren - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFptcHZCcHBERHhmX3hkckt5QWRYeVp4MExBNHk0Z1V5VF9jVEhvTXd6S0NIdUNOckIwdm1aMXdRRGs1OXRmbmdaQjJpOFNIelU2UWRSejFEQzdOYmFQZFFPZlgtc1lCYzhRQklpbjloVU03MnJGUGwzUV9YSk9OUTF5WUtwRjU3eDVIYnNmTkV3Wjlqa1hZeGU1ZlRxQWs?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-28T13:28:36.822290+00:00"
     }
   ],
   "runs": [
@@ -9423,6 +9441,11 @@
       "timestamp": "2026-09-28T04:49:07.229598+00:00",
       "new_signals": 0,
       "total_signals": 993
+    },
+    {
+      "timestamp": "2026-09-28T13:28:36.822290+00:00",
+      "new_signals": 2,
+      "total_signals": 995
     }
   ]
 }
