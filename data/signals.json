@@ -8954,6 +8954,15 @@
       "pub_date": "Fri, 04 Sep 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-28T13:28:36.822290+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Spedition Betz International meldet Insolvenz an - Logistra.de",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTzhkRktWWUI1M25nQmkwelVSYzNXTDBsdmNBYUpfV1ZYblBxNXR5bzlHSnNRVHFzWTh6NTJVUmlrRk1LdWl3bUlicVlyWHkyeXBRQUlELTdJSkgzTW5udFJWeVFZY0FwZ0Yxd29KZ2l5emhSSkRwcHFZOHJ5U2ZUdDI3cWxncXY0UFRzelFDenNRTGlERmhnMWREY0wtR0xi?oc=5",
+      "source": "Logistra.de",
+      "pub_date": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-28T23:06:29.613553+00:00"
     }
   ],
   "runs": [
@@ -9446,6 +9455,11 @@
       "timestamp": "2026-09-28T13:28:36.822290+00:00",
       "new_signals": 2,
       "total_signals": 995
+    },
+    {
+      "timestamp": "2026-09-28T23:06:29.613553+00:00",
+      "new_signals": 1,
+      "total_signals": 996
     }
   ]
 }
