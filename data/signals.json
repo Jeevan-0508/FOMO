@@ -8963,6 +8963,24 @@
       "pub_date": "Fri, 10 Apr 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-28T23:06:29.613553+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "South Africa’s biggest transport company blacklists 7 suppliers for fraud - TopAuto.co.za",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPclJTS2R3cEpvVnlTQ2ViQi00ODNOcEozOUllX3I3a0RfWXREck1vZjRBcXdZdEtRRnJ1UVJNQ2RQUWkyRXJmbGxDRWlwdUF3S0RDbG9hei0tMlBUWklCeGxfT1NTckR5WV9PS3ZBOW9DOXRldldROC14QWFrX29yeVQtSThBRnBjLWVhUThWWGs5dGVjR0E1aVlCZ0VSUzlmc0M0bV9pcW5iZDA?oc=5",
+      "source": "TopAuto.co.za",
+      "pub_date": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-29T12:31:52.753530+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Das bedeutet der deutsche Transport-Streik für die Region Basel - bz Basel",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU2pjbllXZEdwYVJjTlNHQWN1NmV2UGRJV1pCVmtBbXcyRmZ6SzNTc19uUk03X3pkMmNzd2VwWFhlMUFfVEhBclUwREhlU2xzb3hvRk5DUmlCUDl5RnFvSEVIRUJhNmNUd0w4R19TeWx4eWIxdHJRT21SUTVqSi04QWdia2FkMnZzRzBFQTBNbFAtRmFfOThiYnNtTkdGOUV0MjZnUEJ5cjg0Y0ZRbU9uSXBOQXlDeXZLRi1rWl9LeDdTN0VZWXVzTzJ3?oc=5",
+      "source": "bz Basel",
+      "pub_date": "Sun, 26 Mar 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-29T12:31:52.753530+00:00"
     }
   ],
   "runs": [
@@ -9465,6 +9483,11 @@
       "timestamp": "2026-09-29T05:14:45.740862+00:00",
       "new_signals": 0,
       "total_signals": 996
+    },
+    {
+      "timestamp": "2026-09-29T12:31:52.753530+00:00",
+      "new_signals": 2,
+      "total_signals": 998
     }
   ]
 }
