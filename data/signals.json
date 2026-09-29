@@ -8981,6 +8981,15 @@
       "pub_date": "Sun, 26 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-29T12:31:52.753530+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany is driving its energy transition with Peruvian copper, which has been linked to 189 environmental violations - Ojo-Público",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX1ZVVURSVDItaV9ScHlIV0owa1JOWjhGTk11c3VQcWlWeWw0aXJwRVhNZEpsWDA0bWJFbG5iQVlORkYzdVhMMVo4YnMyOW5oOGZnQ2pCdWYyOXByTUsyMXFZcFJwNGUxQXFHQWRWaGo0UW5UdVZLZkpIS2RVYlhsOVhzQ20tWDBkX00zZVluMTh5R0lkbE5R?oc=5",
+      "source": "Ojo-Público",
+      "pub_date": "Sun, 10 May 2026 05:05:39 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-29T22:05:25.989640+00:00"
     }
   ],
   "runs": [
@@ -9488,6 +9497,11 @@
       "timestamp": "2026-09-29T12:31:52.753530+00:00",
       "new_signals": 2,
       "total_signals": 998
+    },
+    {
+      "timestamp": "2026-09-29T22:05:25.989640+00:00",
+      "new_signals": 1,
+      "total_signals": 999
     }
   ]
 }
