@@ -30,11 +30,13 @@ def build():
     signals = state.get("signals", [])
     runs = state.get("runs", [])
     last_run = runs[-1]["timestamp"] if runs else "never"
+    latest_run = runs[-1] if runs else None
 
     payload = json.dumps({
         "signals": signals,
         "severityColor": SEVERITY_COLOR,
         "lastRun": last_run,
+        "latestRun": latest_run,
         "totalRuns": len(runs),
     }, ensure_ascii=False)
 
@@ -233,6 +235,7 @@ def build():
         </div>
         <div class="text-right text-sm text-slate-500">
           <div>Last scan: <span id="lastRunLbl">—</span></div>
+          <div id="scanStatusLbl" class="text-xs text-amber-300" role="status">Source status unavailable</div>
           <div>Total scans run: <span id="totalRunsLbl">—</span></div>
         </div>
       </header>
@@ -445,6 +448,14 @@ function getFiltered() {{
 
 function renderApp() {{
   document.getElementById('lastRunLbl').textContent = DATA.lastRun;
+  const latestRun = DATA.latestRun;
+  document.getElementById('scanStatusLbl').textContent = latestRun
+    ? (latestRun.status === 'complete'
+      ? 'All queried feeds returned results'
+      : latestRun.status === 'partial'
+        ? `Partial scan · ${{latestRun.empty_unverified_sources || 0}} empty feed(s) unverified · ${{latestRun.unavailable_sources || 0}} unavailable source(s)`
+        : 'Source status was not recorded for this historical scan')
+    : 'No scan source status recorded';
   document.getElementById('totalRunsLbl').textContent = DATA.totalRuns;
   if (!appInitialized) {{
     populateDateSelect();
