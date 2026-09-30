@@ -8990,6 +8990,24 @@
       "pub_date": "Sun, 10 May 2026 05:05:39 GMT",
       "severity": "medium",
       "found_at": "2026-09-29T22:05:25.989640+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Intertrans gerettet: Management übernimmt frühere Ziegler-Tochter - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDV2SUpmVjAtaWU0ZkFMVVhRS0JWZDBDUGJKdU8xU3d3SmtCMVNkUlp0VnNscDBBV1BtR0JpdkdBWjAtNDZ4Nm5ybkVIZTFQTFFRVHR6X243N1o0SXM2ZmhnV0xDV0hvOXpWbzRGWjJWRURBMm9FSDAycjRyeUE1MlNNM1VGb0tKNlNFckZsaFhPZkJISkVDVEdlSV9CUUo1cnU5NA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-30T16:21:10.304739+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik heute in Dortmund: Deutsche Bahn hat Alternative für Fahrgäste – aber nicht für alle - Ruhr24",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTUlyeURFN3FDSXZJeEFIZnJxZ1FFRFFUc2RRWnlNSkpEeXQ5eGVjOEppRE1xYmhGclZtMUdQUlhqdXc0aXBkS19RUlFHaDlyRG41LVpXYjBNcGxXNlMyTnd3c3gzRUJvSFVXZjZTWXo3WHZSRXBoMjc3ZWhvQk1TMTNrYWxTZ25CMlU0X0FGcWZtb1hoeTUzM2lnVFRYUF9zMldCTDVuamdUZkt5QXp2Zng3RmVoZjVqZDQ5b3J6UURKeklJN1UyS0UtYklkMUk?oc=5",
+      "source": "Ruhr24",
+      "pub_date": "Thu, 08 Oct 2020 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-30T16:21:10.304739+00:00"
     }
   ],
   "runs": [
@@ -9507,6 +9525,11 @@
       "timestamp": "2026-09-30T05:02:16.075954+00:00",
       "new_signals": 0,
       "total_signals": 999
+    },
+    {
+      "timestamp": "2026-09-30T16:21:10.304739+00:00",
+      "new_signals": 2,
+      "total_signals": 1001
     }
   ]
 }
