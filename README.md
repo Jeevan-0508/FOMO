@@ -114,11 +114,11 @@ all six categories — results accumulate over time rather than resetting.
 
 ## Notes on reliability
 
-Google News RSS silently returns an empty feed (HTTP 200, no `<item>`s) when it throttles a
-client, instead of raising an error. `scanner.py` treats an empty result as suspect and retries
-with backoff before trusting it as a genuine "nothing found." If you run the scanner many times in
-quick succession (e.g. while developing), you may still see a temporary empty result for a
-category — that's Google's rate limiting, not a bug, and it clears on its own after a short wait.
+Google News RSS can return an empty feed (HTTP 200, no `<item>`s) when it throttles a client, and
+the endpoint does not tell the scanner whether an empty feed means "no matching headlines" or
+"throttled." The scanner retries empty responses, records them as `empty_unverified`, and marks
+the run partial. Request failures are recorded as unavailable. An empty or incomplete scan must
+not be interpreted as evidence that no relevant news exists.
 
 ## Project structure
 

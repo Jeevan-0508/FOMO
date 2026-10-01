@@ -220,28 +220,40 @@ def _fetch_once(url: str) -> list[dict]:
     return items
 
 
-def fetch_rss(query: str, region: str = "DE", lang: str = "en", retries: int = 2) -> list[dict]:
+def fetch_rss(query: str, region: str = "DE", lang: str = "en", retries: int = 2) -> dict:
     """Pull a Google News RSS feed for a query, scoped loosely to the Germany region.
 
     Google News RSS silently returns an empty feed (HTTP 200, no <item>s) when it
     throttles a client instead of raising an error, so an empty result is retried
-    with backoff before being trusted as a real "no news" result.
+    with backoff. Even after retries, an empty feed is marked unverified because
+    this endpoint does not distinguish "no matching headlines" from throttling.
     """
     q = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={q}&hl={lang}-{region}&gl={region}&ceid={region}:{lang}"
 
+    saw_empty_response = False
+    last_error_type = None
     for attempt in range(retries + 1):
         try:
             items = _fetch_once(url)
         except Exception as e:
             print(f"  [warn] fetch failed for query '{query}' (attempt {attempt + 1}): {e}", file=sys.stderr)
-            items = []
+            items = None
+            last_error_type = type(e).__name__
+        else:
+            if not items:
+                saw_empty_response = True
         if items:
-            return items
+            return {"status": "ok", "items": items, "attempts": attempt + 1, "error_type": None}
         if attempt < retries:
             time.sleep(4 * (attempt + 1))
-    print(f"  [info] no results for query '{query}' after {retries + 1} attempt(s)", file=sys.stderr)
-    return []
+    if saw_empty_response:
+        status = "empty_unverified"
+        print(f"  [warn] empty feed for query '{query}' after {retries + 1} attempt(s); no-news status is unverified", file=sys.stderr)
+    else:
+        status = "unavailable"
+        print(f"  [warn] source unavailable for query '{query}' after {retries + 1} attempt(s)", file=sys.stderr)
+    return {"status": status, "items": [], "attempts": retries + 1, "error_type": last_error_type}
 
 
 def score_severity(title: str, base_severity: str, escalate_keywords: list[str]) -> str:
@@ -270,6 +282,7 @@ def run_scan() -> dict:
     known_links = {s["link"] for s in state["signals"]}
     new_count = 0
     now = datetime.now(timezone.utc).isoformat()
+    source_runs = []
 
     category_items = list(CATEGORIES.items())
     for idx, (category, cfg) in enumerate(category_items):
@@ -280,7 +293,15 @@ def run_scan() -> dict:
             print(f"Scanning: {category} ({q_cfg['lang']}) ...")
             if q_idx > 0:
                 time.sleep(2)
-            for item in fetch_rss(q_cfg["q"], lang=q_cfg["lang"]):
+            fetch_result = fetch_rss(q_cfg["q"], lang=q_cfg["lang"])
+            source_runs.append({
+                "category": category,
+                "query": q_cfg["q"],
+                "status": fetch_result["status"],
+                "attempts": fetch_result["attempts"],
+                "error_type": fetch_result["error_type"],
+            })
+            for item in fetch_result["items"]:
                 if item["link"] in known_links:
                     continue
                 # The query is a broad net for Google News, not a content filter -
@@ -304,10 +325,16 @@ def run_scan() -> dict:
                 known_links.add(item["link"])
                 new_count += 1
 
+    unavailable_count = sum(1 for source in source_runs if source["status"] == "unavailable")
+    unverified_empty_count = sum(1 for source in source_runs if source["status"] == "empty_unverified")
     state["runs"].append({
         "timestamp": now,
         "new_signals": new_count,
         "total_signals": len(state["signals"]),
+        "status": "complete" if unavailable_count == 0 and unverified_empty_count == 0 else "partial",
+        "unavailable_sources": unavailable_count,
+        "empty_unverified_sources": unverified_empty_count,
+        "sources": source_runs,
     })
 
     os.makedirs(DATA_DIR, exist_ok=True)
