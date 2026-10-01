@@ -9008,6 +9008,33 @@
       "pub_date": "Thu, 08 Oct 2020 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-30T16:21:10.304739+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "High Court Orders Hardware Firm to Pay Uganda Baati Shs1.6 Bn in Fraud Case - Nilepost",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa0NtbkpQVnpxQndLTkxfVEpBUTE3a1ByTXpHeVNiYlFwTUhuTkwzU0pYVnhqN0FWQXdoaXRtOGhPekFheERyN1QzQVdYeldsUnlRZmVMOW90R01ManEyNk45bzZtRTZvbzVERE5NZW5oNUpWNjRLU0o5STZzSGU3REhSaTVhOEUyX3BBVXpnTmdrZWtvSnRlbnp2WXZ4OUVSUE5xZWdYU2lVQUdQRmxYaNIBuAFBVV95cUxNVTdqX0J0Um1KdFZuMF9OckxHUlNMZUZha2ZlcFV2dlF4QW42bXFEMWh6M2xOcjJFX2hDYXJtbmNGTXN1Zy02X3Roa2pRYVVpZ2lGbG5hSURmRTBnQUtIODRlUmdkZm9fU0hqb01LYUxwbndHUGMycjh4VDE0eXo5NW9OaU5TZDYwRkdZcmp1c0RXZmIzUVpCYzlTWG8zdlVRLXY4ZDJxMnRSdnNCSGxoY0IxRnFVeTlD?oc=5",
+      "source": "Nilepost",
+      "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-01T05:16:17.364434+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Rhine Water Levels and Bicycle Industry Insolvencies Highlight Germany’s Economic Pressures - tekedia.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjdQcXA2cEpwbnlJa1FuSHM0SUN3c2d3UzNqQzJCOE41S205aXljajNCaXM3LWJ6ZUQzNkVrQ0NIRHpFZlZDOUlFa19aNzB5X1IxODVkVUpzWmZpMGh3NF92UTR0Z19tZzdDMGhHdWd5Q2lFc2J2aEd2VlFmSHVkcVhwSzBnWVZTZUluaGYtcTlkMmF5N0loOE1hLWxsMXpSaGpuUnR6S1dVM1FVdVZYNjQxcm56QQ?oc=5",
+      "source": "tekedia.com",
+      "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-01T05:16:17.364434+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German urban air mobility company files for insolvency - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWZVSlFGMjhfWFFlNFREc2VqdTZQQ21iOUhQSmhXR0JNS3AtSVU3NzA4ZmplOXBMLWpEaE5sVURCYi1pUzEtbWhGb210ajRRSE9tazdaYVdTWWhDdzgxZjJtdUtzelAwelhqdkxSbno5RVB5Yjl5RnRjLWt3Nzk5V3ZPOG1nV1Bmb3VlMWRuTGFCZU1aTHFEYmVhSUtIY2lKVjNsZW11eUlHcXczZ3BkZnpWMVlHdw?oc=5",
+      "source": "Euronews.com",
+      "pub_date": "Wed, 01 Jan 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-01T05:16:17.364434+00:00"
     }
   ],
   "runs": [
@@ -9535,6 +9562,11 @@
       "timestamp": "2026-09-30T22:04:53.693407+00:00",
       "new_signals": 0,
       "total_signals": 1001
+    },
+    {
+      "timestamp": "2026-10-01T05:16:17.364434+00:00",
+      "new_signals": 3,
+      "total_signals": 1004
     }
   ]
 }
