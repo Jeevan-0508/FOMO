@@ -8981,6 +8981,60 @@
       "pub_date": "Sun, 26 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-09-29T12:31:52.753530+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany is driving its energy transition with Peruvian copper, which has been linked to 189 environmental violations - Ojo-Público",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX1ZVVURSVDItaV9ScHlIV0owa1JOWjhGTk11c3VQcWlWeWw0aXJwRVhNZEpsWDA0bWJFbG5iQVlORkYzdVhMMVo4YnMyOW5oOGZnQ2pCdWYyOXByTUsyMXFZcFJwNGUxQXFHQWRWaGo0UW5UdVZLZkpIS2RVYlhsOVhzQ20tWDBkX00zZVluMTh5R0lkbE5R?oc=5",
+      "source": "Ojo-Público",
+      "pub_date": "Sun, 10 May 2026 05:05:39 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-29T22:05:25.989640+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Intertrans gerettet: Management übernimmt frühere Ziegler-Tochter - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDV2SUpmVjAtaWU0ZkFMVVhRS0JWZDBDUGJKdU8xU3d3SmtCMVNkUlp0VnNscDBBV1BtR0JpdkdBWjAtNDZ4Nm5ybkVIZTFQTFFRVHR6X243N1o0SXM2ZmhnV0xDV0hvOXpWbzRGWjJWRURBMm9FSDAycjRyeUE1MlNNM1VGb0tKNlNFckZsaFhPZkJISkVDVEdlSV9CUUo1cnU5NA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-09-30T16:21:10.304739+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik heute in Dortmund: Deutsche Bahn hat Alternative für Fahrgäste – aber nicht für alle - Ruhr24",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTUlyeURFN3FDSXZJeEFIZnJxZ1FFRFFUc2RRWnlNSkpEeXQ5eGVjOEppRE1xYmhGclZtMUdQUlhqdXc0aXBkS19RUlFHaDlyRG41LVpXYjBNcGxXNlMyTnd3c3gzRUJvSFVXZjZTWXo3WHZSRXBoMjc3ZWhvQk1TMTNrYWxTZ25CMlU0X0FGcWZtb1hoeTUzM2lnVFRYUF9zMldCTDVuamdUZkt5QXp2Zng3RmVoZjVqZDQ5b3J6UURKeklJN1UyS0UtYklkMUk?oc=5",
+      "source": "Ruhr24",
+      "pub_date": "Thu, 08 Oct 2020 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-09-30T16:21:10.304739+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "High Court Orders Hardware Firm to Pay Uganda Baati Shs1.6 Bn in Fraud Case - Nilepost",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa0NtbkpQVnpxQndLTkxfVEpBUTE3a1ByTXpHeVNiYlFwTUhuTkwzU0pYVnhqN0FWQXdoaXRtOGhPekFheERyN1QzQVdYeldsUnlRZmVMOW90R01ManEyNk45bzZtRTZvbzVERE5NZW5oNUpWNjRLU0o5STZzSGU3REhSaTVhOEUyX3BBVXpnTmdrZWtvSnRlbnp2WXZ4OUVSUE5xZWdYU2lVQUdQRmxYaNIBuAFBVV95cUxNVTdqX0J0Um1KdFZuMF9OckxHUlNMZUZha2ZlcFV2dlF4QW42bXFEMWh6M2xOcjJFX2hDYXJtbmNGTXN1Zy02X3Roa2pRYVVpZ2lGbG5hSURmRTBnQUtIODRlUmdkZm9fU0hqb01LYUxwbndHUGMycjh4VDE0eXo5NW9OaU5TZDYwRkdZcmp1c0RXZmIzUVpCYzlTWG8zdlVRLXY4ZDJxMnRSdnNCSGxoY0IxRnFVeTlD?oc=5",
+      "source": "Nilepost",
+      "pub_date": "Mon, 09 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-01T05:16:17.364434+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Rhine Water Levels and Bicycle Industry Insolvencies Highlight Germany’s Economic Pressures - tekedia.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjdQcXA2cEpwbnlJa1FuSHM0SUN3c2d3UzNqQzJCOE41S205aXljajNCaXM3LWJ6ZUQzNkVrQ0NIRHpFZlZDOUlFa19aNzB5X1IxODVkVUpzWmZpMGh3NF92UTR0Z19tZzdDMGhHdWd5Q2lFc2J2aEd2VlFmSHVkcVhwSzBnWVZTZUluaGYtcTlkMmF5N0loOE1hLWxsMXpSaGpuUnR6S1dVM1FVdVZYNjQxcm56QQ?oc=5",
+      "source": "tekedia.com",
+      "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-01T05:16:17.364434+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German urban air mobility company files for insolvency - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWZVSlFGMjhfWFFlNFREc2VqdTZQQ21iOUhQSmhXR0JNS3AtSVU3NzA4ZmplOXBMLWpEaE5sVURCYi1pUzEtbWhGb210ajRRSE9tazdaYVdTWWhDdzgxZjJtdUtzelAwelhqdkxSbno5RVB5Yjl5RnRjLWt3Nzk5V3ZPOG1nV1Bmb3VlMWRuTGFCZU1aTHFEYmVhSUtIY2lKVjNsZW11eUlHcXczZ3BkZnpWMVlHdw?oc=5",
+      "source": "Euronews.com",
+      "pub_date": "Wed, 01 Jan 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-01T05:16:17.364434+00:00"
     }
   ],
   "runs": [
@@ -9488,6 +9542,31 @@
       "timestamp": "2026-09-29T12:31:52.753530+00:00",
       "new_signals": 2,
       "total_signals": 998
+    },
+    {
+      "timestamp": "2026-09-29T22:05:25.989640+00:00",
+      "new_signals": 1,
+      "total_signals": 999
+    },
+    {
+      "timestamp": "2026-09-30T05:02:16.075954+00:00",
+      "new_signals": 0,
+      "total_signals": 999
+    },
+    {
+      "timestamp": "2026-09-30T16:21:10.304739+00:00",
+      "new_signals": 2,
+      "total_signals": 1001
+    },
+    {
+      "timestamp": "2026-09-30T22:04:53.693407+00:00",
+      "new_signals": 0,
+      "total_signals": 1001
+    },
+    {
+      "timestamp": "2026-10-01T05:16:17.364434+00:00",
+      "new_signals": 3,
+      "total_signals": 1004
     }
   ]
 }
