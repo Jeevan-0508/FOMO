@@ -9089,6 +9089,24 @@
       "pub_date": "Thu, 05 May 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-02T12:14:41.156905+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Germany: Company bankruptcies increased by 15,8% in March 2026 – alarm for the transport industry and its contractors - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNalJmdmMwMTdMaHpwV0lHUXI1d3A0TmJkVWFsYk9GNWtVUk1IUTVhR2FFckNEd1ZMdlFiMTNoU0JXd3BBMkR5S0ljbThHb2U0TnNkNGpBVVZHUW54V2t4V0RYT3Z0bFFORnBYcTA3NllKTHBMdURzWXdFdW9BdlEycUtTQWN6dVRyeGhFWmxSNVNXcmh6aVBGSU1wZkN4NkdXM3drN05JTUotS0pzcFNKcFlsZzlBcDhrSC1RSTg0amhtR2JvNDlreTBZekxOTHFIMFU4?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-02T22:01:35.487800+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "What Are Human Rights Worth to Bayer? - Völkerrechtsblog",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8wRHZsM3NrTEJGLVJoTU8zbXFiZHhscVJmTmFPdGkwaDV3R0w2T3U4T1JUY3NlY0RZamFSUDNxNUNxTVpodGR0RGFQWk9qUVpuQU1yd3lORmlPdWNKSGJKQnJvRzhQZEVwY3lJazViTnFSVGNoaFE?oc=5",
+      "source": "Völkerrechtsblog",
+      "pub_date": "Sun, 28 Jul 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-02T22:01:35.487800+00:00"
     }
   ],
   "runs": [
@@ -9641,6 +9659,11 @@
       "timestamp": "2026-10-02T12:14:41.156905+00:00",
       "new_signals": 2,
       "total_signals": 1010
+    },
+    {
+      "timestamp": "2026-10-02T22:01:35.487800+00:00",
+      "new_signals": 2,
+      "total_signals": 1012
     }
   ]
 }
