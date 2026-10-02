@@ -9071,6 +9071,24 @@
       "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-02T05:04:24.119014+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenz - Nach Tod des Firmengründers: Haslauer Transport-Unternehmen in Konkurs - NÖN.at - Niederösterreichische Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUnk0SmZSM2JkbEczVlJzOGZYeXVoVEdtSGk0SXJQdVRfRnNPaHVLellCM0tjdmdFVlBCV1pHdE00MkZYbHBHeTFES1p1R0IyTXlFVHgyTnRQeE5rejVDNk5vR0tTUURmSlJyUHl2dmhyU2tkamlOV2NsWGxMOXBuNXoxOW1ab29rR0t5aTVVdmwwSkdYZmU4XzlaWnZwcklNU0JjZHVPb1NnTHoyM0NLY1dORjZrbVE?oc=5",
+      "source": "NÖN.at - Niederösterreichische Nachrichten",
+      "pub_date": "Fri, 02 Oct 2026 09:36:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-02T12:14:41.156905+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Driver shortage threaten to collapse German supply chains - trans.info",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zek96QmhIR2dLZFFlZVl1eVZtYUhJS2pZS0RrR2xXcUh0S3dFWjhVMEtRWVBzX1kyV2RYSWFnMjhwai1xU3ktcU9KRTJMZ3NGTjkwaDAxRGRCV2NoZk5NUQ?oc=5",
+      "source": "trans.info",
+      "pub_date": "Thu, 05 May 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-02T12:14:41.156905+00:00"
     }
   ],
   "runs": [
@@ -9618,6 +9636,11 @@
       "timestamp": "2026-10-02T05:04:24.119014+00:00",
       "new_signals": 3,
       "total_signals": 1008
+    },
+    {
+      "timestamp": "2026-10-02T12:14:41.156905+00:00",
+      "new_signals": 2,
+      "total_signals": 1010
     }
   ]
 }
