@@ -9044,6 +9044,33 @@
       "pub_date": "Thu, 01 Oct 2026 04:21:31 GMT",
       "severity": "medium",
       "found_at": "2026-10-01T12:51:33.030646+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Warning on fake carrier fraud and cargo crime risks: IUMI, TAPA EMEA | Freight news - Shipping Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdmt6dHZtZW9obDRRdWNJdGo1UUh1N08wRnNzMUhsUElOSnNKb3hxS0xYTXk5OHZ3cGJyVGxjNEEwUjk4VlVaaXFrTW9qZkZUdUR0QzhTQU1qUGtvcUdGaTl6T2QyV292OWs1TnJGcjh1MHZfMldZSnRaZjhXZ19raEZnWDA3bVRCRjctQ29kNnVIcDBBUzBXc3hSUl95U3EtVVctUEtOVlFLUXNKOGp3?oc=5",
+      "source": "Shipping Telegraph",
+      "pub_date": "Wed, 04 Feb 2026 01:59:17 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-02T05:04:24.119014+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Vodafone Hit by Record German Data Fine Over Rogue Agents - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMDBUREIxc18tVlFQazhhd2xrenBXeDhTVDdZMnhKM2Q2UXN4RmR5NW9sREh3TGY2c3VqaXZneFZRTTNVdk5VVVJSdnNiaTZuSjRDZHJES2NKTVRwR0xlZHhNMm1rRk90ODFyb1pKRi13bG4xZVdOT0h2MllWU0J2SnM3ZzdQcVNicnEzQzdVLUZQcl9HYzRDQUFkZGVJb3F1THBMWlhtMFhJeUM5aXFEYkkzbWo?oc=5",
+      "source": "Bloomberg.com",
+      "pub_date": "Tue, 03 Jun 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-02T05:04:24.119014+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ungarns Transportinsolvenzen steigen weiter - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRUJwYy1NY2FqS21TbzYwcGxUcGdfVm9Da19vZXBjWFdqdDdiNXJ0TGFZWm9jUjdlMlNsUU9OWVNZZklhUGxTYktETnFlWFFJYnlhWE9GM1ZRMGxBUk1oMGthc200SjRDNnJOVWFMMkoyZVBQTXVON2F0c3NxODNPMG1VOWJUZ1dYTTI2ZkpEX2VhQzF3czdTRWNhSVVFYTFONmRQaUdFMFlHRmZBRjVjZExEYWdNUy1idHVpZGsxLW52TDA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-02T05:04:24.119014+00:00"
     }
   ],
   "runs": [
@@ -9586,6 +9613,11 @@
       "timestamp": "2026-10-01T22:32:00.293551+00:00",
       "new_signals": 0,
       "total_signals": 1005
+    },
+    {
+      "timestamp": "2026-10-02T05:04:24.119014+00:00",
+      "new_signals": 3,
+      "total_signals": 1008
     }
   ]
 }
