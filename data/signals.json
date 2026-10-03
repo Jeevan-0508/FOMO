@@ -9107,6 +9107,24 @@
       "pub_date": "Sun, 28 Jul 2024 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-02T22:01:35.487800+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nothegger-Insolvenz: Millionenforderungen werden großteils bestritten - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTnRmSmtXTE43OUNGakY3WWxKWG5aWnRJZE9BYVFvOXhETmppQ1ktcDlhMWpzS1dQV2VoOWMwUWlYZkwtXzd6a1M5UUFyak4tNllKUnRVbm9PNjBmUmQ1OWNmN2tCVzB0NGZMNDA2Mzd6c2l2dm1rWVlnUGZ4OFRhcWcwbUVkN3lneXR1TnZoVlVFWEtXb3Rua0NHXzRPTVhIVVpKVVlrZmlHQ2xS?oc=5",
+      "source": "MeinBezirk.at",
+      "pub_date": "Mon, 11 May 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-03T04:47:40.980341+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzverfahren bei internationalem Spediteur - RTF.1 Regionalfernsehen",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42LVJSU0s0dGRLUWY3dHF0VDBGN2otQ2pKUEswcm9CbjlRRlRSUnRYanJMc3F0RkVpNnJYaE5QcWJUTHBSRlc0LUM4VDdpdw?oc=5",
+      "source": "RTF.1 Regionalfernsehen",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-03T04:47:40.980341+00:00"
     }
   ],
   "runs": [
@@ -9664,6 +9682,11 @@
       "timestamp": "2026-10-02T22:01:35.487800+00:00",
       "new_signals": 2,
       "total_signals": 1012
+    },
+    {
+      "timestamp": "2026-10-03T04:47:40.980341+00:00",
+      "new_signals": 2,
+      "total_signals": 1014
     }
   ]
 }
