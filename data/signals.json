@@ -9125,6 +9125,15 @@
       "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
       "severity": "critical",
       "found_at": "2026-10-03T04:47:40.980341+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Wie gut sind deutsche Unternehmen auf das Lieferkettensorgfaltspflichtengesetz vorbereitet? - fränkischer.de",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGdsemZJR1FyT0M3eHYwN3RKUWoxMy1tUm5LRms4c3hvNVdILUtxSTZtd1Z2Qm4zX2swNl9iNVZrVHc4bml3UEFqbnpibmYtY1ZwQkFramJNd2ZKRHl4VkhTMERuVWZlVkZ2SVpJLU0xVmRTajczV0lFenV4WmtyU2VGUjBWdEdVX09YNl9sTzRiQUtPSmYyMlZLYWxCWWxqQ04taUMxYWYtVnY3aEY4NDFFOTVKZw?oc=5",
+      "source": "fränkischer.de",
+      "pub_date": "Wed, 05 Apr 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-03T16:02:55.686826+00:00"
     }
   ],
   "runs": [
@@ -9692,6 +9701,11 @@
       "timestamp": "2026-10-03T11:25:35.206505+00:00",
       "new_signals": 0,
       "total_signals": 1014
+    },
+    {
+      "timestamp": "2026-10-03T16:02:55.686826+00:00",
+      "new_signals": 1,
+      "total_signals": 1015
     }
   ]
 }
