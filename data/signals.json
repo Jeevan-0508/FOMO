@@ -9127,6 +9127,15 @@
       "found_at": "2026-10-03T04:47:40.980341+00:00"
     },
     {
+      "category": "Corporate Insolvency",
+      "title": "Tour operator collapse: Thomas Cook Germany declares insolvency but Berk seeks Neckermann comeback - fvw|TravelTalk",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNakFxYUJlNHZ2Y2dGbERmQVFWVzljV084TXNLRlZBV2djZk9hZkM5UkVkdElEN21obW1nYkxZb1RQN3BudEVSQ1hrVHl2SWx2aEJSVHFrMDY1S2dQQ2l0bVplZU9sbVlRWDdzUnpIRFRveHQ5RVpJdl9lWmFtemhlOF91aEQ4a011cmFaSy1iVmkxb1Y1dWJMajVrbHR3Sk1xRW1jVndXSUtac0lJYXlDaTJPVE1vSzRDZnhveHJISTJWMndxRGVhbnYxX3VmdFVnSkxwLU9mMHlNTjVFQmw3NXU0NA?oc=5",
+      "source": "fvw|TravelTalk",
+      "pub_date": "Thu, 26 Sep 2019 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-04T07:46:11.444140+00:00"
+    },
+    {
       "category": "Regulatory / Compliance Risk",
       "title": "Wie gut sind deutsche Unternehmen auf das Lieferkettensorgfaltspflichtengesetz vorbereitet? - fränkischer.de",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGdsemZJR1FyT0M3eHYwN3RKUWoxMy1tUm5LRms4c3hvNVdILUtxSTZtd1Z2Qm4zX2swNl9iNVZrVHc4bml3UEFqbnpibmYtY1ZwQkFramJNd2ZKRHl4VkhTMERuVWZlVkZ2SVpJLU0xVmRTajczV0lFenV4WmtyU2VGUjBWdEdVX09YNl9sTzRiQUtPSmYyMlZLYWxCWWxqQ04taUMxYWYtVnY3aEY4NDFFOTVKZw?oc=5",
@@ -9143,6 +9152,15 @@
       "pub_date": "Thu, 07 Oct 2021 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-04T05:20:19.420609+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Port of Hamburg resilient as German rail strike sparks supply chain concerns - WorldCargo News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUFRrbkFRMkJTWjduN3pnUFVIRXZQYUJ3X0x2RUktQnJUTWdENWJqQm1CWWNZN25IbnNEWlN4RzE0Z3NpRG1zOERtci10WFd6MXRVNjRvdHF6RlBpamE4QUVIRE9vRlZyVzlIcFJjRDVLOXhIdkdNWk9GeXZyc2EzWndIZk5ldk1xTzlWVHF5OHpYeXJocXBjUjVUVjl1WnRQOWNUaVdlckN1cUJNMEpkbHA2NlBFamRKLWxXV1Jn?oc=5",
+      "source": "WorldCargo News",
+      "pub_date": "Wed, 06 Mar 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-04T07:46:11.444140+00:00"
     }
   ],
   "runs": [
@@ -9725,6 +9743,11 @@
       "timestamp": "2026-10-04T05:20:19.420609+00:00",
       "new_signals": 1,
       "total_signals": 1016
+    },
+    {
+      "timestamp": "2026-10-04T07:46:11.444140+00:00",
+      "new_signals": 3,
+      "total_signals": 1017
     }
   ]
 }
