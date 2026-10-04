@@ -135,7 +135,7 @@ FOMO/
 
 ## Roadmap ideas
 
-- Scheduled runs (cron / Windows Task Scheduler) for a genuinely "always watching" radar
+- The scheduled GitHub Action already provides the "always watching" cadence; a run with no new signal is a clean no-op and creates no commit
 - Slack/email digest of new critical/high signals since the last run
 - Region expansion beyond Germany using the same category model
 - Optional NLP-based severity scoring instead of keyword escalation

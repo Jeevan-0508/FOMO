@@ -304,11 +304,15 @@ def run_scan() -> dict:
                 known_links.add(item["link"])
                 new_count += 1
 
-    state["runs"].append({
-        "timestamp": now,
-        "new_signals": new_count,
-        "total_signals": len(state["signals"]),
-    })
+    # A scheduled check with no new signal is a successful no-op. Do not write
+    # a timestamp-only run record: the workflow must be able to wake, inspect,
+    # find nothing changed, and sleep without creating a useless commit.
+    if new_count > 0:
+        state["runs"].append({
+            "timestamp": now,
+            "new_signals": new_count,
+            "total_signals": len(state["signals"]),
+        })
 
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(SIGNALS_PATH, "w", encoding="utf-8") as f:
