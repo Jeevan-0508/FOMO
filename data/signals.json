@@ -9134,6 +9134,15 @@
       "pub_date": "Wed, 05 Apr 2023 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-03T16:02:55.686826+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German industrial production slumps on supply chain disruption - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lT0ZXTFdoZ0tDX05GOGNkX1dqQ19oVEh3a0ZLcXcwdE1WUl9GbjBQQVl0UFNmckxrdE5zN2tMSHNOZE1GellvR2dGa1d1TVhTVzUwcjFZVlEyeTVJV0sxSVBnQ2g3bl9aNTZGbXB0VzBiRENHb21r?oc=5",
+      "source": "Euronews.com",
+      "pub_date": "Thu, 07 Oct 2021 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-04T05:20:19.420609+00:00"
     }
   ],
   "runs": [
@@ -9711,6 +9720,11 @@
       "timestamp": "2026-10-03T20:52:38.107721+00:00",
       "new_signals": 0,
       "total_signals": 1015
+    },
+    {
+      "timestamp": "2026-10-04T05:20:19.420609+00:00",
+      "new_signals": 1,
+      "total_signals": 1016
     }
   ]
 }
