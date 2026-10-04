@@ -9161,6 +9161,15 @@
       "pub_date": "Wed, 06 Mar 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-04T07:46:11.444140+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Rail strike hits badly battered Deutsche Bahn - dw.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOTJjUlpyYm01N21OdHpDTms2eThwNkg0RGFkUS13RHU5ZEtxV1dIem1vTVZYeTNxS2VUenAwV1BzWUhIMF9HcUh6a3hYMHZvblJsdWtvNk5NR1ZGQnBodUVaREpLeF91VEZTTXFNTG1XSEl1Wm1pV3BUU1ZSRnVDVk1rcnZSWUl6Y2VMZ0ZmS3hKYmpk?oc=5",
+      "source": "dw.com",
+      "pub_date": "Mon, 23 Aug 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-04T07:48:16.375506+00:00"
     }
   ],
   "runs": [
@@ -9748,6 +9757,11 @@
       "timestamp": "2026-10-04T07:46:11.444140+00:00",
       "new_signals": 3,
       "total_signals": 1017
+    },
+    {
+      "timestamp": "2026-10-04T07:48:16.375506+00:00",
+      "new_signals": 1,
+      "total_signals": 1019
     }
   ]
 }
