@@ -9206,6 +9206,42 @@
       "pub_date": "Wed, 06 Jul 2022 12:18:24 GMT",
       "severity": "low",
       "found_at": "2026-10-05T05:03:25.080267+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Osttiroler Speditionsfirma ist in die Insolvenz geschlittert - Kleine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcG1VMDVydzJaYXNtSnI2ZkJNeURTaWRVbkl1bFFpekNWTWhWRGl3dTBuenVTRXcyUlU0bWZNaElXR0EzMFlacVFEMVJvZnZmSjNUNlZwYzdBOGItYWtnMDczVURFS084ckhFM3Z3MXVUSjNWR0RzWWRQSFB5TXlrVDVzMU42dXNCQXFEMnBuZVVIU3hGbkpnbVV5Y01kanZqLUJGaG5Jc3hjQQ?oc=5",
+      "source": "Kleine Zeitung",
+      "pub_date": "Mon, 05 Oct 2026 11:28:25 GMT",
+      "severity": "high",
+      "found_at": "2026-10-05T14:11:57.600272+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNFlSaUtNWGtfRUViS21uTlBGZWltaEdqTUFRaTdCbFloczFsblpycndUZkZBRWZNaHhZWHNFZzIzOWNvUHYzcWVsSTI4dk5DQk84bDhjZEVvbGczVEJ1enBhRThmMGtDRkdxU1NiNUpQOHBaSmNqck9oMnRMUUZiczZuOHh4RFo3U1drVTdHWDJ5ZFl6MmdYZmVDZHliem8?oc=5",
+      "source": "Merkur",
+      "pub_date": "Mon, 14 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-05T14:11:57.600272+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Tiroler Insolvenz bedroht 300 Transport-Mitarbeiter - Loginfo24",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV2VjWVcwVHJ5b29qXzZYOWtLaXVYVmdUOFR5QzMxU0JLdzlwM2NZMlJGeWdIQVdaQTJYdlNwN3BWLW5teXgtaFFnNkxpb2V5WlAxbUY1MjcyV0VVSkZ6M1ZJeVlYVkRneEVPOWlZRGs1b014NnRvME1HTVBwN3hobFF1enZ4cTdCWHJKc0RR?oc=5",
+      "source": "Loginfo24",
+      "pub_date": "Wed, 11 Mar 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-05T14:11:57.600272+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi ruft am Black Friday erneut zum Streik bei Amazon auf - rnd.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRVBkMWNzcXNLZVFCbkNfczRULUN0c1c4c0owRExGNnZMT2ctNUdUUGhnZU1GTkQ0NkNEZlgwMTRRWEQtSkZzN040MzQ5OEh4YlRESkRqby1fbUxvNVAwVzY5SGFlTGN1RFNMQU5xdS1tRmhlRWtRdFN6ZWo3UTItVlNvMjhocUxKZ2hING5tTTItVGJSQ0tuaDYxeU5zTmJ5RmdRdzBxcG5TZ1F3cURBMDIxeHNqUnhSd01KSkhGZXdCcURlTVlVOUVR?oc=5",
+      "source": "rnd.de",
+      "pub_date": "Sat, 23 Nov 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-05T14:11:57.600272+00:00"
     }
   ],
   "runs": [
@@ -9803,6 +9839,11 @@
       "timestamp": "2026-10-05T05:03:25.080267+00:00",
       "new_signals": 4,
       "total_signals": 1023
+    },
+    {
+      "timestamp": "2026-10-05T14:11:57.600272+00:00",
+      "new_signals": 4,
+      "total_signals": 1027
     }
   ]
 }
