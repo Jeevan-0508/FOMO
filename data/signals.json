@@ -9242,6 +9242,42 @@
       "pub_date": "Sat, 23 Nov 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-05T14:11:57.600272+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Forza Logistics Group Strengthens Freight Fraud Protection With Forza Shield™ - EIN Presswire",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWGNnYkJVcTdhM2RiNlRyd29jMXF3TFJmZWdBQWdHSVV5T0pwVVd4R0wya0FITV9WSUl5TDdZSTFWeFJUSm9aT3lrREtjLVFTV0VuN05yRUFMOUgwNlFaa081bXBIQ2xYV05NaUV1SzZKY3RDazR1YzBON2N3anB3dTBSdzhtV1lPRE93MGlfQ0FZVkhuTGM4TllOVUxHRlM3NU5BZ01wdGkxcDk3R1h4RnRxVmRpbkx4OUFWbThFa2I?oc=5",
+      "source": "EIN Presswire",
+      "pub_date": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-05T23:55:24.522985+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Dresdner Traditionsunternehmen insolvent: Drei Standorte betroffen - tag24.de",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdzB4b1ZHQkhqdWRZeGoxWVpmQ0VVbV9wNElGTW5LVjRvQWx4U1FiOV9ETnBzVVVsNS05bnNUdE11YUVNZUF5d2Z6X0hvUmszYTNGcExTNUZYbzNueko0YzNmTFZLTWthaWUzWHZKX0lkaUpQRDdwa1BXYUxKU19Cbm8yTWpQQ2pNRzQ4VjgzUHgzdTdDMDVoX2ZKaEdxVG1jSmtoM05OTGgxQVJsdHdiM2oySHlFU0xIbUFnZ01n?oc=5",
+      "source": "tag24.de",
+      "pub_date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-05T23:55:24.522985+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Update | Due Diligence Act: the German supply chain law - RPLT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0pZakh3bDNLU0ZGbGlCa1lPT1JySHJ0REpTQ3NBN1o0Qjg1N3lPdXpPOF9saVlVV3RJNk5BRkhvUTdfakpDc21oZklMUkx4N3hvSy1HUXZQY2ZYeTBIQ2otNnNIbXRVQjZRS0NZUFVCd2pfVkR4Y2k3TW9xLV96RjVn?oc=5",
+      "source": "RPLT",
+      "pub_date": "Mon, 22 May 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-05T23:55:24.522985+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Vor Verkehrsstreik: Handel und Spediteure fordern Lkw-Sonntagsfahrten – Wissing unterstützt Vorschlag - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT3NpNjJuY1R6TVNFcC1iQTNPekZnUUo2MXgxNmVkX3VXZnE3MF9IeUwyakhsX3FVTnluYmZZQ19XUGwzc0ZVNTVBb3VsbWZFTDNBa1lGS3NlY2NtTUVaX0hpbjZFRTY1UDA0SnBFcXhxb1Q5aDdwdm00ODZXWEZWd3BxRG8zVGdYTVA0MTFMR3NQa2p5QjRBUHU4RDRfSEgzbzNMWHZFMTBpTGZLV1Y0U25Ja2VGeHk0MjAzekNLaGxjWlZRWTBFX2NR?oc=5",
+      "source": "RND.de",
+      "pub_date": "Fri, 24 Mar 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-05T23:55:24.522985+00:00"
     }
   ],
   "runs": [
@@ -9844,6 +9880,11 @@
       "timestamp": "2026-10-05T14:11:57.600272+00:00",
       "new_signals": 4,
       "total_signals": 1027
+    },
+    {
+      "timestamp": "2026-10-05T23:55:24.522985+00:00",
+      "new_signals": 4,
+      "total_signals": 1031
     }
   ]
 }
