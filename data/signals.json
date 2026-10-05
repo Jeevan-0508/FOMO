@@ -9170,6 +9170,42 @@
       "pub_date": "Mon, 23 Aug 2021 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-04T07:48:16.375506+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "USA Report: When Cyber Attacks Turn into Cargo Heists - Cyber security, data protection | News - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQVJJQkk4T21MbEdhVmRvTGRiNTlTOVhJMVkwdTc2cUJzN05jdktyd0R3cFlzc0JGV2R2Z2xQOVhzTF9KSlc5N1B1YXNmVzlONXE3Ujc5dl9iRFdfRkpNcTlaWHlTSVctaFJlUU04UEwzVHRKSWZxRVdZUmxNN1ZtWnBUOWJUSFlfQmRDdExTcnZqNUNZNExEVzhYaw?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Thu, 06 Nov 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-05T05:03:25.080267+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Clean Logistics to file for insolvency after failed efforts to secure financing - Motor Transport",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTVoxWWRyMlJqYXVpSWdlT1FOY2E3T1Q3cUFabll5SUJZZjZQc0ZjcjFDdk1yN0gxVExRLTlYSkVGdWpiMjBfVnA1bWVsUmt1TW9OcExQdmJVZzU4SjZIRnM0Wm5LbEZaTk5tVmNVWWxuYXdjWV9MN2lFdzJJOV85amhnMUtxV3o1cHNoVFlFQWtEbWVweWVPVWlQUXRvZVdLNG9TcUU1eG1Mb0NybHhJMzFtSGlqUFhkU2hWSA?oc=5",
+      "source": "Motor Transport",
+      "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-05T05:03:25.080267+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "ESG Compliance and Supply Chain due diligence in the EU and Germany - What to expect in 2024 - Lexology",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHdMbDcwZkg5QlEwQ0lqelFabzFWSmRaM1JXRWRiVTd1dGJSdkI1QWxJZ3p0cmFzUm9hdlh6MGZWY0gwTlAzRUthTk1FcTFHZnRJS19oU091a2RZQkdtdmp0emxBRVg2aHZCQmJOMTBKREdURVZSNDhwNVJTeUhmS1IzQUJaLVhNM204?oc=5",
+      "source": "Lexology",
+      "pub_date": "Thu, 11 Jan 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-05T05:03:25.080267+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Leitfaden zum Lieferkettensorgfalts- pflichtengesetz (LkSG) - EQS Group",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRWtzRUFucllRUzFlczlGNi1QQjNwYXVIQ0tlMFh5QWhENkpZcVM2bkVraFdPU3RYMHMxY3BCeVNRT0hPVUF5LTJueXYtV0QzeGluRlhQMjZsdEo0VkpuakZmQzVXNk9jNHVOSVFwaXJYVVc1alluOHRaeUViakRyWEdxbV9uakJfQzlKc1ZrYlR0UDA3SnhudTJ0TTVVemtiMzQ0?oc=5",
+      "source": "EQS Group",
+      "pub_date": "Wed, 06 Jul 2022 12:18:24 GMT",
+      "severity": "low",
+      "found_at": "2026-10-05T05:03:25.080267+00:00"
     }
   ],
   "runs": [
@@ -9762,6 +9798,11 @@
       "timestamp": "2026-10-04T07:48:16.375506+00:00",
       "new_signals": 1,
       "total_signals": 1019
+    },
+    {
+      "timestamp": "2026-10-05T05:03:25.080267+00:00",
+      "new_signals": 4,
+      "total_signals": 1023
     }
   ]
 }
