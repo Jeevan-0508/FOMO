@@ -9323,6 +9323,15 @@
       "pub_date": "Fri, 03 Apr 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-06T13:08:17.590139+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Germany: Business insolvencies rise by 4,9% - transport and logistics sector in highest risk zone - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS3dhVmgxOS1CckVQTVdMemM5Yl9aRGR6RHhvSkV6X0tSclZOTkpESTZ6VDZOZ2oxcVJwQlhFazdmTWZkWnhZZFM3WFlranpJLWVfWDk5QnlPTE52TE1RbWM3RENSbUFyUGJEOHFlbG9wbGZHREN6MVlCOER2V1g3c0hTUUh5T21neWNIR1RETDhYS0VMVHdtR09zVU1zTHc4czRHbjNuNlNJZF8yNVMzTkZmNmlJNUY3UWlFMHl6MEJQYkhLYWJycEVkSkxVWmxROU84NXUyVV9TSGVoQnlYVw?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Tue, 14 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-06T22:33:04.529643+00:00"
     }
   ],
   "runs": [
@@ -9940,6 +9949,11 @@
       "timestamp": "2026-10-06T13:08:17.590139+00:00",
       "new_signals": 2,
       "total_signals": 1036
+    },
+    {
+      "timestamp": "2026-10-06T22:33:04.529643+00:00",
+      "new_signals": 1,
+      "total_signals": 1037
     }
   ]
 }
