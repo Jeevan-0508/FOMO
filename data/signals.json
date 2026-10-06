@@ -9305,6 +9305,24 @@
       "pub_date": "Thu, 18 Apr 2024 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-06T05:55:12.930373+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "The New Third-Party Logistics Study Delves into Strategic Partnerships, Supply Chain Resilience, AI and Freight Fraud - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZkxKTEZvbVRyeTc4OVh5QWZYTnYtYngzVzhxeThvLW14MXNMUDJlR0llNnBqNU1iSUVHbEZUaXl3LXFTYkpZVWxZd2NWZHcxb0ZnNTh0eHNDS3ZvRUhfNDVyME9LWUM2STFyY2tsZ1IxOUZtazBTUTJLRnlqNUhzQTdlSVBMcjBfcTJsQmJtdGU1WlJfWDlEOVVQM0puZVR0NTNJcnJ3VFhwS0ZQWHRXTjdjUjBWUVJCQVhTb090NU14UEhNRG0ydVF4aEstczlqZ1RabElJS2lBTFk3eUVVLXRaRFBFY2Rkckd1S3REVW9VNTFWck55QWt1dVkwdjY4?oc=5",
+      "source": "PR Newswire",
+      "pub_date": "Tue, 06 Oct 2026 13:05:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-06T13:08:17.590139+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler France collapse: domino effect threatens hundreds of transport subcontractors in Europe - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdmMyTXdsdHF2bS1zb2RyOUFvY25IX2p1WmtCVlRRaEREc1RqV3hMNW9SeXJKcTJ1aktwMVUweVlIa2czaUFFRmJPb0Y4Z0x2WkN1NzItdndkZXhPTmUzNjM1ekpfejhRZ0RtZUlOQmhlc2FBX29BMGo3bWRmdy1OQWozXzhFQy1DYXlDMGJHaGRjNXdiTnYyZDJYTnlZZzQ5LV8yWmNHSVJrSW82aFRYLWRiMm9vNTVqVmRxV0tyc1JDQXJoUzFhdFVodm0tMHVBOUE?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-06T13:08:17.590139+00:00"
     }
   ],
   "runs": [
@@ -9917,6 +9935,11 @@
       "timestamp": "2026-10-06T05:55:12.930373+00:00",
       "new_signals": 3,
       "total_signals": 1034
+    },
+    {
+      "timestamp": "2026-10-06T13:08:17.590139+00:00",
+      "new_signals": 2,
+      "total_signals": 1036
     }
   ]
 }
