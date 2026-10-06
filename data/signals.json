@@ -9278,6 +9278,33 @@
       "pub_date": "Fri, 24 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-05T23:55:24.522985+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Forza Logistics Group Strengthens Freight Fraud Protection With Forza Shield™ - EIN News",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa3JuX2VRbURpNUxYM1k4X3ZxSXNGc2xBamlnOVI5anhlS25iZ25iT2dTcjFxb1dROGRfZVF6UDJpeE81dUx5dUl6VHREcFNGQW5qcnlCT3JNSFdZa2NtVmE2Zm05blFTMnRDZl9mbFZUU2lxRDVzeHJjZGRCdmp6Skp3SXUyZnFlNjZFNTd4cDVwUzU0dVU0T1hKUE8ySld0XzlSX28xWW5meDg0UUZWa1lHRnJMNS1vLUE?oc=5",
+      "source": "EIN News",
+      "pub_date": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-06T05:55:12.930373+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Former Bertling unit employees sentenced in Angola bribery case - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNREw3Ql9oREF0RFdfVHdfVlpySFNfU21jT2JMQ044bG5NTXg5WUl6aW0wdTVIUktZbnEtSHJ2X0tBcy1VWGhac0duMENBTk9oUzR5azVIdTlHX1l3TGVyUm5faW9LYmJlYWNBSW1paXJkcWJvak9rLUVBLXdOWS1sUlhNVkhkN1lWVGxFOWJuTE1QNXRVWWJRM2JVRmNNVXVCcktnZnlmbVJ4U2owMk1aTTBpb0tQU3M?oc=5",
+      "source": "Reuters",
+      "pub_date": "Fri, 20 Oct 2017 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-06T05:55:12.930373+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettensorgfaltspflichtengesetz wird europäisch! Was kommt auf deutsche Unternehmen mit der neuen EU-Lieferkettenrichtlinie (CS3D) zu? - Dentons",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUi0wRGZwOEhIYlRmbFVMcHBmTlFvYVNlYXFBQ3VpeFd6cko0SHBoanl4cEZmbC1GMEFHSnBSdHBsWmRFS0F2c29wWkdBaDc1eDhQTjBUVU01N2VtQ1JpUnV0bi1pMGVZRVB2am03cS1lZFlKQ29mWVhwZkVlOG96ekhRWmY5TE9MUDc3ZXZ1VGI1R1hFdU02U1c2YXhLSl8tRHFxYmhjdW5fdFJHOHZnTExBbmg?oc=5",
+      "source": "Dentons",
+      "pub_date": "Thu, 18 Apr 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-06T05:55:12.930373+00:00"
     }
   ],
   "runs": [
@@ -9885,6 +9912,11 @@
       "timestamp": "2026-10-05T23:55:24.522985+00:00",
       "new_signals": 4,
       "total_signals": 1031
+    },
+    {
+      "timestamp": "2026-10-06T05:55:12.930373+00:00",
+      "new_signals": 3,
+      "total_signals": 1034
     }
   ]
 }
