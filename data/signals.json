@@ -9350,6 +9350,15 @@
       "pub_date": "Tue, 08 Aug 2023 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-07T05:22:56.315701+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi ruft Amazon-Beschäftigte zum Streik auf - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkxjZFltM1Z6YUw4RGNrdGJOV2dFalNzVzJjeEdEd00xX0FYZWtrSXByMTNJdDFZZTFnLUZxOGc2RVhjUmxLOTlZSEk2OS1mbWw0ZjM3UG8zYmVyUnJYeUJENHhkQlBiYVc5VXpyR1JWTkFaSG91dDBueEJXeUNlSkpKTm02blNRVzNVNFM2SHEzZ0ZReFBNUkdwQ1FtRFpOaDVjWHNFZlV1U1IzR2NOLXBjSkY1R2ZmcWJYcXpXcw?oc=5",
+      "source": "Handelsblatt",
+      "pub_date": "Tue, 11 Jul 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-07T13:02:34.129409+00:00"
     }
   ],
   "runs": [
@@ -9977,6 +9986,11 @@
       "timestamp": "2026-10-07T05:22:56.315701+00:00",
       "new_signals": 2,
       "total_signals": 1039
+    },
+    {
+      "timestamp": "2026-10-07T13:02:34.129409+00:00",
+      "new_signals": 1,
+      "total_signals": 1040
     }
   ]
 }
