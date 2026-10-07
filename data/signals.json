@@ -9359,6 +9359,33 @@
       "pub_date": "Tue, 11 Jul 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-07T13:02:34.129409+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Betz International Insolvenz: Warum die Spedition aus Sonnenbühl jetzt um ihre Zukunft kämpft - timestuff",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVUFyYUxDWGFhSl9YVGdyc2liU2FCN0k4RExoMWNudnd2Y2NwU2hGWm9nY2t3UmFyUzlDYnkwdHZ2SHRSanBhaWtaTHBVTG43QnE2THZiQVBtSy1WZjhlR1JCM1Rhc2tYUkRtdDdFdkpOaVdsTWdFWGNUSnBHZEJsdG9tWndwNm42d0ZZLWZ3TGVfNV9vQWdhVThsZi1fMFdvWGo0Y2l1ajM2Z0RBTWMtRnJLU3o2YVU?oc=5",
+      "source": "timestuff",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-07T22:56:42.116219+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz – verbindliche Regeln für deutsche Unternehmen - Möhrle Happ Luther",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WZ3ZsS3NEVGVDQk9pWlloRGRGY3RuRXkzSEVLaERBYjYzdEZoVHJLaUxhTk9leUMtQ01nQ2ppdWZuYVEzTm92eHVGWmdFZGJJUVBrdzdWRWhVdlFBMnZPVDJrNlIyWVdHR0lyZHpHd1U?oc=5",
+      "source": "Möhrle Happ Luther",
+      "pub_date": "Tue, 12 Sep 2023 01:06:38 GMT",
+      "severity": "low",
+      "found_at": "2026-10-07T22:56:42.116219+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "SCM: Transparenz für das Lieferkettengesetz schaffen - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbmRZT1RTVEItMU5iVm9DZktpaTZqTUswY1cwRGJzRURCbjlZNXFwS3E3aEIwZVVTck0xbnVlTlFIQ01obmdwOHBNWFdaUzJvMUN4aXBRME1ocVBVWjhTTUFyYzhMc1hhX1FxdkI5YUx5aXNpN0pmNkgtbGRnb1ZUNlhNbjYtb19tUVh3Tm53OF9mblB3THRwTWFB?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Wed, 18 Jan 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-07T22:56:42.116219+00:00"
     }
   ],
   "runs": [
@@ -9991,6 +10018,11 @@
       "timestamp": "2026-10-07T13:02:34.129409+00:00",
       "new_signals": 1,
       "total_signals": 1040
+    },
+    {
+      "timestamp": "2026-10-07T22:56:42.116219+00:00",
+      "new_signals": 3,
+      "total_signals": 1043
     }
   ]
 }
