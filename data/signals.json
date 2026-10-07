@@ -9332,6 +9332,24 @@
       "pub_date": "Tue, 14 Apr 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-06T22:33:04.529643+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Theft and certification hiccups further delay Portuguese TEN-T corridor - RailFreight.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbGNreVlTdXVMOTE3VEVjb00tNkpjLWNwMFpZdXNxMlo0blBLZ24xVnkyeTVtSms1VmpJZjhNR0NXSzhsV1BabUItZENPWkltQnBPTUJMWmJKd2RyREVHS1A5SnhaT2dYb3Q0NlJPN09TQ0dMVWxUdE01cnlSNDFTM1pyZFdhOGpJYlFhVlRfdWVXTV9lckgwU2tjMVUxT2d5WENtMVItWVQ3MmFyeG5UTV9CZkxoRFRkNWdmR3dvNDE?oc=5",
+      "source": "RailFreight.com",
+      "pub_date": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-07T05:22:56.315701+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "TIA unveils updated carrier selection framework to combat industry fraud - American Journal of Transportation",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbW9FUnJ4dWdGdzRwQ3FuODdDTml4dlpIMHFmZTdScUM2NUY4VXEyV2ZZd00zSWg1STNfbDZkN1RaN2hWQlBWa1BoUjRMSWJmNzQ0M3NFNjdRVnc3LTRTMFI1MmlLOVJMZkRGMUswWlBDT0RvNUFhTEVwbHRQRUxmd2VWa1kyTWs3M1BOQXZWMnVUa1dEVWU5MHZObThtNDA?oc=5",
+      "source": "American Journal of Transportation",
+      "pub_date": "Tue, 08 Aug 2023 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-07T05:22:56.315701+00:00"
     }
   ],
   "runs": [
@@ -9954,6 +9972,11 @@
       "timestamp": "2026-10-06T22:33:04.529643+00:00",
       "new_signals": 1,
       "total_signals": 1037
+    },
+    {
+      "timestamp": "2026-10-07T05:22:56.315701+00:00",
+      "new_signals": 2,
+      "total_signals": 1039
     }
   ]
 }
