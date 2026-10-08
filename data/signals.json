@@ -9422,6 +9422,51 @@
       "pub_date": "Mon, 04 Feb 2019 08:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-08T13:09:47.432259+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Thieves stole Nvidia-branded truck filled with sand—but it’s part of $150 million AI theft problem - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMEZPXzdjZUtEbzI1VDdoS3VQWE1KSTQyS1NPUTN4YnBYRk95MzhOZkNvRWd5NE00UHhRTkVfclF2T0hYR1hvNy1ZNU9BcDZ1WUNyY1JSNGlDUkZkdmMyNlJLTThLMEZnS1dxaUlHQ29adFhJTG1xZGQ5VTJIaVIwbzNOY2t2WGZCRDRlSUxKQWd6S0dNLUxEMFB2aldpeFQ1?oc=5",
+      "source": "Fortune",
+      "pub_date": "Thu, 01 Oct 2026 17:03:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-08T23:09:39.836810+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Landmark ECJ Ruling on Liability Limitation for Cargo Theft - Marine News Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zeFJhUXgwTHdvTFFibjFvbDRZVVhQMXQ1TXNJVVFIZ3FXY3hEeWgwYTdRNUIxaEFGc3ZKNEQ4MGJVN20xcDhsZXBxNzVIY21MUEtyaE1PX01lc19rLUVQNGdyU3EwX0hsN1HSAW9BVV95cUxPanpvZ1dvRW43WVo0S2xoZUI1OVpUQ05mb3R4VnRNTjdHTGtXSEZBQ05lMVF5N3VSNDlyTjV3QlUxQmdicmJDaV9IY3R6ckstaDdNbjYtclFrWXFFMU1SUnl1bDdDNW9wWFRZUGlsMG8?oc=5",
+      "source": "Marine News Magazine",
+      "pub_date": "Thu, 02 Jan 2014 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-08T23:09:39.836810+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Overhaul’s 2025 Cargo Theft Data Shows Change in Targets, Tactics - Fleet Equipment Magazine",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CV2ZHU3VQUzdtZVd2N0xVaEs1ZFdQMmFmZ0dxRGhmRkpWdHpISDhiWmEzbllOekxsaTJld0Q1RUtqVFhZcldjTnVmb2FidS1MUnVuR3VsemN1NC04TkxtMnhaRHpEd0VhOFBESW9XMVdqOVk4QXhDSDJmblhQS0U?oc=5",
+      "source": "Fleet Equipment Magazine",
+      "pub_date": "Fri, 27 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-08T23:09:39.836810+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Gastkommentar: Lieferkettengesetz - Fairness braucht das Kollektiv - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQXBKTkxjcUdMQXpWOWFlLUlsMjBsVjY3RnlpaDFvVHpnSy13cWtrR2ZOLTVWUjNHb1F6VGZXS3NKWG1BbFFSYkZrWDZ3QVBGUXotVnNpQjR6bUNISE54RzYzYTZRYzY5eEFHSXJ5V2IxWlVpU3VDQjY5V3Fvc0VfOUZoM241SDAwOXd3akpMclE2VXVNM3BYMkozV1VaYzI5Z1p6aC1zZGtQazJSdEhuVW5ieXhndGlRLXVDOWc3VE1kQ0dWYjAwYUphU1lnZXI1NVltSXZ3?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Fri, 16 Sep 2022 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-08T23:09:39.836810+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Amazon-Klage: Streiks auf dem Betriebsgelände sind legal - FAZ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMVlEVWo2QnFuY1pjWHZ1S3hQcWYtakhya19jYXpBX1lObWJ1b001QndYSEhUdWFoSHp4c1RCZmdhVG5vLU94SE1CUDg5NmNCTmxGT1hNbzBZU2p5bXVPTFAtSTByNGVPLTVWSDVvQlk0NlZIVjk2UTEwV1F4MnByWHNVUlU2VUV6dmxfdGtXVkxDTjlySGxGVzhZNl9aaGliMjQzLURlMjNFYnJ3aFE?oc=5",
+      "source": "FAZ",
+      "pub_date": "Tue, 20 Nov 2018 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-08T23:09:39.836810+00:00"
     }
   ],
   "runs": [
@@ -10069,6 +10114,11 @@
       "timestamp": "2026-10-08T13:09:47.432259+00:00",
       "new_signals": 2,
       "total_signals": 1047
+    },
+    {
+      "timestamp": "2026-10-08T23:09:39.836810+00:00",
+      "new_signals": 5,
+      "total_signals": 1052
     }
   ]
 }
