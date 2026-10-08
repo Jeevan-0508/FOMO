@@ -9404,6 +9404,24 @@
       "pub_date": "Mon, 13 Feb 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-08T05:31:48.409273+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Lilium Files for Insolvency in Germany - Future Transport-News",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOLVVsd3F2YmdJeTlfTnRLYWRMYzhqYmxKVjNUWVJOV2RCREh4RnZDUjZoQWtBNHN3VmJwUWtwV2Z3UzgxLTAxd3NBTkdjUVNuYm9pQ2JxbG9zUE9SX0xxS01WVjVlSUMzQ2dVeTZXbUkyWlJJczBiT19GUjM?oc=5",
+      "source": "Future Transport-News",
+      "pub_date": "Wed, 30 Oct 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-08T13:09:47.432259+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvent Lesara fails to attract investor - Ecommerce News - Europe",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkWm5XUFl2UnJ4ckxWdFh5MExsQ2w3ZU1aOWpJQjVraGNHVkFpQ0VLRUlILWNMTGVXcWFkcTNQNzBvcEdGMThTeUVHS1JncnJvRWVFei1uUEE0ZFRHTWZ0bXhRV1F0VTJ2bXdlSUtFMW1hYlpsMVB3?oc=5",
+      "source": "Ecommerce News - Europe",
+      "pub_date": "Mon, 04 Feb 2019 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-08T13:09:47.432259+00:00"
     }
   ],
   "runs": [
@@ -10046,6 +10064,11 @@
       "timestamp": "2026-10-08T05:31:48.409273+00:00",
       "new_signals": 2,
       "total_signals": 1045
+    },
+    {
+      "timestamp": "2026-10-08T13:09:47.432259+00:00",
+      "new_signals": 2,
+      "total_signals": 1047
     }
   ]
 }
