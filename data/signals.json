@@ -9467,6 +9467,15 @@
       "pub_date": "Tue, 20 Nov 2018 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-08T23:09:39.836810+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Schiene: Bahnstreik könnte Auswirkungen auf die Wirtschaft haben - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRVFUVTBRMnM3UThaN09FSjJNM0NiTHAxdy1EeDNUd3djaGZNcnFFQXl6cWQyM3dmalREVU9lbTk3XzFiTndPSmRod0ZBUEUwSjNKRlVtSmxFRHFYaHkzR19nQUZIQ3RuYTRoT253ZmhaMzJ0SnJOdWl5cU5jUmExZnNWckhTa0FtSE1kcHVTZVFqY0lCWWpwY2dsbGpHcllBSm5fdkRLU3FBUQ?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Thu, 07 Mar 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-09T05:35:48.334053+00:00"
     }
   ],
   "runs": [
@@ -10119,6 +10128,11 @@
       "timestamp": "2026-10-08T23:09:39.836810+00:00",
       "new_signals": 5,
       "total_signals": 1052
+    },
+    {
+      "timestamp": "2026-10-09T05:35:48.334053+00:00",
+      "new_signals": 1,
+      "total_signals": 1053
     }
   ]
 }
