@@ -9503,6 +9503,15 @@
       "pub_date": "Fri, 17 Feb 2023 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-09T12:56:26.960828+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "BUSINESSWOMAN, WHO CELEBRATED HER BIRTHDAY IN PARIS, ROME, BERLIN, MADRID, SUCKED INTO US$624K, ZiG1,2M FRAUD STORM – herald - Herald.co.zw",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbVNHNTY0emJ3Q1NBejY5enJCRGxUelBBU3BrSFJKX2VJU08zQTAyQTJRMURYVWNPS3YwZEU4VnhFdWhHYVk5WFNxQVczM2s3Q2tpbHZOa0VWUzR6VmdxME1fWF9nNFpKdzJael95bEJPa2Vqc2FtZU9JblpZRV9rXzRxdkZjX3dXbmgydkRUaDBuR2FrOGRsUWJKLXhnWTZOaEpOT2VnQ196bllxNTR0NFM5NVg4OFIzQ3ByaVdscEFoQWJGTnpiejloNV8zRDZteGk3UjJR?oc=5",
+      "source": "Herald.co.zw",
+      "pub_date": "Mon, 27 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-09T22:29:07.361707+00:00"
     }
   ],
   "runs": [
@@ -10165,6 +10174,11 @@
       "timestamp": "2026-10-09T12:56:26.960828+00:00",
       "new_signals": 3,
       "total_signals": 1056
+    },
+    {
+      "timestamp": "2026-10-09T22:29:07.361707+00:00",
+      "new_signals": 1,
+      "total_signals": 1057
     }
   ]
 }
