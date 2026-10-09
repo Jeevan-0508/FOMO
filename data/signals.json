@@ -9476,6 +9476,33 @@
       "pub_date": "Thu, 07 Mar 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-09T05:35:48.334053+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Der spektakuläre Diebstahl von 30.000 edlen Weinflaschen bei Marchesi Antinori - Il Mattino",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbW85OTR2Y3BlSkVNZWVYb0dVTHFrSnZhWHN0OW42VTA5Tlk1dkZLRTJtWXN0cWMwZ2FKdC1sZjVOYmFmNzFWcXdPY1p6SEZ5YkpubV9LZk1CdWJ6QkM2Q0hDQXVkMG1jSXFPV2tfVlhTYXJFZk0xQXhLeFhkbEtFWGZuQ25acjVXY2hGQklHckdJOXBlbUhPZlR0TVBFdy11dm9hVlZyQnI1VDFXRWNPRGRUSlloSE5YZnlF0gHAAUFVX3lxTE9ZY0FfZnd1cGVueURmalJyaXdBLTltdWVjSHVFRUxReWRqWnluQ0JVZTRTM0dQamNmQllGSlNqa0xUV1o5QXpXUF90amZRRDRzZzEyWVNlZXIzdmQwaWtmTmRyUV9yOU1OTEpfcDgzUjBkY3NwNnN1dzlkcnR6LTNvUEk0dWVqbmpyT1lwdktHUGV1eGszZlZ3Y28xaUdFaWwyOHJxdFVvZ1QyWGJMYThLRVozVjcwUUZGVWpXNGNWZg?oc=5",
+      "source": "Il Mattino",
+      "pub_date": "Fri, 09 Oct 2026 09:18:51 GMT",
+      "severity": "high",
+      "found_at": "2026-10-09T12:56:26.960828+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Germany Company Insolvencies Up 8.0% in July 2026 | Destatis Data - News and Statistics - IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONUViWVF0bU5yTkdvQ2o3V1Y0OFp6MFhua2syMV9lQjh2VW1RLUozOVRzNkItR1I4UXUxRGUtbEJzQ0ViWi1veGNHVWlxVjlxV0dBeVJRVVB4M0pUUEd5aTU1WVVJS0p6TlhybGNfTzJXeWloclJnWUhpekxoTUhBbDBYRlhScTA?oc=5",
+      "source": "IndexBox",
+      "pub_date": "Fri, 09 Oct 2026 10:00:30 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-09T12:56:26.960828+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Luftfracht: ACC Frankfurt sieht Hilfsgüter-Transport durch Streik behindert - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZEJSSUVTQ0FPem1iZ1ktb1hJN3ZRREcza0FLVWdmMmMxZGcwTU91bU8yc1RRSlpabHJlaFZyaXd5ekVmdF9kY2JCWUdTVEJ6VmkxbTVGXy1Ya19VcF90OWxHYVFhUlBxRy1pc2thU2t5VzVZcTF4SHo4dzg2SHhEX2ZzeW43NzJFNkhFYWsyYWdBUGpkQ0dHNmJwR1l5aElvaTg4TDJ5V0pyQXVRNlJ1QkN4d3kxN2Ey?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Fri, 17 Feb 2023 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-09T12:56:26.960828+00:00"
     }
   ],
   "runs": [
@@ -10133,6 +10160,11 @@
       "timestamp": "2026-10-09T05:35:48.334053+00:00",
       "new_signals": 1,
       "total_signals": 1053
+    },
+    {
+      "timestamp": "2026-10-09T12:56:26.960828+00:00",
+      "new_signals": 3,
+      "total_signals": 1056
     }
   ]
 }
