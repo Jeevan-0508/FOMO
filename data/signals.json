@@ -9530,6 +9530,15 @@
       "pub_date": "Wed, 22 Feb 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-10T05:19:34.785038+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: VW sieht Risiken für Menschenrechte vor allem bei Zulieferern - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPaGtkMTdTRllaRmtRYUlVUDJrdWVQdEdCRUJuY1NTbGo2OEFqdFhJeU5YODNnT21kNFRGTHhqRlF6cWt6RUhWUDJJYWJQV2FaaVhYeU5laW5YYnhVY1JrZVg1ZmJtc1JKRFdZUzVfdVh0bEdNa3h5MUZBdjN0ZHRLa2hMYUtQOXBCSmlTWWltWDNxMl9MR2JObmRRcFp5MzlBX0NlQXNDRVUyYzYtRTViS2dUbjZjNWRfc3RkUFNZN3ZVM1ozOHpFVHBoUVQzUGdjYW53RHR6RmstT3E4elpVS1otNlJXVkVpYkJrYnR6RERjSDlZdzRXRw?oc=5",
+      "source": "Handelsblatt",
+      "pub_date": "Fri, 31 May 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-10T21:26:02.785252+00:00"
     }
   ],
   "runs": [
@@ -10202,6 +10211,11 @@
       "timestamp": "2026-10-10T05:19:34.785038+00:00",
       "new_signals": 2,
       "total_signals": 1059
+    },
+    {
+      "timestamp": "2026-10-10T21:26:02.785252+00:00",
+      "new_signals": 1,
+      "total_signals": 1060
     }
   ]
 }
