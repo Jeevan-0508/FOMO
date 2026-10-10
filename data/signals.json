@@ -9512,6 +9512,24 @@
       "pub_date": "Mon, 27 Jul 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-09T22:29:07.361707+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "EU Forced Labor Guidelines: Mandatory Due Diligence in Disguise? - Jones Day",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTG0tM1RKTlRJcExiSlFuZU90eHdTaUNNTTRGYkxzcm1hLVo3ZGpwRllmYU4yZ0NORFdMTHpBTVNmQm53NGFVZ2hYRzEycUdTRUpSTVRKOHJWVUlhczQyNFloUGdsczVRdzFDWHNwRGFlWTB2NC00SDAtRUd4TnpncndHUXpabWhCeW44dEtvMmZIVlVzbll4VU1hbUJnQ2hpUC1vaG41VEd5Q3c?oc=5",
+      "source": "Jones Day",
+      "pub_date": "Tue, 28 Jul 2026 14:46:10 GMT",
+      "severity": "low",
+      "found_at": "2026-10-10T05:19:34.785038+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettengesetz gilt - und jetzt? - Haufe. Intelligenz, die bewegt.",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUk90XzdTWmw5THh1c2hOU0M2cm1JdzN3VjdpN19RNlVDSDhKVllnbURWdlkyOTV0a1hSWFVNdE4zWXlKR2xQZUprVjl4Znd2TXhnMF96R19mTkZ4Qmt2VTdVeUJscVhoVk1RamJ1RkdjcW1jdkE5aGRZaFMyeHc5cnZYdE5tRGJGcW04ekc5N0RYTjR3aE1Jc0RocVh4Nm1nZ1Jac2hB?oc=5",
+      "source": "Haufe. Intelligenz, die bewegt.",
+      "pub_date": "Wed, 22 Feb 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-10T05:19:34.785038+00:00"
     }
   ],
   "runs": [
@@ -10179,6 +10197,11 @@
       "timestamp": "2026-10-09T22:29:07.361707+00:00",
       "new_signals": 1,
       "total_signals": 1057
+    },
+    {
+      "timestamp": "2026-10-10T05:19:34.785038+00:00",
+      "new_signals": 2,
+      "total_signals": 1059
     }
   ]
 }
