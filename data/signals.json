@@ -9539,6 +9539,15 @@
       "pub_date": "Fri, 31 May 2024 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-10T21:26:02.785252+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Erstmal zu Penny? Lieber nicht! Logistik-Streik im größten Penny-Lager Nordostitaliens - rdl.de",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObWN6OGZid0dyYzBBWkJVbkVKam1SVTFpaU00MUpIUnRQeEI1VHA0bHYxbkozaUVaLWRNZEpyRUUyMmpSWnM1Uk52X3U5dEU3dnVMSGY3RkdKWUhXdmh5czZtT09OT1FPbXgxWGdIT2FSQ3ZONVZnbGMtclZLUWQyQ0Y1Qnk2c2VmTldKUUl3QzdIbjNYenJrRGVlRlpGUHlXTUh5VV9DUFdYZw?oc=5",
+      "source": "rdl.de",
+      "pub_date": "Fri, 15 Jan 2016 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-11T12:29:00.006826+00:00"
     }
   ],
   "runs": [
@@ -10216,6 +10225,11 @@
       "timestamp": "2026-10-10T21:26:02.785252+00:00",
       "new_signals": 1,
       "total_signals": 1060
+    },
+    {
+      "timestamp": "2026-10-11T12:29:00.006826+00:00",
+      "new_signals": 1,
+      "total_signals": 1061
     }
   ]
 }
