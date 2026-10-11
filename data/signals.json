@@ -9548,6 +9548,33 @@
       "pub_date": "Fri, 15 Jan 2016 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-11T12:29:00.006826+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "AI Contributes to Surge in Cargo Theft and Freight Fraud - The Maritime Executive",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVngtbWx1Q3RXLWZTMndsTWpWd1hJbWo5emxKN01mQXROZHhQVjN2S0lielN4dHZPZkNQSlBLZXF6WU9kWk1iRDFRWmp2V0FaZ3E5THc4NWJBUkRnWHltbmNZWmtwd2xkZnVhOHctVHBnSW1haVF6SnFybnRfMEY5dHNQaDRLOUR3OEUwSjhFUmpOTGdjR3k2b2FTVQ?oc=5",
+      "source": "The Maritime Executive",
+      "pub_date": "Wed, 04 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-11T21:42:43.329943+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvency: Galeria files for bankruptcy for the fourth time - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ2I0T0xNVVg4RVZNUk13ZGJ5NFl1MG5mM3RnVFlhZ3hRb0F0UlJZTGtOQnB6dWkyeVFZYm5zRHBpZW9vcDVOTVlFeHphQU9OZFkwLW1TSzFaMFVlRjc0SDBFckcyNG0zNEVsYkg2TlM5S2poXy16NHRRSHg3UDFpeXlacUs4aXR3SUFub3RCTDdkbEF0UmZjWA?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-11T21:42:43.329943+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Braunschweiger Traditionsfirma insolvent! Doch Rettung ist in Sicht - News38",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHd1RTZIWUcxZXNPbWREaElDZnIyUzFQZDdMQ29zaGhCbk81ZG8wcndCZ1I1OUVISDFSZWljM1dYQ254VjNkWVJMRGZrSmVxaVFUMnB2LWhrZWJrOXZsVEdGa1ZiQzJwRGNvN252QVRyY1E2bjBVMzZOZ0xHbnI0cTJaUHQzc1lhNHhOY0ZXLUpZN25YSlVGQ1VFMUItbXZBVmdLMmZ2cGltR3pzV0Z1VE5jVVlZUnZBa1Npc0duRE9Ydy00ay1F?oc=5",
+      "source": "News38",
+      "pub_date": "Tue, 06 Oct 2026 06:47:39 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-11T21:42:43.329943+00:00"
     }
   ],
   "runs": [
@@ -10230,6 +10257,11 @@
       "timestamp": "2026-10-11T12:29:00.006826+00:00",
       "new_signals": 1,
       "total_signals": 1061
+    },
+    {
+      "timestamp": "2026-10-11T21:42:43.329943+00:00",
+      "new_signals": 3,
+      "total_signals": 1064
     }
   ]
 }
