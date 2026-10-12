@@ -9575,6 +9575,24 @@
       "pub_date": "Tue, 06 Oct 2026 06:47:39 GMT",
       "severity": "medium",
       "found_at": "2026-10-11T21:42:43.329943+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Due diligence corporate sustainability: challenges and opportunities for LATAM companies - International Bar Association | IBA",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BMTVuWmQ2U24zUk92amo5RWxFcGFfWlh5ODF3WmRJMm9ybTFsNzlnV0ExZ3h2dkdydnpUUktYUm9qX3daREhYYzJIMXFWSUNDVTE2RE0tcVQ0Z1pQVTJhYkZIRW9xWi12bll4X1g3R2ZtNzVyeFE?oc=5",
+      "source": "International Bar Association | IBA",
+      "pub_date": "Sun, 09 Jun 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-12T05:24:37.070810+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "European Union and Germany: Sustainable supply chains – Comparing legal requirements - Global Compliance News",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQcTdraU5mU2lRQnFaYjBRMjZXdGF4M1VzTm9mZFNPTjNsZm5TVnNBVG9NanZPc2hvMmZzdHE5U3pkN3JhM3ZrekdfbXBQeExXSGZ1UGNfVzBnczA0WEFsZ0RIa2RkSnUzTHNxOC11MjdGdjUxVTFYbzloWmdIcFp3LWdRckN3SXFHNUhIVUVQNTJINjFxbU82TXlEbDhla3EyRi0tWFVmYnQ0VjI5WEtmRGtMRVF5OEx0NnJXaFg4MWNhSVZCQU5mWnNVZFNpem51ck9GSnVMNms4YkpQRkRhcGhNUUVicFNfcGNYbGNlSEhueFI5elZRbS1HeDB0a1RDSU1Oa01CS3lCU0RFdG5VX01YaVh1dFdmZndpb3hVUkZ3eFRUcFZucWJVUXI4dG1ZWGlqQ09B?oc=5",
+      "source": "Global Compliance News",
+      "pub_date": "Wed, 03 Apr 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-12T05:24:37.070810+00:00"
     }
   ],
   "runs": [
@@ -10262,6 +10280,11 @@
       "timestamp": "2026-10-11T21:42:43.329943+00:00",
       "new_signals": 3,
       "total_signals": 1064
+    },
+    {
+      "timestamp": "2026-10-12T05:24:37.070810+00:00",
+      "new_signals": 2,
+      "total_signals": 1066
     }
   ]
 }
