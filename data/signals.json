@@ -9593,6 +9593,33 @@
       "pub_date": "Wed, 03 Apr 2024 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-12T05:24:37.070810+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Frachtdiebstahl: Mit diesen Tipps schützt man sich vor Frachtdieben - Traktuell",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNGVLaUZiT0Q1NWtadDB5VDFNNDFicGV1Q3hNeHFTTUdRRWxzenZIUzFjeVd3Q3I5RFBhS2FINmp3Vm9TNEt6cmdOZUp5YTdnUVFNcS1XZmpjZTFqTi04dGRtV2JTdGVHZTJNM1VkMEtMZEw4SjJUcERqS1l3OFdNUU9JUkpmMC1mYmUtWVRybTNaYXJiUXlaRkNR?oc=5",
+      "source": "Traktuell",
+      "pub_date": "Mon, 05 Aug 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-12T15:01:08.475963+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Braunschweiger Traditionsfirma insolvent! Doch Rettung ist in Sicht - News38",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaFNuRENRbjVLWW9GVndxUWJrU0xkMkFjeVI1ZmxTYUZ3eWx6ZFlHU3l5TmdXQjVaOTRnUEVvTU5VQmJGWVF0c2ZRRXA2dzNwV3ZRcS1Rb1lFZDlLM25WdVFEQTJZUW5sbkdJb2ZwUXdIb2JEVGJiUnpSVTVRY2hGbUstbjdEQmxTdUdfbk40S0VZLTFSdVA4YzI4WDAwdEY5TnNGTVB3MGZkbmZ0OXNIZ1RfYm5QMVFJSHhDbnIxTHdZMzFyc3hhNFJhV205TDhLWGc?oc=5",
+      "source": "News38",
+      "pub_date": "Fri, 09 Oct 2026 04:44:28 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-12T15:01:08.475963+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi und Amazon: Darum geht es bei den Streiks - RND.de",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3FzTHpmUFJxdG4yakhidVFXUHhnRnVITWpzeWlUdnBveDVVTWZaYkhjTS1zZUwwa1FGOE9MLUNOQ0RUWnN0Z0wzbDdrSWx0X0ZSNnJGWDV1QW5oYXZZWGZmME84NWdETGYwTFJmOV9OclhoV1RONGRvcTJRN0dwclVfOVc2NFBobjliWTNjRkdTZHFnRk0wVl9DaW1uc2w0bS1PekJVYnRhSEdy?oc=5",
+      "source": "RND.de",
+      "pub_date": "Mon, 29 Jun 2020 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-12T15:01:08.475963+00:00"
     }
   ],
   "runs": [
@@ -10285,6 +10312,11 @@
       "timestamp": "2026-10-12T05:24:37.070810+00:00",
       "new_signals": 2,
       "total_signals": 1066
+    },
+    {
+      "timestamp": "2026-10-12T15:01:08.475963+00:00",
+      "new_signals": 3,
+      "total_signals": 1069
     }
   ]
 }
