@@ -50,6 +50,8 @@ A supply chain & logistics **risk radar for the Germany region**, built from pub
 
 ### [**👉 Click here to open the live dashboard**](https://jeevan-0508.github.io/FOMO/)
 
+<p align="center"><a href="docs/getting-started.md">Getting started</a> · <a href="docs/quality-review.md">Quality review</a></p>
+
 </div>
 
 FOMO scans public news feeds for signals across six risk categories — cargo theft, missing
