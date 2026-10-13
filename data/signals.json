@@ -9620,6 +9620,42 @@
       "pub_date": "Mon, 29 Jun 2020 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-12T15:01:08.475963+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "FWI: Cargo theft on the rise in EMEA region - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT1RBTVJ3WFhONUMzWU5MYUtHNmhrQmg3cnNwRmdfVVg5eTBJdGlucDVhRVZlSkJrTlZFN3FXSW1ONnhrbWJhQUFTcEFDSy1hbklLOV9tTFhWdGh1a092Yjk1M1U1dWJrWVMwdW5GSjBHeHc3dDFfOVVJTjlJZ1ZKMUpn?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Tue, 23 Aug 2016 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-13T00:26:29.985789+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "9.092 Frachtdelikte: Deutschland führt Europas Diebstahlstatistik an - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBldmJ6SzF1VEJVOGdTTXlQaFRMVUlTdF9BWE1XMFdnZXZaVWNiUG9iR1ZWQS0xWEFkNXdVMTRUY0tCcmd0VzR5d0djMW9VNm43SEF6RnlOc040Z09UQ2hJeF9hWmJVbDJ3YmF0dUpR?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-13T00:26:29.985789+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Faire Produktion: EU-Lieferkettengesetz kommt vorerst nicht: Abstimmung verschoben - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQblBSWGg4c0JHSHc3UjNZaHVzb25jMDAxTkR4aTc4ckZ3VmNobVl0am1XRG9yU0dTbXZwQ0pKUW1vX0JMUWc5LXZySGNVZ3VzNjVUaTNDRjA2VFhvS0s1ZlFJMkpBeUZrUlNxdEd2dlZBN2JFZmQ5VEFQbFc5V3p3bURadzFwSVpxSmU2cnB1aTg2NFoyTUhJUDhITVktSmg5LUpLdGFIR2l4VlFibWQxSkxHRmpxVzBqamhZX1RWVkpHUkpsV09kZjlQVWoxalRMUXV2RTBxTWVEdw?oc=5",
+      "source": "Handelsblatt",
+      "pub_date": "Fri, 09 Feb 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-13T00:26:29.985789+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Aufstand gegen Ampel-Regierung: Massenstreiks in drei Schlüsselbranchen drohen - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTW9ZSlBZVjZlR1FMekNMZHdoRFd4RE9yR0xOdG1QR1czLWxEY2hYUjBDRmJSQTVlMFlfQlgxM1JaMlE3T05tNkdFeVNSZHIweU1MeXNVM3h3d1MtYlE3SzNkMjN3TmZkQjVuYVJoSVpyUTZ1ZkcxazdsZVVSMHJvdEs2N3hTM1hrQS1nVHdjejhCYkhFajNrS0wtUkItdDRVbnBDR1YwUkJaQmFEWm91TEhMaHpPWThNdllrcjhROUUyMmE3eDRV?oc=5",
+      "source": "Merkur",
+      "pub_date": "Wed, 27 Dec 2023 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-13T00:26:29.985789+00:00"
     }
   ],
   "runs": [
@@ -10317,6 +10353,11 @@
       "timestamp": "2026-10-12T15:01:08.475963+00:00",
       "new_signals": 3,
       "total_signals": 1069
+    },
+    {
+      "timestamp": "2026-10-13T00:26:29.985789+00:00",
+      "new_signals": 4,
+      "total_signals": 1073
     }
   ]
 }
