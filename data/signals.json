@@ -9656,6 +9656,42 @@
       "pub_date": "Wed, 27 Dec 2023 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-13T00:26:29.985789+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Spedition Betz International meldet Insolvenz an – 140 Jobs in Gefahr - Joyn",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPanJkTDJkTXBSYnZRUGEyV3k4LW1pSUZIcl9QV2RxWnhySVVUOGdlQmJoR3JQMkpYRnhuZW9Ob1ZHaU11N1ZVdWJXcUMyOVBmMjdEYU1qOUQ1N3VMWlZyZnN4blV0ZXllellzNnJSS280X0RiTmRodE12dXFZMnBob1VzTl96aDVSa2duTlF5RnV5X004NlRDcncwRG9CMmFzQk5VYkV3dXlyd2ZjWGNLMDZja0s5Yzg?oc=5",
+      "source": "Joyn",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-13T13:56:13.560035+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Unraveling Complex Impacts Pathways of the Ecodesign for Sustainable Products Regulation and Corporate Sustainability Due Diligence Directive in Global Textile Value Chains: A European Perspective - Wiley Online Library",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55UU4ta09kRVAtNU9aZC1ZVkE1SGRTZ0ZWQUlLQnVFT2pnc1dtLUdjbGlWdzM5dVJWNlloRU9SOGR0RFdSd01iRzdNMm9GdzRWUk9JYklING9jNjlNMDluMC1Dc0d1dXFfS3Bz?oc=5",
+      "source": "Wiley Online Library",
+      "pub_date": "Fri, 05 Sep 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-13T13:56:13.560035+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Wir haben ein Lieferkettensorgfaltspflichtengesetz! Und nun? - Friedrich-Ebert-Stiftung",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWllwSlpoTm80SnBNSnhnOWstd21XUHR0eC1TOHphelo2ZnhLMU5JU24zWURVdTY1OWpIS1lBNm1oVWpqQjNsNGd6MVE1QW4tQUxFSjU4T01MUW5HT3NqQ3FPUXcxQlVSb05xd3Awd0F0bjRJTnotdC13aU1hR01peEx1cWV0aGJmUWtLWmJpVWxXaWtabVFHV1ptSFd5V3Z5c3RrSl8xbzZFVzU0V282X3BoRWs3cllub1pUdmR4Nk5tQ2dYbGdrVw?oc=5",
+      "source": "Friedrich-Ebert-Stiftung",
+      "pub_date": "Wed, 15 Dec 2021 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-13T13:56:13.560035+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Wirtschaft und Menschenrechte vor Ort - Zum Lieferkettensorgfaltspflichtengesetz in thüringischen Unternehmen - uni-erfurt.de",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQai1Id09RbmNmZHQ1TmRKLTdJd0tPTU9XSlNmZ2k2ekhhRDZZZ2ZuZWljRUVISmJKcFlRZkN0QmZ4dVFUUm9ubnJtZ1JhMjV6ZjJFZ1dXVUJwTkpkNFFPUmlwSlNaMzFzZTBEVGVJb0ZnYnQ3MFVfTVdsYTJyNENGOGstaWFmSFZHS0hzWFY5WXk2ZkhtbnJKRTJTLXl5akdKZkdCWlMwSUVyMGZJRHZ6UnpqUl9ndWI2Znl5SmsxN2piRVh1T1V1TjZLZmdiVi1YWnI2Wm8waEtFTC1Kd2R6SjZBYVV5bUlxQU03T3NnVTBvbkM1Q2VsNGVWVkloeW9wbktqVlAyZnd3dkdZTTBMOHVBZFRLbVkzRTM4dWp4aDVPVTVDQnQ0SVNiUWQ1YUN5ZDloS2hCZ19IMDhFOWMxWEV1cnRneFh2TkJmdlQ5V21IVFBUTEtidXIyZ0NRdjRNc1FleU9MMkNLdWJWZWEycFFSRHVtckZoUkRSVE1qV3JJT1FnSmM5a2V5TE8xcFk?oc=5",
+      "source": "uni-erfurt.de",
+      "pub_date": "Wed, 28 Feb 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-13T13:56:13.560035+00:00"
     }
   ],
   "runs": [
@@ -10358,6 +10394,11 @@
       "timestamp": "2026-10-13T00:26:29.985789+00:00",
       "new_signals": 4,
       "total_signals": 1073
+    },
+    {
+      "timestamp": "2026-10-13T13:56:13.560035+00:00",
+      "new_signals": 4,
+      "total_signals": 1077
     }
   ]
 }
