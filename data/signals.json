@@ -9728,6 +9728,51 @@
       "pub_date": "Tue, 23 May 2023 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-14T11:33:15.902452+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Retrack Slovakia files for insolvency - Railway PRO",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1naENucmdUX0xPTXFsb09paDVmaXdTMTZ5WmNBUjdhcDl3VVZaUDFNbTZNUjV6UVNpWmZKUmRsU2JOUV9mVnR4enVDcy1MbXIzbkNvbnVNeEx2MVRkWWZzZUU0Tk5VS3hnNi1ycm9iS0kxRHdzZ1BV?oc=5",
+      "source": "Railway PRO",
+      "pub_date": "Wed, 02 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-14T16:55:42.239388+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzen - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUh0OE1PNHhfTXhjLUh6SGpQT1FhOTNnS2lhWXZxM1NfNEFwMGNqU191c05sVDhqRHgxOEVsMXdlRlp1WUh1SlBVdVRKU3dQeUdHZnFKOXJEUkNKY3J3SmFLcG8wbDdKblNkUTFUYXZGU1dJY3dNekc2QzlOVU1uNWxMSk81MkFwNmVVYVlYUHNYRXA5aEMtR2VLcGNOWDFadEJwZGd1VQ?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Mon, 10 Dec 2018 15:41:26 GMT",
+      "severity": "high",
+      "found_at": "2026-10-14T16:55:42.239388+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Altenburg: Spedition Reichelt in Zehma steckt in Insolvenz und sucht Investor - LVZ - Leipziger Volkszeitung",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQV2VJYkZvMEY4WGd1bkV2d3BlNlJHOXVSelNlSXV3VUhvTWNXZ1ZueERvTDQzd2xVdmlsZDhMYkxtbDBOc05keFRCdXN1NU1QWDl6T3Y0NDRQdExlMWZSSWU0alhHd0JkUTA2LUJUTG5UYnUxMVFmbGNDWkg1Njg3cVJJc2lEd3E4cFB5WHZMWFBERlBFZ2JhbFVVSTNGVlhKTDRiTDVFZ1NyZHJRcTBrY2hxVVpPazhYaHo2Skh0b0lpbXFBT25MZ0ZXY09JN3g2alpCdlRrMXRmTkVlZXZtMjlTSm03MTTSAYMCQVVfeXFMTnoyTVRVaUZaUW5kOVgxODlwRzhDUFhkSlZpemRuMXRYWFg2dXJXRkxSNTROamRreGhZLUlIb0RrRWRfdXdMRWcwRHJaS21kMTFTMEtvN0RHUTBUMkJPcXVWRVN0VHc1X3BaaGdlMkUtLThlMlFRT2ZtNnRKVHM4a0F2SDB0OHNBZ2lnOURHSVZFLWNSUFU2bE91akVlbTJ6LUtpTmltdzZfWmhBR2lvSERxZFpwekRiMUVQOW0tVkE3WGRpT2FHWk1FNmtseXlNQXQwd0gtVmN5eUpRT2tuc29pZmh2TFFVc0k4RUx4ZXVnazRqUU9RRnIyYXR1QTBtMjNrQQ?oc=5",
+      "source": "LVZ - Leipziger Volkszeitung",
+      "pub_date": "Wed, 07 Feb 2024 16:28:26 GMT",
+      "severity": "high",
+      "found_at": "2026-10-14T16:55:42.239388+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLU1iNVd4N0RyM29yWVFhSldLS2lsa0YydGZld3hRWTFONXlPWGhMcHVNcDB2N3JUSjdiNU1OVURBY0taUVVhMFBOTFNmZHV6dVREX2hsdjBEQ3g3RWRQa0dGLUZQUTZNTERGNlFnT1YzNUFHVVNGd3JLVDNCMnVINHo2Y285UF9sUktjblE1Sm9jcXFuZWZPUFk4cVJpZTNERzZJM2tVT2RzVWVKZXNhQ3NCYzZyeWU1LUM5UEVMRnB6V3ZpUm9IbU5PdzlvX0h2R3ZF?oc=5",
+      "source": "Reuters",
+      "pub_date": "Mon, 12 Oct 2026 13:57:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-14T16:55:42.239388+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German port strikes averted, but Rhine disruption deepens - Metro Global",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdUp3bVZpUUY3S1ZmVmZ4UEcxRmltNVRvTjJBNk40RzJ3Z0dFZm0zMnlQMHAtNHFVSkhocDV4ZGVRclgyblg1aC0wZG9ETlhXYW5Fc2NxV3JzZFlWa2w5WHVITmZ0cU53WmEyWlpoYzFnVG9nNHF5TU5SN2IxSFRYelNhWUt5Vnh6RUNuaGk5RFNxT2ROSDFBXw?oc=5",
+      "source": "Metro Global",
+      "pub_date": "Wed, 14 Oct 2026 08:57:37 GMT",
+      "severity": "high",
+      "found_at": "2026-10-14T16:55:42.239388+00:00"
     }
   ],
   "runs": [
@@ -10445,6 +10490,11 @@
       "timestamp": "2026-10-14T11:33:15.902452+00:00",
       "new_signals": 3,
       "total_signals": 1081
+    },
+    {
+      "timestamp": "2026-10-14T16:55:42.239388+00:00",
+      "new_signals": 5,
+      "total_signals": 1086
     }
   ]
 }
