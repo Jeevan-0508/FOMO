@@ -9692,6 +9692,15 @@
       "pub_date": "Wed, 28 Feb 2024 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-13T13:56:13.560035+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Container-Schiffe: Erneute Streiks bringen Container-Seefahrt ins Stocken - Handelsblatt",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcldMdWVFd2U5MW9WRkFTbDZoVXB2bG8zUTV3bmhaRC1NRTRBZjFTcTkxUTRKdTZ1WkNUYV9XVGl1OXozQU9mWE1SWGlyaWxiM3Q4amNxeFFsVER6RlRPbUZCbkFjdE5IZlVvMjl5LUJ4bHRPX3FGWlAtdTlqczV3VlJkMUp5dG9tS2hxMEVSODM5dEt2Zl9YUWF4TFE4bTN3eFB4c0lYRkxlQ0lpSkVxSFhOM3g4YkFmLWhrVGQ0aFlsbVVtMy1hbGlUb3gzcmZlbk1tVA?oc=5",
+      "source": "Handelsblatt",
+      "pub_date": "Thu, 14 Jul 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-14T04:23:44.923049+00:00"
     }
   ],
   "runs": [
@@ -10399,6 +10408,11 @@
       "timestamp": "2026-10-13T13:56:13.560035+00:00",
       "new_signals": 4,
       "total_signals": 1077
+    },
+    {
+      "timestamp": "2026-10-14T04:23:44.923049+00:00",
+      "new_signals": 1,
+      "total_signals": 1078
     }
   ]
 }
