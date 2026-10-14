@@ -9701,6 +9701,33 @@
       "pub_date": "Thu, 14 Jul 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-14T04:23:44.923049+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "Cargo thieving hackers running sophisticated remote access campaigns, researchers find - The Record from Recorded Future News",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNkF6aWZzUGNDOTk3ZjNUR1RDbENmVlNISmxMb1lRSEIwYWxZVURaNzFPUlBPakxKczN5cDhZSC1OeTAyajQ5TTVMMkhGTDVwNFMtU0U2VXFiS21sNW5Geko0N2RSdkNMY1U5Qk52cHZ6SV9TZXQ4OHBnN0Q2WE5XaHhhbmM?oc=5",
+      "source": "The Record from Recorded Future News",
+      "pub_date": "Thu, 16 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-14T11:33:15.902452+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Josef Springer Beton & Transport ist insolvent - oe24",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2RzMTlHWVM4OUh5c1FBaGhjUzVUWHVHWTBLY2xhdE5lYkN6WWFpXzAwZFVISnhEZlpIZkJyZkNHX1FoUFdwaHJFbjJyREh0OTd2RHhYXzBYaEs5U1dfTnpRZUN2V1hWLVBLUXp3WE5hTlpGWmtHeUlIaGI5RUN3aXVn0gGHAUFVX3lxTFBjUjB2ZmZEeExKc3BoYmVrYkt3MnNwYUs0OHEtVk9VWVVoR0kzcGtJaUlZVkY1YWszaDBFUzBSb3FTSHFHaVJxRlMyNGUzYlVNNTZ5NVVuU3FIYlVPT2RqbS1jWW05R2E5dTdaT3NMcFAzVm9wOHhKWVRaWGFTYVl1YTNjTkdwYw?oc=5",
+      "source": "oe24",
+      "pub_date": "Sun, 04 Oct 2026 17:06:50 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-14T11:33:15.902452+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Tomorrow's supply chain - Disputes: German Supply Chain Due Diligence Act in Action - Reed Smith LLP",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMWVndkVNRDNUcEFTSVdHWllCTkZjdFFFTlJzNFNWRjQzeDN5d3U1WGZUaVljZklZWkZPM2hxTXJJYUw3NFM0UFQwdlJzT3kybGV3ZG9FR3ZpN1c1RnVXWVdqWGlYZkZablRKOUJ1TnkwS0QxU3hhSWRyMWhudmRNVko3M1NZWFd6TXc3bEowWHVYVzJ1TndfZkg1LXhoQkdKY2xhbi1yS256M3NYM2RKMlVjWE14X09zclFIZXp6ZC00TU04MkJZNjczdHFFUjUtc3M3WVlpSHBnQQ?oc=5",
+      "source": "Reed Smith LLP",
+      "pub_date": "Tue, 23 May 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-14T11:33:15.902452+00:00"
     }
   ],
   "runs": [
@@ -10413,6 +10440,11 @@
       "timestamp": "2026-10-14T04:23:44.923049+00:00",
       "new_signals": 1,
       "total_signals": 1078
+    },
+    {
+      "timestamp": "2026-10-14T11:33:15.902452+00:00",
+      "new_signals": 3,
+      "total_signals": 1081
     }
   ]
 }
