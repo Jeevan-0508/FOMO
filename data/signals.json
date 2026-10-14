@@ -9773,6 +9773,24 @@
       "pub_date": "Wed, 14 Oct 2026 08:57:37 GMT",
       "severity": "high",
       "found_at": "2026-10-14T16:55:42.239388+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "The DNA is conducting searches at the company managed by Gabriel Daraban, as part of an international investigation into an alleged fraud against NATO - Informat.ro",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWExpOW1jeHMtMnppSTVRTllsQ3hSblFwaEM2TzRsU1RrNExtYlZ2cjZLV0swUWI2X092dGh1cjRkVWFUdTM2RXhKLXJEQWExNUZsdUwwMTlFM2VlVm5FZThadXo1N2hQZUlPWk9zWHI3azd0QUtuWnBoT1A2UzdqU29sMGlLc3hGSnM3bG16YzNiTGhRX0NqdExyWnlGcUtSWUtMUktBRQ?oc=5",
+      "source": "Informat.ro",
+      "pub_date": "Wed, 14 Oct 2026 18:08:15 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-14T21:28:35.141032+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Ab 2023 gilt das Lieferkettensorgfaltspflichtengesetz - Der Betrieb",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQekdBeUJReHBDM1F5YXdwUTZPZWdDNlFhRlN4a0ZjNnN1OVdDTldCd3JzTUd0d083RnNvSXZncEQ4M1NFZnpiWmZtdHgxMmpNZE13ZFVoR25fU3RWb1BfY0U5TnRoeFdQcThsQXl3Z1Z6Z09ITWcwZkxqajRwVHk5YUJCZHUzdFh2dnNmdEhwdHNKVTFkS2c?oc=5",
+      "source": "Der Betrieb",
+      "pub_date": "Fri, 30 Dec 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-14T21:28:35.141032+00:00"
     }
   ],
   "runs": [
@@ -10495,6 +10513,11 @@
       "timestamp": "2026-10-14T16:55:42.239388+00:00",
       "new_signals": 5,
       "total_signals": 1086
+    },
+    {
+      "timestamp": "2026-10-14T21:28:35.141032+00:00",
+      "new_signals": 2,
+      "total_signals": 1088
     }
   ]
 }
