@@ -9827,6 +9827,24 @@
       "pub_date": "Mon, 27 Mar 2017 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-15T11:11:43.139631+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Investigation ‘Hermes’: 62 detained in probe into €410 million VAT carousel fraud involving mobile phones - The independent public prosecution office of the EU",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQREdxNk8zYndjemw5WkxqWVQ5dl9GNFNVYkdTRzVMS3VpUVMxRzZNaVNNOXRoVG1IdWpHaks0RWo3Qkp0clA0cjRtSmxsQzR3OWlob2c2aWNjYUliZVQ1YllyVTB2bEhRbUJnSW1lZXhhOTBsUTRsSzdIYzNMbU1Wa1RuLU5JZUFGMW96ajZKcllfSm9TVnZERXpETURETlN4Q1JrTTlCbmFZUHYybnFMaTliN2RYaFdtaDY3c0xpRVFxWE5Mc1pHRk1vRU95YmIxUmJ0STNhRkQtbkIyb2g3eVN3?oc=5",
+      "source": "The independent public prosecution office of the EU",
+      "pub_date": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-15T21:10:29.799155+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nothegger kämpft ums Überleben: Forderungen nahe 60 Millionen Euro - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlgzUFFxRHZYdmVWUWEyZnFIX2REWkhjd2ZOYXMzNGEwRWZYN3dSQjhNZGQ2Z1V0aTc3dEYxcmhqQ1U3d0xkNGJQdjFVcXg1MWdtaDNWZHl5RVg4dDdUaWxNUmNHc0dIaEJTSkU0RzR6SDNZU1lIMWlZck9hRDJQNkhuYmdMdnJ5YXVXd1d3dFdBcFlraDRQVzJaTks?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-15T21:10:29.799155+00:00"
     }
   ],
   "runs": [
@@ -10564,6 +10582,11 @@
       "timestamp": "2026-10-15T11:11:43.139631+00:00",
       "new_signals": 2,
       "total_signals": 1092
+    },
+    {
+      "timestamp": "2026-10-15T21:10:29.799155+00:00",
+      "new_signals": 2,
+      "total_signals": 1094
     }
   ]
 }
