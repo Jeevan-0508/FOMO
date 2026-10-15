@@ -9791,6 +9791,24 @@
       "pub_date": "Fri, 30 Dec 2022 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-14T21:28:35.141032+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Who pays for import fraud? Logistics sector seeks EU clarity - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVUlXSXJfazVUaU9HY2gydXFLTW9zQ2o0b1BTWWgtZC1VZXN0ekF0YmVLQS1Ub0JwZ0ZsRHJwSlJVd0Rad3MtNEZHMXZFRXIwZlFKN1hobVNZazVKM1FaZjJaMG9NaGt1eGR3NHl0aXdlcmRxLWN1RVpQSEZvTjdLNTFTb0RwOVVTdDVCdzFn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 15 Oct 2026 03:49:45 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-15T04:06:11.261967+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Neue Hilfestellungen zur Compliance mit dem Lieferkettensorgfaltspflichtengesetz veröffentlicht - Pinsent Masons",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRlBiZ29sMVY1OGJtWjlVbmZqaWlLXzJuUVNKVDFxNXVuVlBZMDAyT3ZuV0t5dkUxamF4YjB1c2ZXN1JpaUtQalpEUFZtMDZ6SW85U21tSWlSSW85U1hwWnktZmQwMWp6dDdnc0hPazlSYnNjNm5XUHRtTjNWZF9POFMxS0E2NEZBYUhQc2VmSnFHcDFqN09ZS2xyemg0NWE0aDNRZlpvdUl4UTB3Uy1UX0NvYlNiczZuWmFKYQ?oc=5",
+      "source": "Pinsent Masons",
+      "pub_date": "Wed, 16 Nov 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-15T04:06:11.261967+00:00"
     }
   ],
   "runs": [
@@ -10518,6 +10536,11 @@
       "timestamp": "2026-10-14T21:28:35.141032+00:00",
       "new_signals": 2,
       "total_signals": 1088
+    },
+    {
+      "timestamp": "2026-10-15T04:06:11.261967+00:00",
+      "new_signals": 2,
+      "total_signals": 1090
     }
   ]
 }
