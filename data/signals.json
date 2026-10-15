@@ -9809,6 +9809,24 @@
       "pub_date": "Wed, 16 Nov 2022 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-15T04:06:11.261967+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Who pays for import fraud? Logistics sector seeks EU clarity - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQalg0S2xrOVBpTzVzaWJaV0lDSG5Yc2hxOE5CdTdqbzhwamtybFFlRm8zQ21udzZyS3VOTFp6RzZkYWR4eEhvUlprcTN2RUx2bWU5VXl1ZnJaRWJmX1NUS3lCcU5sZ2dWaDY4M29lNFFILW5aTV9ORmh2dzJOa1VJT3FnQXFVbUI4M3Z5ZmZOeGxtdw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 15 Oct 2026 03:49:28 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-15T11:11:43.139631+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Bohai Shipbuilding caught up in $567m loan fraud - Splash247",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sa2pHZzRSc0Zyb042ZDV6eTNhb2VIWFdDMGo0bEd0X3hHZWtyNnNCbm1sc2hFTzdHbDdTWHR2b0JiTzZhQnZfb1FDR1JnUmdlLWhkcGxOTVQ3QnlFMlZiTkU1N2w2TWFfaEJjblRMLXVlUQ?oc=5",
+      "source": "Splash247",
+      "pub_date": "Mon, 27 Mar 2017 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-15T11:11:43.139631+00:00"
     }
   ],
   "runs": [
@@ -10541,6 +10559,11 @@
       "timestamp": "2026-10-15T04:06:11.261967+00:00",
       "new_signals": 2,
       "total_signals": 1090
+    },
+    {
+      "timestamp": "2026-10-15T11:11:43.139631+00:00",
+      "new_signals": 2,
+      "total_signals": 1092
     }
   ]
 }
