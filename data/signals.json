@@ -9845,6 +9845,15 @@
       "pub_date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-15T21:10:29.799155+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Wie Trans.eu modernen Frachtbetrug erkennt - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41RDVqLTY1Ull6bmYyR1pUNzBGdWFIU0dpYmJ3OExtNUtzT3dnc2JQWXI2a29jYTBxU242NlgxSkFOTTVUUzhYWHRlcXFmczZqS25FX2xUV3RleWRzQW1mdWw4VDJNY1Y4WHJOOHRzMTVlcWNPYTV5Z3pn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 16 Oct 2026 03:08:43 GMT",
+      "severity": "high",
+      "found_at": "2026-10-16T04:02:21.844848+00:00"
     }
   ],
   "runs": [
@@ -10587,6 +10596,11 @@
       "timestamp": "2026-10-15T21:10:29.799155+00:00",
       "new_signals": 2,
       "total_signals": 1094
+    },
+    {
+      "timestamp": "2026-10-16T04:02:21.844848+00:00",
+      "new_signals": 1,
+      "total_signals": 1095
     }
   ]
 }
