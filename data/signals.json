@@ -9863,6 +9863,24 @@
       "pub_date": "Fri, 16 Oct 2026 10:42:00 GMT",
       "severity": "high",
       "found_at": "2026-10-16T16:25:05.017026+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Overhaul Unveils AI-powered Freight Fraud Detection Software for Shippers and 3PLs - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdDFsbk4xbk9JdXpzbnNrV0FGd1REc2xNdTBpVmFWOEdLQXJwLWZHdjcxMEFNQW1aNWNrX0xjRVhHUEtld0lraEVjaEFrRWhraFM5NW9KNkszWDMyRF8yV1JkSWpYVnFoQXNKRmp0MUkwcWVPbXBlUkdqXzVnVDZCR2xkTjZRWmtIUk9wWjZHaGJaaERBbk1HcXhVZ05aRWt1TFNoVElLcVdCSWRyZDFnOG5GZ2VKOFJyRzlEREx0SHZmb2ZOVkZlMXFGbEN2bkFwSnJmcg?oc=5",
+      "source": "PR Newswire",
+      "pub_date": "Tue, 14 Jan 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-16T20:47:58.721314+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "1,7 Millionen Euro Schulden: Bergheimer Transportunternehmen schlittert in Insolvenz - salzburg24",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdXZuaDhzN0tMbXNPamx0V1RMVVUzTVJPN2tBcVJSREJEbDBVbTJDZXJ4cDdkY3VqZUlCRjFydWVkSzlXU3gxbFZxaG9LZzRrSWJTVjdwQVBZVDFhM3l0Vjl0b3VHdGtQYnc5Mm5TWEhleXktQjgtSUtVVmF0ZGlJYzliQTF0a3V6VHVtaS1kbTB2ZFRpbkZwdEZGdkd5cm5xS09zc3N6aEZSSzhZWXBjT2JwVlAxamNIaHI1UnpDMFNJVk83RVg3bEhhbm1pVFFiQXJ2UTdNeHdVZw?oc=5",
+      "source": "salzburg24",
+      "pub_date": "Fri, 16 Oct 2026 10:53:53 GMT",
+      "severity": "high",
+      "found_at": "2026-10-16T20:47:58.721314+00:00"
     }
   ],
   "runs": [
@@ -10615,6 +10633,11 @@
       "timestamp": "2026-10-16T16:25:05.017026+00:00",
       "new_signals": 1,
       "total_signals": 1096
+    },
+    {
+      "timestamp": "2026-10-16T20:47:58.721314+00:00",
+      "new_signals": 2,
+      "total_signals": 1098
     }
   ]
 }
