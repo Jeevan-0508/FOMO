@@ -9854,6 +9854,15 @@
       "pub_date": "Fri, 16 Oct 2026 03:08:43 GMT",
       "severity": "high",
       "found_at": "2026-10-16T04:02:21.844848+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Millionenpleite einer ambitionierten Spedition - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUWNiMmlCcHZYZlA0VVlUcjlfQnkxcElRblpGWEViVWZYN0pPQnI1aEh5OFd2emZrOFBlRkY2YWpwZGhMbFAzSjc5LU9fc0VnUXlCV0o0NDl1TXI1Z2lrRG1iRzlIcXJacG8xQk1XNEtkZ01XeDBoSlV6LXVaT2x4WmFIYmZhSUJPOWNWaTJR?oc=5",
+      "source": "Kurier",
+      "pub_date": "Fri, 16 Oct 2026 10:42:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-16T16:25:05.017026+00:00"
     }
   ],
   "runs": [
@@ -10601,6 +10610,11 @@
       "timestamp": "2026-10-16T04:02:21.844848+00:00",
       "new_signals": 1,
       "total_signals": 1095
+    },
+    {
+      "timestamp": "2026-10-16T16:25:05.017026+00:00",
+      "new_signals": 1,
+      "total_signals": 1096
     }
   ]
 }
