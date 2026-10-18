@@ -9890,6 +9890,33 @@
       "pub_date": "Wed, 18 Nov 2020 13:16:35 GMT",
       "severity": "high",
       "found_at": "2026-10-17T03:53:05.223560+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "OTR Solutions, LoadConnect Partner to Combat Freight Fraud in Trucking - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNHVaeHNHLXZaTkQ2MVRwRjdxX1JIbXBuNU44TzBwLXJTSjNZT0RKbDJLVjdwNnBwQ3p0Z3hUOGVFZTBZeEx2dUpWUmtzS1pTTE52a0t1ZGd4dnFPVmtpVDBPNGd0cUdtcURPQkxraHBqM3lsWW8yQ2N3ZG04RmpxVXVvS21PSnowU3FfMHVsaWtYMWprTHpmakdiQ3lfVGJMTHhSQUp3?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Mon, 24 Nov 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-18T03:59:08.328965+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "The comparison of the EU CS3D and the German LkSG directives - Lexology",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNEc1RnV5dlpoUVZXSEJ6dWJwSjNVQzdNR3NISTZ3TVRBQmdGa2k4c1VvZkU4YkdQZ2xrTC1Gdkt6TGx1elJiS1RVQzZmQWJLbzFfbHpMMHNHblpkZVVGa0kwWDQ1UFFxR1BMUGFDSGd1cGRTM2l5YnBnX1RoNWRCWkFXMFA5ZnllY2ZN?oc=5",
+      "source": "Lexology",
+      "pub_date": "Thu, 01 Aug 2024 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-18T03:59:08.328965+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik Verdi Amazon Tarifvertrag Logistik Mitarbeiter Arbeitsbedingungen - Ruhr Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbGdzT09DUDlweXBVeW9YTGlGNU9MYU0xbk5ESTJ6bWpMRmE4QUNWSmE2ZFp0QXE1dTB4NDlfWEJtamZtbUlDVXNFS21najJTQ0Q4NXNRUzhMZ2d2SUhUUlM5TmJ0R2dJNlRCUFc4Ul9qdFJVMm0zbU1TSjd2bzd3c0JHTUJVaVFQaE56czVRM0x4ZU43Q2xhQkNNdzgxdFVHa3V1MHp0a05NS2N5V2pMRjVTeVVDci14Rk9FaFZJaXdrc0pNSFpnbUF3?oc=5",
+      "source": "Ruhr Nachrichten",
+      "pub_date": "Wed, 14 Sep 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-18T03:59:08.328965+00:00"
     }
   ],
   "runs": [
@@ -10652,6 +10679,11 @@
       "timestamp": "2026-10-17T03:53:05.223560+00:00",
       "new_signals": 1,
       "total_signals": 1099
+    },
+    {
+      "timestamp": "2026-10-18T03:59:08.328965+00:00",
+      "new_signals": 3,
+      "total_signals": 1102
     }
   ]
 }
