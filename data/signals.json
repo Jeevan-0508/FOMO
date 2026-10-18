@@ -9917,6 +9917,24 @@
       "pub_date": "Wed, 14 Sep 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-18T03:59:08.328965+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Freight crime rise puts forwarders under greater credit risk - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcC1XYUd0Rll2SHFQRnI5OHdtaWlTSmVwWW5pWjVOSHMwRGo2TjJUTW9nUXh5bnYxWnA4ekt6UFZOVFlPYllkNHJZdmotSGVhaVZTMFJ5SDA0amRGSW5tc0ZuYlNmZ3NabzJZMldYVEVYeWQyNlU2d3VlWGhtMF84MmtZS0xQT1RoZUV4eDFxN2xnWHlCVHhTYmp2UUM0YUdjcWF0R1Foc2daZkphVEY5Z3RaUGtYODJkdVc2MXZ6TVEtUQ?oc=5",
+      "source": "Insurance Business",
+      "pub_date": "Fri, 21 Nov 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-18T20:23:44.259905+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Warnstreik bei BVG: „Notwendig wäre ein Generalstreik“ - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41ZjJEQ0ZneV9SWXFPMXRGOXVacENOdXJNWmYxZXZOTFdHMmR3YW9mclBaaHhPdmY2UFYzd0t6VFExR0FULUpoZXVLVG91Um12UHdwY2FVM2YwR0RIQ0dMZGVlMldFZ0Zh?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Tue, 11 Feb 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-18T20:23:44.259905+00:00"
     }
   ],
   "runs": [
@@ -10684,6 +10702,11 @@
       "timestamp": "2026-10-18T03:59:08.328965+00:00",
       "new_signals": 3,
       "total_signals": 1102
+    },
+    {
+      "timestamp": "2026-10-18T20:23:44.259905+00:00",
+      "new_signals": 2,
+      "total_signals": 1104
     }
   ]
 }
