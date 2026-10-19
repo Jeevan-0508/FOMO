@@ -9962,6 +9962,33 @@
       "pub_date": "Mon, 11 Apr 2022 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-19T12:44:18.507061+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Highlights from the UN Forum on Business and Human Rights - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcWpqVVdfcHNHUjZLYjRpN080NFZVS1pRT0dBd1pBWWlQYzMtTk5kUWphZElYZEd3alpkMzhxSURkT2lJZjVsSjFyaUY4ZFVhVVVvX1JSRXNCeG5faHZfSm9najNPZnJ6MkVFcUJtaWRPdW5uVVhrdjY2ejE1c2szczhlXzg5TV9hcFcxZHVaMWVPa0VSQWZTeGVyU3RVb2dGcFU5cDk0VjE3VmpCaHdOTU1TVkdEOGo1ZXhuSlMtbzJNWGRITVdSMUVn?oc=5",
+      "source": "Freshfields",
+      "pub_date": "Wed, 06 Dec 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-19T22:11:46.086538+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Tarifstreit: Post nimmt Stellung und will ihre Strategie überdenken - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5maE1KemRnWTlSQ3FLcEdBbTQ1OXQtdmV5azJwdkVDaUNmNFdlazM2bmRETmo1ZEhWd0pUYTYxM1JpTkxQWUlHWHY4b0Q2TVE1R242SVU0RXczZnJjOEU4M0VuVTk1S0xP?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 20 Feb 2023 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-19T22:11:46.086538+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Geplanter Großstreik: Wissing für Aufhebung von Lkw-Fahrverbot am Sonntag - Merkur",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd2phSV9sYkFTajJCRHBraTZqVk1RSzJ2TXYyV1VfckQ4LUdrMlRody14V0dKc3lzNTBQMnNWaE0yc3pWYjJxd2tOY0hKTVBqc2FrcmdmY0pqTllubHhmSllPci12NUgxdmFOdGpJY2JUN0lWT3hmU3VSZXR3RE5PVzREdEp2TTNhT2FlQ0VId1FSSmNZaDV4OGNEaHZMLXIyZFZHQVBIWmFXTkxRQmplYW9EQWk1eVZSemNwQ3ZR?oc=5",
+      "source": "Merkur",
+      "pub_date": "Fri, 24 Mar 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-19T22:11:46.086538+00:00"
     }
   ],
   "runs": [
@@ -10744,6 +10771,11 @@
       "timestamp": "2026-10-19T12:44:18.507061+00:00",
       "new_signals": 2,
       "total_signals": 1107
+    },
+    {
+      "timestamp": "2026-10-19T22:11:46.086538+00:00",
+      "new_signals": 3,
+      "total_signals": 1110
     }
   ]
 }
