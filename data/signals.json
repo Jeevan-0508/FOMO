@@ -9935,6 +9935,15 @@
       "pub_date": "Tue, 11 Feb 2025 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-18T20:23:44.259905+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz: Was die EU-Richtlinie für Deutschland bedeutet - Aktion gegen den Hunger",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTHVpUWdadXdsYzVJRzh3ZUI5bm5GeFUwWTEzd25EZ3FMNEhBMFZOaVpKNFpzdU5WcWhfNGItODFYeUxKWWNMQk9xY2tOd1FNQUNJQTNTcWRmbVVOZlRES2hXYnZxcmxCM2c1Y1NjUUZpWGNzTVdJWm5qaUtXYzFHa3dvbkl6UTZXSkQxYUU2bkxzYVVJM3ozMnRXRUhRdw?oc=5",
+      "source": "Aktion gegen den Hunger",
+      "pub_date": "Wed, 20 Nov 2024 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-19T04:08:45.405867+00:00"
     }
   ],
   "runs": [
@@ -10707,6 +10716,11 @@
       "timestamp": "2026-10-18T20:23:44.259905+00:00",
       "new_signals": 2,
       "total_signals": 1104
+    },
+    {
+      "timestamp": "2026-10-19T04:08:45.405867+00:00",
+      "new_signals": 1,
+      "total_signals": 1105
     }
   ]
 }
