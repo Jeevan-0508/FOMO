@@ -9944,6 +9944,24 @@
       "pub_date": "Wed, 20 Nov 2024 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-19T04:08:45.405867+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvencies put transport and logistics under pressure - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2E1US1DMlU3UmtUSVhZeFNXQUtpX2JuVDhyX09mbHNlT3NYYnJ6Q1lzdkFDRVk2QlZmcFBXTGlKN1pPLWU0N0VqMmwxWGIwSnlzcENvaDhyUnpQRXE1RkRFZ09YQUo3MWVJZVBvdlVTcEFRTUtjZ1BEWGU4U3N0TzJzRkV1REVUZUZiTS1PMU1zNXY2?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 19 Oct 2026 09:51:23 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-19T12:44:18.507061+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi ruft zum Streik bei Amazon in Rheinberg und Werne auf - Spiegel",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVUlkYnBqLURjV09kRHRDZWFKY25VWVdwWU84TUlTTjhzYmtaN3dYeEp5ZW9CTktiVFVBbTBNQ05oam9qMElueDc2ejIxaWJHTFNPbHhTbzJMSEUzeGdiWnFYS0hGQVRXajVJX0NjMGJCSVgxRFYzdndXd1Nkd2J0ak0zVlE2NFRaZFBSOGU0TzZpTTJESVNHWXB5aVV3QW1GV2RiYXhKN2pPYWtSRkdLYlBFNEs4YllSdTBDZVNCcFBaR2prdk5CaEU3Q1FrTXRGMlk3dTJDdnZwZEcw?oc=5",
+      "source": "Spiegel",
+      "pub_date": "Mon, 11 Apr 2022 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-19T12:44:18.507061+00:00"
     }
   ],
   "runs": [
@@ -10721,6 +10739,11 @@
       "timestamp": "2026-10-19T04:08:45.405867+00:00",
       "new_signals": 1,
       "total_signals": 1105
+    },
+    {
+      "timestamp": "2026-10-19T12:44:18.507061+00:00",
+      "new_signals": 2,
+      "total_signals": 1107
     }
   ]
 }
