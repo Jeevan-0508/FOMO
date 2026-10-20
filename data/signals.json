@@ -10025,6 +10025,15 @@
       "pub_date": "Tue, 02 Dec 2025 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-20T11:15:05.109049+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bahnstreik belastet Logistikketten der Industrie - DVZ - Deutsche Verkehrs-Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1lDMVlUVHRrbW93YVhMSzNTb0MzTVJDVG5wbjl2dllNQ01kM3dZdlpUUWIyWXpSQVlFcXpYTGtybklOUHlwNVBzS2pmWXc1Zmt0TW5qb2gtT3ZMRDdIck1TUXVScmhMOHFjTmZpNG5hTFM0RDYtT1ZqdkR1SHN3TG5mdllyQU5ISTF4dzk3d0dMeHQ3N1FpcjRmUU4?oc=5",
+      "source": "DVZ - Deutsche Verkehrs-Zeitung",
+      "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-20T16:39:39.888475+00:00"
     }
   ],
   "runs": [
@@ -10822,6 +10831,11 @@
       "timestamp": "2026-10-20T11:15:05.109049+00:00",
       "new_signals": 2,
       "total_signals": 1114
+    },
+    {
+      "timestamp": "2026-10-20T16:39:39.888475+00:00",
+      "new_signals": 1,
+      "total_signals": 1115
     }
   ]
 }
