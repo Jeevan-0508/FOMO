@@ -10034,6 +10034,15 @@
       "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-20T16:39:39.888475+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Fahrzeuge: Kommt der große Lkw-Streik? - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRm44aGR5SUdNOWhCeUJ4MkpGcmJyYmlfamJpemh5Z3NjMEZWR29pS1NHaTFOQnNXZHNNZHh5SXE0QW1OVDljT0g4a1ZJWXoySThPUmd3NzJXMEgwbXdkU19jR2E5MHJNUmZtSEJyLUw2RkZMeUVQVE1IUDU5b2x0VGlEY3Q0SzU1?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Wed, 28 Aug 2024 22:09:23 GMT",
+      "severity": "high",
+      "found_at": "2026-10-20T21:26:38.006758+00:00"
     }
   ],
   "runs": [
@@ -10836,6 +10845,11 @@
       "timestamp": "2026-10-20T16:39:39.888475+00:00",
       "new_signals": 1,
       "total_signals": 1115
+    },
+    {
+      "timestamp": "2026-10-20T21:26:38.006758+00:00",
+      "new_signals": 1,
+      "total_signals": 1116
     }
   ]
 }
