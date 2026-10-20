@@ -9989,6 +9989,24 @@
       "pub_date": "Fri, 24 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-19T22:11:46.086538+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Highway Unveils ‘Highway for Carriers’ – Empowering Carriers to Verify Brokers and Combat Fraud - GlobeNewswire",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOT0NlQzExZFZtNHdCbERDdkJYU0V4eTRsd2N0QUFqQlRDbVAwc0lNXzc3Nk5iQ2dSUmU0TlJZbnYwYjdNakRRNjZxd2wzNzBxcklJblpvaHg2XzlmLUVISTZPYmQ1QTVVYl9fQmxLS2V6eGJERERENFFnOVl6MkUyUlhhREVLemstcnpSdkxFSUZGNTRpa0VNcEJVenhjODJnTmtWZC1sVkI5THVvZGxYZFRwbVB4SW9peEMwLTVRZ2c3VEtmemRPdjhrVWdCMmF0UWk0Z3hudGRrN2JJMU5lZ3FsWm03OWVJbjFMQ2RvWG1jM1g4VHc?oc=5",
+      "source": "GlobeNewswire",
+      "pub_date": "Tue, 18 Mar 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-20T04:20:51.873265+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany: MPs Should Strengthen Proposed Supply Chain Law - Human Rights Watch",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXp0UkJCakdnTlV5SlpWV0xndXkteG9KeUhGS21wNXJrazhoekdlLTZvcUwwSFpEMjVJbHpIcktjWHlYeWl5SHdWNnlmcGd5VEtiekpUMTg2NHpJRS1ZSXNmSnFGUGtZY0tXTXRNdDBVWUc2V0J0WkJsUGg2RzVvaGxjM29tZzY1a0VQUHZJd2xOWFdickE?oc=5",
+      "source": "Human Rights Watch",
+      "pub_date": "Tue, 23 Feb 2021 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-20T04:20:51.873265+00:00"
     }
   ],
   "runs": [
@@ -10776,6 +10794,11 @@
       "timestamp": "2026-10-19T22:11:46.086538+00:00",
       "new_signals": 3,
       "total_signals": 1110
+    },
+    {
+      "timestamp": "2026-10-20T04:20:51.873265+00:00",
+      "new_signals": 2,
+      "total_signals": 1112
     }
   ]
 }
