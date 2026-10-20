@@ -10007,6 +10007,24 @@
       "pub_date": "Tue, 23 Feb 2021 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-20T04:20:51.873265+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Fewer Cargo Thefts, Bigger Losses: Criminals Target Higher-Value Loads - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVVIwZG1sdmVsaW03Tk1sdVlMa0VhbkVXcGRkU2JuSnJEWndWZDUxUkZzQ0h6UlhsaTNLQ0xsQmtSVEFuVXNCZkdsVVBkejdOZ1c2RzdVMDYyRUtKcDBQbHl4UG1HWlBDWm91U1dVUTZHdG4zdGJjR0VJLTJnTVpYS1llWndTLTlBV2QtZjhOeWE3czROaDJuTEpQdFhPMktI?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-20T11:15:05.109049+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "20.000 rounds of ammunition stolen from German Bundeswehr - vijesti.me",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSW1IWkxURGFsVkZCb2pIWmh2VVJVbkdmWDVJdEJhZ0xDOUdqNHRZVDh2RUtlNGo0VWtud2J6N3ViVFU1SXRCVXFGZnBIUlBDY2Z5Z0tpS3VmSE9vOEREODhMVEJwOUU4NkpXRHhJMzY2T1o5ajB1ajM2bXhVc0xDdUptRUJmY3ctWkMzY0hCQWNTSVdpbHN4ZXdrdGZzWEVmOHfSAZMBQVVfeXFMTWV4bzA5MmpfWmd6WTRsMjcwMFo4ZEE2T2dJb1NWS1BtX0hjV21mQ3FGZkxUOHNOUS1sY0I1S1ZFSmM0bjd5dUthUnZydEdnMTVLYVlxX3I0bFFKcGtwVm5VUWY3WEV5cnZRNDZveXdUTGZYdU01Rjh5VVA1bU91SzJwdG9PbUFBNnFyTmF2dVBTcHI4?oc=5",
+      "source": "vijesti.me",
+      "pub_date": "Tue, 02 Dec 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-20T11:15:05.109049+00:00"
     }
   ],
   "runs": [
@@ -10799,6 +10817,11 @@
       "timestamp": "2026-10-20T04:20:51.873265+00:00",
       "new_signals": 2,
       "total_signals": 1112
+    },
+    {
+      "timestamp": "2026-10-20T11:15:05.109049+00:00",
+      "new_signals": 2,
+      "total_signals": 1114
     }
   ]
 }
