@@ -10043,6 +10043,33 @@
       "pub_date": "Wed, 28 Aug 2024 22:09:23 GMT",
       "severity": "high",
       "found_at": "2026-10-20T21:26:38.006758+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvencies put transport and logistics under pressure - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ1BJdFZXNGZ0S3hfVlRUWV9UWFhxblZ2UkJQV3lWcS1JTmlTVWV3RHBnSmFCV2IzZ0hmSGxtMG1XdTQ4bjJlbS1zY3RDTTA3d1dRXzNneVBBZjFaVFA3N1JsMHZLWVAxVnZfNTlBcWdGRmVtbC04SHRwbjNHY1RJZVRKZ2NNUGRUQTRRclBSMjVSYjl4SUk0Sw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 19 Oct 2026 09:50:47 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T04:10:43.496172+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzen belasten Transport und Logistik - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdjI4YmVja0ZMVzg1NjJGMUg1eW1iai1yMUJtQU5BQm54QjBTY1Q5a0loYW5reFVOa0xOd0swa2JMaDlmLTF0emFfT1c1RDlTZ09lMXBJTzVFZUVnMU5BT1Bqc3U0M2lram1GTmxUT1lwaFZSRGNvYVdJSHlKakUxWEdJS0huaDIzeHFWajE3MWdPVlE?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 01 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T04:10:43.496172+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Zimbabwean truckers strike against Hegelmann over pay and conditions - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91dEt5VlZHeHFteWEyay1xM0IyNEstWlA1eUw4cEpmRlpoeWhaOEJ4UHJwRzdoUGVkWFdIWlN1c3czdzhhM0R5YXdHNnF2aHVMRGR2NFBoczc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 03 Feb 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T04:10:43.496172+00:00"
     }
   ],
   "runs": [
@@ -10850,6 +10877,11 @@
       "timestamp": "2026-10-20T21:26:38.006758+00:00",
       "new_signals": 1,
       "total_signals": 1116
+    },
+    {
+      "timestamp": "2026-10-21T04:10:43.496172+00:00",
+      "new_signals": 3,
+      "total_signals": 1119
     }
   ]
 }
