@@ -10070,6 +10070,150 @@
       "pub_date": "Mon, 03 Feb 2025 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-21T04:10:43.496172+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "KONVOI Helps with AI and Sensors to Prevent the Theft of Truck Cargo - Startuprad Io",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeEtrSTZ4eC1RdWs2ei0tUy05UVR4WjdYdGlwNDBRTzFiVXB5MDJxNHVid0dHY2w1bE5XRWpzRVBibEhwMmMxYWdaT0dHeW91SjdKVFhJZlBkWHB4WHNBNzM5eGliTHhWUS1zMlowRGpMUlIxemRJbDNVSlRmVnJFN0Y5SFpJZmVHS251RU5UbXEzWDBTYTF5enI0QzRfTUxu?oc=5",
+      "source": "Startuprad Io",
+      "pub_date": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Germany, the epicenter of bankruptcy in Europe: every third major bankruptcy in the region comes from beyond the Oder River - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSjlOcjVxQlhWdFdKZlBpaFpqd1BjTW1SUWdzQ0dLZ1pKTWx2SUlnbllEaEp5NHdOb2pGSEVfWG4yWHNadExSQkc0eGVEajdGaG40Z2FCdUFiakRlWk1naV9BOHlyWU1tdHYzczM5LTRaWGlJMi01ZklsRF9VNUVLM3NvLWkyQm43SV83aG9YVGpzeWd2OEJVYXQ4X1FMeWp5QWJidVZENWJOaWlBOEIwbVJiVnYzbHBhMTlWb3FDSGpnazNKblktNk90SE44eHZnallNa1ZtVUE2SFpEX2FVODNNV2g5V0k?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "European Commission probes EUR 321 million aid to German airline - ICLG",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUVRQeG5PY0QzOHoxQkp1ZUsxMF9RT1dJOGozYnpiSE80b0pIUmZfUjNKUDdiT2h1Q0V6R0pjdEE2MFdZTTRuSmxMMnAycXpBWjd6UnB5aVhiSVlVN092WURwbk1hNHRTRXk3bl9EWmhoY25mUE54d1Z0Y05fN3N6aUxMMWRObVMxUWp3N1lHcGpQN3ljOXdaMw?oc=5",
+      "source": "ICLG",
+      "pub_date": "Tue, 30 Jul 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Was ist das deutsche Lieferkettensorgfaltspflichtengesetz (LkSG)? - IBM",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CZFI1bG53NXNoZ0xUZzRUYVFLeXowU2tKeENCMlVTZHZxdG8zNkkzUnBrdXFqeDJUN3VnZTVvSy1pbjN1RjdXYUVwWFlKME9QR2ZlSW9LOA?oc=5",
+      "source": "IBM",
+      "pub_date": "Thu, 12 Dec 2024 02:03:16 GMT",
+      "severity": "low",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettensorgfaltspflichtengesetz - Hans-Böckler-Stiftung",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDT05tRGg1VGU3WGNPOWl0ZUZfZERLNXVSZUZtSXdIVl9aUlliU2U1WDFSWDRQM0R5UnJlT2hadXFHZjdHbU5YYlZtQzdMZDFQQ21jME9fcWk5dzkzZXpYT25zS3pRNUZDV3o1bGxTZw?oc=5",
+      "source": "Hans-Böckler-Stiftung",
+      "pub_date": "Fri, 16 Dec 2022 09:04:48 GMT",
+      "severity": "low",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Iran conflict continues to disrupt shipping routes and supply chains - Automotive Logistics",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNcGowYzY2Z2hwdVE4OXYxUHVidmZTbjc5MUJuX043clRxYWo4NnJMSWdkM180RUxBNHNxRGpGdkJ3ZXpXX0ZEZ29NZE03ak82d3FfQ3lxemFIem9qakJNR0FaUmZxTk9OZ3F6a09aVURmQVkzRHhoajlHZ2ZjbENMVXBCU3FNTkQtNVJnekhtR0ZkVkk5OVdOYV9zX3dJQ1R1ZXppUUQ1Rk44cExWbWVlVnpxeDJ1OHhMWlJnbDFzcFA5amg0ajE2enMtMVcwZ25LdE1NSC1ZZGtvLXJLTEVXZkpMY1BjeUt5andZSGJpZ3Mwa1V2azZxZGNSTHJTNklST3o2b3UxQjlHd0kxQ0dsWGRSMWVPZw?oc=5",
+      "source": "Automotive Logistics",
+      "pub_date": "Mon, 02 Mar 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Disruption is the new normal: Key themes and takeaways from ALSC Europe 2026 - Automotive Logistics",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVThSRGp0UHhnSWU3SjlXY21SZjNaWUlZWFhXVWxHNGpfemR5NzBEMDd1RkdYeWhJVWNoSGFZWjM5SjFMdTljVHpyRkFoT1dISjRGeENQSElnNV9OUmZSVTJXOGE4X015M0tuT3hqLTNJc1gybjF6WWtxYzVEY3FoNDBXMmdSclI1Y0g3WXdQTWlhdTVkSkxJMER4VURsWVpDRXpxZUUwXzlrMTZVYnFyVkdZNnhyazRMeVZnajZYWDJZUlhJXzJ1TTdvQld0c3VuenZz?oc=5",
+      "source": "Automotive Logistics",
+      "pub_date": "Tue, 24 Mar 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Report shows Global South losing months of productivity to supply chain disruption - WorldCargo News",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLXd3WWFjSWFSQlozcFRwU05nVThWemlrdzNybTVQSFBQdkt2aHZVRjM5c1BvRmlSZGRhZVFzVVdPZDJGbmsxWFlnMjI5VmhJZ1ptUXJtLV9UTHF0b2dzTUlmMW16MkFGc252Rnd4S2JKWnB0WDlsazUwS2Rmd3h4ZEJnMWNIVUJNV2ZwMnBOdTh2bkpHbjhLNE5PVlBQZ2RTbXhsUFZMREd2cWp4Y3BzZUcxdHBvblMxaEFDcmJyeXBsZ2hMRGZuajNXZE9lSVlHT1hoREJac2M?oc=5",
+      "source": "WorldCargo News",
+      "pub_date": "Wed, 14 Jan 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "A Cyberattack Forced a Logistics Company to Temporarily Halt Operations - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaHZvUlp3RVo1ZklxeFA0X2V6ZzFFeDZ5aWcwSTNsbkZaTjVmYWdMSGlyZlgtOUstQlpTb2hJeDdyWEViMk5SM0JqRk1mdlU2ZkxqVGJIVXhzV1RRR1R0bFUwNTRSVTN1TVhUN3FmTDZTQXJCclNFNGZ6VFJyaWhQMWpUWm5aWXRMeUVvUERSbHRYeWdPNW9WWk9ocF9wLUdMcWRBMHlGdTBJMFBQelE?oc=5",
+      "source": "WSJ",
+      "pub_date": "Wed, 26 Apr 2023 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "France, Germany strike deal on car emissions and UK special status - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1lnVTAtelJycV9iUlVMWm5uYnhMOS05WFlFRF9JMGpNUVRnTU1FOE1kRFhRY2JiTncwdExueDluazA5MFlhQ1VJcEtBbHlqYlBCNUpIRVQ2QXpFWWw5N2VUSEE1eUR5LXhEc3ZSNlhNZnMxMmNGME0wZUo0S3MteWxlekFnVUJHODh6eGFkOU5xUDBpT21lSkZDZ3NFUW9hcHIweQ?oc=5",
+      "source": "Reuters",
+      "pub_date": "Fri, 16 Oct 2026 15:44:22 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Building resilient supply chains after disruption Article - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbmgzTnRCTlFCcnlZby1sMnluOGlSdzdpZFNwbGFkVVU5a1RFZGlWaUNYWnpZbWNwVUZMM0Nsa2hzVlcwUC0ySm9Hand6cFdWdWl3eTROcmV3TFV0OUtBSkhhTXhiTEtfYngwcnJFenpYcHc2cVVMRGhMNXdtbk1iM2pQcjhXc3g5N2xFV3FUcWhDR0lrc25NYkh6NHRTZ1Npd29xTDlqaUU?oc=5",
+      "source": "BBC",
+      "pub_date": "Fri, 26 Nov 2021 14:32:25 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "How the Nexperia chip crisis upended auto supply chains - again - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWVVQXdnSE9HSHdPQ0tmNzBtX3N5WlhEX1JVMDRnRnVuUkJmU0YtSGFkZURXSmwwVVd6aHFrWmJ3TXlTcVhNejdFbmxwOWZ5RHZqN0dTbi1MTXpGdENtSWhaMS1qVlpmdDFYaFR6bmlWak45S0VhWlozSkdkQ2p5WF9NazR6NGZObUxKRUgyY1g3UU9HSTRQbXN5eGxhSVBOOXh2cUltdzBSRlVWbkpySHZyMDhaYWltR3doWmhqTl8?oc=5",
+      "source": "Reuters",
+      "pub_date": "Mon, 24 Nov 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Supply chain disruption poses global threat – here’s how - Chain Store Age",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ1VNX1EyUHpnNVd2VWNyOFE2dFFRSFFVSGVGTHY1TENyOUdRdmFQeURUZWhrSDl2dTdieEZWOUx2TlBncXFKdl9LMF9NVmxDV0F4djRObWp2bmtjMmdtWHNNR0IwN1U2aEN3b0NEbUlWUXA3NjVYRFQ3ejhkbGdEX1ItUHVHZw?oc=5",
+      "source": "Chain Store Age",
+      "pub_date": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Global value chain disruptions and enterprise responses in the EU - European Commission",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmkzM2xhUnZlbEU3YTNueU83UEJQR01NSHJDNFBwVWpmVmFOUUxxcE0zRDBwWmdKa3Z1ZjJab25HVVVTX1dJZ2RnMU5UZ0R6TVJhaFdFZDFmM3U5aU42cG1yaXVNLTNsRFJxamZuYlR4N0FKNk9hRVRocXhwUHZsS3lIMFRuc1BBSWdMc3g0eDRIbk5RSEpTN1gwSDlBbnd2djJQaE42Z1MzdnRaYkUteHpYaVNYNmxEd3pKTklLZFJ2VUpOak12ZGJUSzQ?oc=5",
+      "source": "European Commission",
+      "pub_date": "Wed, 14 May 2025 14:17:15 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Wind power supply chain disruption not a short-term affair-Siemens Gamesa CEO - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXJvVFFUVTZhTVpsZ3NlaGptUktHX29NRVpZZl9UbXRjVDkycDhKZnZrNllMdXpZYTA2TTlnNHcyaXFKdnM2UGxYMURQTjUta2VwNy01S0tyeTRpel80Q3pSQl8zb2dicmZSTHlMUmdqdHJrcjB2cTRHbnVIS1RDT3JidWhCZHpwMTNTb0ZoekV3QkRYVFNSamlZc2UwSy1MTEJCNHZ6YS1FMVhZMUxIMDRFdk9hTmJ4QUpERjQtbk9XamVjVnc?oc=5",
+      "source": "Reuters",
+      "pub_date": "Fri, 28 Jan 2022 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Revealed: the huge hidden cost of supply chain disruption - Astute Group",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOcW01X0g5Wl8wY0dVRktMRjVVRlRtZlJSSkh5eEhIanJsYXFTWmx2SVRFM29UT2lzMkw5TjJZS1VLME9lSmhhUEtzcUstc2lTNkgwVE4xU0I3LUNjR1dzd29Vd0o2U012M1hr?oc=5",
+      "source": "Astute Group",
+      "pub_date": "Thu, 22 Jul 2021 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-21T11:31:06.547449+00:00"
     }
   ],
   "runs": [
@@ -10882,6 +11026,11 @@
       "timestamp": "2026-10-21T04:10:43.496172+00:00",
       "new_signals": 3,
       "total_signals": 1119
+    },
+    {
+      "timestamp": "2026-10-21T11:31:06.547449+00:00",
+      "new_signals": 16,
+      "total_signals": 1135
     }
   ]
 }
