@@ -10214,6 +10214,24 @@
       "pub_date": "Thu, 22 Jul 2021 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-21T11:31:06.547449+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Friedrichshafen: Logistik-Firma muss Insolvenz anmelden - Wochenblatt News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUll1MkR3NDlkNlRuNjQ0SXVnbmlmT0hRSDF6ejhsVTV4WlpxUmdIeng3R0RIeHBQRnlxcm9peWNSdzh6MXM0ZjA2ZkdsUDRMclFSU091XzlvajlndlRpMDBSRjBrekxESHVPMmNScVNROVRKR3FWYzFZVkc5UGFBTUl3S2YxMXktaU5WZlhiblBSbEhWNWdoeWE2SFFsYzR4VDZHdWs4SU43YnJWMHAzLWpiek4xekswSzc0?oc=5",
+      "source": "Wochenblatt News",
+      "pub_date": "Sat, 12 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T16:57:59.455046+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streikwelle Juni 2026: Erste Arbeitskämpfe im Duisburger Hafen seit Jahrzehnten - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSE9RT3hSdXhYZ0wxdERjM2swa2JRVnVYTkVMVmhlMU1UVkJxOG5OYWZrUTYwTEdFYjlKdXlIazhRQlZwbTVGMFBxdVh0MFlERUthRDFnNWNpNE1vRHJ2Q0dmcmtYWWl2ejkxQjlfUE0yaXphR0YtLWRaOUxxYjlaWDJfakRhbkpHaTF1NGg2ZUhHWTVCQ05naTUwc3lONDA5M05DNjdLUmZuWU90Y2xKZG9EckRZWEUxbXBBV3IwNk10SU1n?oc=5",
+      "source": "ad-hoc-news.de",
+      "pub_date": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T16:57:59.455046+00:00"
     }
   ],
   "runs": [
@@ -11031,6 +11049,11 @@
       "timestamp": "2026-10-21T11:31:06.547449+00:00",
       "new_signals": 16,
       "total_signals": 1135
+    },
+    {
+      "timestamp": "2026-10-21T16:57:59.455046+00:00",
+      "new_signals": 2,
+      "total_signals": 1137
     }
   ]
 }
