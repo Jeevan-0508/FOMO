@@ -10232,6 +10232,15 @@
       "pub_date": "Thu, 18 Jun 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-21T16:57:59.455046+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bargeld: Was der Streik in der Geldtransportbranche für den Handel bedeutet - Lebensmittel Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTzZsOEIwYV94SHBEXzBLMS1zY2dIbmdBbGR5OXY1ZUNmU0V5NXlIV1hYdng1djZpTzhmRkVZaVpjSEE4ZFNRRS14MHhBWkl5eGlNckdYc1Jtak5FWG85Z1ZVSWJCVG9DRE9NZjdvdWlkMmdhZU5kN0VMX3ZMTG1QWE1lOXktT1NJZlI0ZERTNlprYWV3UnB2eXV0OTF5OENtLVE3a3B1NDVqeERmemtsZ19OODVVWVo2MVA5YlA4QzVUVXhhcks2b3RQUTFRYnRqYmxCMg?oc=5",
+      "source": "Lebensmittel Zeitung",
+      "pub_date": "Mon, 30 Sep 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-21T21:28:17.376824+00:00"
     }
   ],
   "runs": [
@@ -11054,6 +11063,11 @@
       "timestamp": "2026-10-21T16:57:59.455046+00:00",
       "new_signals": 2,
       "total_signals": 1137
+    },
+    {
+      "timestamp": "2026-10-21T21:28:17.376824+00:00",
+      "new_signals": 1,
+      "total_signals": 1138
     }
   ]
 }
