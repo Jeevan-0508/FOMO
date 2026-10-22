@@ -10250,6 +10250,15 @@
       "pub_date": "Fri, 01 Oct 2021 23:07:01 GMT",
       "severity": "medium",
       "found_at": "2026-10-22T04:11:07.105357+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "86 Millionen Euro an Forderungen: Nothegger-Insolvenz – Entscheidung über Sanierung vertagt - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQmc5bzVfaEo5ZWtqQVJLcU0waVp4UVlYaDFza1ZhUmdWaUVPRXBpRERKY294NWNYbFJrUk80R0RwR281MlJwSEliMHlUckZGTUZXYWl3WXo5aWxTTWlrbUpnc0x0TU40LTFHdVdKaDJnRVhmMTM4NFo4SXN0aTFFUEpDbHpQRnh3WWlTbmN4ZE9oemEyNUhwTUpnYWUtXzU2Z3ZUY0pybnRyaTN5SFBsdzQxZUMtUQ?oc=5",
+      "source": "MeinBezirk.at",
+      "pub_date": "Mon, 19 Oct 2026 11:57:15 GMT",
+      "severity": "high",
+      "found_at": "2026-10-22T11:31:20.456539+00:00"
     }
   ],
   "runs": [
@@ -11082,6 +11091,11 @@
       "timestamp": "2026-10-22T04:11:07.105357+00:00",
       "new_signals": 1,
       "total_signals": 1139
+    },
+    {
+      "timestamp": "2026-10-22T11:31:20.456539+00:00",
+      "new_signals": 1,
+      "total_signals": 1140
     }
   ]
 }
