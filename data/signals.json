@@ -10241,6 +10241,15 @@
       "pub_date": "Mon, 30 Sep 2024 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-21T21:28:17.376824+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Ros Atkins On… Global supply chain disruption - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KbFhCODFtNEx2WWxwWG9IT25lSHlGOU85VEN5aVI4N2xIX2FkLS1iblpJOUF1RV9JUFFYWkM3ZEhra1hZRTNEOVl3M1BjZDB0M0hQYllVc3dMUVk?oc=5",
+      "source": "BBC",
+      "pub_date": "Fri, 01 Oct 2021 23:07:01 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-22T04:11:07.105357+00:00"
     }
   ],
   "runs": [
@@ -11068,6 +11077,11 @@
       "timestamp": "2026-10-21T21:28:17.376824+00:00",
       "new_signals": 1,
       "total_signals": 1138
+    },
+    {
+      "timestamp": "2026-10-22T04:11:07.105357+00:00",
+      "new_signals": 1,
+      "total_signals": 1139
     }
   ]
 }
