@@ -10304,6 +10304,24 @@
       "pub_date": "Tue, 25 Oct 2022 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-22T16:57:17.736928+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Kaplan Logistics Director Surrenders to EACC Over KSh 1.57 Billion IFAD Fraud - Tuko News",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUVYUkZ4WjRNaEk2T3kyT1d3UWo1bXVObGRJYjFkaUhEelhVU2g3RVgwNkxwdXFDZzVvd2hHVmhSUkdfNDVaaEhRcVZxRzQ3X09LRVFtd0I0QmgwMktqa3YwTEMtMGEyRTBjc0ZJejZkMEN5aWRIUFFXX0hkM3poa3MyYk5MMENxSGVTZ0dyb3Q4NTJza0FUdVl3MmJBbUdRVE1DaW83SHpmTTh3YjlPZ1Nxa2U?oc=5",
+      "source": "Tuko News",
+      "pub_date": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-22T21:23:21.294955+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Umfrage: Lieferkettengesetz verstärkt Abhängigkeiten im Mittelstand - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTVPV0hfbG5sWkNnNkwzanpibmRIYWVZREpGRHR1bVQ4eEtLamdHclRlMjdBQndRQ1FhMGhOejlZeU5YZEZkTExaSkN2OVQ5QWxhRjB1UXp3V0JnZXNjNkM2aHZ6VXlJcDlVbjBfZ3MyazluVkd0cjM1QmI5cVl0SWpqbUNmWDhKTGxockUxdl9GcnVTdmhKbFc3cTR5b1lfUFUxbTI5RTNJWDRiNm1NSA?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-22T21:23:21.294955+00:00"
     }
   ],
   "runs": [
@@ -11146,6 +11164,11 @@
       "timestamp": "2026-10-22T16:57:17.736928+00:00",
       "new_signals": 5,
       "total_signals": 1145
+    },
+    {
+      "timestamp": "2026-10-22T21:23:21.294955+00:00",
+      "new_signals": 2,
+      "total_signals": 1147
     }
   ]
 }
