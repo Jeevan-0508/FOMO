@@ -10259,6 +10259,51 @@
       "pub_date": "Mon, 19 Oct 2026 11:57:15 GMT",
       "severity": "high",
       "found_at": "2026-10-22T11:31:20.456539+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Why Returns Fraud Is a Top Priority for Reverse Logistics in 2026 - Supply Chain Brain",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSWJfcS1fYS1rV3ViamlkSWl6QTdCYk5za0dEdXptQnZnOW11a0RaQmxob3M2R0pOUlgwT3ZyeDNtZkFfUlR0aFY1U3FVSEwxMFpTZG9LaGQ4ZTV5cmhIa0FoVFJfd0Zjb3ZLOFFFRXpPQ0JtUzdETkFVdHlZYnBvMGZEblM1RXhsUy1FWkw4MzEtcUEzMW5lcnZDZEJuWDBFYnBkNnRFVEwwdWV2dUpGWHROcw?oc=5",
+      "source": "Supply Chain Brain",
+      "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-22T16:57:17.736928+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo thieves are attacking the U.S. supply chain at alarming rates - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zTzg0eVR1TENndFp2Y08zWEFUanVGNW1VcVhrckZKY2FSdmdQeFdjWnZHYWhvSWdVWmNkVUh6aDhGQnFJUFJOY0VhWTF1X1EtRGVXZl9ZYzlxSnI2akhYNzlpaDF6emE5M3gzY1dQckh6TDNXNmttY3ZR0gF_QVVfeXFMTXdoNzNaQmxobjB0YWJPbTY0aWV5QVdNWmRNTnN2RXo2X2tnV09FcGRESlVGMXhadmpDSHo2MkEwVlZLeHkzN0dVdGN0X3RMdUpFMnN1clU1d2NaU0ZfQUppR0JvYUdINjExT1k4Z2txcFBhQ1NjR2Npd19IOUZ0RQ?oc=5",
+      "source": "CNBC",
+      "pub_date": "Fri, 09 May 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-22T16:57:17.736928+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Investigation ‘Calypso’: EPPO strikes criminal networks flooding EU with fraudulent Chinese imports - The independent public prosecution office of the EU",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVjlnX0o4akFJMEpoTU5XV0JDM19tR3BrQVpQUGJPVExhQjRlMnoyX21vMVVFNGNNd0p6ZlRmaEJGNHRZSUlUTmFXLWJGQkZvdXBHZXVCYnBocGl6R1pLLXUxQnJ4Z0ZKUEpmc3YyQ05CNVQ5Q0dzazZCRTljYmY5SFV5UHFkejhvejNpRXV5RWVlVEkyZ2JBaE9qQXZ0a0NOTjFLcTZnZFdyeTBfZFg2RnMtRjFjc3V5a0dxZkQ5QTIzTUN0YlRoWkE1WEpyc2U5VURNVlAzZllYNjQ?oc=5",
+      "source": "The independent public prosecution office of the EU",
+      "pub_date": "Thu, 26 Jun 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-22T16:57:17.736928+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Despite success insolvent? SME structural crisis or comeback? Germany on the scabbard of the economy - Xpert.Digital - Konrad Wolfenstein",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Hbi1RV2FtQTlrejVibkl0YVREdWpRclJxLVdoOUFIeW84Y0owVzdLa1JVQnVSLU9TS0s1alNrVHV1WWNvYjk0Q3Y1QlQzQlVxOUNCTC0tdXpZVkhTTlNMQg?oc=5",
+      "source": "Xpert.Digital - Konrad Wolfenstein",
+      "pub_date": "Sat, 26 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-22T16:57:17.736928+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "The German Act on Corporate Due Diligence Obligations in Supply Chains - Fieldfisher",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GcXBiZkR2cFJpVlczSU1rSjhQYjMwczQ0enRCYmRsUVRqRVZGZDlTcjN5WlN4Y0N0T2FrUFdVQ2IzUFduaEJhTXRPQ2RqcVNtYzRlamxaM2hYLUZUNldmZ0t5XzhDbXF4VS1LVWZiemQtT2xsd085b3N5SXJpMnc?oc=5",
+      "source": "Fieldfisher",
+      "pub_date": "Tue, 25 Oct 2022 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-22T16:57:17.736928+00:00"
     }
   ],
   "runs": [
@@ -11096,6 +11141,11 @@
       "timestamp": "2026-10-22T11:31:20.456539+00:00",
       "new_signals": 1,
       "total_signals": 1140
+    },
+    {
+      "timestamp": "2026-10-22T16:57:17.736928+00:00",
+      "new_signals": 5,
+      "total_signals": 1145
     }
   ]
 }
