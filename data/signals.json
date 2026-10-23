@@ -10340,6 +10340,24 @@
       "pub_date": "Mon, 10 Aug 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-23T11:20:47.715099+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Fuhrmann-Gruppe meldet Insolvenz an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaGU4WU1LTHpsQTVwWkhXc1pDaTVHRndoNkhOU1ppbEhzSl9JQ3pwYVB6ZUdrU2YxV0UzS1FtZVl0SEd2MmM2ckRadWRqOFFsdXlhUS1xNmlQNjc0a01VbXFZOWNoQmx2U29seHB1YnZPdjR1UkFqcUV4M241UmtnWGJEakVyN2h3cUR6N1BmQVozUWt3LXhYMHR0Ukh3SlgtZUZnN3lRaHNYNUE?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Tue, 07 Dec 2021 05:53:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-23T21:14:36.156134+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzen - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeVBsS3ZzWHBpblNzaXdtM3ZqVDF2LXB1ZVlTLXdoYW10QTA2Sl9ieWd3bllSaWc5OTdVclp5UUtsNTBHaEp6Q3BYTlE0OVR2UWlmUmxISnVPbTczbjBEc3JiLUx4VVVId2RMejN3Q2lUT3ltckRJZ1JITnhfZ2FiVVRUZmxNZHFuQkU1YXhUcXNOOGFKWVE1dFpuVDl0bklJa1NyQ2ZDVFEtdw?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Thu, 15 Nov 2018 12:14:28 GMT",
+      "severity": "high",
+      "found_at": "2026-10-23T21:14:36.156134+00:00"
     }
   ],
   "runs": [
@@ -11192,6 +11210,11 @@
       "timestamp": "2026-10-23T11:20:47.715099+00:00",
       "new_signals": 2,
       "total_signals": 1149
+    },
+    {
+      "timestamp": "2026-10-23T21:14:36.156134+00:00",
+      "new_signals": 2,
+      "total_signals": 1151
     }
   ]
 }
