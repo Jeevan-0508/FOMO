@@ -10322,6 +10322,24 @@
       "pub_date": "Mon, 22 Sep 2025 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-22T21:23:21.294955+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo thefts doubled in 2019. Curtain slashing and extreme violence threaten drivers - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeDIzWEc2Z0ljYWVpR01VcEgySDVxZWJBc3AtQXdRYldWM3Z1WXk3Qk9vbmVJT3pkdUdxbC1WcEI5YUU3NkdrZkkyV1V0WEY1aC1DSjlhNnViM2h4dTZCY2tKcmhEMWxZODcyNUw5YzRZLV93eVNVTW1PLXVZRHpqcVhVYWZSZVhkWXFCSGRGZVhvRjUzUHliOUJSWkR2b1JjTTF5Q0EteDEwVU5TNDE4Qnln?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 28 May 2020 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-23T11:20:47.715099+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "Fake Carrier bedrohen Speditionen: Phantomfrachtführer: Gefahr für Speditionen - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa0RxV19VU1hWZ0ZKMUxmN3BSdGt3ZVhpQzIwM09aMDN3ckV5Wk5KOHhLRkZaMzQ0WUlBTWFTczNHZ1BTaHZheFJ2dnduLUxCVjJPRmVXWU5RdWlRVERPbWxGNHJDTVZOeWs2VG95Ung3UmljYWJ3LURZYUZ1VF9BeDhNSG9kODJfc0t0dWJiVnZxa3Z4eTcyZ0xnWERmUjRNazh4U1dVN1lwejkzVmYxTjl4Z2FtSXhkX3NJUzNyeFhSWjdfMXBj?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-23T11:20:47.715099+00:00"
     }
   ],
   "runs": [
@@ -11169,6 +11187,11 @@
       "timestamp": "2026-10-22T21:23:21.294955+00:00",
       "new_signals": 2,
       "total_signals": 1147
+    },
+    {
+      "timestamp": "2026-10-23T11:20:47.715099+00:00",
+      "new_signals": 2,
+      "total_signals": 1149
     }
   ]
 }
