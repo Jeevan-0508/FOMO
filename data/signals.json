@@ -10358,6 +10358,24 @@
       "pub_date": "Thu, 15 Nov 2018 12:14:28 GMT",
       "severity": "high",
       "found_at": "2026-10-23T21:14:36.156134+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo Theft Persists Along Mexico’s Main Logistics Corridors - Mexico Business News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVkhIdGwtbzVkbjNDTUtWcWpfc2NZdjJRN0pGNjc2Um1pQmVyU21xOHJ0SU1JTEdVeDdqXzdqZ3NFeXhkS0RJTWp6T3A4RkFGWlF0SC0zR3BJVnRKS1lDaEJDQW9BSjl4b0RxeEtINE9LdEhfS2dfUkplTFR1d0NKZlIyamZkRnNCV2VhUElUMHNsc3hPLU5QMDdmSktzOGJiMy1jSg?oc=5",
+      "source": "Mexico Business News",
+      "pub_date": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-24T04:06:07.562670+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenz in Angermünde: Was der Verkauf der Firma Euba für den Standort bedeutet - MOZ.de",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWGtfVU83Z3d1Q19XSU5TZ2I1VG9DUXBzWXNYREdfSDdOUW9TRWQ4WnRaMEJEeG1KWGRRdjU4d2tXaXZ3THh3WFZOTDZSR0xKMVFFNTRJU0RZcFBlYkJWV1lqUEU1bDl3ODVFNmQ0MURmU1ViLW9nSDhIR25zYmF4WXFtZ1ZpdldJUjNtYkV4RXB1R1pHNzVDak9fUjNJYzZBT01nMFlfWmVjX0pSbk5WaERNS3VaZG5rM05rZl9FYURuRkZDcUs2Vl92aw?oc=5",
+      "source": "MOZ.de",
+      "pub_date": "Mon, 31 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-24T04:06:07.562670+00:00"
     }
   ],
   "runs": [
@@ -11215,6 +11233,11 @@
       "timestamp": "2026-10-23T21:14:36.156134+00:00",
       "new_signals": 2,
       "total_signals": 1151
+    },
+    {
+      "timestamp": "2026-10-24T04:06:07.562670+00:00",
+      "new_signals": 2,
+      "total_signals": 1153
     }
   ]
 }
