@@ -10376,6 +10376,33 @@
       "pub_date": "Mon, 31 Aug 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-24T04:06:07.562670+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Inapa files for insolvency - EUWID Pulp and Paper",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY3ZueEhPTzNBMkhaT2JXYjJNRUhseFRjdTZhbkZlVDY5MU5YeWRKVWFHNllOaFdxWl9tRmVyZU4xZ1pxX2JTNWNaY3BNMzdpMTE2bXN3ZS1VekY4SWJ6SDNyTmFLa0dpRkUybzRweFhicHdLZEhaR1FfU21HOGp1NzRCcw?oc=5",
+      "source": "EUWID Pulp and Paper",
+      "pub_date": "Mon, 22 Jul 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-24T15:41:51.109118+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Aerospace supply chain report 2025: Is the crisis over? - Roland Berger",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSzlaeDNGdjNhczM4Z3RPeE1iMkktU1NNOG5zZVVMUUpJaVNjdTd2TWl1RjhSM3BBWldmQzJ1UXc3OG8yekhnZTJnRHBaQ2R2RDdfd0VNQjVXbmV6Nm9GU3BDQWZJdTktRXRXY29OYlZudUdtNDJTREp1SlZram5kZlo3SzZEcV9XQjR6NXQ2T0tvMnhON2FqMVhldklVY0FRamJQblZucVR3LVBGQWJjeW53?oc=5",
+      "source": "Roland Berger",
+      "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-24T15:41:51.109118+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Wildfires disrupt supply chains: why delays show up later - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kRXBfUUdEY2hxd1pyNUpGU2VQZFJNOHUxRmItbG1qazFlVEZuSExHdmx0Wm5FTnFEUG1PVFNNeHlJbXFFOFBGNXc1ZVVWLXNES0ZBSmV5cVY1NjNfUHlnSnlzeER1Zw?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-24T15:41:51.109118+00:00"
     }
   ],
   "runs": [
@@ -11238,6 +11265,11 @@
       "timestamp": "2026-10-24T04:06:07.562670+00:00",
       "new_signals": 2,
       "total_signals": 1153
+    },
+    {
+      "timestamp": "2026-10-24T15:41:51.109118+00:00",
+      "new_signals": 3,
+      "total_signals": 1156
     }
   ]
 }
