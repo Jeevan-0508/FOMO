@@ -10403,6 +10403,15 @@
       "pub_date": "Tue, 04 Aug 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-24T15:41:51.109118+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German Port Strikes to Worsen European Cargo Bottlenecks - Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ0t0dC1MaG4teTZ4SXU0emR4RnpsZXMzdmtLakJ1WDBqbHI5SG1yV2dzeG1SZVU4T2dhVTBIZ0lnOG1wemhvaC1FX0VLQjA2YUhMWXNXdHVxcDdTdGpEaGxUbEI2NnNjcWRva1QtQUVOa21KU0VuR25OWldtaXJCNy05UERBZ3BFTDlHYXhHR1JMRmJyUGhicQ?oc=5",
+      "source": "Bloomberg",
+      "pub_date": "Tue, 18 Jun 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-24T20:31:28.826754+00:00"
     }
   ],
   "runs": [
@@ -11270,6 +11279,11 @@
       "timestamp": "2026-10-24T15:41:51.109118+00:00",
       "new_signals": 3,
       "total_signals": 1156
+    },
+    {
+      "timestamp": "2026-10-24T20:31:28.826754+00:00",
+      "new_signals": 1,
+      "total_signals": 1157
     }
   ]
 }
