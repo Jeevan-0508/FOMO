@@ -10412,6 +10412,42 @@
       "pub_date": "Tue, 18 Jun 2024 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-24T20:31:28.826754+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "D.A. Bragg, NYPD & BIC: Eight Indicted For Impersonating Shipping Carriers In Multi-State Retail Theft Ring - Manhattan District Attorney's Office",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeVFTSUtzeEEtVktqampWR1BQUE01ZUxPYmtCN2FkTW1FdkNhUVBYWW1MOUpvaHZGZ2tralZPM01WSHZBVzc5N3p6U2NNU2VCSkdfNmhSM1lIZ0c0WG9lYXZZVW81SjFvbFJSeTNuQnhDSHFVQ3hCMXpDNjRVVHNEMGNULVc1NE1TZ3J6Znd1dVUwMTFiVC1zQkFpdm83dVQ1dWc3dzB5S21ac0FkOThCNTBqNTNzY3dUNUsyOHRYZGFKTWpyQlE?oc=5",
+      "source": "Manhattan District Attorney's Office",
+      "pub_date": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-25T04:08:05.163663+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvencies - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeXp6eDZLbVBuQ29ONFJHYnB4ZkpWLVo1dGdBNWUwbWtENmR6TDlPajA1eElrdnBYc3lJR1FYQUZQcnhmdjl1bkFtazJhcTBCVEhSakZwNWYwbWtzc3d1MEpXSy00ejRzQTM3aURSdEgxS0kzdDBfdjNOemNqZW9nTEZmd0ZVbnJOajIzVkVYZTcyM01ZNnlETFZmeXEyZw?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Tue, 14 Oct 2025 09:52:42 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-25T04:08:05.163663+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Supply disruption, weaker demand cloud outlook for German manufacturers - PMI - Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNUxtWWlyWUc5SlVGVXhvNzF2WFI3WlJLWmV3SXJRSWdZLWVxN2FIRFN2Qk5PWUNKWXJMbElmNFdRVUYyZGhudXkzc290LVJIZHJycHlZTXB4QVVTUGpKR2h1d0k0WjJNWjZjUlZYcGFmQ3JKZDEtSWNxQlZiUzlfNTg2aV9oempqbGppSjV2QQ?oc=5",
+      "source": "Yahoo Finance UK",
+      "pub_date": "Mon, 02 May 2022 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-25T04:08:05.163663+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "„Unser Aktionskomitee ist Teil der wachsenden Streikbewegung in Europa und weltweit“ - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wSTZ1cEMwamJjM1U3SFZpSS1QUjVrSlFlakV6Rm1heTMxbGdZSWJCUnljelN6Wi1CWWl6YjBpZ21MV3lSeVJ5YWowRFF2WmdLWE9DcVYxQ21Lbmx0LWYzeE5kZmxleVpE?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Sat, 25 Mar 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-25T04:08:05.163663+00:00"
     }
   ],
   "runs": [
@@ -11284,6 +11320,11 @@
       "timestamp": "2026-10-24T20:31:28.826754+00:00",
       "new_signals": 1,
       "total_signals": 1157
+    },
+    {
+      "timestamp": "2026-10-25T04:08:05.163663+00:00",
+      "new_signals": 4,
+      "total_signals": 1161
     }
   ]
 }
