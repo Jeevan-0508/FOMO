@@ -10475,6 +10475,15 @@
       "pub_date": "Wed, 31 Mar 2021 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-25T11:04:12.947135+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "77 Insolvenzen im Juli 2026: Deutschland – Alarm in der TSL-Branche trotz statistischen Rückgangs - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTnNxRWpaNE0yYVdsRWxkcDhWd2FVZFN6N1VELTNtSEVyVnlfVHFhUXA5Q3VtTG5VbGM2TEJDVEdQWEpRbng1ejZwRjd6OXlLNmpTbTRZeGtZTXlDX05DNFY1VWdtV05pdTlmRUVjYVlGYmtiUGZlUVl0N3JwZlZnSUhWTUhLSGZEV25KQVdDOVJwckl3clczNnBVY0NVVDh6dDl4Z09QaHpGeFpMM0hTZkx5UUNkWnNQbmVIMzRTMWpScUxGdDkwTloxYnoyeEFTX2hFVVgxTTdxRjdU?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-25T20:39:10.582816+00:00"
     }
   ],
   "runs": [
@@ -11357,6 +11366,11 @@
       "timestamp": "2026-10-25T11:04:12.947135+00:00",
       "new_signals": 3,
       "total_signals": 1164
+    },
+    {
+      "timestamp": "2026-10-25T20:39:10.582816+00:00",
+      "new_signals": 1,
+      "total_signals": 1165
     }
   ]
 }
