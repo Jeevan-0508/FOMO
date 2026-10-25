@@ -10448,6 +10448,33 @@
       "pub_date": "Sat, 25 Mar 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-25T04:08:05.163663+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Spedition Betz International meldet Insolvenz an - WELT",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ1ZvNGQ1Y1BlN1ROWm1JYmh4eDROWk5rWUlEOXluRS1lUGs2OXpISEtKNFZiZ2NZQzNCc1BIeDc1aU10UW1VMGRicWZFN0JBN09vRUU5emlodk9EWWlEVVdtMDg3V2FCUGdGZDVsM1NfaS1OMnVLdVdacGcwLWlETWhvRko3ZWRQVENNLVhUYU81UkJRUTJYUXZIRkl3blJucWxueDhQLXUySFZvU1dGYTB6cXBETmFMVFl0ZWl1aHJZalFjMzZSWVZ0Y25ITTJG?oc=5",
+      "source": "WELT",
+      "pub_date": "Thu, 09 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-25T11:04:12.947135+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Trade Union Guide to Human Rights Due Diligence Risk Analysis under the German Supply Chain Act - UNI Global Union",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZDVOTENic0ZkWDhlYU5BZjl6X0VUQ3l1ODU1VVk1dlhtQm1FZ2RWRGM5M1NlTy1MVVlsSHJ5dXpZSC03dEZKSThQcW9yTmd5aWI0dllEY1ZVbGY2Ym5XX2RlcTlZS2tzRjNGR0FZdVpGaGl1ZnQ3emVrUnlRWGZjd05mb0tJTXlWa1V3X3R4S3VVazA1cmxEVzR0VHc1VFd4Z0Q5ZFZLSGwweDZFdVE1UEZCWjY3M2sxVi1mZXd5MWd3RFlNZko5NVFB?oc=5",
+      "source": "UNI Global Union",
+      "pub_date": "Wed, 21 Jun 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-25T11:04:12.947135+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Supply Chain Act: How best to prepare now - Roland Berger",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYlFBYUlRbkJVYlhXR2ZsOUhvX0h3SjlkWU9ZN2RqTWY3b0owRTFBeXFIeVp2LWZkREN4a1ZKYlBuWlBkdFFOWVBna25tVVRXcnRLa2tSMjNDUzM4UlJGQlRiaVptVVVjZ3RRSWFBR2pNNmJQQThoeDNRV1J4UWEwVFl0Y1VkaUVrLWtHQU52VGVTa2U2Vmx3UF9KN3FOUUYz?oc=5",
+      "source": "Roland Berger",
+      "pub_date": "Wed, 31 Mar 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-25T11:04:12.947135+00:00"
     }
   ],
   "runs": [
@@ -11325,6 +11352,11 @@
       "timestamp": "2026-10-25T04:08:05.163663+00:00",
       "new_signals": 4,
       "total_signals": 1161
+    },
+    {
+      "timestamp": "2026-10-25T11:04:12.947135+00:00",
+      "new_signals": 3,
+      "total_signals": 1164
     }
   ]
 }
