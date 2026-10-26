@@ -10520,6 +10520,51 @@
       "pub_date": "Mon, 05 Oct 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-26T04:12:15.057306+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Why trucks fall victim to cargo theft - Supply Chain Dive",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0NuN1BXYUhlRVdGZXZyeXFMb3NfYjFwM0hsS1FNcUU4VjR3UHl3dlpxb0F2SUViR1FVUDhxZDJ1b1A1ajRLaVEtclJLV0Y0N092OFpra3N2b2k1M2Rkd1ZTQWRqbkN6MEFWdnZ3T2xycUx5NmlqNzJGZHRmODlESjhyXzJfeDlpY1E?oc=5",
+      "source": "Supply Chain Dive",
+      "pub_date": "Wed, 23 May 2018 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-26T12:37:57.041332+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Apparel exporters fall prey to Tk 600cr fraud - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEI1T3VLajhQbHEzd0VaR2d4TDJGRGN4M2NwTE5VRk9RaGFuM3ozejJuQjZzZER1ZVFPekFhUVZKaTRGaTVwTV9iMGdGRHdHczd1aHNYT2ZvRVpiNHQ4cTVfY1NGS0FXU0Z3d29scXFxRm5oaVc1SkpuaUdZM1l5YWtVZW5CWGJ0Z3U3TklJSTFYZw?oc=5",
+      "source": "The Daily Star",
+      "pub_date": "Sun, 25 Mar 2018 04:55:02 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-26T12:37:57.041332+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German business insolvencies increase 6.9% as economic pressures persist - AzerNews",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qNnBKZS1mYUI1am5YUjRhb0ZSUzlVa1pRa3ZIbDNOUzFwTGV2TVYtOWVZQ2xJWFFsWThNQWhUd092c3lpVk5vcUppYmNrMFlSWHB1ZA?oc=5",
+      "source": "AzerNews",
+      "pub_date": "Sat, 10 Oct 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-26T12:37:57.041332+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: Das sollten Sie wissen - SAP News Center",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3SHpIRk5uekZ1NXdsem1SR2RhZWxMNmFEZW9RT2h0WjVyZHJianFfVzFNRW1NUmFXamx5bU1fM1VTS3J2eFhXcWRoQkE2Z2xvdW9LVDFlaGhaMFlQV1J2VGFpMFc0MFdGNVhna09MT1lPYU1EdlM2NjBfRDJ2Y2c?oc=5",
+      "source": "SAP News Center",
+      "pub_date": "Thu, 23 Feb 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-26T12:37:57.041332+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Amazon: Verdi ruft zu Streik im Logistikzentrum in Winsen auf - FashionNetwork Deutschland",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRU1pdEpPMDNKSEt4Q20xQ1Q4VVFUVmgtRFcteGZhQWluMmRuSXdXc3o2UW1xVlI3c0g3NFlVQUlDSk5ZRF9LbkhLYVRLaUp5WkVfRTN6NFM2NlRqdFFHYU5HV0xqZ1BLSUg2dF9IY2U2TnJGZXczSXpRaGZ3TnBjZWFoWm0zU1BhMGtPekdrNkg4a0xNc1Q0MmlvZFhRNVBJQVh2bjBWSlUteHBH?oc=5",
+      "source": "FashionNetwork Deutschland",
+      "pub_date": "Mon, 10 Jul 2023 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-26T12:37:57.041332+00:00"
     }
   ],
   "runs": [
@@ -11412,6 +11457,11 @@
       "timestamp": "2026-10-26T04:12:15.057306+00:00",
       "new_signals": 4,
       "total_signals": 1169
+    },
+    {
+      "timestamp": "2026-10-26T12:37:57.041332+00:00",
+      "new_signals": 5,
+      "total_signals": 1174
     }
   ]
 }
