@@ -10484,6 +10484,42 @@
       "pub_date": "Mon, 20 Jul 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-25T20:39:10.582816+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Guardia Civil stoppt Bande: Ladungsdiebstahl aus fahrenden Lkw in ganz Europa - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTmdOR0k3THl5blBmcm5HRUhOUElQeXVVM3J5NWNnTWpBZkJjdWdReE45N29ZeDFlNk1KNlc4RDgzZXpXMk52anE2UHhFazV2eUtFcGYyRjUxOFo5NWpSRjg2d256aVNvMnh2V2p0NVg3NDhEZnNKYjh1dThZWmw3TFNyVEFrZjhSU01tNU80SDJ3UkdRSnVSTFlCTmVOUVRnaGNoT0RzU1U?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-26T04:12:15.057306+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Phantomfrachtführer: Dreiste Masche bei Lkw-Ladungsdiebstahl hat Konjunktur - cash-online.de",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0hFYmZDYXZrU24zMUliSU01a0I2cXZFLUNtX09ZT2R0X1dmYi14QVpvV2VDQ3BsX1ZpMXZ5V0p0YnJ2djB5MkhGbzUzVUxJTnRZUGRpeXI5MENBNWE3cTM1TjJiVzVJeHkzQkpmeFAyWUt3U0hZTzl5VHdvdmlybUVBLVJGdmZ4R0Q2U3g0RW1pbTM0eTFmQ3I1UFl0cG9MSnVWcjllSmFBdi1Jd1Z3Umd3?oc=5",
+      "source": "cash-online.de",
+      "pub_date": "Mon, 03 Jun 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-26T04:12:15.057306+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Betz International: Sanierung im Insolvenzverfahren startet - MM MaschinenMarkt",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONWFnYWZUSUNncl9FaHpENFZOd25WN0twSVJ6dThYNU5IUmsya25PNVNmMmVzSDF0eE9HaExmN1RURTVKMHFPa1dvcVJPOWd0bVQzcnAwamtxS0JJcWU4VTJGQURfZ2ljY2RZd3MtNGJncFlQN0o4QnZ0eFR6MzJXTW82VjRpWVlzc3JNNDhkODVLSTFIb3BCNUxocnF3ZUM1aVFXNkxRUW9SVnBHRTBUMU5Bbkx4dkVmMHFr?oc=5",
+      "source": "MM MaschinenMarkt",
+      "pub_date": "Thu, 28 May 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-26T04:12:15.057306+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streikwelle im italienischen Güterverkehr rollt an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeHRRZDRRcWtkczVaa09vZGJyOE8tNUlkOWNHank4bFNJSFh5VWhIaTZBTERvV1FDbnBJdm53TkVSelpkdDh1dEx4ODRWc0xzT2RTcjFlVHppdkpUXzNtT3Z5MmdoLTNXa0RwLThSU1NLWW4tRFBLR2RBYXVhS3dPZHlkUDlaN2I0YmFLZVBpT0tSWktuenhJT2N4R3ZoZWhLUEhRWUFhc2h6RVltenVLc0lqVHVnaDFmWjlfVVpHRDc?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-26T04:12:15.057306+00:00"
     }
   ],
   "runs": [
@@ -11371,6 +11407,11 @@
       "timestamp": "2026-10-25T20:39:10.582816+00:00",
       "new_signals": 1,
       "total_signals": 1165
+    },
+    {
+      "timestamp": "2026-10-26T04:12:15.057306+00:00",
+      "new_signals": 4,
+      "total_signals": 1169
     }
   ]
 }
