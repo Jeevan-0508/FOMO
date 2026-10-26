@@ -10565,6 +10565,33 @@
       "pub_date": "Mon, 10 Jul 2023 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-26T12:37:57.041332+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl: Millionen-Beute aus Sattelauflieger in Herzberg verschwunden - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeXNNTHRZSWJJX3FneTd5MEJ3ZWFqcGZNODRqWjRkcmhZSzBJZjdNbFRvNk5GN2JtVmxDWlJJVXdhVmstWk1iZk9XaEhabUJfbkNlMVRkYldYYnFCY2FvY1dpNENrTkRDUnJhWDdIYl9fcDFJcEVIcEJrb0tyRXBGd3Q2a0pIRS16Wi1ERmtYVnFYbFFDQVBqeVRaX29qb1ZhSm94VGdKSkRsZ1doNzZDbzJZY2RrQkxaTzJaR3VRUDlSdXFY?oc=5",
+      "source": "ad-hoc-news.de",
+      "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-26T22:30:45.843966+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Package delivery scam — delivered to your inbox - Consumer Advice | Federal Trade Commission (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGU3bXgwam92aVBVcDBZQldORHJKRWtMc0cyeTNiRXdYd3hvcHJRVHc3TmptRDBKOWloOXJLejFISWpaNWV3UkFCaVBTRmpBZUtKR0dxRjBicTdCal9VU3ZkZndvMjlJcFMwZjA5QkZZb0ZUbVBHZFdfZ0xkV2NXdkduc1IweC1EOHlSWFltUTlzZHFGRTNjeTFTaWJqNk0?oc=5",
+      "source": "Consumer Advice | Federal Trade Commission (.gov)",
+      "pub_date": "Mon, 22 Dec 2014 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-26T22:30:45.843966+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: Warum Sorgfaltspflicht kein Grund zur Panik ist - SAP News Center",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR0hmM2hyMzRLX1I4SGgxdGZlY2Q0ckN2ZEhjcWxvRVZ6YnVZaHpCZDhWeFM0Ukc4Z2d6SVpmYng0S1BFZzNFYmdlZE45dDhiWG45Q3hWTHNJWWNESWswLThPQzFNMXdqTk1BbUNaaXE3cjJwcVZvMWp4ZVZKMHdOQzQ4NF9XWTlTaUxrT1RiTDVHa0FzWDAtRkc2b2VTdjRpdUNLdVVIV2VlOXVSQWhwTXdhN2xKcF9oLVFTUk9mYw?oc=5",
+      "source": "SAP News Center",
+      "pub_date": "Tue, 23 Aug 2022 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-26T22:30:45.843966+00:00"
     }
   ],
   "runs": [
@@ -11462,6 +11489,11 @@
       "timestamp": "2026-10-26T12:37:57.041332+00:00",
       "new_signals": 5,
       "total_signals": 1174
+    },
+    {
+      "timestamp": "2026-10-26T22:30:45.843966+00:00",
+      "new_signals": 3,
+      "total_signals": 1177
     }
   ]
 }
