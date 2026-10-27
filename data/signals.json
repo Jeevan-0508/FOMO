@@ -10619,6 +10619,15 @@
       "pub_date": "Fri, 01 Dec 2023 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-27T04:31:27.534058+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Breger Spedition: Vertrag mit VW führt in die Insolvenz - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNV0IwUTl1YXJHZFRVSElJRUMxNXZRMlNMd2Q5Ym1WUGc2RlJWTkI3UHRSUEt4MVlDSkdQamFKRGNnT1dZcUhFZHZscWo2ZXlTT2NfYkswc3lMa2tzcm85T3ZxOV9LWHctY2tkemhOM0JJa3RIMWJ2aXBKNmFEZ3VCYTBQOVJmeVlCVlNfSGJjWHhtUHN4UGtLQ1oxYnQwdlhKSmliTU5TeGlaemowTUVMd0Y5Y1VRSE0x?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Tue, 17 Jul 2012 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-27T22:00:06.377917+00:00"
     }
   ],
   "runs": [
@@ -11526,6 +11535,11 @@
       "timestamp": "2026-10-27T04:31:27.534058+00:00",
       "new_signals": 3,
       "total_signals": 1180
+    },
+    {
+      "timestamp": "2026-10-27T22:00:06.377917+00:00",
+      "new_signals": 1,
+      "total_signals": 1181
     }
   ]
 }
