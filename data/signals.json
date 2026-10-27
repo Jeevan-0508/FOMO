@@ -10592,6 +10592,33 @@
       "pub_date": "Tue, 23 Aug 2022 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-26T22:30:45.843966+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "SingPost’s 2024 fraud incident allegedly involved e-commerce shipments bound for Canada - The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd21UTHVMNzUtVjRxMFRtWW9YQ3hFR1BaT1dhSjVPeWEzYTJxYmFqUjRkRklJU2M1cG01RndWQV9pWTF3clJRc3lxQ1hpUjNyR0p0NXN6X21YelloWnJYLWhIYUhERjlXeWRMZ3h1ODctZ1d5VHF4WTJDYmNBMktoS3BhYlRFQVZKdGZnYVVuSFNFaTZycm80VENDV0lxeUFjdzhIWU1nODA0UU8tOEUxSUIzclYwQVYwVVBqa0E1STRzZGNYYVl0bDhHRGpyQQ?oc=5",
+      "source": "The Business Times",
+      "pub_date": "Mon, 22 Dec 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-27T04:31:27.534058+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Assessing the German Act on Corporate Due Diligence Obligations in Supply Chains: a perspective from the smallholder cocoa farmer - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNktSYmUwdEhMejYwaklCSG5EMm1JZ0FXYTNSOGtlN1kwS3ZMdWZRLTdkdmdvcy1IZzZIanAyZ2kycnNJa1Q4SjI1N2NJMlg5STNSaGJiOFA1TU5YUU5peFowUXIwWjB6ZjdwZUhrQVdIZnRqUTFsbTZjX05LU1pFTXRYS0R2Y0pOWnJ1T0Nmd3BuR2R1M1Mw?oc=5",
+      "source": "Frontiers",
+      "pub_date": "Mon, 24 Jun 2024 06:21:50 GMT",
+      "severity": "low",
+      "found_at": "2026-10-27T04:31:27.534058+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Supply chain liability and ESG obligations: navigating litigation risks - International Bar Association | IBA",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS3JTcXd0Si1wVWM1eWY1c2RuX1VRX0g0RDdhV0I0cUJkRExubzNpby1IVXpSNnRyY2l4SlZ1SjNXWUtBUGhaMzVvZmMtWTNNdTBvV2QzelNGVUtKNXRtVTQxclJwVTlVUmtrazVSMDhSZTJWTXhLU09qOXJfR09PaTd2UV80bHRhN1o1ZmQzTWw4SjJrZWN2Yw?oc=5",
+      "source": "International Bar Association | IBA",
+      "pub_date": "Fri, 01 Dec 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-27T04:31:27.534058+00:00"
     }
   ],
   "runs": [
@@ -11494,6 +11521,11 @@
       "timestamp": "2026-10-26T22:30:45.843966+00:00",
       "new_signals": 3,
       "total_signals": 1177
+    },
+    {
+      "timestamp": "2026-10-27T04:31:27.534058+00:00",
+      "new_signals": 3,
+      "total_signals": 1180
     }
   ]
 }
