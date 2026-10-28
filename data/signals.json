@@ -10664,6 +10664,60 @@
       "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-10-28T05:03:09.021613+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "URA Moves to Assist Traders Affected by Container Leaders’ Fraud - ChimpReports",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjBLMXVWcUxzZHRPc25ES1JtMV9FQ1AtMGFUU0p6cjBURVZNclFKUG82ZXVMRHV4NUJSRGpXdWtzd043Y2lSejJyV3VDSi1wVFN6ekZxa0R0RVozR0FmN2RTak51enBDNWI4TF9zeTcwQzRISi13b2xHcllBTThvYkxPY3NVejRyTHVXQzRVamVJRnM?oc=5",
+      "source": "ChimpReports",
+      "pub_date": "Thu, 07 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T12:30:38.253289+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "NBR warns of fraud in the name of tax audit - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0htVjFNeTVuZHpGWXBfcEJDUll1SXpDLXFiVVFXeGEzeTBLc3dza3VkRDJOa3JmLXdNMkh0bVBKTUlkbV9VWWN6M2pmQkI3ZXNUSTZzY0NTVmN6dElvT2U2cnRBWlFsMFlCeUx1aExqbmxQXzdTcnFNNE5fYVgzR1VkR2toT2M5NXRCWHFR?oc=5",
+      "source": "The Daily Star",
+      "pub_date": "Sun, 05 Jul 2026 06:44:33 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T12:30:38.253289+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Germany sees company bankruptcies soar - Times of Oman",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONG1jUW1zUi1wam91cWdDYlZ2MEV1OHZ0bDdGOUNRZW5xUVBxc2ZPdUhGLTZSM0hZQnRibTdxZ0dKeXZuTUx6Z0pNOVZMU0hqZF9Va3MySHFxQkExWFFUSEgtR2hORHZNeGs4Y3dJWnFXczR6TnZUZnRBRDBKUElJNE94aw?oc=5",
+      "source": "Times of Oman",
+      "pub_date": "Fri, 14 Jun 2024 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T12:30:38.253289+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettengesetz - Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOQTJvRk9DSEtCUjVEeWJKZWNITFphbWVudkNxZ1FqUm5oaGUyb19nVUVoMnJ0bWpYYW90eU1iVnBFbWlGUkdDVm9rR3V4V1NGWWxEUmFwTGNmY1k?oc=5",
+      "source": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "pub_date": "Wed, 03 Mar 2021 10:49:37 GMT",
+      "severity": "low",
+      "found_at": "2026-10-28T12:30:38.253289+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "European Businesses Facing Increased Costs Due To Supply Chain Disruption, Study Finds - FF News",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS2xsZXIxS29fRXJ4dFk0dGczQWhzaE0yQUV3UUI5WWh0SF9RTXNEbFZoU3E1dHpTTmQ5UDJlNTJRLXZfM19GaU1oZktzQnhpcnVpTGdGQ0ZHdHRkRTNFb2RsbjY0al9wb0tsOHA2TXlBYWRPUk5VaEFPRVpBcHk0N3RSTW84S1A1V2pMdk1rVmh0U0dRcUdFMkczUEg0bUhsYmVwLWhkZlZYU3dIU0E?oc=5",
+      "source": "FF News",
+      "pub_date": "Wed, 27 Aug 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T12:30:38.253289+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bahnstreik stellt auch Industrie vor Probleme - Antenne Niedersachsen",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkkzVzd4cVRlY2FuUnNaYVdaUmljOUYxbkZMQjEwOTRkOTctR0pPdkhVMW5IMi15cWxTY01raHIzazZfR3BtY196bXk1TUFsZkgyQVNjOE5tbHl3TUphdEZ2aFZ4dFgxNk1uVlF1cGFkMXJyc1JPLURwSXhQRkVnOEhESmNlemVTenZrQk1yZ3RxNDlXQ0dPZFlyRDNUaUtkTHpnVldXdThLVi1TYWtr?oc=5",
+      "source": "Antenne Niedersachsen",
+      "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-28T12:30:38.253289+00:00"
     }
   ],
   "runs": [
@@ -11581,6 +11635,11 @@
       "timestamp": "2026-10-28T05:03:09.021613+00:00",
       "new_signals": 4,
       "total_signals": 1185
+    },
+    {
+      "timestamp": "2026-10-28T12:30:38.253289+00:00",
+      "new_signals": 6,
+      "total_signals": 1191
     }
   ]
 }
