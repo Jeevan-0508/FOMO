@@ -10718,6 +10718,42 @@
       "pub_date": "Tue, 23 Jan 2024 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-28T12:30:38.253289+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Frachtbetrug: Wenn echte Firmen falsche Frachtführer verbergen - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWTRWS0xCN0QyWTdqdTVxTncxVVBDbVk0azNOSWtGUVVQSUJyc2dVemk4Mlg4UzJCa2NXSWFSb2M1dmxrc19xWExGeUlwLVRmSHdjWUNqZTl0MUYtT2QxN2VfeUJzeGI2c0RYOHZ2ck1aZkIzZzNQTTBfSjVTYVpQWEFFUk0xa05PQ2hzVVhmWk45LXBscWptX0E0Wk1wMXVk?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Wed, 28 Oct 2026 12:45:33 GMT",
+      "severity": "high",
+      "found_at": "2026-10-28T22:25:10.638728+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "COMMENTARY: Shipment fraud is the automotive industry’s quiet problem — and it’s getting worse - Auto Remarketing",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVTJHaElpODJ2S2JXbzgxX0IwOGFKRkw4dklJc0JvWjVoTGxsVkFMUE53TGNCUFpmWkxoa1FVcTlJQm5zeU5SSFphYWlEdVlJb0NRM19FV0E5UV93LS1XM3RMaHBwX0VBeTY1a3VKYmNINGxPeG9YZVB0a1FweC1KZm9YMEJSZWFPNThGUTZ5d3M5OUJrWFl5N2txQVpOSVdUcVpWb3k3X3RFZTZwaENrSmY5YXQzX2NjMUJCdVNKQ1J1ajFMSFZDS2UzYXdYYjZVZVE?oc=5",
+      "source": "Auto Remarketing",
+      "pub_date": "Mon, 06 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T22:25:10.638728+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Betz International files for insolvency - TrasportoEuropa",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZlIzZHJISjlTNEpYaUdpMjN4WHpyVXc0Z1EwbDY3MDVlSE1Id29NbVd0QVdDeWFZYm9hRXVCbk5qeUxTcTVvX0Y4dzZjcHNHWHUyTmcxZmNoRjVKbmxSYkZCMWdCZXEzWmwtTExRanNuRnRxb0s2Zkk4bkVTLTB2UnRPWjd4Zw?oc=5",
+      "source": "TrasportoEuropa",
+      "pub_date": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T22:25:10.638728+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Save the supply chain law: Profit is not more important than human rights! - terre des hommes Deutschland",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmh0Sl9sVjJWWW5ySnpLMlpaWDFBMGdvZFh3WFluZUd6ZksySm9DTjA0Z2JkZ2FyYzRQWEkybmhzdEoxakFIM3JqRTJ0aUdWU2hqak5lbTFDaDNXNjVSZXU2b0hjT0dxRS1CWk00SklCSTZBWE1rQ05fbTJOZ1hwLS0tLWw3czVBbUl2d3A2dw?oc=5",
+      "source": "terre des hommes Deutschland",
+      "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-28T22:25:10.638728+00:00"
     }
   ],
   "runs": [
@@ -11640,6 +11676,11 @@
       "timestamp": "2026-10-28T12:30:38.253289+00:00",
       "new_signals": 6,
       "total_signals": 1191
+    },
+    {
+      "timestamp": "2026-10-28T22:25:10.638728+00:00",
+      "new_signals": 4,
+      "total_signals": 1195
     }
   ]
 }
