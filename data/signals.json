@@ -10628,6 +10628,42 @@
       "pub_date": "Tue, 17 Jul 2012 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-27T22:00:06.377917+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Germany: ECCHR files complaint against Volkswagen, BMW & Mercedes under Supply Chain Act over forced labour risks in Xinjiang - Business and Human Rights Centre",
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNdy0tSmZ5aFBIVWNwelZPd2ZVdGtad0hnRTRtaFNoc1VjSDUweXBiWFNnU3plQzR4OXVBY3JWenVwVUVReFRqaFhQR3BRT1JvWTVDZEN4d3h5dlJaR1kxbDlQNHFRaGNFQWRFay1lYndjTy14SG9YUEpiVlA5RUR2MWdrR3J4SjNueGlrS3UzUVdGRVZvSWNtQ2UzSGd1dmRiS2xJVEZxb3AxWHdmSTNFNW4yMF81TkJGSU9VRUM1ZEljN1BHSVpCNnZKbm80cElyckNGS2g3UEVtNGROMV9qWXZST3pxZC04VmRNTTJvVjVMLXMwbWhEdTVfQU0waDRLSlhUb2szRktEZGFCY0w5THNXZWUyU3hvUzdUR04zcHVheEdNVnZHUUh0TXRxYmM?oc=5",
+      "source": "Business and Human Rights Centre",
+      "pub_date": "Fri, 23 Jun 2023 16:57:55 GMT",
+      "severity": "low",
+      "found_at": "2026-10-28T05:03:09.021613+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Complaints under the German Supply Chain Act - Business and Human Rights Centre",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oZUUxRDRTdElRdzdQOU5IQnRJQ0VwYWVSenVtRnpHT0h6ZnA3b29UVkY2c3ZwbTJIVGpWWWJReUtOOVNVSzdaRlhfNnptXzhRVU9zNmZ5RTd4eEZvS2V4dnlpektBSVdFYWhNTWdXYVNTUUhWWHIwT193N1AxSFk?oc=5",
+      "source": "Business and Human Rights Centre",
+      "pub_date": "Mon, 06 Nov 2023 16:27:09 GMT",
+      "severity": "low",
+      "found_at": "2026-10-28T05:03:09.021613+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Corporate sustainability due diligence - European Commission",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa2ZWY19RQlhZRjhRbldIVmI3NWhaYzVwVF9UdUtESE1UQ2lfM3lnWjBFUVdyT2tZU1NVMjl6ajk1SzRMU2stMk1QMldFNWF5b2tpSl9JSlFvMVY4eWhCVFZ2YUZYM040emNWWkRjSFMtajIwaktRZU85NEJOQ0lsYm54ZTlVYkhrZkR0VHZZMWJvVlVpUW5Ca3kxODZyaS1IZE5nLUY2NVdjeWxzVk5oTFZBT0N2SkdITl9xbGhpdDhfRHc1eGxMc19DQVdnT21TWXc?oc=5",
+      "source": "European Commission",
+      "pub_date": "Wed, 29 Jul 2026 00:40:12 GMT",
+      "severity": "low",
+      "found_at": "2026-10-28T05:03:09.021613+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Why supply chains are entering a permanent state of disruption - Consultancy.uk",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcWdBdGZzRldITTJzM0NENUZ3cnRSZG9iSG45c19YN2lYU21qNERWQUdkNzF5amVnaTZHbG5jOVI1d2FUb09GWGxUNFo4UUJhS05VUlZJTmJnTWNZQ2F4cEFfOTVnTS1sUF9KUjBJVEMzOU8zcUtqNDVTMjNRUkctV0ZmMUdOb2QtZTZQODZFV2ZxNjhFZk01aU9LRnJ3UEJvYWfSAacBQVVfeXFMT0owMVVfdl9qNTBnOE5YeUt6bkVpQjZvTFZlNHh6WEFWM1V2VmtlTkJQb2Z6dUJTQzZxWHNaN1E1TUc0bVBKX1hNWmcwYXJmRzJTVWNMMkZLZGZxRjVqX3RzNGYyLTdmQ2thb2VpTy1iN1d0VkoyelAxYzZDajNDbHVERngxd05CT19PTlRrbVpFUGFsT2ktT0NFczBhdnFoRU9FVkhDbEE?oc=5",
+      "source": "Consultancy.uk",
+      "pub_date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-28T05:03:09.021613+00:00"
     }
   ],
   "runs": [
@@ -11540,6 +11576,11 @@
       "timestamp": "2026-10-27T22:00:06.377917+00:00",
       "new_signals": 1,
       "total_signals": 1181
+    },
+    {
+      "timestamp": "2026-10-28T05:03:09.021613+00:00",
+      "new_signals": 4,
+      "total_signals": 1185
     }
   ]
 }
