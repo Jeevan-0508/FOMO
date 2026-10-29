@@ -10754,6 +10754,24 @@
       "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-28T22:25:10.638728+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Studie: Flottenmanager unterschätzen Ladungsdiebstahl - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ1ZxTmJMd1JYUmk2U1FJRnlYOGpCREROdlZ5Ym1BcVp4ejZCOTM5TDU2cmZzWWtsX21pUWFpeDBGVExEQjczRWlzUXhhOEFQMW5Pb0tHZzdyWWZvMGhCeUVsZFJpdWRfcmpXU2FrdjFsRWFiQnBXYnBORzE2dmE1YWJzWmlua0lnZEhpM09MMl9fejhXWkV3SkFVaXB3QnJieV9wd0kwcmZlNHRhcWxObUJXeHo2QV9W?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-29T05:15:41.340274+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl digital: Phishing & falsche Frachtführer - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXB3SnFVZzN1MXhURTdqZno3bmlabU9yNUp4dnM4anhBRXp2ZGs0TzlESXV1UWdUdUZHdmx6WHRaTjNybTZubnIxMjZIRDBRQURYUW4yZFVzX1d6NVVuMEM3eVl3NkFKU3N1UkpoUUFEVjFodXZ1M0N3TEF5ZGM1TFVaaTJ0TW1XSmNvYVJYWFNsWEJ1enhBRmNkSDhhSW9HTXJRVlgySV9nU1ZsSFE?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-29T05:15:41.340274+00:00"
     }
   ],
   "runs": [
@@ -11681,6 +11699,11 @@
       "timestamp": "2026-10-28T22:25:10.638728+00:00",
       "new_signals": 4,
       "total_signals": 1195
+    },
+    {
+      "timestamp": "2026-10-29T05:15:41.340274+00:00",
+      "new_signals": 2,
+      "total_signals": 1197
     }
   ]
 }
