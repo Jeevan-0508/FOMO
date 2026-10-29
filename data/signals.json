@@ -10772,6 +10772,15 @@
       "pub_date": "Fri, 17 Jul 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-29T05:15:41.340274+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German insolvencies hit 13-year high | Transport - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbWluWjFxd3VldUtQNnc5dEYwUkRPOHNPZzNRNVFndnozSWVUWFRTM09iUjQxcmlqek5paS1hNHFlXzY2WWpONU5LNlpIc2dGaGxwNWFUWnFfeHMzdkRuanRZbnpxTUwwVDJjYjd4TWdINVByWlJvbUQ4Rl9ZOWM2SjYzYUJSSXVIeFF4M2gweHdTanctRDNvLTIzSnRBOFNRb0gwVHBoREttZ3YwRmJyYnVJSlJUbTJJbVN4cHVwaGg?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 29 Oct 2026 09:20:52 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-29T12:41:36.065090+00:00"
     }
   ],
   "runs": [
@@ -11704,6 +11713,11 @@
       "timestamp": "2026-10-29T05:15:41.340274+00:00",
       "new_signals": 2,
       "total_signals": 1197
+    },
+    {
+      "timestamp": "2026-10-29T12:41:36.065090+00:00",
+      "new_signals": 1,
+      "total_signals": 1198
     }
   ]
 }
