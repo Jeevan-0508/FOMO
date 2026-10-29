@@ -10781,6 +10781,15 @@
       "pub_date": "Thu, 29 Oct 2026 09:20:52 GMT",
       "severity": "medium",
       "found_at": "2026-10-29T12:41:36.065090+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenz bei bekanntem Brucker Transportunternehmen - Kleine Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWWZwTnM2dlpLeUhYMHcwcThQUWM2aGdJNUNHQjU2czRPNHBZeDJKZjg5VnhRYTByXzdvRmszSUZQLVNCemZpODVZR0hEbWVLMFNRX3c1YnNpYUFfUE1QNmZ2WmZnaGFHdURSZFNlQjU2bXRzd1dQUjY2VnUwelhhbVN1ZmFJT0c1a05TYi1BSDFWejBjaGhBWTdHWndKOGc?oc=5",
+      "source": "Kleine Zeitung",
+      "pub_date": "Thu, 29 Oct 2026 16:31:17 GMT",
+      "severity": "high",
+      "found_at": "2026-10-29T22:37:55.343800+00:00"
     }
   ],
   "runs": [
@@ -11718,6 +11727,11 @@
       "timestamp": "2026-10-29T12:41:36.065090+00:00",
       "new_signals": 1,
       "total_signals": 1198
+    },
+    {
+      "timestamp": "2026-10-29T22:37:55.343800+00:00",
+      "new_signals": 1,
+      "total_signals": 1199
     }
   ]
 }
