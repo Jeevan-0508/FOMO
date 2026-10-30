@@ -10835,6 +10835,15 @@
       "pub_date": "Fri, 30 Oct 2026 04:17:51 GMT",
       "severity": "medium",
       "found_at": "2026-10-30T05:15:01.601548+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Leading manufacturers Toyota and Rolls-Royce's profits hit by supply chain disruption - The Chartered Institute of Export & International Trade",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd1VVT0ktSFBVeXdNREtLYTRyZ3hUU2VHa1o3OHJQNlJPUXZCWmIyX0ladXBORXhMT3RPc3NCZTMzcVZqcVg0TFhSMko5WGRYSEpOY19zdGpRNkUyYUZ3VHZMaGVWTGg2LTFOd3NNdVAwVTZpOVBLcjJLOTdTeUVucHJxd0hqMTlBRmllVDR2M1A2M3lndlpIeHFCdjM4UlEzc01neUJTS0tGNU1MMXFReU1rNWdyMkF5dXhvWGl3QXNTUkZ2SXgtNGNKOA?oc=5",
+      "source": "The Chartered Institute of Export & International Trade",
+      "pub_date": "Thu, 04 Aug 2022 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-30T12:32:50.872302+00:00"
     }
   ],
   "runs": [
@@ -11782,6 +11791,11 @@
       "timestamp": "2026-10-30T05:15:01.601548+00:00",
       "new_signals": 5,
       "total_signals": 1204
+    },
+    {
+      "timestamp": "2026-10-30T12:32:50.872302+00:00",
+      "new_signals": 1,
+      "total_signals": 1205
     }
   ]
 }
