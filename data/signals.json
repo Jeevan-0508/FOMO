@@ -10790,6 +10790,51 @@
       "pub_date": "Thu, 29 Oct 2026 16:31:17 GMT",
       "severity": "high",
       "found_at": "2026-10-29T22:37:55.343800+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Five Arrested in €1m fraud investigation involving services to NATO vessels - Shipping Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSTNoc0dDMm5UTWZBT3JSN1NfUk54TUowYWMyU0Z5ZGhnVmlJU2N0cmptNGJxanFTSlJKR3phUU1MZ2wwamx5QlBHemZxdVY3NGVyV3hlTnBrb21QN1dFLUZIRVkydi10S1I4Qk5INzlXbkJKblZDWEpnZVpFcDJaLVVaRUt5WGZiY1pxMlpxdGViRTVlNlBzNUdpdk9ESWNiLXBrcGFpQk9oY05VZ2tyNFYzTEFZU1dBUjNRNlIzV1Q3aWdlX2ZvWC1B?oc=5",
+      "source": "Shipping Telegraph",
+      "pub_date": "Fri, 16 Oct 2026 01:02:57 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-30T05:15:01.601548+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Crowley’s Proactive Measures in Freight Fraud Prevention - GetTransport.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WdkVPUWMwaHFRYlNPZmpzVTgyb0ZQb3ZSYWgwT2Y1OEtZdEVWQVpRVVMwYXhfb2ZwUGtsdUowYVoxUzB6dWJSeEtJQ2lTR1ItZWlYZmhCQ191cXpmX0ZZcXVZc3JzUlZWazhLYVBsd3NkUTFEVU12Xw?oc=5",
+      "source": "GetTransport.com",
+      "pub_date": "Tue, 01 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-30T05:15:01.601548+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German corporate insolvencies hit 13-year monthly high in July - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVjY5RnpTdEJ1c1Q2NGVsRzBYS2Q2RjFkMzlIVzlRWHQ0Mi16ZnlnM2c5YWU0X0QteUhab19pdm1GRExyMEx2OTc2ZEVLeV9OeGpoN25UVW9UaHdJN3FZMVgxNW4wWmpQa1F3NHo1eEY4WE0zdndCYlBnSGtjWkplb1BTekFaWlF1aklsY25VT0gzaTVwRHAzbjA0TWkyUWVxMm80dlFB?oc=5",
+      "source": "Anadolu Ajansı",
+      "pub_date": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-30T05:15:01.601548+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "KSS GmbH: Neuaufstellung im Insolvenzverfahren gestartet - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU25fS0lHYTQzczlCenBxS2dXQWw1MjFvUjBEbWpBUnR2R2lOWmpyWHVkZy14TDVhWk5RdUJFSTI2b0JCQnZnREQyb2VrUzZwRWo4TFJxZWlEVWh3TnRhWklmWGdkdTExT0s4aV9mWDQ0aVFTSDljZGg4SWZqZm5pRk5sSWVqSTBEV1FaVVEyZnRDREhSZEhOR3Vvc0RqYjkxQmc?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Fri, 06 Feb 2026 08:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-10-30T05:15:01.601548+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Battery supply chain: Congolese workers file complaint with CATL Germany over alleged labor rights violations - Table.Briefings",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUnFrbmJzcmpRanhCUjctVGdMVlNORFBWRmo5emttMHFRbWtaVXFuNmQtWklQdlJOR0pzaTN5ZmpSMmUzbEJiY25ZbzJJQktOY3FaTjFUendaYUlad0VRSzcyYXdlOC1GMjJhWl9uTFh1YWE0ZmJRWTZyQzBfVlJHQVlOUWtWOWQwdm5ONzlUUFgwYTU0dWZCM0x0UkJXUHhqek16ajJuLVpteXpyTFVkaXZvejhmbGtzSFZ1dk9pWEk0M1ZxWGNFY0h3TnpKdmtZMTl5b19uRQ?oc=5",
+      "source": "Table.Briefings",
+      "pub_date": "Fri, 30 Oct 2026 04:17:51 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-30T05:15:01.601548+00:00"
     }
   ],
   "runs": [
@@ -11732,6 +11777,11 @@
       "timestamp": "2026-10-29T22:37:55.343800+00:00",
       "new_signals": 1,
       "total_signals": 1199
+    },
+    {
+      "timestamp": "2026-10-30T05:15:01.601548+00:00",
+      "new_signals": 5,
+      "total_signals": 1204
     }
   ]
 }
