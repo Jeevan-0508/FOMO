@@ -10907,6 +10907,33 @@
       "pub_date": "Fri, 30 Oct 2026 09:14:51 GMT",
       "severity": "high",
       "found_at": "2026-10-30T22:07:35.424969+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Insolvenzen und Nachfolgeprobleme: Warum selbst profitable Speditionen verkaufen - Eurotransport",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQajY0WGdQNmo4aDJZdFB3WEFPalNSQUNZelMzd2xPTzFDMk1URVJGN3IxVFdIdEdYVXdqbi1fOGhHNDcycDFTRFFEcnNhNE1JaXhKdG1HV0g5dXVEeElPd1doOEllLUxLZEZXdG9WaXNrN0xDaGNPYlczSG5wSks5YS1LemlkZnFubHR2OTNBekdQa0RWMnJZakNPTG1rR01USnhEM2hOZnRGX0ZFbHc?oc=5",
+      "source": "Eurotransport",
+      "pub_date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-31T04:58:22.613819+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Bremerhaven Strike 2026: Pay dispute paralyzes German ports and threatens European supply chains - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONXB0eTUwOFF5bWxHVG55V3pjaU9BUjZXemYyVG1RcjJwVmJGLXZYNXZVRjhVQjJzd3E5d2VaOFFTeGV3YlpzVEIwWVlmMFVyUUZPN1VhRXFTRE1hSDExSUdFTnJPa3NQc0dNcV9DUEliX2w2aFJwSTFfaDFHV2dRTzZKNkJLeS1UWTN6YUlqVVl5ZXZINnR5cWpPZnFOaEN2Q1VBamhibVZ6cTBBeEQxbUhyR3c2dWZRYm9ILWxQVnM?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-31T04:58:22.613819+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Ausbeutung in der Logistik: „Es ist eine Form von Menschenhandel“ - Frankfurter Rundschau",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeGt3b2tjdFhuS0s1TVRrb011RW83WGtqMmZSTjZOeTJzTG1EVEdvRkFfSU9mb2pTeTlnaWJnSWRraFAwaFdnc0M5WjdJTHhGSUdPUHRMTWJMbWNWT3hVcFZlODFudEtoVGRLTTBwcFVxR0gycy11NFl1T0d0QVJoSHhDd2swU1loRUNsNmNOWkI4R1pwM1NWTG5HcnVJY2g4ZDY3Y0dKemI1WVNJRzdxUTU0cw?oc=5",
+      "source": "Frankfurter Rundschau",
+      "pub_date": "Thu, 11 May 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-10-31T04:58:22.613819+00:00"
     }
   ],
   "runs": [
@@ -11864,6 +11891,11 @@
       "timestamp": "2026-10-30T22:07:35.424969+00:00",
       "new_signals": 7,
       "total_signals": 1212
+    },
+    {
+      "timestamp": "2026-10-31T04:58:22.613819+00:00",
+      "new_signals": 3,
+      "total_signals": 1215
     }
   ]
 }
