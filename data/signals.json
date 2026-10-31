@@ -10934,6 +10934,51 @@
       "pub_date": "Thu, 11 May 2023 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-10-31T04:58:22.613819+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "New Jersey Cargo Theft Bill Signed into Law - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMExRWXpfRjFrX1lFTC1VTnM5TnlTejNYb2dLS0hNY3otRjB3NU9wV2lRRDBvaWxLUVV1MjhFaGVQZTUxZzBTTGpsMENKZWhaRnM3MDRacUhkX19hdjBFQk1sRFlMSFBFR3JQQ2FNdzMwM3lxTnZQRV9uTnJqYjZoYnlFTQ?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Sat, 09 May 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-31T11:59:16.511417+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Bankrupt hydrogen truck firm Nikola's H2 assets bought by 'trucking-as-a-service' firm at auction - Hydrogen Insight",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX0NIekdFbm9rdkNMNGx6UFVVNGV1S3J5eUx3bFpZTFVUYWRaempkZVdicHV3SDQ1NHNpTUg5ZnhyVC1ubFE2NF9ZZTNYajRVaHIyVnBCMUlZYlVfOHZxclRSNzI0TFpjbE1oU093dnlkWnRrNGRaYzlGVW9BVG5kOGZpSEpDblRPY3pNbWJqY0diaHVDbkRMRXhMdzZCbzBUTTcxWG82Qi04ak9BVVR2U083ckRNbG5CVWwzM2hPRGJ1ckE4OG43N00xUTNwazUxUUs2Vl95ekdHYzFkd2RVbnF3?oc=5",
+      "source": "Hydrogen Insight",
+      "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-31T11:59:16.511417+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German train driver strike strands passengers and freight - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUJYT1BkZm5OandoczhLNktTbW8xV3hXS0g1NVRYYlJnVFpZa2RPNHhwMDRFOVkweVBHN1VaMnpqUU5zZ1o0cl8zeWRfRnpacnc2UjltU2pGdGRPWVB4eFpmdlJhRUhRZEdRVjZTX3JvbWRUdXpoeEpuTnBPX2VtbGRUUlpzRDgtelV2amhlOWVYT3E3c0ZrZ2JMa3JJTnU2Tnc1eWdOUXZYb0xT?oc=5",
+      "source": "Reuters",
+      "pub_date": "Wed, 11 Aug 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-31T11:59:16.511417+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "HANNOVER MESSE 2026: Streiks bescheren Industrieschau Besucherdelle - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbHk0b05tNXQ4b1lzRkZkcElsajVpZGo4ODlMZDJqUHlUYjZBUHNPMmY2R0VtMkM3U005RXNFWmY4aURkMVYwd3JRTEd1Y0VEZjZxNmw1N01OY3NTVjZPdzk0aElQLUxaZTQzNExCcmtPem55clhrdmlyUm1naEJHQmRGWHZ5ejFuN0xBa05Ka1c3N29KOGppcGZLZUwwMkotT0NLMlc5YkZEMzNjeXc?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Fri, 24 Apr 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-31T11:59:16.511417+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Nach mehr als 80 Tagen Streik: Jungheinrich schließt Produktion in Lüneburg - DIE ZEIT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMDNUTEV5V3daaUtIZjcwRGNaaWVCWVFveFI5VEVmQ0Y3SGw3WVJMR0hlNU1LblhJRFI3cURIWnZ3SFZKQldmTExHcFo1WkZQNFJnaXJsdmI1TllwVXlMR2RlbmkyQ2UyVlpla2FNQVFnWG5vNEVic1RNalZMSkh6OG1jWklqOFI4N3c?oc=5",
+      "source": "DIE ZEIT",
+      "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-10-31T11:59:16.511417+00:00"
     }
   ],
   "runs": [
@@ -11896,6 +11941,11 @@
       "timestamp": "2026-10-31T04:58:22.613819+00:00",
       "new_signals": 3,
       "total_signals": 1215
+    },
+    {
+      "timestamp": "2026-10-31T11:59:16.511417+00:00",
+      "new_signals": 5,
+      "total_signals": 1220
     }
   ]
 }
