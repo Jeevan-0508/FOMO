@@ -10979,6 +10979,24 @@
       "pub_date": "Fri, 13 Feb 2026 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-10-31T11:59:16.511417+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "German insolvencies hit 13-year high | Transport - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdkN3SmZLdXZpMzBBdlVmWkJMSEU0X1kwdm1RZmdZbW9tTmNscHRjN19hUDMtRWhuQ0hkNm1DNmgxRTlzZTM3bjRVWXh6VU5PcnJNNGFGQU84TTBjYlgzUEREdHZObmJiZTZfVk42TU8zMkNtbXhDUTI4X0VQT2FLX3o3N2lnTE4zR2FPMmxvdHVpZzN6YVBNVEVoam5BQVJvZVNGcHZwVndyOUFQOUpMa3pOT3F1NDNraGxyMHh4bUQ4TnYz?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 29 Oct 2026 09:20:52 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-31T21:16:08.020664+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Indonesia: Organisations and affected people submit German Due Diligence Act complaint against Heidelberg Materials over planned cement project alleging \"ecological catastrophe, impoverishment and violation of human rights\" - Business and Human Rights Centre",
+      "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxPaWNzU0E1bUdJUWNFRHRtWFd5M29IbFdLcjd5M3hMdmpPMFVabURIRUtiSUhONWd1VDFPWHBwQmlnNU9ZTHFRSlFXWFBVMzExR0tzTTNYOGNUalpQZzFFRlA4cjdXX3p2Rk1fOUlJU0pHRG11RTJGOHB0NlZ6ZDZIM0RFbjg5YjNIM2ozYjBJV1g4OVdHZnQ3WFZqY3ZFeE5nUTU0VUhJUFhxUGxOVlBhSm1HbFVwQkIySy1EeXZwQ0k2OWdPLXdzZms2azE5bHNfM2cyVGtBclZHSjFnRzBvVGdzeHdpT2NjUjBKNTZVQ1U2VlRydFdjRFJ1SW16cmJ6eDFXVWN3dlhZMEs2cno5Q1NlTVVrZ2RrTFlNSDF5Z2FPREtUZVZyUTZJY3h3bHVydy1GMzBpdkwxbXdSaExVYU4xVmlVX2d6ZVRjaEc2YjV3ejVPNm41MGNoVU1IdEJ3dmRMY01SX25Dd1VrNTk5VjB4alBfcmVBZ3BRdk1mOURhQXdQTWxJQUpMZFhra2FhaEYtVTN4SXlORzQ5?oc=5",
+      "source": "Business and Human Rights Centre",
+      "pub_date": "Tue, 07 Jul 2026 09:43:21 GMT",
+      "severity": "medium",
+      "found_at": "2026-10-31T21:16:08.020664+00:00"
     }
   ],
   "runs": [
@@ -11946,6 +11964,11 @@
       "timestamp": "2026-10-31T11:59:16.511417+00:00",
       "new_signals": 5,
       "total_signals": 1220
+    },
+    {
+      "timestamp": "2026-10-31T21:16:08.020664+00:00",
+      "new_signals": 2,
+      "total_signals": 1222
     }
   ]
 }
