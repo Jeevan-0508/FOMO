@@ -11015,6 +11015,24 @@
       "pub_date": "Sun, 03 May 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-01T05:28:50.455064+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Das Lieferkettensorgfaltspflichtengesetz - Teil 2 - Simmons & Simmons",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZFNjaDJtZG1pQnk1VWxwcVM3QW9Md3dvLWhkMGMyNDlldzZrazd0WUVQQXVrSmp4QUFKUEpNWWlQU1ZBenhWNGhkNmRJNkVZYWZMOHEtWjUyblVJVl9oSHBoeWhXQjdQTTRXVHBFMWF3aWdLemk2S3I5YlRrY0RocEpQaWk5ZzR0SzdMdzZraUdZeTdHQ2RJb1d4cm5KREJWNHlsYUE1NmV3cjBJREJUUkd3WFhQczk1b281M0k5ZUI?oc=5",
+      "source": "Simmons & Simmons",
+      "pub_date": "Thu, 27 Jan 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-01T12:59:21.510946+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Italien: Streikende Lkw-Fahrer gefährden Büffelmozzarella-Produktion - TRANSPORT - die Zeitung für den Güterverkehr",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNU4zSzZ6R0VuSVlFRWVkT2FBRWI1UjFBcDhTTmRXMnlOUWcwWkFaVTlrZUJOUGVTRUN6T0g0eTAxdDZodjM3R0xROEo2Nk9Camp6SHpjWUtoVEFPMmgxV2JaX0xuOU9mTVVxM251dnkzX1NxNTNoMDIwRjlPSmIxWW1KSGZ4VHJQbm0yVjZpaGw4RlVxVzZaYTFuemk1blFLZ1JwM1ktQWZMVGVfSkRuX2VmeEM?oc=5",
+      "source": "TRANSPORT - die Zeitung für den Güterverkehr",
+      "pub_date": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-01T12:59:21.510946+00:00"
     }
   ],
   "runs": [
@@ -11992,6 +12010,11 @@
       "timestamp": "2026-11-01T05:28:50.455064+00:00",
       "new_signals": 2,
       "total_signals": 1224
+    },
+    {
+      "timestamp": "2026-11-01T12:59:21.510946+00:00",
+      "new_signals": 2,
+      "total_signals": 1226
     }
   ]
 }
