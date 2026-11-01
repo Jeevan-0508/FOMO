@@ -10997,6 +10997,24 @@
       "pub_date": "Tue, 07 Jul 2026 09:43:21 GMT",
       "severity": "medium",
       "found_at": "2026-10-31T21:16:08.020664+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "New Georgia Law Takes Effect July 1 to Deter Cargo Thefts - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnNubDhYVUlTRy1oSkJVSDVOZTJFV2djckxBNWJtVGpBWlZMMUxlaFRMWE9tamRHbkpkX09CRDZveVI4bUZhdjZybHhhbURBX1hIY2FTY19hWnUwcEpvYnN1UFlleGlJb2xITGdPTEhpNzhDQlM2QTAyMEVyakZmN2lPUEpWc2JJWmpVN3VLSU5mVDQ1U2c?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-01T05:28:50.455064+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Survey shows German carmakers gloomy on Middle East disruption to supply chain - Yahoo Finance Singapore",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMEtWRjJrS2VrVzlRZmhfSkd6bXgyVlcwZC11ZFNHWC12cmZlcFBCS25XNkE5S2VsekhZaEwxV1ZOTXpKTk82cnB3c2hUNkM0S1VobEx2SGcycTQwUU9EYmNNYzV1M01nb1lQTzNXbXctSFNLSEo0dm50bmZVRUZLX1BkVVN1aVVjcW53eVh3?oc=5",
+      "source": "Yahoo Finance Singapore",
+      "pub_date": "Sun, 03 May 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-01T05:28:50.455064+00:00"
     }
   ],
   "runs": [
@@ -11969,6 +11987,11 @@
       "timestamp": "2026-10-31T21:16:08.020664+00:00",
       "new_signals": 2,
       "total_signals": 1222
+    },
+    {
+      "timestamp": "2026-11-01T05:28:50.455064+00:00",
+      "new_signals": 2,
+      "total_signals": 1224
     }
   ]
 }
