@@ -11033,6 +11033,42 @@
       "pub_date": "Fri, 23 Oct 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-01T12:59:21.510946+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Prävention gegen Ladungsdiebstahl - stores+shops",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1UkNSdWZLYUltV2lOX2w4YTJiWDJpLTVjRkl6UGtjMFNpVU5GVkVnZmNYeFUwOFpMQWRuVmM4SEdxSm5CeE9vczFtdmRJSEZkbXVPVW1qQ2FZX0FwdmhsS2Y1M2VZM0I3dXluODBjbjZ6aUtCNU03R3QzNFVKYUk?oc=5",
+      "source": "stores+shops",
+      "pub_date": "Wed, 31 Oct 2018 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-01T21:53:38.077632+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "ESG bereitet Unternehmen weiterhin Schwierigkeiten - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11dk03eVI0Z3pUV2N2WG01eXBqdzBwTDBzZm5jWV9HVnMwcnNRZVJ3VGhuWjh1elhLT2swOElHQVRTUTc5eURpZWo2WndmUmZORlpWeWd0VVBMbnUtUWVndA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 23 Jun 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-01T21:53:38.077632+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Nothegger Transport in a restructuring trap: €86 million in disputed debts and restructuring plan postponed until 2026 - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPbGdsUVVYYlJ0WXIzUDQ5S01SMWNjMktpRFhJdVBUaHBEajZXdERtdE5uVVA5X21Zakh0RHczYWM0M2JCbkRxbTQ0dWdZeUtKQjdyeWp6X1AzeUx1czFzSHBPSG1BOUYyR2MzaUd3Q3hzX0NMWnQ2cUxZUWptOUNLUGtnV2EtTUs0WEFuUUJjQ3FYMVZlVVNxSFBlanJ4MWlFQjI5YkxiRE9RY3ZZUFFEUTRPdENKLVNGaWY3engtTFN1MV9fZW5uZlRZUkNPdEJ4M1dpSHhXZ0FPSUZnZ3hRcC1LNmFfWm1yM1otRkxPbndjbEpvblVIS3poSXk?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-01T21:53:38.077632+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German port workers move towards strike ballot after rejecting wage offer - FreshPlaza",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeUMzOXhBNlNfWVZOa1U5eHdmNm9yTl81SlZLWTJxTEpuQk1XR3U3aVY0S3h4SGVkaWRnMjdZZnktTVhuOExNeXR6amE1enVINk5NZThIT0tDbzJWTUtTTjR2N1VDc05WQ2I1RFlJeWp5OVpub2pwa1ZMMU1kbUktQzV5REtLU21BVlItTVlHN29ZdEhwT0U3cjBGSHhDUFpfRFVVVXdUSnFjaDJXUW1VSW85VWt1eUY2d2dVdHNlbXdHZw?oc=5",
+      "source": "FreshPlaza",
+      "pub_date": "Wed, 16 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-01T21:53:38.077632+00:00"
     }
   ],
   "runs": [
@@ -12015,6 +12051,11 @@
       "timestamp": "2026-11-01T12:59:21.510946+00:00",
       "new_signals": 2,
       "total_signals": 1226
+    },
+    {
+      "timestamp": "2026-11-01T21:53:38.077632+00:00",
+      "new_signals": 4,
+      "total_signals": 1230
     }
   ]
 }
