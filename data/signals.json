@@ -11069,6 +11069,15 @@
       "pub_date": "Wed, 16 Sep 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-01T21:53:38.077632+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Die Insolvenz von Ziegler Belgium: Ein Dominoeffekt für die europäische Logistik und eine Lektion im Risikomanagement - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMU5mTEFMeXJ0RkluNDJtSkQ3RktpYU1mS2owT0FQam91dl9Nb2Q1aGpsMzhHLWstSnhmMU5mQmJ0MUduOXUzcEVZV2tIUWsyemFqQWt6SUNlVEVmTnAxa3JGdFRZQkdNaHduUE1ubklraWZpQ3ctQTd4V293WnFtRWJvNWlhRzJBZU1YbUh2alV3T3E4S1FsM0RHYnNXa2JTd2RnejhTSkR4Z3VfdGtzMXM2dl9YLTVTT3hHVU1Dc2M0YjFQdndRVGQtdXBKdDliRzlDc01yZUdWX01K?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-02T05:27:22.120438+00:00"
     }
   ],
   "runs": [
@@ -12056,6 +12065,11 @@
       "timestamp": "2026-11-01T21:53:38.077632+00:00",
       "new_signals": 4,
       "total_signals": 1230
+    },
+    {
+      "timestamp": "2026-11-02T05:27:22.120438+00:00",
+      "new_signals": 1,
+      "total_signals": 1231
     }
   ]
 }
