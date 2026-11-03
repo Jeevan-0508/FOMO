@@ -11240,6 +11240,24 @@
       "pub_date": "Wed, 12 Aug 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-03T13:55:48.810304+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "France L'Oréal wins damages from Bolloré Logistics over stolen cosmetics container - Glitz",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTFNvR3QwaHJVWDhpQkN2eDhPZWp0WVU3QWxNa0N2bUR5dXN5NW9hMV8tSXVOX2VzQUZMXzlJRWFyS2dKVUR2Wlpoc2tGOVIxME56V1cwbVIzcy04Ry05U05nNnM0cU5peVhYMUNsQnM4WUdUcmduT1FXWGZQejRVX0dJX0VtZkdHZkVuMGdNdGpiUG1BWDl3UEtHYjhYZnN4THNRSFlSU1BMdHJBS3c0RlB1ekotU3psZDJZTGtVNHFIelVhQzhyamxSRnpkNUU?oc=5",
+      "source": "Glitz",
+      "pub_date": "Thu, 12 Jun 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-03T23:04:19.417621+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "The European Commission publishes a study on due diligence requirements through the supply chain - Cambridge University Press & Assessment",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOam1fQWpoT3RpOTV0ZWVHOF82dTNQYS0yOF9oVnlRdnpDMnZ4RFdTN004dFA2bnVuQUY3QW1xVTgybENjNEpzYm02WjFNSVY4ckZVYWJveGF1UFE0N202RjFjczdoR21tci14N0RXU0xWXzYybUZpN2N0NWFGMGl1ZHFzRjAzWWpsbEdWUEtPbDNoMk12a1FRMW1Kd2lVUVRVdXlYTmFYZ09TSXhqaU1tLTJYdTFxM1Q3Zm5JU1ROWFMwSGlrYllTRDJBX01tdVprcWdDM3NJM0kzcUoz?oc=5",
+      "source": "Cambridge University Press & Assessment",
+      "pub_date": "Fri, 17 Apr 2020 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-03T23:04:19.417621+00:00"
     }
   ],
   "runs": [
@@ -12247,6 +12265,11 @@
       "timestamp": "2026-11-03T13:55:48.810304+00:00",
       "new_signals": 8,
       "total_signals": 1249
+    },
+    {
+      "timestamp": "2026-11-03T23:04:19.417621+00:00",
+      "new_signals": 2,
+      "total_signals": 1251
     }
   ]
 }
