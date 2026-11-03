@@ -11159,6 +11159,15 @@
       "pub_date": "Wed, 17 Jun 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-02T15:20:13.798202+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Five Arrested in Norway for Fraud and Bribery in NATO Port Services - Data Portuaria",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1piODFyb0FnSDBFRC1yandTclh6Zm84T3llRVBKcU14NmZQNkpTM3ZuV3luR25Ra3lNdVpWR2hlWHRaZ0lCR2ZFTmlPUGI1cXVxWHNXM0Yxa1RXeE91dVFkb0ZidDVPMXdXZXNFSVF0S1J4N1ZIS1VtSVQzZE5lLXpUbVBsMjBzZE02OHpwNUVVeTdPSVlkcnhKclNjQ0ZaMW5fSW5MS0Q5VGlQZzBfVHd3eEc?oc=5",
+      "source": "Data Portuaria",
+      "pub_date": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-03T00:48:53.021330+00:00"
     }
   ],
   "runs": [
@@ -12156,6 +12165,11 @@
       "timestamp": "2026-11-02T15:20:13.798202+00:00",
       "new_signals": 9,
       "total_signals": 1240
+    },
+    {
+      "timestamp": "2026-11-03T00:48:53.021330+00:00",
+      "new_signals": 1,
+      "total_signals": 1241
     }
   ]
 }
