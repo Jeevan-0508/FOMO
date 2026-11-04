@@ -11285,6 +11285,42 @@
       "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-04T05:44:37.653154+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "TAPA report: UK has worst recorded cargo theft rate in the EMEA region - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaWdaT2JQQmtqQUc1TDBSM2FKWlZyZVk1ZDdsZmNaaDE3NWVLeEVyWUV5S3Ayd05sZ1NCeFFwaFlUbHcxblJvS2wwcmJiQWNRbGxyWC0ybGZlQkhkZ3FueWRlb0tYWVExZGIyMVllQ29ldFE5MDRnaTNMMjlWck9Zc1VSYUptSG91Z0hyaVJZVWFLNk5kU0V2VnhBVG1JZmM?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 29 Jul 2021 06:25:44 GMT",
+      "severity": "high",
+      "found_at": "2026-11-04T14:08:47.992953+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "TAPA: 24.8 million euros in cargo theft losses - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUEJIdjNoaWJoM1pVREE1Qkp3dGxhVGc4WXZnVVZRSjVyNDVPTWl1dVRmUm9jN0NOWW9Rekt0TzZuWVdfb1h6TjdHelR5WDZueFNkNERZcFhrSExSTEwxcDN1RGFqVk54eHQ3MlpJRUlPY3lBQVg0NWpDTGFrTzEwM3RqRmpBYW9FZHFvTWw2TEFHcGVBalRHWVJqUW5weXk0VjhBank0dFYyd1ZHMHlnSTAtd05BRFhzcUphYURaYTZZelVNMzB6U0lwTThILXVoS3d1blFn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 03 Nov 2026 05:04:45 GMT",
+      "severity": "high",
+      "found_at": "2026-11-04T14:08:47.992953+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "New cyberattack on supermarket fridges sweeps across Europe - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
+      "source": "Reuters",
+      "pub_date": "Tue, 03 Nov 2026 06:13:51 GMT",
+      "severity": "high",
+      "found_at": "2026-11-04T14:08:47.992953+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Germany, Romania and UK hit as cyberattacks on supermarket refrigeration systems spread across Europe - Malay Mail",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLXFsbS1WWThzNnJGampaREw3TS1hdmtieHV2WWdMSC02b2xHNnNUMWFBeUJyby1hdjE3NnRnSE9YVVBDUVZrbDdGdmhDQUF2UHhDczJXUGwtX3dVQmJ3d3huLVJfSEJaTHRsT1VWX3V3RVJ3bmFsSnVXWjlSOVBoX1ZGbXdMYlZjcVg5WjdTUTJBOHZhX0p4endXOEI1cEtsVWR3RTNnRTQ2TEFSNkJUM2R2SEt5WDBLRUFyYWExWVQ3OXdvS1RvOVJQd3hSU2tocU5yMnFlUXRGLTJTUjY1Ym5UczhKbG1lQUY40gHwAUFVX3lxTFBiNFI2eXhMVHVSRjlTOWRKanQ0UDNwb3F4ZlViU0dfMFdCc3dValpjRnpEdENCQ1lzUVdqbkFJakFCRjMwbzFCTkhXQm5HM0VwanFPMVh3RXczTlpzbkxhNWdSREFRUmw2eXZCZzVXR3c5ejhHc0J1QnFOV1Y4VTdsYmFyZHhZN1lsSU5sVWRFUGJobFhKX3luYmxGeG9YSnN2SS0zZFhSbFZRbW9kQmhuX0QtRlNVaWxRZ3lLZXJNdEI5X0tOTk5jT19pU3VnSlRUSFJwelFSLVVKbGhESzZtU1I0LU9MRU1WblF2SnRJMA?oc=5",
+      "source": "Malay Mail",
+      "pub_date": "Wed, 04 Nov 2026 01:13:01 GMT",
+      "severity": "high",
+      "found_at": "2026-11-04T14:08:47.992953+00:00"
     }
   ],
   "runs": [
@@ -12302,6 +12338,11 @@
       "timestamp": "2026-11-04T05:44:37.653154+00:00",
       "new_signals": 3,
       "total_signals": 1254
+    },
+    {
+      "timestamp": "2026-11-04T14:08:47.992953+00:00",
+      "new_signals": 4,
+      "total_signals": 1258
     }
   ]
 }
