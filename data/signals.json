@@ -11258,6 +11258,33 @@
       "pub_date": "Fri, 17 Apr 2020 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-11-03T23:04:19.417621+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "SEC Charges Former Roadrunner Transportation Execs with Accounting Fraud - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0JhU1BQNU5Ra0l5WkV3SXQ5eWJHY2MxT2RHcE5UdTM5XzlTTHNSYzUyZEVhT2VqdFNZeXJZLV9RQl9KRW93YVJaM19sai0wbGV0ZHlRUmM3cWZGdUxwTkthMTJoQk92NTU1LU5QYkNfTGczMDZ3ZnJkZnc3SkNWUVNYRFdYMDZVQjF3OUJnOFc3ckM3LXBoazR6WQ?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Tue, 03 Feb 2026 20:49:49 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-04T05:44:37.653154+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler bankruptcy: Suspicious transfers of millions and 1500 job losses shake European logistics - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaEFFRVJYVi1vUUhKWHMzY1dCVm8tTUVTVFBGLTFreUhWUGNYM2lNa3liR0VHVXctRXBwbWcxN0pVVS1NbGdMc2dweVBxcXZLN0E3QnlBaVJrQ1M3Wnl6cjZwNlUyWkU3MEdkTWloVTF6UWNhZktHMExGRi1GWC0zaVJ6X3BISXpYNEJQWkhTa044dVNXUzZ0djl5Vzl0R19ncllmUExxZHpsQUFfSWFUaUNOWUlCTUVmcmREVHlrWS0ySFVSdFE?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-04T05:44:37.653154+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Revision of the Eurovignette Directive 2026: new road tolls for trucks and the growing risk of insolvency in transport - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRTNES2xXeHgxQThrNWJULU1nS2FOY2d3end5d1ZuZGVhTGd6N00xcWNrS1RSQ3B3eHI5TlM0X3cxR21jeFUzSlJJNGUyTG42OVhPa2kta2o5aWNhRzRqMWtIMlJkbFVQYWZUYzNQM1UtM3JiS0lJY3RqejV2OG8xWElRcnFsTHpjanNUYjFZLXpmSy16RkVoUWI4VHItSGFJbi1KX1A5ZzlXUFQ2aDZuR21jRS10VHFHTGZsQ24yeW5GaDUtVVZUeXNvaGc4VXBtWklET0dhQ1o3ZjhnNFFvR2RpRQ?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Thu, 03 Sep 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-04T05:44:37.653154+00:00"
     }
   ],
   "runs": [
@@ -12270,6 +12297,11 @@
       "timestamp": "2026-11-03T23:04:19.417621+00:00",
       "new_signals": 2,
       "total_signals": 1251
+    },
+    {
+      "timestamp": "2026-11-04T05:44:37.653154+00:00",
+      "new_signals": 3,
+      "total_signals": 1254
     }
   ]
 }
