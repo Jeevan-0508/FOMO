@@ -11321,6 +11321,24 @@
       "pub_date": "Wed, 04 Nov 2026 01:13:01 GMT",
       "severity": "high",
       "found_at": "2026-11-04T14:08:47.992953+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Germany, Italy and UK lead cargo crime reports - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wdGJXN1VnSmk2Zm5rVUR5c0hkZERHQzUyajZuS2hURHpHNW96eWpCZ3Njdk53ZkVUaDVKOFVubHYzSGp3bHVBTkduaVpqaWdKV01VUGlUdzdDaGIx?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 13 Feb 2026 13:20:49 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-04T23:27:40.716416+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRC1DQWVUUFdlVGozYUdORVpwMHJNaXdDSlJKaUxlYVBpUm9UbGZCNjZQS1FKRV9haWNNTVdfQXBnUjFUelZJeERuc2hnNWVhM19pRkJZSkEtTHBsQ1VwdVpXQi0tMHc4UG5uZ0NuVWttRFp6eUE5S3ZFRFFsMTdGZmw3REhDMXNDVEs5emExUlBzX2d0ZkV6bWN1VTFOczd6M0ZDSFNRcVlWRzgzVzdBaFFiX0XSAboBQVVfeXFMUHNzS3g4cjFmenhPWHY1dzhBWWM5U3pCLWRMdEI1MFhzYms5aDFkT05tMUZwZm9DRTluSWtDUHByWjVRM2R5eUZKWE16X01wT0VURkgtNDBpTlUxM1VzWU5peWh2ZVZPVER5MXAzV0FHRU03NEQzYWd6VTg5WUJHSkZ3RzM0OHlQa21ESW01MUhBaFlOWlBGMV83dXZ3QzQtNkQtUGFYSWdnNWU5elhSNXdrNzBXU05ZbWpR?oc=5",
+      "source": "Al Jazeera",
+      "pub_date": "Wed, 04 Nov 2026 17:33:39 GMT",
+      "severity": "high",
+      "found_at": "2026-11-04T23:27:40.716416+00:00"
     }
   ],
   "runs": [
@@ -12343,6 +12361,11 @@
       "timestamp": "2026-11-04T14:08:47.992953+00:00",
       "new_signals": 4,
       "total_signals": 1258
+    },
+    {
+      "timestamp": "2026-11-04T23:27:40.716416+00:00",
+      "new_signals": 2,
+      "total_signals": 1260
     }
   ]
 }
