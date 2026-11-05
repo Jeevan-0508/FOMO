@@ -11348,6 +11348,15 @@
       "pub_date": "Thu, 01 Jul 2021 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-11-05T06:03:11.434771+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Alarm raised over potential disruption to the food supply chain due to cyberattacks. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbzF6WEpGcGRIdXd3dndfc09Wck14X3NIdVNYY1VtN2RhTGlYb3Z3MXpSSXdwZTlYcG9XeG1uTW5RTmJwRGNJWnQ5cGc2WDRJdXJ5N2xsVmhNVmd0M200cUVhZ09SRmhrb2wwWmdIMDFETFpGYmFkblJpWjN3WjA5STM3U21xa3IyMlR5cFRIZFhNZkFMLW9PeERn?oc=5",
+      "source": "Vietnam.vn",
+      "pub_date": "Thu, 05 Nov 2026 15:11:31 GMT",
+      "severity": "high",
+      "found_at": "2026-11-05T19:45:39.785909+00:00"
     }
   ],
   "runs": [
@@ -12380,6 +12389,11 @@
       "timestamp": "2026-11-05T06:03:11.434771+00:00",
       "new_signals": 1,
       "total_signals": 1261
+    },
+    {
+      "timestamp": "2026-11-05T19:45:39.785909+00:00",
+      "new_signals": 1,
+      "total_signals": 1262
     }
   ]
 }
