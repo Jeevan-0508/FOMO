@@ -11339,6 +11339,15 @@
       "pub_date": "Wed, 04 Nov 2026 17:33:39 GMT",
       "severity": "high",
       "found_at": "2026-11-04T23:27:40.716416+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "The new standard: German Supply Chain Duty of Care Act adopted - Freshfields",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORkdsdDRMMUNNc1dXaFJPSndQMmprVXM4S3B5ajZXQXJmSVBfVnM5Mm90MkZwQ1N1MWVPWWZJbTN5WWVybnVXeEJfRDhFQ3UzdHlIdWEtNHQ0c0lRcUctMnV1Q3ZORzNPV3gwREZkQ0pibjJ4V21IbF93TklURm93NURVVU5JM2FRcE1UOHBLMlRUeGhTOVhyX2pqY0hRNGFTNnBXenByOTlKczJJaVBSMXdOT1IxYi16dnRITHJWdWZnMm52MEhOZXRpLTRVUUk?oc=5",
+      "source": "Freshfields",
+      "pub_date": "Thu, 01 Jul 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-05T06:03:11.434771+00:00"
     }
   ],
   "runs": [
@@ -12366,6 +12375,11 @@
       "timestamp": "2026-11-04T23:27:40.716416+00:00",
       "new_signals": 2,
       "total_signals": 1260
+    },
+    {
+      "timestamp": "2026-11-05T06:03:11.434771+00:00",
+      "new_signals": 1,
+      "total_signals": 1261
     }
   ]
 }
