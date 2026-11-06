@@ -11366,6 +11366,15 @@
       "pub_date": "Mon, 21 Jul 2025 13:21:37 GMT",
       "severity": "low",
       "found_at": "2026-11-06T05:58:15.773563+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Italien-Verkehre: Speditionen müssen mit Störungen rechnen - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaDk2UjFnckhsRUxINFNUeVJCU2xWRlJhNXBkaFJNMl9vLXFLUm1NN3JRbU1pdEpIMm5fUWRvbFRJNmthSVN5TXNOdGoxMHYwaUxQMlJqeXZFSUk5TzROdktMbzJ5ckZfbjN5aDhfTFF4dVkycjIxY1NUakN3YkVMdEdqdG5ybVkzV2VvR24ydzBJOHY2UGxJSWJLa29LWE1wRFVXQWNzVlR5UHlzVjBEVk9xU0JNRVZ4LWN0UzlOdHZIWWg1ZEE4NzVlWQ?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-06T14:08:28.974207+00:00"
     }
   ],
   "runs": [
@@ -12408,6 +12417,11 @@
       "timestamp": "2026-11-06T05:58:15.773563+00:00",
       "new_signals": 1,
       "total_signals": 1263
+    },
+    {
+      "timestamp": "2026-11-06T14:08:28.974207+00:00",
+      "new_signals": 1,
+      "total_signals": 1264
     }
   ]
 }
