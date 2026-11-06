@@ -11357,6 +11357,15 @@
       "pub_date": "Thu, 05 Nov 2026 15:11:31 GMT",
       "severity": "high",
       "found_at": "2026-11-05T19:45:39.785909+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz - IHK München",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOERQUl81V0twaG9KMk1sVk9ldU5hWEFtOVk0S2huams3eDMxOWFSRk5jTWVINWRQbGRhZkpza3R2djBxT1pNM05LbzV2Z1ZWOTF1M2JvNG41WTlZeDNzSlVZRGM3Zkh5MXMtWm05OGpIYlNyaXZjcmNjODZsYkdQcDVzMTNPNmM?oc=5",
+      "source": "IHK München",
+      "pub_date": "Mon, 21 Jul 2025 13:21:37 GMT",
+      "severity": "low",
+      "found_at": "2026-11-06T05:58:15.773563+00:00"
     }
   ],
   "runs": [
@@ -12394,6 +12403,11 @@
       "timestamp": "2026-11-05T19:45:39.785909+00:00",
       "new_signals": 1,
       "total_signals": 1262
+    },
+    {
+      "timestamp": "2026-11-06T05:58:15.773563+00:00",
+      "new_signals": 1,
+      "total_signals": 1263
     }
   ]
 }
