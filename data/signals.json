@@ -11384,6 +11384,15 @@
       "pub_date": "Wed, 04 Nov 2026 17:33:39 GMT",
       "severity": "high",
       "found_at": "2026-11-07T05:29:57.216298+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettengesetz - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM2pFMjVFdG5UUVRMZS00cHo2ZVQwZW1EallwaGY0ckFjckJJdk4yUTBNTllIbU5vSHdwVkVLSDZpM09IVHJyaFd3aXAzWTZ2TkdWczVGVUlqYldLX3EwOGl0UmZCOXJFandtZzBsQjk0T3pDaVV5ZWVYbWEtZVpQbzdBX0s?oc=5",
+      "source": "Taylor Wessing",
+      "pub_date": "Sat, 15 Jan 2022 01:17:26 GMT",
+      "severity": "low",
+      "found_at": "2026-11-07T12:45:20.190315+00:00"
     }
   ],
   "runs": [
@@ -12436,6 +12445,11 @@
       "timestamp": "2026-11-07T05:29:57.216298+00:00",
       "new_signals": 1,
       "total_signals": 1265
+    },
+    {
+      "timestamp": "2026-11-07T12:45:20.190315+00:00",
+      "new_signals": 1,
+      "total_signals": 1266
     }
   ]
 }
