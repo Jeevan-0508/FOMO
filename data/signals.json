@@ -11375,6 +11375,15 @@
       "pub_date": "Fri, 23 Oct 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-06T14:08:28.974207+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRC1DQWVUUFdlVGozYUdORVpwMHJNaXdDSlJKaUxlYVBpUm9UbGZCNjZQS1FKRV9haWNNTVdfQXBnUjFUelZJeERuc2hnNWVhM19pRkJZSkEtTHBsQ1VwdVpXQi0tMHc4UG5uZ0NuVWttRFp6eUE5S3ZFRFFsMTdGZmw3REhDMXNDVEs5emExUlBzX2d0ZkV6bWN1VTFOczd6M0ZDSFNRcVlWRzgzVzdBaFFiX0U?oc=5",
+      "source": "Al Jazeera",
+      "pub_date": "Wed, 04 Nov 2026 17:33:39 GMT",
+      "severity": "high",
+      "found_at": "2026-11-07T05:29:57.216298+00:00"
     }
   ],
   "runs": [
@@ -12422,6 +12431,11 @@
       "timestamp": "2026-11-06T14:08:28.974207+00:00",
       "new_signals": 1,
       "total_signals": 1264
+    },
+    {
+      "timestamp": "2026-11-07T05:29:57.216298+00:00",
+      "new_signals": 1,
+      "total_signals": 1265
     }
   ]
 }
