@@ -11393,6 +11393,24 @@
       "pub_date": "Sat, 15 Jan 2022 01:17:26 GMT",
       "severity": "low",
       "found_at": "2026-11-07T12:45:20.190315+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Global logistics giant Expeditors suffers cyberattack, shuts down operations systems - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOajFPc3lfdzRhR2JxMnFOdzI5VTd0TmMyNVcwbS1fYUhEX09zMWQ4bFlzQjZua3IyVDRjZU4yQVZ6LVMxZGQwMmFocnFaUko4Z3RCc280Wnp5NnAzYXY1UHBXZGtycm91TEtGRzZLMU16RXN2dHJuY19EcV8xUGhJcmxmWXJSV2NfN3hBY0xybV9GSDh1V0Y5Y0hCTVFrSGlDMi13dHVOakZRWnBvV280bWpOM3VYZ2x1?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 21 Feb 2022 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-08T05:30:35.829217+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi ruft Streikwoche bei Autobahn GmbH aus - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1dsZXozWmQ0Y3hKcUN5TVJtZGUxQ0RQQ1VKa0poUmtxWEtiaGxGSkRTWFZhUkpUajBQZklrYjlpYkdWX25EUnNfcGRGdi1qY1RPTXI4bkI0X0FmYzJQWHVGeU9oLWI0R3k2eVczLTdjTy1Od0VuSWdTRVZvX1JvTUdsSklPS1lXOXdTcWs3bG41S3NQaXB0N3BJVEhNNU9QLUs2QTRCazR5cWFxclFPN2dnMGRzRTQ?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Tue, 17 Feb 2026 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-08T05:30:35.829217+00:00"
     }
   ],
   "runs": [
@@ -12450,6 +12468,11 @@
       "timestamp": "2026-11-07T12:45:20.190315+00:00",
       "new_signals": 1,
       "total_signals": 1266
+    },
+    {
+      "timestamp": "2026-11-08T05:30:35.829217+00:00",
+      "new_signals": 2,
+      "total_signals": 1268
     }
   ]
 }
