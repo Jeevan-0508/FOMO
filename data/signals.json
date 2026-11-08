@@ -11411,6 +11411,15 @@
       "pub_date": "Tue, 17 Feb 2026 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-08T05:30:35.829217+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Tarifstreit eskaliert: Verdi kündigt Warnstreiks in Seehäfen an - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQM2JjUEVQNzRILTg3RVkxUThRckVPNGFZQmRIWF9XbzhlN1hHMzZsbzhGRW9BMWRLc0oyWnp5NHRSMDlzVFRoLWw1dE43SGkxY2pQRXBtRnBlaDdTV0hZOVlWdnhnc2s3dUFzMDVWUzJFQUNydWM4WnN1Qk9SUmtiSnFSOGJCY3Q5X2UwaHI2RGRiczhHTUdiUTI4SzFIUUZzcVhESU9Tc3ltMFRKbDV6N1pYNlBvZlRYMF8tM2Z1dEFKZGZWLUprVzBHc1hwTGI2dVE?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-08T13:03:51.706869+00:00"
     }
   ],
   "runs": [
@@ -12473,6 +12482,11 @@
       "timestamp": "2026-11-08T05:30:35.829217+00:00",
       "new_signals": 2,
       "total_signals": 1268
+    },
+    {
+      "timestamp": "2026-11-08T13:03:51.706869+00:00",
+      "new_signals": 1,
+      "total_signals": 1269
     }
   ]
 }
