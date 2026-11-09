@@ -11420,6 +11420,24 @@
       "pub_date": "Mon, 17 Aug 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-08T13:03:51.706869+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo theft before Christmas: £1m container heist and RHA warning - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSVBTbWE1V2VQdTduTVJFV05ZNTdnZk9odEpwOVFsZG4zOGR5VVRkMkh0UEFiWmN1ZjlFaUdXWG9ESmxMbE40S0x5QThLdzV3N3ZPY1BCUEpUamdwRHBxVXNQVDFxZHFZenZNUWM1REJ4cTIydUJ1UGVFU1VIV1I4cjd3a3QyUl9fTzNScGxwT28?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 09 Nov 2026 11:54:21 GMT",
+      "severity": "high",
+      "found_at": "2026-11-09T15:47:47.848829+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Wirecard, Reeling From Accounting Scandal, Files for Insolvency (Published 2020) - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeUI2WVVFQUQzUzZXRlJ0Vk9Yc296STBwSWVKWHg1dDExSEF2WEN1cW84M2VobjExMmhRcnZxU0RlbkdTTWZsY2h4Ql9BOUFnQ0J6SlljVmRnbGxIUDJjOWZLa0ZUanotemc4d081dXZGd1VVbDR1MzJxSkZhMTh1YkNGeTNQUQ?oc=5",
+      "source": "The New York Times",
+      "pub_date": "Thu, 25 Jun 2020 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-09T15:47:47.848829+00:00"
     }
   ],
   "runs": [
@@ -12487,6 +12505,11 @@
       "timestamp": "2026-11-08T13:03:51.706869+00:00",
       "new_signals": 1,
       "total_signals": 1269
+    },
+    {
+      "timestamp": "2026-11-09T15:47:47.848829+00:00",
+      "new_signals": 2,
+      "total_signals": 1271
     }
   ]
 }
