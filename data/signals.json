@@ -11447,6 +11447,33 @@
       "pub_date": "Thu, 22 Oct 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-10T01:22:53.395555+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo theft before Christmas: £1m container heist and RHA warning - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFctYnM2eDJfMUpObTVfRHF3STluZ1pKbDlGRkNfNzdTNWRUc01wNk4wenRnQWk5REZBY09NaXRlaFV4eVhoSWVIRjRTdzF2TUowNERRdzFFQ3pKQW96UXQ1QVJzdmJYY29jWjU3T3dBUmo3WXRLQ3dVYURRdkJEQlBUN29jRTkzQW54V1lCREp0aEtn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Mon, 09 Nov 2026 11:54:21 GMT",
+      "severity": "high",
+      "found_at": "2026-11-10T14:39:11.656825+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Freight Fraud Gets More Strategic Heading Into Peak Season - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQmt5QjBBY3pZNi1OOHlCNTNORU9hMWh2cksteHUtRW1lZlhsOWEyNHBLZ3k0OERFRmtveWNXTGdveldEWGhkY253aS11Z0Y0OUxVVE5pdzlzZi1PR1ZGcE5ZbmdIaVRCbU91MzNDdGk3TzZuMGJCVlM5WFZVUktzYm15bERjMFB6Vjk4R0pUVTNCcXBjcGNz?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Mon, 19 Oct 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-10T14:39:11.656825+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Spain general strike puts freight deliveries at risk - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYUJqRl9sYXdTSkVrMEZZQkx0RUEwRVZiNWZEbl9wb092THM1X1ZVY1I3TE1wdk5neXRPb2pzZ3FLSmwxcTJKM1NfUWZ0MUN6Sm1pWEFHR0RkckZGRkRrS1JXRXhGT0t6M3lSN0hfYmR3MEMwQ0hSWWVnT3hsTkpwR1FFMHpTUzVWSUJkRHB1UTE0UGd3SGc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 10 Nov 2026 10:50:35 GMT",
+      "severity": "high",
+      "found_at": "2026-11-10T14:39:11.656825+00:00"
     }
   ],
   "runs": [
@@ -12524,6 +12551,11 @@
       "timestamp": "2026-11-10T01:22:53.395555+00:00",
       "new_signals": 1,
       "total_signals": 1272
+    },
+    {
+      "timestamp": "2026-11-10T14:39:11.656825+00:00",
+      "new_signals": 3,
+      "total_signals": 1275
     }
   ]
 }
