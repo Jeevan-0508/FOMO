@@ -11438,6 +11438,15 @@
       "pub_date": "Thu, 25 Jun 2020 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-09T15:47:47.848829+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik italienischer Lkw-Fahrer legt Lieferketten in Europa lahm – operative Krise und finanzielles Risiko für Logistikunternehmen - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPRU9BenVPa191dFJSTnlpUFBqRExwdGQ4ZmFEWFN3QVBjSTh1QS1lN3JwYUE2Sk1ZSmRUQ1JKY1Z5UDZfd25ncWVBWkFncTVkU2ZrcnhLeGcwbEFQaGo1V2Z2WFpUakZMdXc1QUJwY2tFSU9NeEtUb2pfTWtidXBHbFJmRTMzOXBqWG4xMU1idXBSNzFkVEFGRF9HRXhkak1xcHMzSXY2czlyZFZhNmtibUc0MEQxUk5JLTBXOEg2d0FWek5sTk1RQ1paeXpGMjNPVnE3WS1lUXlTdDNvTHY2cGRKMDdDSmhLV0t0dkhMUXFRUjVpR3huZHppSXFSc2Utam5WQlBHT3B3OXphTExyT3ZqRjcyUUZYYjMzMlhXcmxfbi1iRXc?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-10T01:22:53.395555+00:00"
     }
   ],
   "runs": [
@@ -12510,6 +12519,11 @@
       "timestamp": "2026-11-09T15:47:47.848829+00:00",
       "new_signals": 2,
       "total_signals": 1271
+    },
+    {
+      "timestamp": "2026-11-10T01:22:53.395555+00:00",
+      "new_signals": 1,
+      "total_signals": 1272
     }
   ]
 }
