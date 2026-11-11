@@ -11474,6 +11474,24 @@
       "pub_date": "Tue, 10 Nov 2026 10:50:35 GMT",
       "severity": "high",
       "found_at": "2026-11-10T14:39:11.656825+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Spain general strike puts freight deliveries at risk - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQWxhbGxZaXJFWXltT0NZWDl1cTRjSFp2X1BpX1QzQXhQaHNBSkFPRlUtYVJRLW5iLXhlOWk2Uk5sUFBKZGdkMmZWWUpNd2RibHJZVFpSN2tfeWNTWlVSeFZhVU96MFpVVGpRbDhWYjVseFF5eDBfQWllZmV0S29BaC1WNFhJencyaFUyeGRQR3ZISTloaDZkQmVn?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 10 Nov 2026 10:50:35 GMT",
+      "severity": "high",
+      "found_at": "2026-11-11T13:54:41.742304+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Verdi bestreikt erneut deutsche Seehäfen - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORV9lTlNCSUNOSVotb05wVXhpZnFTcnUtOGxZVmVfNnV4V2ZRY1NjSzg0U2l5ZHNidHVRN0ltSWhIQWtPa3RPdDVJTEE5X20zZ01BQ1VuRkZNUjNwQ0pRZFVXTVUtNEpmZnpJMTJtSC1GcklCY3M5U1BLdmtWTldzMTlJMkZDVFNTSVBWU3A1ZnR0cWJOR0p4Y0Naa3psUXdNVGlELVNWekVSdXREUFZVb2hOTQ?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-11T13:54:41.742304+00:00"
     }
   ],
   "runs": [
@@ -12556,6 +12574,11 @@
       "timestamp": "2026-11-10T14:39:11.656825+00:00",
       "new_signals": 3,
       "total_signals": 1275
+    },
+    {
+      "timestamp": "2026-11-11T13:54:41.742304+00:00",
+      "new_signals": 2,
+      "total_signals": 1277
     }
   ]
 }
