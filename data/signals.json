@@ -11492,6 +11492,15 @@
       "pub_date": "Wed, 02 Sep 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-11T13:54:41.742304+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo theft: why digital scams may rise in 2027 - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWGYwRFJnNkhCMXBPUFJsQ1JYOGdFbjVWQ3NsWTVCVWViTkdEbGViNDJOZ3FXZllnR0FoRDBnRmxfLXMtRWZWRjZRaTgwU0tFSW5RMjlBT3hmejh5SVZMYnFWVE0zczM5ek1IdWYyU0YtenVfY2FYbGhhS2sxbmlncEtrVTBZY0RJUGV6NC00TDQzZVhCNklDMnNpOUxDWFVlWGZ0UlpVcS10VHdSVFNqSzBHLV92eVFUOE9TT2NVcWgxdzRWYk1aMS1IMURNb05vZC10dnhoc0I2UmRxenc?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 12 Nov 2026 05:34:01 GMT",
+      "severity": "high",
+      "found_at": "2026-11-12T14:55:46.502753+00:00"
     }
   ],
   "runs": [
@@ -12579,6 +12588,11 @@
       "timestamp": "2026-11-11T13:54:41.742304+00:00",
       "new_signals": 2,
       "total_signals": 1277
+    },
+    {
+      "timestamp": "2026-11-12T14:55:46.502753+00:00",
+      "new_signals": 1,
+      "total_signals": 1278
     }
   ]
 }
