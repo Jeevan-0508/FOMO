@@ -11501,6 +11501,24 @@
       "pub_date": "Thu, 12 Nov 2026 05:34:01 GMT",
       "severity": "high",
       "found_at": "2026-11-12T14:55:46.502753+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl vor Weihnachten: Raub in sechs Minuten - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYjVIVXpPWmRNOVFBUVRITzFna2l1dklPSnhpUHJpU2NNamxfeDgwZlhwek10VmJxMEt1QzRKOFA0VmM0VFNyR3pISWdxT242Qi16RFNqSW50THZ4RTdocGRiTHpHUWRyemNPZGllMmZJMmlhYzRudTk1VUlJdXhDZDhDdG5LNTZPVTFLVnZzZTAxZmo0amVJcTdzZ0tzcWtaTXBCVmZtUi1QaHNDQkpUNm5fRTZvNkpBZDU0?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Tue, 10 Nov 2026 04:13:23 GMT",
+      "severity": "high",
+      "found_at": "2026-11-13T06:00:25.068048+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Cargo theft: why digital scams may rise in 2027 - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZmk2NjcwLVVmLXFVMk92V2stRGduclpGTkxOR0E0QlIwTjItYXhZQ25OV0J3bGY0cEJWNnBUdHFadjJaMWZGbHJhdUNqNnVfaS1hZ3Q2WnBneFIzcmxac0VLanU5Ukl3bXB2WHFQWEQ4dm1LNzhzNkRpZ2FWUlEtTjE2SHlNRnlsamZmeGRsOU94WG03dV9FY0EyZ2lyaUczS0hwWGZfWUdEWm1tbGVSeklQSHFxUkNNX01VbjZJSDUxVWZoNUplRC1hdzB4N18tdm11T2VjZ2R1bDVGNXp2VnVR?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Thu, 12 Nov 2026 05:33:09 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-13T06:00:25.068048+00:00"
     }
   ],
   "runs": [
@@ -12593,6 +12611,11 @@
       "timestamp": "2026-11-12T14:55:46.502753+00:00",
       "new_signals": 1,
       "total_signals": 1278
+    },
+    {
+      "timestamp": "2026-11-13T06:00:25.068048+00:00",
+      "new_signals": 2,
+      "total_signals": 1280
     }
   ]
 }
