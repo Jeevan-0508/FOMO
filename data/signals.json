@@ -11519,6 +11519,33 @@
       "pub_date": "Thu, 12 Nov 2026 05:33:09 GMT",
       "severity": "medium",
       "found_at": "2026-11-13T06:00:25.068048+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Germany registered 2,067 corporate insolvency filings in August — Tagesschau - UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONEVTWkxuRWlOaDJsZGU1TkQ0YTNYNzI1QWs1YzdTTEltbE53SURYU05XTTdmcXc4VmZPZ0MyYk13aXZCY2p0TVhLMlAtQUtNc3NCTVFjM1ZWcnZEME5hTEpYWWllZloxSkZyYWdHX1BRTGxDcnI0cFhNdXQ5eUt3Zm52UUZYUjA4OE5md0dCREc5RFdPOUpoQ19kU2pZd0FUUDRuYTZuclR6X1pVWjdNblBlb3Z4TnJsWmZWMEZncUZFYnc?oc=5",
+      "source": "UA.NEWS",
+      "pub_date": "Fri, 13 Nov 2026 13:50:09 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-13T19:26:34.425690+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German Military Drones Resume Operations After Cyberattack On Manufacturer Quantum Systems - The 420.in",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdjBTbWlMVFlhdFNsWmpDbEphLXd3clN6azZzVEhiMk80UzlRbTk4Y0xkOW50MmV5UDlOTWJMc0xPT0ctUGJHbnctVDRoaVVmSFo3Zy10U29VWjlFaWI3WXRWc2Q0aEJfaURSa0NyRGZqa21pR2liclR0MUs0S1VpZWM1cUN3NUc0NWFkc3pxeXJDZjJVY2ZJUmJzdm1SVVltWXJlOWg2VTZrU0w0dnc?oc=5",
+      "source": "The 420.in",
+      "pub_date": "Fri, 13 Nov 2026 17:50:11 GMT",
+      "severity": "high",
+      "found_at": "2026-11-13T19:26:34.425690+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Consolidation and Disruption: European 3PL Market Analysis 2026 - American Journal of Transportation",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU0ZNeHZFUVM0OGp1X2xsUXZScmM0SWM1TzQzSkRzdXQ1TEF3RXgxT0lfUXNlUFJBajFfUmo2RmhPRG1CYlQ1dXlBV3V4SGlaZEw0MlBDcXMzVGR3eUc3UWMxTzB1MGFXMHFfa255cHF0dXhLRF96Mnlva0tqdWJfT1ZKUFpaS2lnUzVoYUZsUGJzZw?oc=5",
+      "source": "American Journal of Transportation",
+      "pub_date": "Fri, 13 Nov 2026 12:48:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-13T19:26:34.425690+00:00"
     }
   ],
   "runs": [
@@ -12616,6 +12643,11 @@
       "timestamp": "2026-11-13T06:00:25.068048+00:00",
       "new_signals": 2,
       "total_signals": 1280
+    },
+    {
+      "timestamp": "2026-11-13T19:26:34.425690+00:00",
+      "new_signals": 3,
+      "total_signals": 1283
     }
   ]
 }
