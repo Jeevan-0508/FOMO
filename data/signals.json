@@ -11546,6 +11546,15 @@
       "pub_date": "Fri, 13 Nov 2026 12:48:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-13T19:26:34.425690+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "German drone manufacturer Quantum Systems reports cyberattack - SC Media",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSkJuYlBFZ3ZLMXRzYVNNZzN2OVpqZTlwUEU5WjEtMktUR3M3UzhpdmVyVVJfdFFkU0RmdEJOLXFzVGx3TXRRcTZ6Y1NYVFo5cEdzcjNlTS1NWFVaUV9zb3lidFUwT0lTdXBBYlRmaTRTTGJvQi1CdUdsU2JMVFZNd3JOMnd1SmlPMGliZnE5VDYzNnVkNkE?oc=5",
+      "source": "SC Media",
+      "pub_date": "Sat, 14 Nov 2026 00:22:50 GMT",
+      "severity": "high",
+      "found_at": "2026-11-14T05:49:50.162313+00:00"
     }
   ],
   "runs": [
@@ -12648,6 +12657,11 @@
       "timestamp": "2026-11-13T19:26:34.425690+00:00",
       "new_signals": 3,
       "total_signals": 1283
+    },
+    {
+      "timestamp": "2026-11-14T05:49:50.162313+00:00",
+      "new_signals": 1,
+      "total_signals": 1284
     }
   ]
 }
