@@ -11555,6 +11555,15 @@
       "pub_date": "Sat, 14 Nov 2026 00:22:50 GMT",
       "severity": "high",
       "found_at": "2026-11-14T05:49:50.162313+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1adnhxTW5yMXNMeXJOLXRZSTZLSm1lTXd2MjBPamVfLWdsMmlvdk80NTdOVE1fX3J0R3FxdUgxdlJsbGtLOHVzNlpHSDNNdkVXbl9EczVjTWsxYlk?oc=5",
+      "source": "BBC",
+      "pub_date": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-15T05:50:22.065687+00:00"
     }
   ],
   "runs": [
@@ -12662,6 +12671,11 @@
       "timestamp": "2026-11-14T05:49:50.162313+00:00",
       "new_signals": 1,
       "total_signals": 1284
+    },
+    {
+      "timestamp": "2026-11-15T05:50:22.065687+00:00",
+      "new_signals": 1,
+      "total_signals": 1285
     }
   ]
 }
