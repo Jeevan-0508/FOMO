@@ -11564,6 +11564,15 @@
       "pub_date": "Thu, 22 Oct 2026 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-15T05:50:22.065687+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Stealing your own freight: O’Hare cargo delays force drastic measures - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeTBKeEZTaWtDUFZFMVFXMi1jUnVpT0gtTWRvV0xyMHFHcUVqUWxZVzZyZ0x2dk9QZWNiMENJbEl6Qm9WSTJWNlhsQ0hEZzBIcHo0NW56QzB2dU5JWko2VG1kNXRPdnh6Z0lUaU4wZEVuSkhBZWFteDNpb1hMRWVDYXZWUGJnbGpOM0pOSVJXZ2o0X1dRR1ZZb3ptcExUd0tiNEVB?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Wed, 25 Aug 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-15T22:39:50.166039+00:00"
     }
   ],
   "runs": [
@@ -12676,6 +12685,11 @@
       "timestamp": "2026-11-15T05:50:22.065687+00:00",
       "new_signals": 1,
       "total_signals": 1285
+    },
+    {
+      "timestamp": "2026-11-15T22:39:50.166039+00:00",
+      "new_signals": 1,
+      "total_signals": 1286
     }
   ]
 }
