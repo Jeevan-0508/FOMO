@@ -11573,6 +11573,24 @@
       "pub_date": "Wed, 25 Aug 2021 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-15T22:39:50.166039+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "EU Publishes Due Diligence Guidance on Forced Labor Risk in Supply Chains - Mayer Brown",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVTZueW8tcUtHYjN3SDRaeVViclhScTVUZjYyMjZDSUp2RHF0Y0VhNVhVRUlLb3BmRHdQeFhMR2doSWtGVFNFSllJa0FkdUVqWUdHTFRJZDJYWHd4ZUpQQnY3SXhoQ0M1VWpfWUtVTlg4YS1sMEh6aTF3dWRHRWxtQXJJRnRBWTJZWkphTFUtY0JuTnF2NVlqdENEa1VZZ3FMV1c5eDRkbGY4U1FJYkJWSDE3bFFod2t3Rl91T3hLRUtmZjFIRTdFaTB4cWFidw?oc=5",
+      "source": "Mayer Brown",
+      "pub_date": "Fri, 16 Jul 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-16T15:23:12.554110+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Quantum Systems Cyberattack: Reported Update Server Poisoning Led Bundeswehr to Ground Drones - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOc2wxdzFEU0V3REZsd3Bra3VhdjU4cnVabmNMc3cxbk5qY2pkRnVDOXZydnNtbXBWWHVUVkN1Tmh1ZkVVNTVFUGktakU4ZjZ1UFIwaV9hWnUwaVpxbHFhTHNTdUZHMWpJUXpuaDU3OUQtTlg5dXVGRVBvRWxoNDk3MFB3eU1aRkdzSWVHVkhPTDViSWJfajVGa2dMN1NoR3JOeUVZUVBTZzE0X3RqLTYtbC1ZY2UwVmNrVVlUZ251VHg0bWFkVkZiYy1NOC1NN3JRNE5xMnA2VnVxZ1RE?oc=5",
+      "source": "Tech Times",
+      "pub_date": "Mon, 16 Nov 2026 11:06:52 GMT",
+      "severity": "high",
+      "found_at": "2026-11-16T15:23:12.554110+00:00"
     }
   ],
   "runs": [
@@ -12690,6 +12708,11 @@
       "timestamp": "2026-11-15T22:39:50.166039+00:00",
       "new_signals": 1,
       "total_signals": 1286
+    },
+    {
+      "timestamp": "2026-11-16T15:23:12.554110+00:00",
+      "new_signals": 2,
+      "total_signals": 1288
     }
   ]
 }
