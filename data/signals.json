@@ -11591,6 +11591,24 @@
       "pub_date": "Mon, 16 Nov 2026 11:06:52 GMT",
       "severity": "high",
       "found_at": "2026-11-16T15:23:12.554110+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Ladungsdiebstahl verursacht Milliardenschäden – sind Sie hinreichend geschützt? - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYXZjWHVOTmhRZkZHekVQTUVYWnJWU0JDeTM4cHNzVDVkbDFJVGlhenYzX0hXdTRkak1tRHBKX2VfWkxQU3M2X21YN1FocGdOUWJySHhONWFuMG0wWnI5ZlpWWnJnV2Z4ZVpGNDFaeks2T2IwTXZUOG9WSUcwdjF0ajZ3WDVNeDR0bWFMWDYwT1hvd2o5VWxHRFBHNVQ1WFR1X0NCeWxHdWNQVmxkV1RYR1lvSTNaR21Qc2NtM3NiZzhudER4S011QVlCaGJtem5GLXNHbElmb2FxMmZo?oc=5",
+      "source": "Taylor Wessing",
+      "pub_date": "Thu, 02 Aug 2018 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-17T15:46:08.448085+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "What’s new German Supply Chain Act? Legal Update on LkSG and CSDDD - RÖDL",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb2Rjc2RTYnU5cGo4QllCUDR3MVQ2QUMxUzlxNl9FSGZsYU1ia0RlNlkxcEpQLWQyenZiRW1RQzBseENvTXFzRTBrUHJuVWFlRVJCbnhYbEZ2aEZXUGFpUl9KZC15aVM5U2ZwN2ZCdFpITWYtWWg5NVU2c0VCeklCcV9UeDRFdlBSUXpSdW1Ub1QyU1RpUmlZYXhBNXRnWTJE?oc=5",
+      "source": "RÖDL",
+      "pub_date": "Tue, 25 Nov 2025 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-17T15:46:08.448085+00:00"
     }
   ],
   "runs": [
@@ -12713,6 +12731,11 @@
       "timestamp": "2026-11-16T15:23:12.554110+00:00",
       "new_signals": 2,
       "total_signals": 1288
+    },
+    {
+      "timestamp": "2026-11-17T15:46:08.448085+00:00",
+      "new_signals": 2,
+      "total_signals": 1290
     }
   ]
 }
