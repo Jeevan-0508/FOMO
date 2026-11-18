@@ -11609,6 +11609,24 @@
       "pub_date": "Tue, 25 Nov 2025 08:00:00 GMT",
       "severity": "low",
       "found_at": "2026-11-17T15:46:08.448085+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Overview of the new draft bill of the Supply Chain Act - Taylor Wessing",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbE5saVhleVdjV1JCTmlzbUgyRlNTQUtRc1hsQlRXd2tfOUlJM1FrY1E0NzVXb3AwamNTelpzZmZiWlJyYTY1SnJDWXFVaXlkYUFpSjR3TldWVlZILXZEOUt1WFhRd3dVSnFzdzIwclk5aVlhTUhJeG5aYngtUHA2eG1ZWGNQN3JBLTVzUFllYXllVnpXbFRmLW92UmJhY3l5NjNBR29FOWVqNk5YY0dsY3RDV1JFaU1KZkMyLVlyWTVlWEhfWnMwZg?oc=5",
+      "source": "Taylor Wessing",
+      "pub_date": "Tue, 16 Mar 2021 12:31:38 GMT",
+      "severity": "low",
+      "found_at": "2026-11-18T00:48:53.907564+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Dutch transport and logistics proves resilient amid rising costs, global disruption - ing think",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYlBPbmR6T18wdXdxZ1l0ZS1GbjVvN0xSTi1sd1J5VTZlR3YtQVNJQi1ndEdmcENESHdPX1pJeGphRV91Tk03TlBDOWs5QUVYaWdFcmhNZ2lNRDVVNEdBZ2FSMGVvSVY4R09wVkRoX0lVY2VvdTJPcm00SE5lZGtldXRzUk5SRGpQYUd0cW5ndWItWUJPNGU2VlV1Q2RLUjA?oc=5",
+      "source": "ing think",
+      "pub_date": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-18T00:48:53.907564+00:00"
     }
   ],
   "runs": [
@@ -12736,6 +12754,11 @@
       "timestamp": "2026-11-17T15:46:08.448085+00:00",
       "new_signals": 2,
       "total_signals": 1290
+    },
+    {
+      "timestamp": "2026-11-18T00:48:53.907564+00:00",
+      "new_signals": 2,
+      "total_signals": 1292
     }
   ]
 }
