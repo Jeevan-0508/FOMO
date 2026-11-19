@@ -11681,6 +11681,51 @@
       "pub_date": "Mon, 03 Mar 2025 08:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-19T00:06:42.214622+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Verisk CargoNet Warns July 4 Freight Disruptions Could Amplify High-Value Cargo Theft Risk - Verisk",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNVJrRTd6SjNvTW9OS0NIRHFfczlsUzlHN3BSN2ZPaDBvQ1dvdHY4bnpoMVN5cXdDbk1reGZ1MHNrRFp2a2lEQ20xb25PT0tOdVlJeDEwQ1NHbnFvUVZKcEVCd0xSY2JGQnFVTTB2aTZMdzl5Y0RpOXZsYzhMU0pQZnh4akViMEstZVFkQ0JCWnVEUW1EbG1XVG9nLWJLNG5tRkZIUTF6dXBHemZTRDFzWlQwcC1DTHdDMGkxSzZHM3BzRmVGZGV2aDk0bw?oc=5",
+      "source": "Verisk",
+      "pub_date": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-19T15:31:51.464725+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Fake carriers attack freight exchanges: How organized crime groups steal cargo and drive companies into bankruptcy - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRDNYSXVOWGh2VGhMYzREaHRZRndEby05NnFsU2FncHNHVHFhWWwwdF9LU3Bvb0liSXFPb1BBN2p6Q0J0a1RjUU1zMUhhZDFmVHZyZG1OWnEtMjhzU3ZtbmZKY0tnQTFkeGJtUlRXUVZqRDhYMnM2TXZ0N3VSclVrRGVFXzhBbmVOc2N2RlljbWgxU3VBSENGRWRXV1BWTng1UjlPbG0yREg0VjVZU2R5LTdyd1pzSjBPM1hQZjVENVdLSjNtN1FiSWF3enBUTGczX2Q1RWtndzA0NkFOWTBmOVFKN21TdGxJ?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-11-19T15:31:51.464725+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Logistics company DB Schenker announces layoffs in Texas - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORDI3MUhkZlJVTFo0UDNXRk0tbzd1ZHBMM1hIeFpaR1ZNbmNUQ09IeS1FS0JGbHlXSGxRMHdnZGVlSDJkR1ZBdzJsSFhFTTNveThhMmpIRThyODVySHhDLVVpYzlNY3A4SEw3Q0s5Z3pMNjdIODBzNHd2TllsOWhNbHN5dlJaZ24zVVdwZlNMR2RVTTJQ?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Tue, 21 Jun 2022 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-19T15:31:51.464725+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Vorlagen zum Lieferkettensorgfaltspflichtengesetz abgelehnt - Deutscher Bundestag",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ1ZJdHR3eFR6b3BPNGZ1c3JaRHRFVEJoR3Q4Q09SZFlsaE5nNl9pX0w1clRmZEo2cTduVzRJMnVISFFqMk1nR3ltZ0F0bTlSNEZrTWVKMWtSalJEMVRLX19XQjlfb3BzaVBHa0taWS1zTHVQcXVCWHAtbG1PZGtzNlFqa1NKUQ?oc=5",
+      "source": "Deutscher Bundestag",
+      "pub_date": "Thu, 05 Jun 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-19T15:31:51.464725+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "News German port workers move closer to indefinite strike after Ver.di rejected pay offer - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODVrTkUwUVhBckVlZ01VTzFTRlU4WXZ2YzdjRG12V25wVnh4SndnVlYya2tFdzJ5eElTMEVQeDEydW5OR2RvTFVHMzhCV2ltQnhNV2RuQjVDUTVacWgtMDJPV2dXQ2U3Q2xKNTNIR3A5dFpaeGQ4bmZzR3d6X2NSaVIwbW1XMjIzd2FPTFA3cGJ2d1dyU0I1VmtENWlVNjI2el80SmRJd0pKVEtQWmc?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Thu, 17 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-19T15:31:51.464725+00:00"
     }
   ],
   "runs": [
@@ -12818,6 +12863,11 @@
       "timestamp": "2026-11-19T00:06:42.214622+00:00",
       "new_signals": 6,
       "total_signals": 1298
+    },
+    {
+      "timestamp": "2026-11-19T15:31:51.464725+00:00",
+      "new_signals": 5,
+      "total_signals": 1303
     }
   ]
 }
