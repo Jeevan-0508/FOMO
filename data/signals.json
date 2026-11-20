@@ -11852,6 +11852,15 @@
       "pub_date": "Sat, 02 May 2026 07:00:00 GMT",
       "severity": "low",
       "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Cargo theft in Europe: €166.5m lost in February 2026 - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DM0FjQlZZS094ZC1WcXU4eTFLcVB3VVVhbk41ejY4Y2taWFRKUTlrR0plOWg0Y2hiWXh3LXg0NXJXMDRBVy1pNUF5OVNBY2NfUXB6WkR1UTNOd3c?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 01 May 2026 06:36:56 GMT",
+      "severity": "high",
+      "found_at": "2026-11-20T23:52:21.957231+00:00"
     }
   ],
   "runs": [
@@ -13004,6 +13013,11 @@
       "timestamp": "2026-11-20T15:11:28.780151+00:00",
       "new_signals": 8,
       "total_signals": 1317
+    },
+    {
+      "timestamp": "2026-11-20T23:52:21.957231+00:00",
+      "new_signals": 1,
+      "total_signals": 1318
     }
   ]
 }
