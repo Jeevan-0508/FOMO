@@ -11780,6 +11780,78 @@
       "pub_date": "Mon, 06 Sep 2021 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-20T00:29:12.070315+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "12 Indicted in $2 Million Cargo Theft Ring at Nike’s Memphis Logistics Hub - WWD",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc0V0NUhLLUdHa1NIUHRkU2drdHVVTTJudThwOEJ4ZVF5U2d5bkRJT2dyQWlOalFRbnFNME9IeUhoYmdTcVpzZTJMa3BOdzhDN2l5d1cwVC1KZWhTTjVzTE1PbDVtMXdNc1BMb1VjeGhwa3FEUkFleXZONXlGWE1mcnVQX1RuN2pXU2JyVVpTaHV5RXlKY09DQVppRVpyVTNnQzZRTDdIV0ZPMTFuak1aeVZ6a0lSc0VQWG5ZQXlYMUk2bTFS?oc=5",
+      "source": "WWD",
+      "pub_date": "Wed, 22 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Combatting cargo theft: The power of CDL Scanners in protecting freight - FinTech Global",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbjVRd3RvMlpzNWZ0a0twOE5YQm5vWXJJVGhrUG1UZGFMRl9EdmJuLXB4NW9MQUtIdW5CY0d5VlFMVzQ2VGV0enRxV0lVY045ZGpxMXZTRVZyS2wzallIeGNFN3lPR05XSTZYV0lKdFNFRVppUVJrZjFMWkRoYTBRdWlWSm5yY2lkcHRUZWp3ZlRpbEFCXzVfNjcyWEQwWThBNHp3VGRIVDM?oc=5",
+      "source": "FinTech Global",
+      "pub_date": "Mon, 01 Jul 2024 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "TAPA: 24,76 Millionen Euro durch Ladungsdiebstahl - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVnpaVWQ3R0lkWnVzWXlmWDBrZ1diblRuVFY4dHRUOXlldGluaVN1X1BIQWQ1U0FoVUNOVFJkdlNOWnhuNlZkOFI0bnF4eFh1Ukxwd3c4MVdvQTM3VFFpd1hwYlI3THV4eXdPc0duSVM3MkltaWU0Tl95VjdyTHhld0pYMA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 20 Nov 2026 06:11:15 GMT",
+      "severity": "high",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Why Returns Fraud Is a Top Priority for Reverse Logistics in 2026 - SupplyChainBrain",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMTRYcDd5VTJZV05zLVpKQ0hLRGs5Y0tLTjNERi1uMnpSVzhQZVF6cmZSdG9NZlN3SGx6bE9Cd2ZNcnRJWUFRMGp3a2xWNnVLOU5ELWFEMFpaR3lUY3BzWHp1LU9Uay1KMF84ZXk3eXRoTk15VFNwSkpPTUhaSmpCbi1rY1loWHBnQUhXNWxFd2ZWTTl3V052cy0tTEFkelNMcDBSdGJWYVhjWUpPR3NYOGk0TU51Y2gzQ1czRkVydnM4UlFDRWFzcHV4eml6QkZsVTZQeUpQNk1PY0E?oc=5",
+      "source": "SupplyChainBrain",
+      "pub_date": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Missing Trailer / Phantom Carrier",
+      "title": "Phantom Carriers Are Attacking European Freight Exchanges. How Can You Protect Your Business from Identity Theft? - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc3dtMjhUOTNrRGpwaUhjWlk2ZnJhUHJPcjBrVmNBTHE1dWpJVmFSVlV6V2JwX0p6Qm1zVG42MEZuWVV1Vnczbm5UYVVCMEtfYk1FTlFiazR2TmdjSy1FNVhSdHhrTi0wZDBmMmhITE94T0lvSm9GVWFFeHdYRkFmZXVXQUlhdndxWW04YU95ajJSX1lYVFB2NWFLRkF4UDRUWEFxdHBQQ2xlQW1KRVpBUmtXOW51U20xRDJ5Zkwxa1JQbWk1eElB?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Mass layoffs from freight-related jobs continue across US, Germany - FreightWaves",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWHlfLXktd2tFNjhKekJ2VVlVRFdobGs4TGpLYmlnazg0ZVNPTzFnNHZ0N2Y4aUpQWDBaT1dFSVhCS3A5NVp2VGxRMlktbmlNdk1EU1gwa29KNi0wYUNpR0V3ZHRPdE9MZEJjM2VhWmYxYWVmNmM5ZzFqb0tlLXU1YlJ3bjlHSjJSOHZTZVdCaFNId05PN2o2ZnpwTlQtdTVn?oc=5",
+      "source": "FreightWaves",
+      "pub_date": "Tue, 13 May 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Due Diligence Obligations in Metal Supply Chains - Stiftung Wissenschaft und Politik",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10Q2ZZUXctMUJmWGJqZk9TZ19kYjVTbFM1d3Z3bFhUOHFFZTRfQ3BjbmR2UEVrY19PVTJqbC1LWTNWLVU0U00zbGxyUnp4bExIa2hkbk1TTQ?oc=5",
+      "source": "Stiftung Wissenschaft und Politik",
+      "pub_date": "Fri, 16 Jun 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Caught in the Crossfire: Two New Chinese Decrees Raise the Stakes on Sanctions Compliance - Jones Day",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRFdxNC0xcVQ4eE56bVUwZWxTZHFaYmItMG5YNXY0QkhVbEJMWmttcXZDckJGcENiZE1SdTRHS0JxcUhzNVNDb0xmZXRxMUFqQUtQVFFvOVdFQ2Z3bGp3QXVLX0pETUViN3BwNk01NHBNRFU4MkJjdHIxaFlUYl84ZE9NbjhRWlNBME5BSHRHNXh5UkE2NTFwX1JHRlA2ZkNEdDdRaHg5TzdLWjUzQUFKRXF4Y1ZqMUNMOUEyMUZhb3pQbWFPdlpIa1ByTQ?oc=5",
+      "source": "Jones Day",
+      "pub_date": "Sat, 02 May 2026 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-20T15:11:28.780151+00:00"
     }
   ],
   "runs": [
@@ -12927,6 +12999,11 @@
       "timestamp": "2026-11-20T00:29:12.070315+00:00",
       "new_signals": 6,
       "total_signals": 1309
+    },
+    {
+      "timestamp": "2026-11-20T15:11:28.780151+00:00",
+      "new_signals": 8,
+      "total_signals": 1317
     }
   ]
 }
