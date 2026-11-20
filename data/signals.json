@@ -11726,6 +11726,60 @@
       "pub_date": "Thu, 17 Sep 2026 07:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-19T15:31:51.464725+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "How organized crime is rewriting the rules of cargo theft - www.howdengroup.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPazZIWmdaRVd3M1hBcno3R09vdkE3V3hmSmxvM1ZWUzdORXlpXzhXX3MzMF8tZXh6RUJKNm1YVG9RNm1FZUs0c051RjA0LUJ1aWk2ejF2b3BvOTFwb0dMMWNxSmxsNV9UWmc3ZFpKZ3dQenB0STlZMWZSZnNCY0JtZ0dUYnhVM0RDODRqX2Jn?oc=5",
+      "source": "www.howdengroup.com",
+      "pub_date": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-11-20T00:29:12.070315+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Report: Cargo Thefts Hit Five-Year High in 2020 - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS1JoNW5YempaY1hvOGNFVF8zWmc4V1kwX0R3MFk1dmdQWHlGY0E2YmQ1bHpYOGZvWXpURnpYc1pGT085bElDSDhxckpSUGRmelFVODdPM05wbEIzYmpURkZDYXc0cmlpcGQzNFVMbkdfNHo2T0U2Q213Ti1LR012bVo1TmI0NkE?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Fri, 09 Apr 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-20T00:29:12.070315+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Was ist das Lieferkettensorgfaltspflichtengesetz? - it-business",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZm0xTWhUZG10VTE5UVl0VGtVWF9ldjB5cHJYYVJsZ0FaUHdRNnpPcDhLaWRrTlpEc00wWnJPd1hPV2VHS0VyMmRWLTF5OGpnb294OENINlh1SWZDMEZlZVlmUVpOb0swQWtlWk1zcjhiM0RJNjR0aFF4MnlqeC1peGhIcGhyOWJGMm9VRjF0UldkcUI4d1FKdzdNRTNIeWJ2NmhWT1ZPNTIteHRLZE5lag?oc=5",
+      "source": "it-business",
+      "pub_date": "Mon, 11 Aug 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-20T00:29:12.070315+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Die Handreichungen des BAFA zum Lieferkettensorgfaltspflichtengesetz - Der Betrieb",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN1JWdEwyZzRkNXRZVkp6UDlJV25FVWk5cm53Zk9lMXplVlhhNWh2YlZDNldVc0hnb3BZMW80RU1NbFRwd09UM0VxYmtKOWpMdUFVbUhkeTJCNHV4OXdIN3ZjTmtMaEp6TGw4SmE2U2JZdE95THhfSnhhM2NLV29jNXVpMXlEcmw0MlNXZVdUc1FxVXBSVjgwSkZtRVpEejN4Sk1CSGQxaENtQQ?oc=5",
+      "source": "Der Betrieb",
+      "pub_date": "Tue, 17 Jan 2023 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-20T00:29:12.070315+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Lieferkettensorgfaltspflichtengesetz: Was Unternehmen künftig beachten müssen - Industrieanzeiger",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOUM0R1pxX29XUThadFZ6NzJXSUoxaGlkNkJXVUNOMzk2eS1hTkRlNUFfRDN3LV94N0p5dzJTMERodGtOQUdmY09EeFFrU1RHZlFKcGFKb3VEV0hDclhjY0NDeHhhQk9FMFNnSEVsbnpLdDRTR1BMQ2VHUWJZQ0NObWd5SlFrTmRhT1BJMjNWblBVbWNGWEFLZ3M3S3VJSHo1c2ljcXFUUVF4dm9Wcm1ubGplNUJZMmxIdnRlaA?oc=5",
+      "source": "Industrieanzeiger",
+      "pub_date": "Mon, 14 Feb 2022 08:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-20T00:29:12.070315+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Eisenbahner bereit zum unbefristeten Streik - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TOVVWMWZENmZCdFRWZ29Eb0R2NFlDTjZ1OTBFVWNqTldsZlFlLVdlRmdSNE44V1B0Wl9oS2FtTmRLVXFqZjVVakNtTHI5Sl8ySjltNmZkZVNSOG5Qd3RoSFB2dnZmcGVz?oc=5",
+      "source": "World Socialist Web Site",
+      "pub_date": "Mon, 06 Sep 2021 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-20T00:29:12.070315+00:00"
     }
   ],
   "runs": [
@@ -12868,6 +12922,11 @@
       "timestamp": "2026-11-19T15:31:51.464725+00:00",
       "new_signals": 5,
       "total_signals": 1303
+    },
+    {
+      "timestamp": "2026-11-20T00:29:12.070315+00:00",
+      "new_signals": 6,
+      "total_signals": 1309
     }
   ]
 }
