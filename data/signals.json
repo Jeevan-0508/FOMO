@@ -11906,6 +11906,24 @@
       "pub_date": "Tue, 20 Oct 2026 21:24:11 GMT",
       "severity": "low",
       "found_at": "2026-11-21T06:35:50.639082+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Inside California's $22.5 Million Train Heist: 14 Charged Over Plot to Steal Nike Sneakers and Power Tools - International Business Times, Singapore Edition",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNnhtejJSSU5qZy1ENzJ6cGRxeDlKSzdQM0ZjVjZORlBkZmpqbzZaZHNpTzhyVGZoaFo4a3BDZXdjam9XVklsTkdZdER0Q25qNF9GSFFtVXpPdERGSXlOODZ0NWVwX2tDcTNVeEhWSmFjQXViVjdEWEtwYWY2cDBYVXhsMERZOWRzclpubXR2OGRSQTJDS1R6Yllibm5YbWk2YUdQMi1PZmRFczR2RFV6N1Z6c0hQZXpLbTIw?oc=5",
+      "source": "International Business Times, Singapore Edition",
+      "pub_date": "Fri, 20 Nov 2026 19:21:50 GMT",
+      "severity": "high",
+      "found_at": "2026-11-21T18:57:15.071895+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "German cabinet approves exemptions to supply chain act - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVUdPSThzRVBaT0pVN0dWVUtrMXNCRk0ybmJ4Tm1yUmhSa3B2ZXlXYUdUU1pyaVlFSndweG9CR3AzdHgtb1NtS0NkSUNKNUp4ZWc5N25vZU9vQW8zYUZGTEZrSDRXaExXZXBGVnN4T0EzZE5zQVlhSzJlWm1aY3Zjb0p2VXZmSmRHT1NFYTRBX24zblBtX2xfZzR3R2tmQVFuZmwzczRLakVXNUhMRDJhV1N6OEVOcDhU?oc=5",
+      "source": "Reuters",
+      "pub_date": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-21T18:57:15.071895+00:00"
     }
   ],
   "runs": [
@@ -13068,6 +13086,11 @@
       "timestamp": "2026-11-21T06:35:50.639082+00:00",
       "new_signals": 5,
       "total_signals": 1323
+    },
+    {
+      "timestamp": "2026-11-21T18:57:15.071895+00:00",
+      "new_signals": 2,
+      "total_signals": 1325
     }
   ]
 }
