@@ -12212,6 +12212,78 @@
       "pub_date": "Thu, 30 Jan 2025 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "CargoNet Alert: Elevated Cargo Theft Risk July 4th Weekend - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNHVTbXZTcEc1WVV5Rnp5LUdDUVV5UUkxaUpxQVZrZVl3MzdIX2xzZXZXTTNSaW1tMzI2UldIcy1Rdmk5UDBQWV96OUQweHpzQ2ZuWGVTcG9qeHZXSkxwb0lKYVNfUnZmNWdjV28wV21Xc3pNV1I2TXlsN1hGSGY5d2xSVkQxWmd2aUNYeEVvdkJYR0Qwdmc?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "AfA urges Congress to pass cargo theft bill - The STAT Trade Times",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVkxQYjd6b3pFd2FiWUc3dnowWC1kSmZNOFNfUWdJUHdUcVRmNlFxNnc3RWNweHphMEVGS3RZM2RIYmwzSUJKVjFWSFpwYmRVR3VXckJjVDBCZV82d0kwZTd4WkZTN093VjRwR0VVRWxjYjJyTmVRdlpfemRIdGJCa1VqVDNsdk9uZTBsejJSUmR1TklX0gGaAUFVX3lxTFB1NGRhUmJvWEhSbXpybk5rX0JXS0c5MnozeWdDRlROZjRfeFd3anp2c3ZmVEU1c1lOOXExSTItVWhsS2sxX0JablBMTkRLb3R1dEh1ZC1PLWtCM3N4Q3p5MktSc3NCVHF0Y0hDZ1U5NzJYOFpsMUlvOXNPVEdIVlhFb3YtMDJKV3g0eEtwS00xNURLdUkzWHNZSUE?oc=5",
+      "source": "The STAT Trade Times",
+      "pub_date": "Wed, 11 Nov 2026 05:00:10 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Frachtbetrug in Oberösterreich gefährdet ganze Lkw-Ladungen - nachrichten.jetzt",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTY2U3AxUHk0SXN2d096bUFwZ3dNSU5HT09hSlhROHFuMzB6d1ZvQm8wdmdVNEtwOFkzZUZxSVRjbEVHT1QwemRsWG5Qb0IzVHIxaTB6OFRpcUhkS0Z6XzFsci1ndEhXM3BFQ3RHbmNjeThZclFoVUFqb21uT3ZtR2FVQTFYaTNnS3hWWVl6amwxXzV0NVZTQXI0cWg?oc=5",
+      "source": "nachrichten.jetzt",
+      "pub_date": "Tue, 24 Nov 2026 12:08:34 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Polizei warnt vor neuer \"Frachtbetrug\"-Masche - oe24",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM19uT3hsQVp6cTNaTTY1S2JWaTZpSDNnRUpRUXR1TVpLOUtjNE83YzN5WVVqSEMxRHFSM3dUQjVlQlhEVDM5TEFlNlVGVUlheEMwNk8tRUFZT3FDM3pIeUkyeC13V2xvWl9URkVlcEh6bHNYZ2RTc2wwMlpyaVoyRNIBhgFBVV95cUxOQk8tdGNxR29XNEZldnY5TnMtNmhlX253d3pNd0NmZTFteFV6amU0azllLU9Pczk4eUFhVldXcGpWOGI1VjluRFRRaWZ3N3UxNXRiOTRPWHI1TmwzM2pkMllCR3dxMlFOVTRoakJiT2VCQ3JOVWstWXU0RVdBTjZmYzh3TG01UQ?oc=5",
+      "source": "oe24",
+      "pub_date": "Tue, 24 Nov 2026 12:41:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Frachtbetrug - Mit dem Trick erbeuten Gauner ganze Lkw-Ladungen - Kronen Zeitung",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBIZUFJNmZPQXJwUUpxa0ZqVDFnUkpCR01qdVBMMHJaYzZ6Qk5OM2VTQzhWLU5EOVZpOFZ6RHU5V3g0QQ?oc=5",
+      "source": "Kronen Zeitung",
+      "pub_date": "Tue, 24 Nov 2026 10:18:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Neue Masche \"Frachtbetrug\" kursiert in Oberösterreich - NÖN.at - Niederösterreichische Nachrichten",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeGdFZmRUbFdUWUhVOUJObDdTMmdRMXpJb05qTWJLbms0YnVSNXBhZzVOdnBGRGZSUzZoN3l3MFVyUDFkcS1rMHhnWkRXd1N0SzNIMTdnMW5RUzV4bncwRlFSbTBRYzB0RGxpcklQRHhmNklMb0hEU01GYWRjYjdtWEFpV2RyaUVqM0ZWSlJSSnNVUVpNdzN1LWtnT1k3NUJ4dWdTRVh6YWEtVDRQcVgweWhQeFNhbGhFdm8zSkZ6M1Joc2F2X1pzQjFtYlBBcHM?oc=5",
+      "source": "NÖN.at - Niederösterreichische Nachrichten",
+      "pub_date": "Tue, 24 Nov 2026 10:49:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Warnung vor Frachtbetrug: Betrüger tarnen sich als Speditionen - Top Graz News",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUhScElGRmFtaURXODV3MjI2ZG9CclJqRUctUWZhSmx4d2k1MDFEWWRENXd1ZGxnMG1ZR0pJZGRCdUFhQU5NeXRscWJRNHluTUl0WmFNclN0bVN2QjhrcmxRc3V0YkdNYjJJZ0Zaclp3NVlKMnNwdnE3NjhDWC1qZDZObG9QTkFEN09ZX3M0S3JXMWhRNk9lQmpB?oc=5",
+      "source": "Top Graz News",
+      "pub_date": "Tue, 24 Nov 2026 10:11:42 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "Compliance Lawyer Germany: 2026 Board Selection Guide - Global Advisory Experts",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTEZGUXhkS2otaUdpUldINWt1bEc5bUVhWGJfVWJ0U0lwSktwM2ZQbEQxYTYyaGxpNnlSMi1KUFNmdU9UNjJUT3NhUF8xQkgxS3o5bmd0OGhIakpCVXEwMkJ3QVkzRFpQWG1VSU9KWngweXhtYjB4OWJNU3Z0dGV1aHVOamhicFpTaTNpekFn?oc=5",
+      "source": "Global Advisory Experts",
+      "pub_date": "Sun, 22 Nov 2026 00:47:32 GMT",
+      "severity": "low",
+      "found_at": "2026-11-24T22:11:29.993461+00:00"
     }
   ],
   "runs": [
@@ -13394,6 +13466,11 @@
       "timestamp": "2026-11-24T09:22:14.143435+00:00",
       "new_signals": 7,
       "total_signals": 1357
+    },
+    {
+      "timestamp": "2026-11-24T22:11:29.993461+00:00",
+      "new_signals": 8,
+      "total_signals": 1365
     }
   ]
 }
