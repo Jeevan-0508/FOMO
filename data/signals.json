@@ -12149,6 +12149,69 @@
       "pub_date": "Fri, 06 Mar 2015 08:00:00 GMT",
       "severity": "high",
       "found_at": "2026-11-23T23:40:17.349073+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Frachtbetrug in Oberösterreich: Täter erbeuten ganze Lkw-Ladungen - Tips.at",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZDRRNHQ3bFNpQmxCYW1uc3M3RjVtRjdySkNPTnBTeWoxblV3NEpPNmxqRVN0UTk5OFR4R2hWcGdDOTEzSkJOaGM3SWxRcTF1WmdlYjU4SE5EaXdRYm9TWTlFSmFlQ2gyX1ZmangwMVpVZHFLMTZrcWUyYktuVnZuMjZ1UVZ1SVBOR3dUQTNOMWtQakJZSGlMU3ZWeDBFQ3NTczdJbmNiSWZHdHBxMExjQUpzV3R6b1RGck5WTQ?oc=5",
+      "source": "Tips.at",
+      "pub_date": "Tue, 24 Nov 2026 09:03:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Ziegler-Insolvenz: Verdächtige Millionentransfers und 1500 Stellenstreichungen erschüttern die europäische Logistikbranche. - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZlBhZUV0R1d3Smd1cENmMzZVemFZclN3YTViUVBwYl9CdGx5aEw0VDZzU0syWDZUX3hzVExCTC1TRW1CcTlyeC1BSUdoYl8waWZZd3BUbnU1d244My1yVWJjUUVXOHZtSzRVV0pTdlhzSFpRZXJuSjNPSWkweVlZbmNWS1YzNGlhTnU5bGdCTzdJQy1DWV9yT3ZDLTRUNTlJYnZFQUFUYXhxQUFiMUtpYzlPS2hGQk5KTkpKVWdxR1VqaU1UdTRUZlhCdVJNWkZqYlVTNVYtQ2ZrY3RGSGhpcmYtaUxuODdxa1ZhOFJVUlFoYkh4aU1pRzFlem5sRjNRcTBxT1JR?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 31 Jul 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Wirtschaft übernimmt Verantwortung für nachhaltige Lieferketten - IHK",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaHRTa0RYZUZ6SGxXRDRjVk8yT1ZwQ1lDWlBJb3hFbHF4bmlzb052ZWVvZ19kLVpZdTdFU0pPU01yY3YyUDlkNTE1RUp6enhGTGRzVTVXMGc3NDNrallmZ0lWc1k3bW02MEVuWnV5cUJGUEVTaEF3M3hudzRsWlpVSnRlS2c1VXhiRFF6T1VKZGF3Slo4LXY3dDh5cklrMW4zRGh2VkhYNkd0cEFlSy02OVRsNTFrMlQ2a3RUc1VveEhmTUlfTFFNVjd6Q3FWX1FG?oc=5",
+      "source": "IHK",
+      "pub_date": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Italien verschärft Regeln für Streiks in der Logistik - verkehrsrundschau.de",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYnp4UEs4Mlo5WVBxR1RVWVdSNnpoNk9iMVhIUFV3QkdEN0E5Nkw5NGRUekdBZ2N6M2pPeTZiUmlvOU5ndV9fNGJFc3ZRTV82WVBlTUFHYmFzQ0VBaHBOVmlGRW0xOW1uMHlxSGpCTldJblJzb1NZMk5lcTdHbVBrY3hOSkpKZTVwR1lzRTNfb2YzelNVZVk4T3FKRG5VV0pwOU1Va010S0hlSThLZDY0U2V3UjVkUzYxR3p3ZjJybHdrTmNDS0E?oc=5",
+      "source": "verkehrsrundschau.de",
+      "pub_date": "Fri, 20 Mar 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Seehäfen: Verdi ruft erneut zu Warnstreiks im Norden auf - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMEdTRFVodVZhZmFESmstUHYyOHF2LXNmOGs2NVFTZmdLZ21EcjJZZXlpOThkcXVERmtLbUZfa25Lbnl4bmZVWnBkMnJHQ21pVEctZVVWT2Nmd3lKV0hBMjdCeHBZX2xpUWVLbGZTZ0puVzdNS3M0UWVBNk9HeDNJMXY4Tm5DcmxDUWVIM05ZZmZYMmR2V3JlZDY4Y25JcUs2?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "DHL-Drehkreuz Leipzig: Verdi kündigt dreitägigen Streik an - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcmdzUVhMUTRzenhTRThOeHc1QmdfQkluLVl6UV9NeXVtVHlWYU5kMjJ4Tnp1RXlkRFA1Q1FFNjZjTVp2SDBLd0hXQk90N0xoZzJab0ZFR0R2ellLcFVtUXVsaDNlQ2hVVzJEblBQR2gtRllNU3IwNGFjLVdhX2E0ajdxQ2d6bExoUUZ6VzJsampCLV9POWx0V0lGUm03bEhL?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Tue, 03 Jun 2025 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Tarifkonflikt: Streiks bei der Post lassen Brief- und Paketberge wachsen - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeG5QbEdadE9QUGNQVEhYcTd1SUZNYzRBaHNxdW5GVVdyU3FpZkdmcVotQkNFYzBZRzdGYmlMUS10VUxJcTl6OTNkZnNGRWc0RHVSbk1IN2JQeTNiV3pzLWY3SklZMmNLUTJlWUxfajhuNGhxMk94MWFia3dYVTJneVJlY0I1eElYSm8wUnAwRlBwRnZCSlBGVUt2UUJkTmg1SUUwSWtrUjIwRV9XaS1GNVgxUQ?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Thu, 30 Jan 2025 08:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-24T09:22:14.143435+00:00"
     }
   ],
   "runs": [
@@ -13326,6 +13389,11 @@
       "timestamp": "2026-11-23T23:40:17.349073+00:00",
       "new_signals": 10,
       "total_signals": 1350
+    },
+    {
+      "timestamp": "2026-11-24T09:22:14.143435+00:00",
+      "new_signals": 7,
+      "total_signals": 1357
     }
   ]
 }
