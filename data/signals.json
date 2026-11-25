@@ -12311,6 +12311,69 @@
       "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-25T07:55:32.597950+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "TAPA: 24,76 Millionen Euro durch Ladungsdiebstahl - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd19KbmZWQmhzaV9ScFJtaVVUTGVPWDhTVnY4NnQyOUUwQy00THVlckR6X0NvNlJHU0FmNzA2SXRyOXJLS0JKWloxeGtuMWtwMjU3SDYzNFRuSXZzdjM2UDhablZtVmo0dHRfZjZic0VKOUxza2hJai1ZMzl0bEMzdlFEMm04LTA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Fri, 20 Nov 2026 06:14:45 GMT",
+      "severity": "high",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Polizei warnt Unternehmer: Betrüger leiten ganze Lkw-Ladungen an falsche Adressen um - MeinBezirk.at",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOTlBS3dKeWNKcXhKaDNic2Jpd29nVlJTYVpwVWc3aThtZEJva2Z3V3BIM0pXWXh4R21rdVU4STlySUpnRFB5clhpbVAwaTJ5X2plaEJXVm5rLUVuRFlVNjRjakx4QnpiQWp0MFZwM3ZzbERlOTlKbkxHbkxJMktiNEZ0UFRYSENMTl9hUGpjdm56Njh2LVlkR0hiZDVRcUdJdldCTVhPbGoxYlJScWxmWm94andyMjNPMVhNQ0JWUmNkcy1KTjBBNjN3?oc=5",
+      "source": "MeinBezirk.at",
+      "pub_date": "Tue, 24 Nov 2026 11:45:54 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Neue Betrugsmasche in Oberösterreich: Diebe stehlen ganze Lkw-Ladungen - Kurier",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeGNRa0FHN2FDdV9zcVB5aEJleUpEMTlNUmpyNWZDeTlod1J2LW5leUFnMjR5MVVFbkJsRzhkTENraDBENXhQdzFjSUhmNGMwbWFpRUFSLVVKWE1ybWpmVUlLX2ZxZVByUk9EVzNkaThiTW8yZ0hZWWtjeEFQczJtaWpuR2xWRWcyU08zQ2pvWGdXN0hyNUFNN0VmUk5KeWVlbF9V?oc=5",
+      "source": "Kurier",
+      "pub_date": "Tue, 24 Nov 2026 14:07:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Belgische Transportunternehmen haben den Verwalter der Satellic-Maut verklagt. Sie verlangen Schadensersatz aufgrund der Störung der Boxen. - Trans.INFO",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOb1NrWkh4MmhsdWppaHluVW51aFRhcGJWQkY2N0Qxb1U0UDFPRE1TX0VkX011TG9ReUhlVjBLUGFNbDJHekJhM3NQNUlheFZmTUZnaGV2UzNXejdhS1ZLcS10cGgwTTZ5dUdCSkY5TWhvcHVSQzlqQ2sweEc2RVZ3Tlh0Ym5tU3dPQXpmZmhiSmtTMm9COGplaGdFdXhtbXA1ZkxobzJsMnIxeUJMWlpEamVOREpmQmo4STBrS2MyMmRiNk1YbWhtVFdCNzY0cmJsZFIwT1E4QndqdmlZY1VHMmF3TFhVZGhvTF9faThkd2ZFRG1PMUkxOA?oc=5",
+      "source": "Trans.INFO",
+      "pub_date": "Sat, 14 Apr 2018 06:18:48 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Ganze Lkw-Ladungen weg: Polizei warnt vor Betrug in Oberösterreich - 5 Minuten",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOEwteEMwTE5yT2J0R0xzMUVWa1NScHU1c1NuN3NDUC1pY291eG9PR3ZOTWdReUxMNjl4Zy1tSXpFcXNrYUpCc2N3Wko3UU5SQUZKQkZkaDV2UzQ5aWlQa2ZuQ0FOOG1RejRkWm9vMjRSeUtrel95dUpPY01UUVZIWkpGNE1ydnZnakNZUUZEd3A3S2VlTWpDSUpGSkpPWjNOQWo1SzVEcG42MEoxMkNQSC1pOUJSSy14?oc=5",
+      "source": "5 Minuten",
+      "pub_date": "Tue, 24 Nov 2026 10:07:29 GMT",
+      "severity": "high",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "ESG in M&A transactions in Germany – INSIGHTS in five minutes - Hogan Lovells Cadwalader",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVlA1cmw1cGNaQjNDYWFPWHJncEplMnVWdXNxR3hXbjhhQTBYblF1akxTUHFUaFBhX1dFWmpLZXJsaGd0UlItd05rXzdsWFBQcE9jYTlUaXZITHp6b0R1RDgzN0xpRkN5ZHlENTJpVmJBZDM1T1QycDNENDF4c3NfZ1owR2p2c3lwcF9GWWRxZ0JQWk9nMm92M3lR?oc=5",
+      "source": "Hogan Lovells Cadwalader",
+      "pub_date": "Thu, 15 Jul 2021 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Streik in über 40 Häfen in Europa und im Mittelmeerraum – eine ernsthafte Bedrohung für die Lieferketten im Oktober 2026 - Eurodebt.eu",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOVk5nQkl2Qjh6OHlYd2xfM01CMUpkWlQyV1JiOUNwc2F5Y0RfQzlHVTV1ekpTVjR1cGdpaHBwSThBVTZpTjlKc1pUQ0Nzc00zaXlTODhEWWVITTZIeWd1YUdoUW15OXd0RW0wQktYVmRicFNia1BsV0NGYXRKU0hvblQ0ZW5LVXM3NVdQUlh4RzdQVlRQSkNBOVBfbFBNRnV1Z2FJaVZmQWtKS0tLRUNqTzhWSHNlZmNKNHJTSnlTemExSTR6T1dCVzU2Z1M3Z2RsTUQ3T0ZMaTA1SUduQzlIZkhBbFphWmtxR0VGMlhndWwxQWtUU2FLRVNRZzJKbGFwUUxTbVdidnNIZw?oc=5",
+      "source": "Eurodebt.eu",
+      "pub_date": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-25T21:27:36.801237+00:00"
     }
   ],
   "runs": [
@@ -13503,6 +13566,11 @@
       "timestamp": "2026-11-25T07:55:32.597950+00:00",
       "new_signals": 3,
       "total_signals": 1368
+    },
+    {
+      "timestamp": "2026-11-25T21:27:36.801237+00:00",
+      "new_signals": 7,
+      "total_signals": 1375
     }
   ]
 }
