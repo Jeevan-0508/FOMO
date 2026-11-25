@@ -12284,6 +12284,33 @@
       "pub_date": "Sun, 22 Nov 2026 00:47:32 GMT",
       "severity": "low",
       "found_at": "2026-11-24T22:11:29.993461+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Organized Crime Fuels Cargo Theft Surge - Heavy Duty Trucking",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGeFp0NFNhWUwtdHNsNnl5SzZ3aWM2elAzV0ZLTEk3bm8tUDcyT1hLWDFEazAyWG9OQkRCckt3bjRKZnJpeXQxMUg4Y01waHZVbEZ5UUN6R1dNWElPZjJzWm1SaTM4Umw2cklNNnBfYW9NZG9QYjRwTFQ3WnotUQ?oc=5",
+      "source": "Heavy Duty Trucking",
+      "pub_date": "Fri, 23 Jan 2026 00:57:57 GMT",
+      "severity": "critical",
+      "found_at": "2026-11-25T07:55:32.597950+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Illegal Alien Sentenced to 2.5 Years Behind Bars for $7.2M Trucking Cargo Theft Ring in California - Breitbart News",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObnc1TGdGYUgxZVR4bnhPLVJyUlIxRF85aHJFaEJ3QXo1RUd0SzRPN05xX2tXcno2V2NYVEp6Um9sX1R5allwZ09CbHR1N1ZfYl9GODFoVGJNb2p4UEEzN2tRdXo5VEttd2x1ampxOE80ZTBuemxzZE9iMzR3VHpYR2lZeGJzR1RKeUVfeThRZmIyck9UOWczNHY4WGtnWnRLRHR5bVUwbWxhSHdsVjdXeS1mY0RMTndPOFd3d0xLR3lpU3Bndmw5SU1QemF3OW1SN2FhYlR5bUFWX3E4V1E?oc=5",
+      "source": "Breitbart News",
+      "pub_date": "Fri, 20 Nov 2026 04:44:17 GMT",
+      "severity": "high",
+      "found_at": "2026-11-25T07:55:32.597950+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Mounting pressure on suppliers could trigger a wave of bankruptcies in 2026 - Automotive News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWjdiM3MxeGc2a01NemNoNUxwcXR1XzVER1p2S2tXTmt3dVlaUm81cTVhaHNoR1c1MkM2TEtBQmJ4UUotT000aVMxOFMxVGlacWwwa0lzekNOLTJ4WXB6MnVQUHpsU1piN3RncU1nQnFBQUlpbFZnZEhvZUtmNl9DLXhvNFBaaWlIX2VidnN3RTlsWmJfMXpTQkVBdw?oc=5",
+      "source": "Automotive News",
+      "pub_date": "Thu, 18 Dec 2025 08:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-25T07:55:32.597950+00:00"
     }
   ],
   "runs": [
@@ -13471,6 +13498,11 @@
       "timestamp": "2026-11-24T22:11:29.993461+00:00",
       "new_signals": 8,
       "total_signals": 1365
+    },
+    {
+      "timestamp": "2026-11-25T07:55:32.597950+00:00",
+      "new_signals": 3,
+      "total_signals": 1368
     }
   ]
 }
