@@ -12419,6 +12419,33 @@
       "pub_date": "Wed, 10 Sep 2025 07:00:00 GMT",
       "severity": "medium",
       "found_at": "2026-11-26T07:46:31.595725+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Betrüger bringen ganze Lkw-Ladungen an sich - ooe.ORF.at",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93d3FOQXdtZ0JaRGVHZTlfUzlKZzlEcUotcldJaEowbTZ2c1gySUo1bTIwS2FqRWVtaXM4ejBEamlxb0NIZWg2MF96Zw?oc=5",
+      "source": "ooe.ORF.at",
+      "pub_date": "Tue, 24 Nov 2026 10:21:01 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-26T21:14:43.289088+00:00"
+    },
+    {
+      "category": "Carrier / Freight Fraud",
+      "title": "Frachtbetrug in Oberösterreich: Ganze Lkw-Ladungen ergaunert - VOL.AT",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWlpJX3VkVkFOaDluQTEwZjAzTEdLU0ZmYjFSR3FkcE94b0hSUGxIVXJVS2V5VEg2UzNRNjF2UTd0RzB5aVdlRUVtallZNFBPTUFBaWUwcFZmUlFfMnJmcThjN0NuSk01WEZPeHRvR29mMnBEMjlsRURkMElCU1p6WXh5dFpJYjg?oc=5",
+      "source": "VOL.AT",
+      "pub_date": "Tue, 24 Nov 2026 10:57:09 GMT",
+      "severity": "high",
+      "found_at": "2026-11-26T21:14:43.289088+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Black Friday: Verdi ruft an elf Amazon-Standorten zum Streik auf - Dosya Haber",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcUVGOWgzdXZpZF9zVUJiSndla0NNUWYzTnNqZFQ4cW9KaGc2TUNvVXlWZ1lLdHg4SVRyd0NjejI0R3FBV2liWW1VSmFoVjM1enhyWVN3UldMWkxRbnNDWEpaV2NfVnI3RzZyeFBRR0RfUXM1dUxzNzBHM3hTQkhQNmMtT3N0amdXWExvVEhLU29GRmx5YWI4N05JbVM1cGRKZkxZSlBuOFpkdw?oc=5",
+      "source": "Dosya Haber",
+      "pub_date": "Thu, 26 Nov 2026 13:09:50 GMT",
+      "severity": "high",
+      "found_at": "2026-11-26T21:14:43.289088+00:00"
     }
   ],
   "runs": [
@@ -13621,6 +13648,11 @@
       "timestamp": "2026-11-26T07:46:31.595725+00:00",
       "new_signals": 5,
       "total_signals": 1380
+    },
+    {
+      "timestamp": "2026-11-26T21:14:43.289088+00:00",
+      "new_signals": 3,
+      "total_signals": 1383
     }
   ]
 }
