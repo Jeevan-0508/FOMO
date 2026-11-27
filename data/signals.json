@@ -12446,6 +12446,24 @@
       "pub_date": "Thu, 26 Nov 2026 13:09:50 GMT",
       "severity": "high",
       "found_at": "2026-11-26T21:14:43.289088+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Logistikdienstleister: Spedition Betz International hofft im Insolvenzverfahren auf Neuanfang - Logistik Heute",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRnBFQkw2anBHenRRT1pVcVFSb2NKLW0zUkxYUmJwbGxkSHZKcWpjVWJ2ZUd2ZWxmaHV6M05ZTE1JQ3lhUVp5XzZ3aVk5MGFsY0lOYXUtZnE5ZkI0Mm0tOXcyZUE1ZW5DbHQ1TnhBd3djbWtHaVVGNklwckd6el9JYXIyOGlpcjFwZTR5N09EWmI2T2ctVUxLSFZwdlNhYmQyRW1CLVowdGxhNFNEMmNHcGhrSHBFa2dBZDdOYWxaWVluRmRmN3hick94NjFiMVRx?oc=5",
+      "source": "Logistik Heute",
+      "pub_date": "Thu, 28 May 2026 07:00:00 GMT",
+      "severity": "critical",
+      "found_at": "2026-11-27T07:45:41.470048+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "„Make Amazon Pay“: Verdi streikt an elf Amazon-Standorten - etailment",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZzg4VXBRZ1E1ckNtNGNiS01nY0tOMVI5REJURDdtbDYyS3pSX3pvQWdMX096WmJ2ckJ3UTI4WW90NENqMHVpMExRTnliQTByZTRFcU9BYmx1MjZSR0gwdGNiUVV0WEdhUkxPS3NkS3p3UV9TWnNVTWhkSkFVV3l4eC1vY3JaSWVKeWExRWV0SU5oTjc4OUZ0VVR1dnNHUkU?oc=5",
+      "source": "etailment",
+      "pub_date": "Fri, 27 Nov 2026 06:09:22 GMT",
+      "severity": "high",
+      "found_at": "2026-11-27T07:45:41.470048+00:00"
     }
   ],
   "runs": [
@@ -13653,6 +13671,11 @@
       "timestamp": "2026-11-26T21:14:43.289088+00:00",
       "new_signals": 3,
       "total_signals": 1383
+    },
+    {
+      "timestamp": "2026-11-27T07:45:41.470048+00:00",
+      "new_signals": 2,
+      "total_signals": 1385
     }
   ]
 }
