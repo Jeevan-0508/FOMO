@@ -12464,6 +12464,42 @@
       "pub_date": "Fri, 27 Nov 2026 06:09:22 GMT",
       "severity": "high",
       "found_at": "2026-11-27T07:45:41.470048+00:00"
+    },
+    {
+      "category": "Cargo Theft",
+      "title": "Major raid at Frankfurt over illegal handlers shakes German cargo industry - The Loadstar",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRW1nTEhKaGdjX3ZxamV0SHRQcmVnUXlMYTk3bmNtSkI1dlQ3NG1tS0FmNFN3cDNyZW9YX1JNR2VWMmV0NnhnRUtzWTdOZnlaM2dZMTNzeHdZSlVSMTQ3RVRObnNXME1Fb3IybkNmMk40ZkwzS243VnU3UXNXSllaY2JFcjdxbjg2UTJUWmpkX21ORU0wMjFaOHJkcVNDeFho?oc=5",
+      "source": "The Loadstar",
+      "pub_date": "Fri, 09 Oct 2015 07:00:00 GMT",
+      "severity": "high",
+      "found_at": "2026-11-27T20:56:57.717105+00:00"
+    },
+    {
+      "category": "Regulatory / Compliance Risk",
+      "title": "German government requires enhanced ESG responsibility - Dentons",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOREN6Uk01SEJVZEFLdEctLTNFVDZFTGlWaDR3ZC1VRFpvX2g4N3BqLXpfcnVDT2pzcm1FbWQyT0dLY080WkFtWW91aVpGUmhQUHFJVThyNzFHSkY1MGxGVHA3OENDRXVoS0MxV2htYlVIdVg1bTBrbHdXMkNQaEtaWTQzX3Q1T2ptZEpRYmNHU1pxM0xCOFI3QVdPbGFyQURJWHhSWm5IQlktTFhKMHVSdGRnbzU?oc=5",
+      "source": "Dentons",
+      "pub_date": "Thu, 31 Aug 2023 07:00:00 GMT",
+      "severity": "low",
+      "found_at": "2026-11-27T20:56:57.717105+00:00"
+    },
+    {
+      "category": "Corporate Insolvency",
+      "title": "Aerospace supply chain report 2025: Is the crisis over? - Roland Berger",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQU5DWGhrSHRENGFzbGJ6LUxQbC0xRFhibXVMQW8wbExaYmJhYkoxU0FmeVh2c2xEWjVPaXhiSzRlUFQ1RzdkTEk0S0FLZGlOaHpXbFRKQnRhRVA0Q0pVRUs3bm9XUVBoQTI3a0N1UnQxd1hQNUZyMnUzQ2tHZUZ0RHE3MHJqdm9HWm5fZFp1VlRpZW1velRsa2ZtV2xlQlJwOG9DVXlpMGVLc0lJUHJNWjJIVQ?oc=5",
+      "source": "Roland Berger",
+      "pub_date": "Thu, 03 Jul 2025 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-27T20:56:57.717105+00:00"
+    },
+    {
+      "category": "Operational Disruption",
+      "title": "Port congestion spreads as delays ripple through global supply chains - Metro Global",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdTl1aEQxMUtFaU00aDhZTkZ3WkI0bzZOcDFCaXVVOFg4eC1XOExCdFB3Z3pNeVRkc1QwWDdXbVdidVAtR09ORXY2MzJkMUZOT3RJTkpfWF95YkFHd3Vsekt4Z1FFbWxHNjFobG1DaUo3OWt5OU1pVnJVNG16T21NQ3NJRWdkMXFGcHFidzRiUmNKOTFVQWZvbnFvX25BOTA1TlQ1N0hNTER4Zw?oc=5",
+      "source": "Metro Global",
+      "pub_date": "Tue, 09 Jun 2026 07:00:00 GMT",
+      "severity": "medium",
+      "found_at": "2026-11-27T20:56:57.717105+00:00"
     }
   ],
   "runs": [
@@ -13676,6 +13712,11 @@
       "timestamp": "2026-11-27T07:45:41.470048+00:00",
       "new_signals": 2,
       "total_signals": 1385
+    },
+    {
+      "timestamp": "2026-11-27T20:56:57.717105+00:00",
+      "new_signals": 4,
+      "total_signals": 1389
     }
   ]
 }
